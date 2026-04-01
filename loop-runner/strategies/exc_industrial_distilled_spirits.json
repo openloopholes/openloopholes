@@ -1,0 +1,29 @@
+{
+  "id": "EXC_INDUSTRIAL_DISTILLED_SPIRITS",
+  "name": "Industrial Use Distilled Spirits Packaging Authorization",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be a dealer as defined in section 5121(c) engaged in the business of supplying distilled spirits for industrial purposes.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Dealers may be authorized to package tax-paid distilled spirits in larger containers (1 to 5 gallons) specifically for industrial uses, facilitating bulk supply operations.",
+  "irc_reference": "IRC §5131",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

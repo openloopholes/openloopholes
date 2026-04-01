@@ -1,0 +1,29 @@
+{
+  "id": "ELE_CONSTANT_INTEREST_MARKET_DISCOUNT",
+  "name": "Constant Interest Rate Accrual Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to holders of market discount bonds; often results in slower discount accrual and deferred ordinary income recognition compared to ratable accrual.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect to accrue market discount using a constant interest rate method instead of the default ratable (linear) accrual method.",
+  "irc_reference": "IRC §1276(b)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

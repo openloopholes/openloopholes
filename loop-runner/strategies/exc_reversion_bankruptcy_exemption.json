@@ -1,0 +1,29 @@
+{
+  "id": "EXC_REVERSION_BANKRUPTCY_EXEMPTION",
+  "name": "Bankruptcy Liquidation Reversion Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Employer must be in bankruptcy liquidation under chapter 7 of title 11 or similar state proceedings as of the plan termination date.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Exempts the employer from the increased 50% excise tax rate (reverting to the base 20% rate) if the employer is in Chapter 7 bankruptcy liquidation or similar state proceedings.",
+  "irc_reference": "IRC §4980(d)(6)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_PREFUNDING_HEALTH_BENEFITS_EXEMPTION",
+  "name": "Exemption from Prefunding Limitations for Coal Health Plans",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to coal industry operators making required payments under Section 9712; allows for immediate deduction of costs that might otherwise be capitalized or limited.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Premiums paid to the 1992 UMWA Benefit Plan are deductible without regard to standard IRC limitations on the deductibility of prefunded health benefits.",
+  "irc_reference": "IRC §9712",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

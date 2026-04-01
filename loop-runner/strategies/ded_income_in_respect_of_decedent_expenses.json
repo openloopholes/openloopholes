@@ -1,0 +1,29 @@
+{
+  "id": "DED_INCOME_IN_RESPECT_OF_DECEDENT_EXPENSES",
+  "name": "Deductions in Respect of a Decedent (DRD)",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The person or estate must be the one who pays the obligation or receives the income to which the deduction relates.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows the estate or a beneficiary to claim deductions for expenses (Sec. 162, 163, 164, 212) or depletion (Sec. 611) that the decedent was entitled to but did not claim before death.",
+  "irc_reference": "IRC §691(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

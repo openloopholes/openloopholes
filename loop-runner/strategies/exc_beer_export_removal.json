@@ -1,0 +1,29 @@
+{
+  "id": "EXC_BEER_EXPORT_REMOVAL",
+  "name": "Tax-Free Removal for Export",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Brewers exporting product outside the United States who comply with notice and bond requirements.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Permits the removal of beer from a brewery without payment of excise tax if the beer is destined for export.",
+  "irc_reference": "IRC §5053(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,34 @@
+{
+  "id": "TIME_INSTALLMENT",
+  "name": "Installment Sale",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Non-publicly-traded property",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "total_gain": {
+      "type": "int",
+      "description": "total gain"
+    },
+    "years": {
+      "type": "int",
+      "description": "years to spread"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Sale already closed as all-cash, cannot restructure retroactively",
+    "forward_status": "available"
+  },
+  "description": "Spread gain over payment period. Report proportionally.",
+  "irc_reference": "IRC §453; Form 6252",
+  "deadline": "Sale structure"
+}

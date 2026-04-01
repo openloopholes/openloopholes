@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_EXEMPT_INSURANCE_INCOME",
+  "name": "Exempt Insurance Income Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to qualifying insurance companies or branches issuing exempt contracts in their home country.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes 'exempt insurance income' derived by a qualifying insurance company from the definition of Subpart F insurance income.",
+  "irc_reference": "IRC §953(e)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

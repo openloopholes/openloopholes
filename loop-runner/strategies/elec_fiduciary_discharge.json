@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_FIDUCIARY_DISCHARGE",
+  "name": "Discharge of Fiduciary from Personal Liability",
+  "category": "estate",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires a written application to the Secretary for determination of the tax amount. Also provides discharge for good faith reliance on gift tax returns for gifts made more than 3 years before death.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows an executor or fiduciary to apply for a determination of the estate tax amount and be discharged from personal liability for any future deficiencies upon payment of that amount.",
+  "irc_reference": "IRC §2204",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

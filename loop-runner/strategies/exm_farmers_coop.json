@@ -1,0 +1,29 @@
+{
+  "id": "EXM_FARMERS_COOP",
+  "name": "Farmers' Cooperative Tax Exemption",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be a farmers' or fruit growers' association organized on a cooperative basis where substantially all capital stock is owned by producers and dividend rates do not exceed 8% or the state legal interest rate.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Farmers' cooperatives organized for marketing products or purchasing supplies are exempt from federal income tax, provided they distribute proceeds back to members and limit non-member business.",
+  "irc_reference": "IRC §521",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

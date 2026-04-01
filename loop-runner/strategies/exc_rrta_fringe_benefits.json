@@ -1,0 +1,29 @@
+{
+  "id": "EXC_RRTA_FRINGE_BENEFITS",
+  "name": "Railroad Retirement Tax Exclusion for Fringe Benefits",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to benefits provided to railroad employees that are already excludable from gross income under IRC sections 74(c), 108(f)(4), 117, or 132.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes qualified fringe benefits (such as working condition fringes, de minimis fringes, and qualified tuition reductions) from the definition of compensation for RRTA tax purposes.",
+  "irc_reference": "IRC §3231(e)(5)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

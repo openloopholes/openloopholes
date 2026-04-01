@@ -1,0 +1,29 @@
+{
+  "id": "DEF_NONRECOGNITION_TRANSFERS",
+  "name": "Tax-Free Corporate and Partnership Transfers",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to transactions under sections 332, 351, 361, 721, or 731 where basis is carried over.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Limits the recognition of ordinary income recapture on the transfer of depreciable property in certain tax-free reorganizations and partnership contributions.",
+  "irc_reference": "IRC §1245(b)(3)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

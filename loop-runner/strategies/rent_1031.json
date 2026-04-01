@@ -1,0 +1,30 @@
+{
+  "id": "RENT_1031",
+  "name": "1031 Like-Kind Exchange",
+  "category": "rental",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Investment/business RE; qualified intermediary",
+    "requires_entity_type": "rental",
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "amount": {
+      "type": "int",
+      "description": "gain deferred via exchange"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "depends",
+    "retroactive_note": "Exchange must have been initiated during 2025",
+    "forward_status": "available"
+  },
+  "description": "Defer gains by exchanging investment RE. 45-day ID, 180-day close.",
+  "irc_reference": "IRC §1031",
+  "deadline": "Exchange during tax year"
+}

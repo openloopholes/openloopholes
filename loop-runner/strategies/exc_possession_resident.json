@@ -1,0 +1,29 @@
+{
+  "id": "EXC_POSSESSION_RESIDENT",
+  "name": "U.S. Possession Resident Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Individuals who are bona fide residents of U.S. territories and own local corporations meeting specific income source tests.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes bona fide residents of Puerto Rico, Guam, American Samoa, or the Northern Mariana Islands from being treated as 'United States persons' for CFC purposes under specific conditions.",
+  "irc_reference": "IRC §957(c)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

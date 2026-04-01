@@ -1,0 +1,29 @@
+{
+  "id": "EXC_S_CORP_ENTITY_TAX",
+  "name": "S-Corp Income Tax Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies automatically to any corporation with a valid S election in effect.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "General rule that an S corporation is not subject to federal income taxes at the corporate level, preventing double taxation of earnings.",
+  "irc_reference": "IRC §1363(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

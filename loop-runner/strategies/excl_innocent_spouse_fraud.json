@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_INNOCENT_SPOUSE_FRAUD",
+  "name": "Joint Return Fraud Penalty Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Taxpayers filing joint returns where only one spouse committed fraud.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes a spouse from the 75% fraud penalty on a joint return unless some part of the underpayment was due to the fraud of that specific spouse.",
+  "irc_reference": "IRC §6663(c)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

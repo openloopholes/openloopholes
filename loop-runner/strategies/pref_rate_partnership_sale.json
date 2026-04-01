@@ -1,0 +1,29 @@
+{
+  "id": "PREF_RATE_PARTNERSHIP_SALE",
+  "name": "Capital Gain Treatment on Sale of Partnership Interest",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to partners selling their interest, provided the partnership does not hold significant 'hot assets' like unrealized receivables or inventory under section 751.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "The sale or exchange of a partnership interest is generally treated as the sale of a capital asset, allowing the seller to benefit from preferential long-term capital gains rates rather than ordinary income rates.",
+  "irc_reference": "IRC §741",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

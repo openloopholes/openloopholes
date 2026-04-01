@@ -1,0 +1,29 @@
+{
+  "id": "DED_RIC_DIVIDENDS_RECEIVED",
+  "name": "RIC Dividends Received Deduction for Corporations",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to domestic corporations receiving dividends from a RIC that meets section 852(a) requirements and provides written statements designating the eligible portion.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Corporate shareholders of a Regulated Investment Company (RIC) may claim a dividends received deduction under section 243 for the portion of the dividend reported by the RIC as eligible.",
+  "irc_reference": "IRC §854",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

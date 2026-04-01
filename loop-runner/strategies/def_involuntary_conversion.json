@@ -1,0 +1,29 @@
+{
+  "id": "DEF_INVOLUNTARY_CONVERSION",
+  "name": "Involuntary Conversion Gain Deferral",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must purchase replacement property within 2 years (3 years for condemned real business/investment property; 4 years for principal residences in disaster areas).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Defer gain from property destroyed, stolen, seized, or condemned by reinvesting insurance or condemnation proceeds into similar or related-use property.",
+  "irc_reference": "IRC §1033",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

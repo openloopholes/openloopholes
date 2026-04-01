@@ -1,0 +1,29 @@
+{
+  "id": "DED_BUILT_IN_GAIN_LIMIT_INCREASE",
+  "name": "Section 382 Limitation Increase for Recognized Built-in Gains",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The corporation must have a net unrealized built-in gain (NUBIG) at the time of the ownership change that exceeds a specific threshold (15% of asset value or $10M).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Increases the annual Section 382 limitation by the amount of recognized built-in gains (RBIG) during the 5-year recognition period, allowing faster utilization of restricted NOLs.",
+  "irc_reference": "IRC §382(h)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

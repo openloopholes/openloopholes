@@ -1,0 +1,29 @@
+{
+  "id": "EXC_COMM_TAX_STATE_LOCAL_TAXES",
+  "name": "Exclusion of State and Local Taxes from Federal Tax Base",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "The state or local tax must be imposed on the furnishing or sale of the service and must be separately stated on the bill.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Prevents the 'tax on a tax' by excluding separately stated state and local taxes from the base amount used to calculate the 3% federal communications excise tax.",
+  "irc_reference": "IRC §4254(c)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

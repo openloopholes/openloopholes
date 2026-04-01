@@ -1,0 +1,25 @@
+{
+  "id": "ENT_HEALTH_INS",
+  "name": "S-Corp Health Insurance",
+  "category": "entity",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": ">2% S-Corp shareholders",
+    "requires_entity_type": "s_corp",
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Premiums during 2025",
+    "forward_status": "available"
+  },
+  "description": "S-Corp pays premiums for >2% shareholders. Deductible above the line.",
+  "irc_reference": "IRC §162(l); Notice 2008-1",
+  "deadline": "Premiums during tax year"
+}

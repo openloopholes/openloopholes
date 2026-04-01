@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_PORT_USE_TAX_ALASKA_HAWAII",
+  "name": "Alaska, Hawaii, and Possessions Port Use Tax Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to commercial cargo transported between the U.S. mainland and Alaska, Hawaii, or U.S. possessions for ultimate use or consumption in those destinations.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes cargo from the 0.125% Harbor Maintenance Tax if it is loaded/unloaded in the U.S. mainland for consumption in Alaska, Hawaii, or U.S. possessions, or vice versa.",
+  "irc_reference": "IRC §4462(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

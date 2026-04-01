@@ -1,0 +1,29 @@
+{
+  "id": "EXM_FIREARM_MAKING_TAX_EXEMPTION",
+  "name": "Zero-Rate Tax for Non-NFA Firearm Making",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to persons making firearms that do not meet the definition of a machinegun or destructive device under the National Firearms Act.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The tax rate for making a firearm that is not a machinegun or a destructive device is $0, effectively exempting these items from the standard $200 making tax.",
+  "irc_reference": "IRC §5821(a)(2)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

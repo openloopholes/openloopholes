@@ -1,0 +1,29 @@
+{
+  "id": "DED_NOL_DRD_LIMIT_WAIVER",
+  "name": "Net Operating Loss Exception to DRD Limitation",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "A corporation must have a net operating loss for the taxable year as determined under section 172.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The 50% or 65% taxable income limitation on the Dividends Received Deduction (DRD) does not apply for any taxable year in which the corporation has a Net Operating Loss (NOL).",
+  "irc_reference": "IRC §246(b)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

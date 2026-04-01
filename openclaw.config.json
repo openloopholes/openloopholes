@@ -1,0 +1,77 @@
+{
+  "name": "OpenLoopholes Tax Optimizer",
+  "description": "AI-powered tax optimization engine. Finds legal tax savings by scanning the entire US tax code.",
+  "skills": [
+    {
+      "name": "optimize_taxes",
+      "description": "Run the tax optimization loop on a profile. Finds strategies to reduce tax liability.",
+      "command": "cd loop-runner && python3 run.py --profile profiles/{profile_name} --iterations {iterations}",
+      "parameters": {
+        "profile_name": "Name of profile JSON file (e.g., sample.json)",
+        "iterations": "Max iterations (default: 200)"
+      }
+    },
+    {
+      "name": "generate_chart",
+      "description": "Generate the staircase chart showing optimization progress.",
+      "command": "cd loop-runner && python3 chart.py"
+    },
+    {
+      "name": "generate_report",
+      "description": "Generate the CPA-ready HTML tax strategy report.",
+      "command": "cd loop-runner && python3 generate_report.py"
+    },
+    {
+      "name": "find_loopholes",
+      "description": "Find strategy combinations that produce synergistic savings.",
+      "command": "cd loop-runner && python3 find_loopholes.py --profile profiles/{profile_name}",
+      "parameters": {
+        "profile_name": "Name of profile JSON file"
+      }
+    },
+    {
+      "name": "discover_strategies",
+      "description": "Scan IRC sections for new tax strategies not yet in the registry.",
+      "command": "cd loop-runner && python3 discover_strategies.py --subtitle {subtitle}",
+      "parameters": {
+        "subtitle": "IRC subtitle to scan (A, B, C, ... or --all)"
+      }
+    },
+    {
+      "name": "parse_return",
+      "description": "Parse a tax return PDF into a structured JSON profile.",
+      "command": "cd loop-runner && python3 parse_return.py ../tax-documents/{filename} --output profiles/{output_name}",
+      "parameters": {
+        "filename": "PDF filename in tax-documents/",
+        "output_name": "Output profile name (e.g., my-profile.json)"
+      }
+    },
+    {
+      "name": "parse_tax_code",
+      "description": "Download and parse the full IRC Title 26 into individual sections.",
+      "command": "cd loop-runner && python3 parse_tax_code.py --download"
+    }
+  ],
+  "env": {
+    "required": [],
+    "optional": [
+      {
+        "name": "OPENROUTER_API_KEY",
+        "description": "API key for OpenRouter (if not using OpenClaw's built-in LLM)"
+      },
+      {
+        "name": "ANTHROPIC_API_KEY",
+        "description": "API key for Anthropic (if using Claude models directly)"
+      },
+      {
+        "name": "LOOP_MODEL",
+        "description": "Model for iteration loop (default: google/gemini-3.1-flash-lite-preview)"
+      },
+      {
+        "name": "VALIDATION_MODEL",
+        "description": "Model for final validation (default: google/gemini-3-flash-preview)"
+      }
+    ]
+  },
+  "setup": "cd loop-runner && pip3 install -r requirements.txt"
+}

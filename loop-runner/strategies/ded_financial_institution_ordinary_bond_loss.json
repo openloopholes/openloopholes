@@ -1,0 +1,29 @@
+{
+  "id": "DED_FINANCIAL_INSTITUTION_ORDINARY_BOND_LOSS",
+  "name": "Ordinary Loss Treatment for Financial Institution Bond Sales",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to banks, small business investment companies (SBICs), and business development corporations.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Provides that the sale or exchange of a bond, debenture, or note by a financial institution results in ordinary gain or loss rather than capital gain or loss.",
+  "irc_reference": "IRC §582(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

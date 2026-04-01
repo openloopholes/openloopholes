@@ -1,0 +1,29 @@
+{
+  "id": "EXC_DE_MINIMIS_REPURCHASE",
+  "name": "De Minimis Repurchase Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Total annual repurchases must be $1 million or less.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Provides a full exemption from the stock repurchase excise tax if the total value of stock repurchased during the taxable year does not exceed $1,000,000.",
+  "irc_reference": "IRC §4501(e)(3)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ELE_ESTIMATED_TAX_SAFE_HARBOR",
+  "name": "Prior Year Tax Safe Harbor",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to individuals who filed a return for the preceding 12-month taxable year.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Avoid underpayment penalties by paying 100% of the tax shown on the return for the preceding taxable year (110% if AGI exceeded $150,000).",
+  "irc_reference": "IRC §6654",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_DIVIDEND_CARRYOVER",
+  "name": "Personal Holding Company Dividend Carryover",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Corporations classified as Personal Holding Companies (PHCs).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows an excess of dividends paid over taxable income from the two preceding years to be carried forward to reduce current year tax liability.",
+  "irc_reference": "IRC §564",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

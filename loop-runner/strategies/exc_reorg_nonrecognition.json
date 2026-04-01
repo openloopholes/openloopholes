@@ -1,0 +1,29 @@
+{
+  "id": "EXC_REORG_NONRECOGNITION",
+  "name": "Tax-Free Corporate Reorganizations",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must meet statutory definitions of a reorganization, such as a Type A merger or Type B stock-for-stock exchange, and satisfy judicial doctrines like continuity of interest.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows corporations and shareholders to defer gain recognition on mergers, consolidations, and acquisitions if the transaction meets specific structural requirements (Types A through G).",
+  "irc_reference": "IRC §368",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

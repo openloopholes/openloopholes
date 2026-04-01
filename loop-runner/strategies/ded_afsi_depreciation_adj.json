@@ -1,0 +1,29 @@
+{
+  "id": "DED_AFSI_DEPRECIATION_ADJ",
+  "name": "AFSI Depreciation and Intangible Drilling Cost Adjustment",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Large corporations subject to the Corporate Alternative Minimum Tax (CAMT).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Reduces Adjusted Financial Statement Income (AFSI) by tax depreciation (Sec 167/168) and IDC (Sec 263c) instead of book depreciation/depletion for Corporate Alternative Minimum Tax (CAMT) purposes.",
+  "irc_reference": "IRC §56A(c)(13)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

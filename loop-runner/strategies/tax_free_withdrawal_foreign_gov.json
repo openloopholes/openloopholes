@@ -1,0 +1,29 @@
+{
+  "id": "TAX_FREE_WITHDRAWAL_FOREIGN_GOV",
+  "name": "Tax-Free Distilled Spirits for Foreign Embassies",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to foreign embassies, legations, and authorized international organizations entitled to tax-free import privileges.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows distilled spirits to be withdrawn from bonded premises or customs warehouses free of tax for the official or family use of foreign governments and eligible international organizations.",
+  "irc_reference": "IRC §5066",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

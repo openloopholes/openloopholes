@@ -1,0 +1,29 @@
+{
+  "id": "DEF_481_ADJUSTMENT_SPREAD",
+  "name": "Accounting Method Change Adjustment Spread",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must be changing their method of accounting and have a resulting increase in taxable income exceeding $3,000.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows taxpayers to spread the tax impact of an accounting method change over multiple years (or use 3-year lookback limits) to prevent a massive tax spike in a single year.",
+  "irc_reference": "IRC §481",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

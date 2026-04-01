@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_POLITICAL_CONTRIBUTIONS",
+  "name": "Exclusion for Transfers to Political Organizations",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "The recipient must be a political organization as defined in section 527(e)(1).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Transfers of money or property to a political organization for its use are excluded from the gift tax.",
+  "irc_reference": "IRC §2501(a)(4)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

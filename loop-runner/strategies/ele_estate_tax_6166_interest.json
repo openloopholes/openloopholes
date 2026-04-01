@@ -1,0 +1,29 @@
+{
+  "id": "ELE_ESTATE_TAX_6166_INTEREST",
+  "name": "2-Percent Rate on Extended Estate Tax",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to estates that qualify for and elect to pay estate tax in installments under section 6166 because the estate consists largely of interests in a closely held business.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a preferential interest rate of only 2 percent on the deferred portion of estate tax when an election is made under section 6166 for closely held businesses.",
+  "irc_reference": "IRC §6601(j)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CRED_REHABILITATION_HISTORIC",
+  "name": "Historic Rehabilitation Tax Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Building must be a certified historic structure, substantially rehabilitated (expenditures exceed adjusted basis), and the credit must be claimed ratably over a 5-year period beginning when the building is placed in service.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a 20% tax credit for qualified rehabilitation expenditures (QREs) incurred during the restoration of a certified historic structure.",
+  "irc_reference": "IRC §47",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

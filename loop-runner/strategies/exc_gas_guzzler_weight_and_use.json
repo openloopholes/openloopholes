@@ -1,0 +1,29 @@
+{
+  "id": "EXC_GAS_GUZZLER_WEIGHT_AND_USE",
+  "name": "Gas Guzzler Tax Exclusions",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Purchasers can avoid taxes up to $7,700 by selecting vehicles that exceed the 6,000 lb weight threshold or meet the 'nonpassenger' definition (e.g., certain SUVs/trucks).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes vehicles from the gas guzzler tax if they are over 6,000 lbs unloaded GVW, classified as nonpassenger automobiles, or used as emergency vehicles.",
+  "irc_reference": "IRC §4064(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

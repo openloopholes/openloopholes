@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_TRANSFER_PRICING_DOCUMENTATION",
+  "name": "Transfer Pricing Penalty Protection",
+  "category": "procedure",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers must have documentation in existence at the time of filing that establishes the use of a reasonable pricing method and provide it to the IRS within 30 days of a request.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Avoids substantial valuation misstatement penalties (20-40%) on Section 482 adjustments by maintaining contemporaneous documentation of pricing methods.",
+  "irc_reference": "IRC §6662",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

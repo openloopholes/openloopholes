@@ -1,0 +1,29 @@
+{
+  "id": "CRED_EXCESS_SS_WITHHOLDING",
+  "name": "Credit for Special Refunds of Social Security Tax",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to individuals who had multiple employers in a single calendar year and whose total combined wages exceeded the Social Security wage limit ($168,600 for 2024; $176,100 for 2025).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a refundable credit against income tax for any excess Social Security (FICA) taxes withheld when an individual works for two or more employers and their combined wages exceed the annual Social Security wage base.",
+  "irc_reference": "IRC §31(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

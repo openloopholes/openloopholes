@@ -1,0 +1,29 @@
+{
+  "id": "ELE_SURVIVOR_ANNUITY_PLAN",
+  "name": "Tax Court Judicial Officers Survivors Annuity Fund",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Tax Court judges or special trial judges who file a written election while in office.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Judges and special trial judges can elect to provide annuities for surviving spouses and dependent children via a 3.5% salary deduction, creating a tax-advantaged survivor benefit.",
+  "irc_reference": "IRC §7448",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

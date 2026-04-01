@@ -1,0 +1,29 @@
+{
+  "id": "EXC_CORRECT_EXCESS_CONTRIBUTIONS",
+  "name": "Correction of Excess Contributions to Tax-Favored Accounts",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to individuals who contributed more than the legal limit to an IRA, Roth IRA, HSA, Archer MSA, Coverdell ESA, or ABLE account.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can avoid the 6% excise tax on excess contributions to IRAs, HSAs, and MSAs by distributing the excess amount (plus earnings) before the tax return due date.",
+  "irc_reference": "IRC §4973",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

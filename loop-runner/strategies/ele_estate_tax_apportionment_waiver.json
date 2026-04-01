@@ -1,0 +1,29 @@
+{
+  "id": "ELE_ESTATE_TAX_APPORTIONMENT_WAIVER",
+  "name": "Waiver of Right of Recovery for QTIP Property",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to decedents whose gross estate includes property under section 2044 (marital deduction property) and who wish to shift the tax burden away from the specific recipients of that property.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A decedent can use a will or revocable trust to specifically waive the estate's right to recover estate taxes from beneficiaries receiving Qualified Terminable Interest Property (QTIP).",
+  "irc_reference": "IRC §2207A",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

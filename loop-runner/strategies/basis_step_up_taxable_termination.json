@@ -1,0 +1,29 @@
+{
+  "id": "BASIS_STEP_UP_TAXABLE_TERMINATION",
+  "name": "Taxable Termination Basis Adjustment",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to property transferred in a taxable termination resulting from death, adjusted by the trust's inclusion ratio.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Provides a basis adjustment similar to the Section 1014(a) step-up in basis for property in a taxable termination occurring at the same time as and as a result of an individual's death.",
+  "irc_reference": "IRC §2654(a)(2)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

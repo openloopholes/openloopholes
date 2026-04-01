@@ -1,0 +1,29 @@
+{
+  "id": "ELE_LOBBYING_EXPENDITURE_LIMITS",
+  "name": "Lobbying Expenditure Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to most 501(c)(3) organizations that are not churches or private foundations.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "501(c)(3) organizations can make an election under section 501(h) to use a specific expenditure test for lobbying activities instead of the vague 'substantial part' test, providing more certainty in maintaining tax-exempt status.",
+  "irc_reference": "IRC §6033(b)(8)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

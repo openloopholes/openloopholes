@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_MEDICAL_EXPENSES",
+  "name": "Unlimited Exclusion for Medical Expenses",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Payments must be made directly to the person or institution providing the medical care as defined in section 213(d).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Direct payments to medical providers for the care of an individual are excluded from gift tax, with no dollar limit.",
+  "irc_reference": "IRC §2503(e)(2)(B)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

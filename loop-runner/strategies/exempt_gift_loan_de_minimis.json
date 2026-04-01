@@ -1,0 +1,29 @@
+{
+  "id": "EXEMPT_GIFT_LOAN_DE_MINIMIS",
+  "name": "De Minimis Exception for Gift Loans",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Aggregate outstanding loans between the individuals must not exceed $10,000 and the loan cannot be used to purchase income-producing assets.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows individuals to make below-market interest rate loans to other individuals without triggering imputed interest income or gift tax consequences if the total loan amount is $10,000 or less.",
+  "irc_reference": "IRC §7872(c)(2)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

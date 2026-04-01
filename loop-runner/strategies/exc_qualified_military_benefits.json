@@ -1,0 +1,29 @@
+{
+  "id": "EXC_QUALIFIED_MILITARY_BENEFITS",
+  "name": "Exclusion of Qualified Military Benefits",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to members or former members of the U.S. uniformed services and their dependents receiving benefits by reason of service status.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes qualified military allowances, in-kind benefits, state combat zone bonuses, and certain travel benefits from gross income.",
+  "irc_reference": "IRC §134",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

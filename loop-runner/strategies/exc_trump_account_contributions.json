@@ -1,0 +1,29 @@
+{
+  "id": "EXC_TRUMP_ACCOUNT_CONTRIBUTIONS",
+  "name": "Employer Contributions to Trump Accounts Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available for taxable years beginning after December 31, 2025. Requires a separate written employer plan meeting specific non-discrimination and benefit requirements.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes from gross income up to $2,500 in employer-paid contributions to a Trump account for an employee or their dependents.",
+  "irc_reference": "IRC §128",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

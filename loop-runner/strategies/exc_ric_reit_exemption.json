@@ -1,0 +1,29 @@
+{
+  "id": "EXC_RIC_REIT_EXEMPTION",
+  "name": "RIC and REIT Excise Tax Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Must qualify as a RIC under section 851 or a REIT.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Completely exempts Regulated Investment Companies (RICs) and Real Estate Investment Trusts (REITs) from the 1% stock repurchase tax.",
+  "irc_reference": "IRC §4501(e)(5)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

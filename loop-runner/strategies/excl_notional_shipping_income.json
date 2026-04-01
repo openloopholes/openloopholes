@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_NOTIONAL_SHIPPING_INCOME",
+  "name": "Notional Shipping Income Calculation",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to corporations that have made the Section 1354 election for qualifying vessels operated in U.S. foreign trade.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Calculates taxable income for shipping at a fixed daily rate (40 cents per 100 tons for the first 25,000 tons; 20 cents thereafter), which can significantly reduce the effective tax rate for highly profitable shipping operations.",
+  "irc_reference": "IRC §1353",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

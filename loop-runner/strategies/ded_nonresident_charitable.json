@@ -1,0 +1,29 @@
+{
+  "id": "DED_NONRESIDENT_CHARITABLE",
+  "name": "Nonresident Charitable Contribution Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Nonresident alien individuals making contributions to qualified U.S. charitable organizations.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows nonresident aliens to take a deduction for U.S. charitable contributions even if they are not connected to a U.S. trade or business.",
+  "irc_reference": "IRC §873(b)(2)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

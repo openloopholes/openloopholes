@@ -1,0 +1,29 @@
+{
+  "id": "EXC_PASSENGER_VESSEL_WATERWAY_TAX",
+  "name": "Passenger Vessel Waterway Tax Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Vessel must be used primarily for transporting people rather than property.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Exempts vessels used primarily for the transportation of persons from the tax on fuel used in commercial waterway transportation.",
+  "irc_reference": "IRC §4042(c)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

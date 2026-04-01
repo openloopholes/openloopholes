@@ -1,0 +1,29 @@
+{
+  "id": "ABATE_FIRST_TIER_TAX",
+  "name": "Abatement of First Tier Excise Taxes",
+  "category": "excise",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers who inadvertently trigger excise taxes under chapters 42 (private foundations) or 43 (qualified plans) must correct the error and demonstrate reasonable cause to the IRS.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "First tier excise taxes (except self-dealing) can be abated if the taxpayer establishes that the taxable event was due to reasonable cause and not willful neglect, provided the event is corrected.",
+  "irc_reference": "IRC §4962(a)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

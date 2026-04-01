@@ -1,0 +1,29 @@
+{
+  "id": "DEF_SECTION_1256_CARRYBACK",
+  "name": "Section 1256 Contract Loss Carryback Election",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must have a net loss from Section 1256 contracts (e.g., regulated futures) and have paid tax on such gains in the prior 3 years.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows non-corporate taxpayers to elect to carry back net Section 1256 contract losses 3 years to offset prior Section 1256 gains.",
+  "irc_reference": "IRC §1212",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

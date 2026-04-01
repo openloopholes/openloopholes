@@ -1,0 +1,29 @@
+{
+  "id": "ELE_NECESSARY_IMPROVEMENTS_10YR",
+  "name": "Election for Necessary Infrastructure Improvements",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Property must be held for 10 years; improvements must be necessary to make the lot marketable at local prices; taxpayer must elect to forego basis adjustment for these costs.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows taxpayers who have held land for 10 years to install necessary infrastructure (roads, water, sewer) without losing capital gain status, provided they elect not to add the cost to the property's basis.",
+  "irc_reference": "IRC §1237(b)(3)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

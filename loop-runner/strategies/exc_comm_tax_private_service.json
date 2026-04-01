@@ -1,0 +1,29 @@
+{
+  "id": "EXC_COMM_TAX_PRIVATE_SERVICE",
+  "name": "Private Communication Service Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers must ensure that charges for private communication systems or dedicated channels are separately stated on their telecommunications invoices.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes 'private communication services' (such as internal intercom systems or exclusive-use channels) from the 3% federal communications excise tax, provided these services are separately billed.",
+  "irc_reference": "IRC §4252(d)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

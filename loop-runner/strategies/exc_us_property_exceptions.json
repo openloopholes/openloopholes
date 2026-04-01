@@ -1,0 +1,29 @@
+{
+  "id": "EXC_US_PROPERTY_EXCEPTIONS",
+  "name": "U.S. Property Investment Exceptions",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "CFCs that need to hold U.S. assets or provide liquidity to U.S. affiliates without triggering a Section 956 inclusion.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides specific exceptions to the rule that treats investments in U.S. property as taxable deemed distributions, including U.S. bank deposits, export property, and certain stock of unrelated domestic corporations.",
+  "irc_reference": "IRC §956(c)(2)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

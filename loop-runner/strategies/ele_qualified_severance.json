@@ -1,0 +1,29 @@
+{
+  "id": "ELE_QUALIFIED_SEVERANCE",
+  "name": "Qualified Trust Severance",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The trust must be divided on a fractional basis and provide for the same succession of interests in the aggregate.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a single trust with an inclusion ratio between 0 and 1 to be severed into two separate trusts: one with an inclusion ratio of 0 (fully exempt) and one with an inclusion ratio of 1 (fully taxable).",
+  "irc_reference": "IRC §2642(a)(3)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

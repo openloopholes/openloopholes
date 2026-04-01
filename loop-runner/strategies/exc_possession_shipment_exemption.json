@@ -1,0 +1,29 @@
+{
+  "id": "EXC_POSSESSION_SHIPMENT_EXEMPTION",
+  "name": "Exemption from U.S. Tax for Shipments to Possessions",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to U.S. manufacturers or entities exporting goods from the U.S. mainland to specific U.S. possessions.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Articles, goods, wares, or merchandise being shipped from the United States to Puerto Rico, the Virgin Islands, Guam, or American Samoa are exempt from U.S. internal revenue taxes.",
+  "irc_reference": "IRC §7653(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

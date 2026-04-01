@@ -1,0 +1,29 @@
+{
+  "id": "RATE_1256_CONTRACTS",
+  "name": "60/40 Capital Gains Treatment",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to taxpayers holding regulated futures, foreign currency contracts, or nonequity options (like index options) at year-end or upon termination.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Gains and losses from Section 1256 contracts (regulated futures, foreign currency contracts, and nonequity options) are treated as 60% long-term and 40% short-term capital gains, regardless of the actual holding period.",
+  "irc_reference": "IRC §1256",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

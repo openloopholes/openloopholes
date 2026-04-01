@@ -1,0 +1,29 @@
+{
+  "id": "EXC_CONTINUITY_OF_CARE_TRANSITION",
+  "name": "Transitional In-Network Care Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to 'continuing care patients' (pregnant, terminally ill, or undergoing treatment for serious/complex conditions) when a provider's contract is terminated.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows patients with serious conditions to continue receiving care at in-network rates for up to 90 days after a provider leaves the plan's network.",
+  "irc_reference": "IRC §9818",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

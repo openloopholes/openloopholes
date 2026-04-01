@@ -1,0 +1,29 @@
+{
+  "id": "DED_POLLUTION_CONTROL_AMORTIZATION",
+  "name": "Accelerated Amortization of Pollution Control Facilities",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to new identifiable treatment facilities used in connection with plants in operation before 1976, or certain atmospheric pollution control facilities for coal-fired plants placed in service after April 11, 2005.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows taxpayers to elect to amortize the basis of certified pollution control facilities over a 60-month (or 84-month for certain coal-fired plants) period instead of longer standard depreciation schedules.",
+  "irc_reference": "IRC §169",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

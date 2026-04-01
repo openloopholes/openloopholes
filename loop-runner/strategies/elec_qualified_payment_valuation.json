@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_QUALIFIED_PAYMENT_VALUATION",
+  "name": "Qualified Payment Election for Family Business Transfers",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to transfers of interests in controlled corporations or partnerships to family members where the transferor retains a preferred interest.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect to treat certain distribution rights as 'qualified payments' (fixed-rate cumulative dividends), which allows these rights to have a non-zero value when calculating the gift tax on a transfer of junior equity to family members.",
+  "irc_reference": "IRC §2701",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

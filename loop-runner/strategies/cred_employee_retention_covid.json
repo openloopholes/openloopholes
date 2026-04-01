@@ -1,0 +1,29 @@
+{
+  "id": "CRED_EMPLOYEE_RETENTION_COVID",
+  "name": "Employee Retention Credit (ERC)",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to employers whose operations were fully/partially suspended by government order or who saw gross receipts drop below 80% of the same 2019 quarter. Includes special provisions for 'recovery startup businesses' and 'severely financially distressed employers'.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a refundable tax credit equal to 70% of qualified wages (up to $10,000 per employee per quarter) for eligible employers affected by COVID-19 closures or significant gross receipts declines.",
+  "irc_reference": "IRC §3134",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

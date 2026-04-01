@@ -1,0 +1,29 @@
+{
+  "id": "EXC_ANTIQUE_FIREARMS",
+  "name": "Antique and Collector Item Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to firearms manufactured in or before 1898 using obsolete ammunition, or items the Secretary finds are primarily collector items not likely to be used as weapons.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes antique firearms (manufactured in or before 1898) and certain collector items from the definition of 'firearm,' thereby exempting them from NFA transfer and making taxes.",
+  "irc_reference": "IRC §5845(a)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|investor|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

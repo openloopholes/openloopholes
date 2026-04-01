@@ -1,0 +1,29 @@
+{
+  "id": "EXC_RAIL_WAGE_TAX_TERMINATION",
+  "name": "Termination of Rail Employer Excise Tax",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to rail employers and employee representatives when specific historical debt balances in the railroad unemployment insurance account are zero.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "The 4 percent excise tax on rail employers and employee representatives does not apply if the railroad unemployment insurance account has repaid all pre-1985 transfers and interest.",
+  "irc_reference": "IRC §3321(c)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

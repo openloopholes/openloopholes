@@ -1,0 +1,29 @@
+{
+  "id": "ELE_DISASTER_LOSS_REFUND_ACCELERATION",
+  "name": "Accelerated Disaster Loss Refund",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must have a deductible disaster loss under section 165(i) and elect to claim it on the tax return for the year preceding the disaster.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect to deduct disaster losses on the prior year's return to receive an immediate refund, bypassing the standard 30-day Joint Committee on Taxation review period for large refunds.",
+  "irc_reference": "IRC §6405(c)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

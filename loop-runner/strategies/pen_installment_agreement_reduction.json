@@ -1,0 +1,29 @@
+{
+  "id": "PEN_INSTALLMENT_AGREEMENT_REDUCTION",
+  "name": "Installment Agreement Penalty Reduction",
+  "category": "procedure",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must be an individual who filed their return on or before the due date (including extensions) and has a valid section 6159 installment agreement in place.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Reduces the failure-to-pay penalty rate from 0.5% to 0.25% per month for individuals during the period an installment agreement is in effect.",
+  "irc_reference": "IRC §6651(h)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

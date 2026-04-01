@@ -1,0 +1,29 @@
+{
+  "id": "EXC_10_OR_MORE_EMPLOYER_PLAN",
+  "name": "10-or-More Employer Plan Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Plan must have at least 10 participating employers where no single employer contributes more than 10% and no experience-rating for individual employers exists.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts certain multi-employer welfare benefit funds from the standard account limit restrictions, potentially allowing for larger deductible contributions.",
+  "irc_reference": "IRC §419A(f)(6)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

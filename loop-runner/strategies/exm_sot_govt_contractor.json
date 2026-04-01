@@ -1,0 +1,29 @@
+{
+  "id": "EXM_SOT_GOVT_CONTRACTOR",
+  "name": "Special Occupational Tax Exemption for Government Contractors",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must establish to the Secretary that business is conducted exclusively with the U.S. and file an application for exemption annually by July 1.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Relieves persons from the special occupational tax if their business is conducted exclusively with or on behalf of the United States government.",
+  "irc_reference": "IRC §5851",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "BURDEN_OF_PROOF_FRAUD",
+  "name": "Shift Burden of Proof in Fraud Cases",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to taxpayers facing IRS allegations of civil tax fraud; the taxpayer can prevail by showing the IRS failed to meet its higher burden of proof.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "In any Tax Court proceeding where the IRS alleges fraud with intent to evade tax, the burden of proof is placed on the Secretary (IRS) rather than the taxpayer.",
+  "irc_reference": "IRC §7454(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

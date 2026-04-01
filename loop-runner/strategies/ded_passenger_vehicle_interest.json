@@ -1,0 +1,29 @@
+{
+  "id": "DED_PASSENGER_VEHICLE_INTEREST",
+  "name": "Deduction for Specified Passenger Vehicle Loan Interest",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to individuals with indebtedness incurred after December 31, 2024, secured by an applicable passenger vehicle where the lender is required to provide a Form 1098-style statement for interest over $600.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can deduct interest paid on specified passenger vehicle loans, provided the interest is reported by the lender under this section and meets the requirements of section 163(h)(4).",
+  "irc_reference": "IRC §6050AA",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

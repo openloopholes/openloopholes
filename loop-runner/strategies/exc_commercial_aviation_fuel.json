@@ -1,0 +1,29 @@
+{
+  "id": "EXC_COMMERCIAL_AVIATION_FUEL",
+  "name": "Commercial Aviation Fuel Tax Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to businesses transporting persons or property for hire by air that meet specific exemption criteria or are subject to alternative fuel taxes through October 1, 2028.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes certain aircraft uses from the definition of commercial aviation for fuel tax purposes if the use is subject to the section 4043 fuel fraction tax or is specifically exempt under section 4281 or 4282.",
+  "irc_reference": "IRC §4083(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

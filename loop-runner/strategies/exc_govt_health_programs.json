@@ -1,0 +1,29 @@
+{
+  "id": "EXC_GOVT_HEALTH_PROGRAMS",
+  "name": "Governmental Health Program Fee Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to programs established under Medicare, Medicaid, CHIP, and federal programs for the Armed Forces, veterans, or Indian tribes.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Exempts specific governmental health programs from the PCORI (Patient-Centered Outcomes Research Institute) fees normally imposed on health insurance policies and self-insured plans.",
+  "irc_reference": "IRC §4377(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

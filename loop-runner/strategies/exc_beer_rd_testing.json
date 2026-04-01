@@ -1,0 +1,29 @@
+{
+  "id": "EXC_BEER_RD_TESTING",
+  "name": "Exemption for Research, Development, or Testing",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Brewers conducting internal technical research or equipment testing.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows removal of beer without tax payment for use in R&D or testing of brewery processes, systems, or equipment (excluding consumer market analysis).",
+  "irc_reference": "IRC §5053(d)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

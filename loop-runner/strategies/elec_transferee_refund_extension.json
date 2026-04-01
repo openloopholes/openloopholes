@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_TRANSFEREE_REFUND_EXTENSION",
+  "name": "Transferee/Fiduciary Extension for Credit or Refund",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to transferees (heirs, legatees, distributees) or fiduciaries who are facing potential liability for a transferor's unpaid taxes and enter into an extension agreement with the Secretary before the expiration of the assessment period.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "If a transferee or fiduciary agrees in writing to extend the assessment period, the period for filing a claim for credit or refund is also extended. This allows additional time to identify overpayments made by the transferor that the transferee is legally entitled to recover.",
+  "irc_reference": "IRC §6901(d)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor|estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

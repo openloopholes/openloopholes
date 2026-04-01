@@ -1,0 +1,29 @@
+{
+  "id": "BASIS_ALLOCATION_STOCK_DIVIDENDS",
+  "name": "Stock Dividend Basis Allocation",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to shareholders receiving stock or stock rights in a distribution to which section 305(a) applies.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "When receiving tax-free stock dividends or rights, the basis of the original stock is allocated between the old and new stock, potentially reducing gain on a future sale of specific lots.",
+  "irc_reference": "IRC §307(a)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

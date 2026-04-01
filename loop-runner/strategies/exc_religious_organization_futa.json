@@ -1,0 +1,29 @@
+{
+  "id": "EXC_RELIGIOUS_ORGANIZATION_FUTA",
+  "name": "Religious Organization Service Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to churches, religious orders, and religious schools described in section 501(c)(3).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Services performed for churches, certain religious organizations, or by ministers in the exercise of their ministry are exempt from mandatory state unemployment coverage requirements.",
+  "irc_reference": "IRC §3309(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_STEP_UP_BASIS",
+  "name": "Step-Up in Basis at Death",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to heirs and beneficiaries receiving property from a decedent, provided the property is included in the decedent's gross estate.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "The basis of property acquired from a decedent is generally stepped up to the fair market value at the date of death, effectively eliminating capital gains tax on lifetime appreciation.",
+  "irc_reference": "IRC §1014(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

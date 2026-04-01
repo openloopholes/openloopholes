@@ -1,0 +1,29 @@
+{
+  "id": "DED_LEASE_ACQUISITION_AMORTIZATION",
+  "name": "Amortization of Lease Acquisition Costs",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to taxpayers who pay costs to acquire a lease for business use. The amortization period is determined by the 75% threshold test regarding the remaining lease term versus renewal options.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows a lessee to deduct the cost of acquiring a lease through amortization over the lease term, potentially including renewal options if less than 75% of the cost is attributable to the remaining initial term.",
+  "irc_reference": "IRC §178",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

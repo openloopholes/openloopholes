@@ -1,0 +1,29 @@
+{
+  "id": "ELE_SUSPENSION_OF_LIMITATIONS",
+  "name": "Statutory Limitation Period Suspension",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Triggered automatically upon the filing of an application for a Taxpayer Assistance Order under section 7811(a).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The running of the period of limitation for IRS collection or discovery actions is suspended while a TAO application is pending, providing the taxpayer more time to resolve disputes without immediate expiration of rights.",
+  "irc_reference": "IRC §7811(d)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

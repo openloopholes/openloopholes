@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_VINEGAR_DISTILLED_SPIRITS",
+  "name": "Tax-Exempt Distilled Spirits for Vinegar Production",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Vinegar manufacturers using the vaporizing process who establish a plant specifically for this purpose.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows for the production of distilled spirits (up to 15% ABV) exclusively for use in manufacturing vinegar on-site without the standard distilled spirits tax liability.",
+  "irc_reference": "IRC §5501",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

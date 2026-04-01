@@ -1,0 +1,29 @@
+{
+  "id": "CRED_EXCESS_FICA_MULTIPLE_EMPLOYERS",
+  "name": "Special Refund of Excess Social Security Tax",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to individuals whose combined wages from two or more employers exceed the Social Security wage base for the calendar year.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows employees who worked for more than one employer to claim a credit or refund for Social Security taxes (FICA) withheld on total wages exceeding the annual contribution base.",
+  "irc_reference": "IRC §6413(c)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

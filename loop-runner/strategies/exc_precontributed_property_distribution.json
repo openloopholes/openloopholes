@@ -1,0 +1,29 @@
+{
+  "id": "EXC_PRECONTRIBUTED_PROPERTY_DISTRIBUTION",
+  "name": "Exception for Distribution of Previously Contributed Property",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The distributed property must be the same property originally contributed by the distributee partner.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A partner can receive a distribution of property they previously contributed to the partnership without triggering the recognition of precontribution gain.",
+  "irc_reference": "IRC §737",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

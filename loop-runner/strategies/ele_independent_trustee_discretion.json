@@ -1,0 +1,29 @@
+{
+  "id": "ELE_INDEPENDENT_TRUSTEE_DISCRETION",
+  "name": "Independent Trustee Spray Power",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Trustees must not be the grantor and no more than half can be related or subordinate parties subservient to the grantor.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Utilizing independent trustees (who are not related or subordinate) allows for broad powers to distribute, apportion, or accumulate income among a class of beneficiaries without triggering grantor trust status, enabling effective income shifting to beneficiaries in lower tax brackets.",
+  "irc_reference": "IRC §674(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

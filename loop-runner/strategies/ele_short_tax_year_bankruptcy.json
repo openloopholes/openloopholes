@@ -1,0 +1,29 @@
+{
+  "id": "ELE_SHORT_TAX_YEAR_BANKRUPTCY",
+  "name": "Bankruptcy Short-Year Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to individuals in Chapter 7 or 11 bankruptcy cases who have non-exempt assets.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "An individual debtor in a Chapter 7 or 11 case can elect to split their tax year into two short years, ending the first on the day before the bankruptcy commencement. This allows the debtor to apply pre-petition tax liabilities against pre-petition assets.",
+  "irc_reference": "IRC §1398(d)(2)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

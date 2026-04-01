@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_INTANGIBLE_NONRESIDENT",
+  "name": "Nonresident Intangible Property Gift Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Donor must be a nonresident not a citizen of the United States and not subject to the expatriation tax rules of section 877(b).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Gifts of intangible property (like stocks or bonds) by a nonresident non-citizen are generally not subject to U.S. gift tax.",
+  "irc_reference": "IRC §2501(a)(2)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

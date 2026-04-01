@@ -1,0 +1,29 @@
+{
+  "id": "EXC_AUTO_ENROLLMENT_SMALL_BIZ",
+  "name": "Small Business Auto-Enrollment Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to employers in existence for less than 3 years or those who normally employ 10 or fewer employees.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "New businesses (under 3 years) and small businesses (10 or fewer employees) are exempt from the mandatory automatic enrollment requirements for 401(k) and 403(b) plans.",
+  "irc_reference": "IRC §414A(c)(4)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_TAX_FREE_DISTILLED_SPIRITS",
+  "name": "Tax-Free Withdrawal of Distilled Spirits",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to entities using spirits for exportation, chemical manufacturing, scientific research in universities/laboratories, medical use in hospitals/clinics, or R&D by plant proprietors.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows for the withdrawal of distilled spirits from bonded premises without payment of excise tax for specific industrial, scientific, educational, or medical purposes.",
+  "irc_reference": "IRC §5214",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business|individual|employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

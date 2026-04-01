@@ -1,0 +1,29 @@
+{
+  "id": "CRED_DISABLED_ACCESS",
+  "name": "Disabled Access Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Small businesses with gross receipts under $1,000,000 or fewer than 30 full-time employees in the preceding year. Covers expenses between $250 and $10,250 (max credit $5,000).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A nonrefundable tax credit for 50% of eligible expenditures made by a small business to comply with the Americans with Disabilities Act (ADA).",
+  "irc_reference": "IRC §44",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

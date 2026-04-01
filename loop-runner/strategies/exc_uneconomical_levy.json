@@ -1,0 +1,29 @@
+{
+  "id": "EXC_UNECONOMICAL_LEVY",
+  "name": "Uneconomical Levy Prohibition",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Automatic protection when the cost of seizure exceeds the asset's value.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "The IRS is prohibited from levying on property if the estimated expenses of the levy and sale exceed the fair market value of the property.",
+  "irc_reference": "IRC §6331(f)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

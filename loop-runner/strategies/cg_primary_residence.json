@@ -1,0 +1,30 @@
+{
+  "id": "CG_PRIMARY_RESIDENCE",
+  "name": "Primary Residence Sale Exclusion",
+  "category": "capital_gain",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Owned and lived in home 2 of last 5 years",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "gain": {
+      "type": "int",
+      "description": "gain from home sale"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "depends",
+    "retroactive_note": "Sale must have closed during 2025",
+    "forward_status": "available"
+  },
+  "description": "Exclude up to $250K (single) or $500K (MFJ) of gain from the sale of your primary residence.",
+  "irc_reference": "IRC §121",
+  "deadline": "Sale during tax year"
+}

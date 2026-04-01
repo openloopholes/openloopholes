@@ -1,0 +1,29 @@
+{
+  "id": "DED_CORRECTION_OF_EXCESS_BENEFIT",
+  "name": "Avoidance of 200% Penalty via Timely Correction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Disqualified persons (substantial influencers) who received an economic benefit from a tax-exempt organization exceeding the value of services provided.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Disqualified persons can avoid the 200% second-tier tax by 'correcting' the excess benefit transaction (undoing the benefit and restoring the organization's financial position) before a notice of deficiency is mailed.",
+  "irc_reference": "IRC §4958(f)(6)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

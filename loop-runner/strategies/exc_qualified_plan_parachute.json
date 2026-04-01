@@ -1,0 +1,29 @@
+{
+  "id": "EXC_QUALIFIED_PLAN_PARACHUTE",
+  "name": "Qualified Plan Parachute Payment Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Tax-exempt organizations can structure separation benefits through qualified plans or 403(b)/457(b) vehicles to avoid the excise tax on excess parachute payments.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Payments made under qualified retirement plans, 403(b) annuities, or 457(b) plans are excluded from the definition of 'excess parachute payments' subject to the 21% excise tax.",
+  "irc_reference": "IRC §4960(c)(5)(C)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

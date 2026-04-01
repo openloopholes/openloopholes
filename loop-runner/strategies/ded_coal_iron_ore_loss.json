@@ -1,0 +1,29 @@
+{
+  "id": "DED_COAL_IRON_ORE_LOSS",
+  "name": "Excess Expenditures Deduction for Coal or Iron Ore",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to taxpayers disposing of coal or domestic iron ore with a retained economic interest under Section 631.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows expenditures for administering coal or iron ore disposal contracts to be deducted as a loss under Section 165(a) to the extent they exceed the amount realized and adjusted depletion basis.",
+  "irc_reference": "IRC §272",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

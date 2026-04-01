@@ -1,0 +1,29 @@
+{
+  "id": "CRED_EITC_US_POSSESSIONS",
+  "name": "Earned Income Tax Credit for U.S. Possessions",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Residents of U.S. possessions with earned income who meet local requirements for the reformed or mirror-code Earned Income Tax Credit.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a refundable earned income tax credit to residents of Puerto Rico, Virgin Islands, Guam, Northern Mariana Islands, and American Samoa, mirrored or matched by federal payments.",
+  "irc_reference": "IRC §7530",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

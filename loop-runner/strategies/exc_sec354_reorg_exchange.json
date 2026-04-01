@@ -1,0 +1,29 @@
+{
+  "id": "EXC_SEC354_REORG_EXCHANGE",
+  "name": "Tax-Free Reorganization Stock Exchange",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be a party to a reorganization and exchange must be solely for permitted stock or securities.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes gain or loss from income when stock or securities in a corporation are exchanged solely for stock or securities in the same or another corporation pursuant to a plan of reorganization.",
+  "irc_reference": "IRC §354",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

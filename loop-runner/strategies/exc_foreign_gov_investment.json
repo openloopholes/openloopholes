@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FOREIGN_GOV_INVESTMENT",
+  "name": "Foreign Government Investment Income Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to foreign governments and their agencies, provided the income is not derived from commercial activities or controlled commercial entities.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes from gross income any income received by foreign governments from investments in U.S. stocks, bonds, other domestic securities, or financial instruments held for monetary policy.",
+  "irc_reference": "IRC §892",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

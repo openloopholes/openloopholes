@@ -1,0 +1,29 @@
+{
+  "id": "DED_REFUNDABLE_CREDIT_DEFICIENCY_OFFSET",
+  "name": "Refundable Credit Deficiency Mitigation",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Taxpayers eligible for credits under sections 21, 24, 25A, 32, 34, 35, 36, or 36B. The calculation is automatic during the deficiency determination process.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Requires the IRS to treat the excess of specific refundable credits (like the Child Tax Credit, EITC, and Premium Tax Credit) as 'negative tax' when calculating a deficiency, potentially reducing the net amount of tax owed during an audit.",
+  "irc_reference": "IRC §6211(b)(4)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

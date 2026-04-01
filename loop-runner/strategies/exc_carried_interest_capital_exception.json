@@ -1,0 +1,29 @@
+{
+  "id": "EXC_CARRIED_INTEREST_CAPITAL_EXCEPTION",
+  "name": "Carried Interest Capital Interest Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must contribute capital to the partnership or be taxed under section 83 upon receipt/vesting of the interest to qualify for the exception to the 3-year rule.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes partnership interests from the 3-year holding period requirement for long-term capital gain treatment if the interest is a 'capital interest' commensurate with contributed capital.",
+  "irc_reference": "IRC §1061",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

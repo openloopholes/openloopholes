@@ -1,0 +1,29 @@
+{
+  "id": "EXC_LUST_TAX_REFUND",
+  "name": "LUST Trust Fund Financing Rate Refund",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to businesses handling specific exempt fuels under sections 4081, 4082, or 4041, including those removing eligible indelibly dyed fuels after early 2026.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows for refunds or credits of the Leaking Underground Storage Tank (LUST) Trust Fund financing rate for specific exempt fuels, including exported fuels and eligible indelibly dyed diesel or kerosene.",
+  "irc_reference": "IRC §6430",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

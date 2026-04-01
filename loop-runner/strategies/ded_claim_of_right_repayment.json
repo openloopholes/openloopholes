@@ -1,0 +1,29 @@
+{
+  "id": "DED_CLAIM_OF_RIGHT_REPAYMENT",
+  "name": "Claim of Right Tax Computation",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies if the taxpayer included an item in gross income in a prior year because they appeared to have an unrestricted right to it, but later discovered they did not.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a tax benefit (via cross-reference to Section 1341) when a taxpayer must restore a substantial amount held under a claim of right from a prior year.",
+  "irc_reference": "IRC §5",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

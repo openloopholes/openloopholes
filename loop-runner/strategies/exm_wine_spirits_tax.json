@@ -1,0 +1,29 @@
+{
+  "id": "EXM_WINE_SPIRITS_TAX",
+  "name": "Exemption from Distilled Spirits Taxes for Wine Production",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be a proprietor of a bonded wine cellar using wine spirits for wine production in compliance with subchapter rules and without knowing violation of the law.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Proprietors of bonded wine cellars are exempt from the distilled spirits tax (IRC 5001) on wine spirits used in the production of wine on their premises.",
+  "irc_reference": "IRC §5391",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

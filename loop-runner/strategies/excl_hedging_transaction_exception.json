@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_HEDGING_TRANSACTION_EXCEPTION",
+  "name": "Hedging Transaction Exception to Short Sale Rules",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to commodity futures transactions entered into in the normal course of business primarily to manage risk.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts hedging transactions in commodity futures from the restrictive short sale rules that typically reset holding periods or mandate short-term gain treatment.",
+  "irc_reference": "IRC §1233(g)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

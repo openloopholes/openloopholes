@@ -1,0 +1,29 @@
+{
+  "id": "EXC_TAX_BENEFIT_RECOVERY",
+  "name": "Recovery of Tax Benefit Items Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to any taxpayer who recovers a previously deducted amount that provided no tax benefit in the year of the deduction.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes from gross income the recovery of any amount deducted in a prior year (like a bad debt or state tax refund) if the original deduction did not actually reduce the taxpayer's tax liability.",
+  "irc_reference": "IRC §111",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

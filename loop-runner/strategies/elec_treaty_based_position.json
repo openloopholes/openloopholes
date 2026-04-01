@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_TREATY_BASED_POSITION",
+  "name": "Treaty-Based Return Position Disclosure",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to taxpayers who are residents of a country with which the U.S. has an income tax treaty and who have income that would otherwise be subject to higher U.S. tax rates.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can claim benefits from a U.S. tax treaty that overrule or modify internal revenue laws, potentially reducing or eliminating U.S. tax on specific income types.",
+  "irc_reference": "IRC §6114",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

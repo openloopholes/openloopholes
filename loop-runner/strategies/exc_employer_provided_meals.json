@@ -1,0 +1,29 @@
+{
+  "id": "EXC_EMPLOYER_PROVIDED_MEALS",
+  "name": "Convenience of the Employer Meals Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Meals must be furnished on the business premises and for a substantial non-compensatory business reason of the employer.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Employees can exclude the value of meals provided by their employer from gross income if the meals are provided on the business premises for the employer's convenience.",
+  "irc_reference": "IRC §119(a)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

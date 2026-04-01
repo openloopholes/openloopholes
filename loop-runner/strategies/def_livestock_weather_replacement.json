@@ -1,0 +1,29 @@
+{
+  "id": "DEF_LIVESTOCK_WEATHER_REPLACEMENT",
+  "name": "Weather-Related Livestock Sale Deferral",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to livestock (excluding poultry) sold solely due to weather conditions; replacement period is generally 4 years if in a designated assistance area.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Sales of draft, breeding, or dairy livestock in excess of normal practices due to drought, flood, or weather are treated as involuntary conversions, allowing for tax-deferred replacement.",
+  "irc_reference": "IRC §1033(e)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

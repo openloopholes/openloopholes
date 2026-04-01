@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_GIFT_SPLITTING",
+  "name": "Gift Splitting for Married Couples",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Both spouses must be U.S. citizens or residents, be married at the time of the gift, and both must signify consent on their gift tax returns (Form 709).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a gift made by one spouse to a third party to be treated as made one-half by each spouse. This effectively doubles the annual exclusion and the lifetime unified credit available for a single transfer.",
+  "irc_reference": "IRC §2513",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

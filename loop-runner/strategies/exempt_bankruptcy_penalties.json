@@ -1,0 +1,29 @@
+{
+  "id": "EXEMPT_BANKRUPTCY_PENALTIES",
+  "name": "Bankruptcy Penalty Relief",
+  "category": "estate",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to debtors in a pending Title 11 bankruptcy case where the tax was incurred by the estate or incurred by the debtor before the order for relief.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts taxpayers from penalties for failure to pay certain taxes while a Title 11 bankruptcy case is pending, provided the court finds a probable insufficiency of funds for administrative expenses.",
+  "irc_reference": "IRC §6658",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

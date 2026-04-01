@@ -1,0 +1,29 @@
+{
+  "id": "ELE_ACQUISITION_DEBT_EXCEPTION",
+  "name": "Acquisition Indebtedness Exception in Related Redemptions",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must have incurred the liability to acquire the stock being transferred to the related corporation.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Prevents dividend treatment in related-party stock sales if the property received is used to pay off debt incurred to acquire the transferred stock.",
+  "irc_reference": "IRC §304(b)(3)(B)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

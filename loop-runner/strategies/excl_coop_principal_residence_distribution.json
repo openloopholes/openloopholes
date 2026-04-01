@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_COOP_PRINCIPAL_RESIDENCE_DISTRIBUTION",
+  "name": "Nonrecognition of Gain on Coop Unit Distribution",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "The dwelling unit must be used as the taxpayer's principal residence under section 121.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "No gain or loss is recognized when a cooperative housing corporation distributes a dwelling unit to a stockholder in exchange for stock if it is the taxpayer's principal residence.",
+  "irc_reference": "IRC §216(e)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

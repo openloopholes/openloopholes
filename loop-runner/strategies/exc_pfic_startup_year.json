@@ -1,0 +1,29 @@
+{
+  "id": "EXC_PFIC_STARTUP_YEAR",
+  "name": "PFIC Start-up Year Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to U.S. shareholders of new foreign corporations that may have high passive income initially (e.g., from seed capital) but will transition to active operations.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A foreign corporation is not treated as a Passive Foreign Investment Company (PFIC) during its first year of gross income if it is established that the corporation will not be a PFIC for the following two years.",
+  "irc_reference": "IRC §1298(b)(2)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

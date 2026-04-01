@@ -1,0 +1,29 @@
+{
+  "id": "DED_FDDEI_CFC_INCOME",
+  "name": "Foreign-Derived Deduction Eligible Income (FDDEI) Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to domestic corporations with income from property sold for foreign use or services provided to persons/property outside the U.S.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows domestic corporations to deduct 33.34% of foreign-derived deduction eligible income and 40% of net CFC tested income (GILTI) included in gross income.",
+  "irc_reference": "IRC §250",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

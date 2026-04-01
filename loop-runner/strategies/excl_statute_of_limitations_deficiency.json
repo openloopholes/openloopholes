@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_STATUTE_OF_LIMITATIONS_DEFICIENCY",
+  "name": "Statute of Limitations Deficiency Bar",
+  "category": "estate",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers must affirmatively plead the statute of limitations as a defense in a Tax Court proceeding to eliminate the proposed tax liability.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "If the Tax Court determines that the assessment or collection of a tax is barred by the statute of limitations, the law mandates a decision of no deficiency.",
+  "irc_reference": "IRC §7459(e)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business|investor|estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

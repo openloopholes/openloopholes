@@ -1,0 +1,29 @@
+{
+  "id": "DED_COAL_INDUSTRY_HEALTH_PREMIUMS",
+  "name": "Deduction for Coal Industry Retiree Health Premiums",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to 'last signatory operators' in the coal industry required to provide health benefits to retirees under the Coal Industry Retiree Health Benefit Act of 1992.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Any premium required to be paid by a last signatory operator to the 1992 UMWA Benefit Plan is fully deductible as a business expense.",
+  "irc_reference": "IRC §9712",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

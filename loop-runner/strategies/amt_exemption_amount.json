@@ -1,0 +1,29 @@
+{
+  "id": "AMT_EXEMPTION_AMOUNT",
+  "name": "Alternative Minimum Tax Exemption",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to non-corporate taxpayers; for 2025, the exemption is $109,400 for joint filers and $70,300 for individuals, with a phase-out starting at $1,000,000.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Reduces the Alternative Minimum Taxable Income (AMTI) by a significant exemption amount, which is indexed for inflation and phased out for high-income earners.",
+  "irc_reference": "IRC §55",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

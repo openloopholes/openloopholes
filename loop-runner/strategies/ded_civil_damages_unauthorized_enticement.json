@@ -1,0 +1,29 @@
+{
+  "id": "DED_CIVIL_DAMAGES_UNAUTHORIZED_ENTICEMENT",
+  "name": "Civil Damages for Unauthorized Enticement of Information",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies when a US officer/employee entices an attorney, CPA, or enrolled agent to disclose privileged taxpayer information in exchange for compromising the professional's own tax issues.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can recover up to $500,000 in damages if a federal employee intentionally compromises a tax professional to obtain the taxpayer's confidential information.",
+  "irc_reference": "IRC §7435",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

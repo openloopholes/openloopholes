@@ -1,0 +1,29 @@
+{
+  "id": "EXC_CONTRIBUTOR_ANONYMITY",
+  "name": "Non-Disclosure of Contributor Identity",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to donors of 501(c) organizations that are not classified as private foundations under section 509(a).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Non-private foundations (501(c) organizations) are generally not required to disclose the names or addresses of contributors to the public, protecting donor privacy and potentially encouraging larger donations.",
+  "irc_reference": "IRC §6104",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

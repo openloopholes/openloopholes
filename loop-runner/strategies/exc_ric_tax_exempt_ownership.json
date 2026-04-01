@@ -1,0 +1,29 @@
+{
+  "id": "EXC_RIC_TAX_EXEMPT_OWNERSHIP",
+  "name": "RIC Excise Tax Exemption for Tax-Exempt Shareholders",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to RICs where 100% of ownership is held by qualified pension trusts, insurance company variable accounts, or other specific tax-exempt entities.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Exempts a Regulated Investment Company (RIC) from the 4% excise tax on undistributed income if all shareholders are specific tax-exempt entities (e.g., 401(a) trusts or segregated asset accounts of life insurance companies).",
+  "irc_reference": "IRC §4982(f)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

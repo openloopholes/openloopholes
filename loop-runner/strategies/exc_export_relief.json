@@ -1,0 +1,29 @@
+{
+  "id": "EXC_EXPORT_RELIEF",
+  "name": "Export Excise Tax Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Products must be destined for export or government use and must follow strict regulatory removal procedures under bond.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a total exemption from internal revenue tobacco taxes for products removed for shipment to foreign countries, U.S. possessions, or for use by the United States government.",
+  "irc_reference": "IRC §5704(b)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

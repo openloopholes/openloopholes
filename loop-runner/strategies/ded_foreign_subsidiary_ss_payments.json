@@ -1,0 +1,29 @@
+{
+  "id": "DED_FOREIGN_SUBSIDIARY_SS_PAYMENTS",
+  "name": "Deduction for Foreign Subsidiary Employee Benefits",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Domestic corporation must have an active 3121(l) agreement in place for its foreign subsidiary's U.S. employees.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Domestic corporations can deduct payments made under section 3121(l) agreements for Social Security coverage of U.S. citizens working for foreign subsidiaries.",
+  "irc_reference": "IRC §176",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

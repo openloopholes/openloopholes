@@ -1,0 +1,29 @@
+{
+  "id": "DED_CSEC_AMORTIZATION_EXTENSION",
+  "name": "CSEC Plan Amortization Extension",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "CSEC plans where failure to extend would result in substantial risk to plan continuation or benefit levels; requires Secretary approval.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows Cooperative and Small Employer Charity (CSEC) plans to request a 10-year extension on the amortization of unfunded liabilities to reduce immediate contribution requirements.",
+  "irc_reference": "IRC §433(d)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

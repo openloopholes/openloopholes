@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_PORTFOLIO_INTEREST",
+  "name": "Portfolio Interest Exemption",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Nonresident aliens holding U.S. debt in registered form, provided they own less than 10% of the debtor entity.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Eliminates the 30% withholding tax on U.S. source interest income received by nonresident aliens from certain debt obligations.",
+  "irc_reference": "IRC §871(h)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ELE_REIT_DISTRIBUTION_DEDUCTION",
+  "name": "REIT Undistributed Income Tax Avoidance",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The REIT must calculate and pay out sufficient dividends during the calendar year to meet the 'distributed amount' requirements relative to its 'required distribution'.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Avoids a 4% excise tax on REITs by meeting specific distribution thresholds (85% of ordinary income and 95% of capital gain net income).",
+  "irc_reference": "IRC §4981(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_EDUCATIONAL_TUITION",
+  "name": "Unlimited Exclusion for Educational Expenses",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Payments must be made directly to the qualifying educational institution and must be for tuition only (not room and board).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Amounts paid directly to an educational organization as tuition for the training of an individual are not treated as taxable gifts, regardless of the amount.",
+  "irc_reference": "IRC §2503(e)(2)(A)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ELE_SIMPLIFIED_LIFO",
+  "name": "Simplified Dollar-Value LIFO Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to businesses with average annual gross receipts of $5,000,000 or less for the 3 preceding taxable years.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows small businesses to use a simplified method for pricing LIFO inventories using government price indexes rather than complex internal calculations.",
+  "irc_reference": "IRC §474",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

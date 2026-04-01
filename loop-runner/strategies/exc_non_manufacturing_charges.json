@@ -1,0 +1,29 @@
+{
+  "id": "EXC_NON_MANUFACTURING_CHARGES",
+  "name": "Transportation and Installation Price Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The taxpayer must establish the amount of these charges to the satisfaction of the Secretary and ensure they are not incident to packing the article for shipment.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes transportation, delivery, insurance, and installation charges from the taxable price of a manufactured article.",
+  "irc_reference": "IRC §4216(a)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

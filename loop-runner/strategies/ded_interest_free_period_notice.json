@@ -1,0 +1,29 @@
+{
+  "id": "DED_INTEREST_FREE_PERIOD_NOTICE",
+  "name": "21-Day Interest-Free Grace Period",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers who receive a notice and demand for payment from the IRS.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Eliminates interest charges for the period following a notice and demand if the full amount is paid within 21 calendar days (or 10 business days if the amount is $100,000 or more).",
+  "irc_reference": "IRC §6601(e)(3)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

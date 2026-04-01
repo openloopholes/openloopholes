@@ -1,0 +1,33 @@
+{
+  "id": "BIZ_R_AND_D",
+  "name": "R&D Tax Credit",
+  "category": "business",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Business with qualifying research expenses (software dev, experimentation)",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "qualified_expenses": {
+      "type": "int",
+      "description": "qualifying research expenditures"
+    }
+  },
+  "entity_specific": true,
+  "entity_types": [
+    "schedule_c",
+    "s_corp"
+  ],
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "depends",
+    "retroactive_note": "If qualifying research was performed during 2025",
+    "forward_status": "available"
+  },
+  "description": "Credit for research expenses: software dev, experimentation. 14% alt simplified credit.",
+  "irc_reference": "IRC §41; Form 6765",
+  "deadline": "Research during tax year"
+}

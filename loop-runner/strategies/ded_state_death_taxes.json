@@ -1,0 +1,29 @@
+{
+  "id": "DED_STATE_DEATH_TAXES",
+  "name": "Deduction for State Death Taxes",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to estates that are subject to both federal estate tax and state-level death taxes. Taxes must be paid and the deduction claimed within 4 years of filing the federal estate tax return (with some exceptions for extensions or litigation).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a deduction from the gross estate for the amount of any estate, inheritance, legacy, or succession taxes actually paid to any State or the District of Columbia.",
+  "irc_reference": "IRC §2058",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

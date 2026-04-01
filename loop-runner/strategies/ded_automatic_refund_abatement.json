@@ -1,0 +1,29 @@
+{
+  "id": "DED_AUTOMATIC_REFUND_ABATEMENT",
+  "name": "Automatic Refund or Abatement of Disallowed Deficiencies",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies when a Tax Court deficiency is overturned or reduced by a court of review and the amount was not stayed by a bond.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "If a taxpayer pays a deficiency (or does not stay collection) and the appeals court later disallows the deficiency, the IRS must automatically credit, refund, or abate the amount without the taxpayer filing a formal claim.",
+  "irc_reference": "IRC §7486",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

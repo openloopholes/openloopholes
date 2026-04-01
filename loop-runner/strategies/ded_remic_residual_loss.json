@@ -1,0 +1,29 @@
+{
+  "id": "DED_REMIC_RESIDUAL_LOSS",
+  "name": "REMIC Residual Interest Loss Pass-Thru",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must hold a residual interest in a Real Estate Mortgage Investment Conduit (REMIC). Deductions are limited to the taxpayer's adjusted basis in the interest, with an indefinite carryforward for excess losses.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Holders of residual interests in a REMIC can deduct their daily portion of the REMIC's net loss as an ordinary loss.",
+  "irc_reference": "IRC §860C",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DEF_FTC_CARRYBACK_CARRYOVER",
+  "name": "Foreign Tax Credit Carryback and Carryover",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must have foreign taxes paid or accrued that exceed the limitation calculated under section 904(a).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excess foreign tax credits that cannot be used in the current year due to the section 904 limitation can be carried back 1 year and forward 10 years.",
+  "irc_reference": "IRC §904(c)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

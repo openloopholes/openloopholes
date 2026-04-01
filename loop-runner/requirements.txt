@@ -1,0 +1,3 @@
+openai
+matplotlib
+pymupdf4llm

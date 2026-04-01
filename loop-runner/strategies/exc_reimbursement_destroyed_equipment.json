@@ -1,0 +1,29 @@
+{
+  "id": "EXC_REIMBURSEMENT_DESTROYED_EQUIPMENT",
+  "name": "Reimbursement for Destroyed Distilling Property",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The owner must apply within 1 year of destruction and establish that the property was not used in violation of law or that any unlawful use was without their consent or knowledge.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Owners of distilling equipment or materials destroyed by the government during a seizure can claim a reimbursement for the value of the property.",
+  "irc_reference": "IRC §5609(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

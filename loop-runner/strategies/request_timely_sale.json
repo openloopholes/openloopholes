@@ -1,0 +1,29 @@
+{
+  "id": "REQUEST_TIMELY_SALE",
+  "name": "Right to Request Sale of Seized Property",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The owner of seized property must make a formal written request to the Secretary.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a taxpayer to request that the IRS sell seized property within 60 days to prevent further depreciation or to satisfy the tax debt quickly.",
+  "irc_reference": "IRC §6335(f)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

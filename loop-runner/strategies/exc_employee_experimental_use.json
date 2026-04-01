@@ -1,0 +1,29 @@
+{
+  "id": "EXC_EMPLOYEE_EXPERIMENTAL_USE",
+  "name": "Employee and Experimental Use Tax Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be a registered manufacturer; products must be used for internal testing or employee consumption in accordance with Secretary regulations.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows manufacturers to furnish tobacco products to employees for personal consumption or for experimental purposes without paying excise tax.",
+  "irc_reference": "IRC §5704(a)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

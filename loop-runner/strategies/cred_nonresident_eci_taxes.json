@@ -1,0 +1,29 @@
+{
+  "id": "CRED_NONRESIDENT_ECI_TAXES",
+  "name": "Foreign Tax Credit for Nonresident Aliens and Foreign Corporations",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be a nonresident alien or foreign corporation engaged in a trade or business within the U.S. with effectively connected income (ECI) subject to foreign tax.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows nonresident aliens and foreign corporations to claim a credit for foreign taxes paid on income effectively connected with a U.S. trade or business.",
+  "irc_reference": "IRC §906(a)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

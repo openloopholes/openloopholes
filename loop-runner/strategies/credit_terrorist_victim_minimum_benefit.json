@@ -1,0 +1,29 @@
+{
+  "id": "CREDIT_TERRORIST_VICTIM_MINIMUM_BENEFIT",
+  "name": "Minimum $10,000 Tax Benefit for Terrorist Attack Victims",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to specified terrorist victims (April 19, 1995; Sept 11, 2001; Anthrax 2001) and astronauts dying in the line of duty.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Ensures a minimum tax benefit of $10,000 for specified terrorist victims (including astronauts dying in the line of duty) by treating the difference as a tax payment.",
+  "irc_reference": "IRC §692(d)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ELE_REMISSION_MITIGATION_FORFEITURE",
+  "name": "Remission or Mitigation of Forfeiture",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to taxpayers who have incurred or are alleged to have incurred forfeitures under the internal revenue laws.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers may apply for the remission (cancellation) or mitigation (reduction) of forfeitures incurred under internal revenue laws using customs law procedures.",
+  "irc_reference": "IRC §7327",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

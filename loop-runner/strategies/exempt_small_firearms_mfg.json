@@ -1,0 +1,29 @@
+{
+  "id": "EXEMPT_SMALL_FIREARMS_MFG",
+  "name": "Small Manufacturer Firearms Exemption",
+  "category": "excise",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to small-scale gunsmiths or boutique manufacturers who stay below the 50-unit aggregate annual threshold.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a total exemption from the 10% or 11% firearms excise tax for entities that manufacture, produce, or import fewer than 50 firearms per year.",
+  "irc_reference": "IRC §4182(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

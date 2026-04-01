@@ -1,0 +1,29 @@
+{
+  "id": "ELE_DSUE_PORTABILITY",
+  "name": "Deceased Spousal Unused Exclusion (DSUE) Portability",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The executor of the first-to-die spouse's estate must file a timely estate tax return (Form 706) and elect portability, even if no tax is due.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A surviving spouse can claim the unused estate tax exclusion of their last deceased spouse, effectively doubling the amount a couple can pass tax-free.",
+  "irc_reference": "IRC §2010",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

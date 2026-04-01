@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_GROUP_TERM_LIFE_POST_EMPLOYMENT",
+  "name": "Post-Employment Group-Term Life Insurance Tax Shift",
+  "category": "retirement",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Railroad employers providing group-term life insurance coverage to individuals whose employment relationship has terminated.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Shifts the responsibility for paying Tier 1 and Tier 2 railroad retirement taxes on group-term life insurance premiums to the former employee when the employment relationship no longer exists.",
+  "irc_reference": "IRC §3202(d)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

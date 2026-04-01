@@ -1,0 +1,30 @@
+{
+  "id": "CRD_SAVERS",
+  "name": "Saver's Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "AGI <$39,500/$79,000",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "contribution": {
+      "type": "int",
+      "description": "retirement contributions for credit"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Contributions during 2025 or by April 15",
+    "forward_status": "available"
+  },
+  "description": "10-50% credit on up to $2,000 of retirement contributions for low-to-moderate income.",
+  "irc_reference": "IRC §25B; Form 8880",
+  "deadline": "Contributions during tax year"
+}

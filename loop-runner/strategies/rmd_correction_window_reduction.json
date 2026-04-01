@@ -1,0 +1,29 @@
+{
+  "id": "RMD_CORRECTION_WINDOW_REDUCTION",
+  "name": "RMD Excise Tax Reduction via Correction Window",
+  "category": "excise",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers who missed an RMD but correct it before a notice of deficiency is mailed or the tax is assessed.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Reduces the excise tax on RMD shortfalls from 25% to 10% if the taxpayer corrects the distribution and submits a return within the 'correction window'.",
+  "irc_reference": "IRC §4974(e)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

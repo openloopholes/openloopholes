@@ -1,0 +1,29 @@
+{
+  "id": "DEF_VOLUME_CAP_CARRYFORWARD",
+  "name": "Elective Carryforward of Unused Volume Cap",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires an irrevocable election identifying the specific carryforward purpose (e.g., qualified mortgage bonds, student loan bonds, or redevelopment bonds).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Issuing authorities can elect to carry forward unused private activity bond volume cap for up to 3 years for specific purposes like student loans or redevelopment.",
+  "irc_reference": "IRC §146(f)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

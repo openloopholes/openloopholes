@@ -1,0 +1,29 @@
+{
+  "id": "DAMAGES_FOR_OFFICIAL_MISCONDUCT",
+  "name": "Judgment for Damages from Revenue Officer Misconduct",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to parties injured by federal revenue officers or employees acting under color of law who commit extortion, demand unauthorized sums, or engage in fraud.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers injured by the unlawful acts of a revenue officer (such as extortion or fraudulent entries) are entitled to a court judgment for damages sustained.",
+  "irc_reference": "IRC §7214",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

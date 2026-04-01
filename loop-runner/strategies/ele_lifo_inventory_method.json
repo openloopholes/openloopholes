@@ -1,0 +1,29 @@
+{
+  "id": "ELE_LIFO_INVENTORY_METHOD",
+  "name": "LIFO Inventory Valuation",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires a formal election and consistent use of the method for financial reporting to shareholders or for credit purposes (the LIFO conformity rule).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows taxpayers to use the Last-In, First-Out (LIFO) method to value inventory, which can reduce taxable income during periods of rising costs by matching recent, higher costs against current sales.",
+  "irc_reference": "IRC §472",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

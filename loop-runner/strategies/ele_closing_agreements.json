@@ -1,0 +1,29 @@
+{
+  "id": "ELE_CLOSING_AGREEMENTS",
+  "name": "Finality through Closing Agreements",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to any person relating to their tax liability; requires IRS approval and a written agreement.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a taxpayer to enter into a written agreement with the IRS to permanently lock in a tax liability or treatment for a specific period, preventing future audits or changes on those matters.",
+  "irc_reference": "IRC §7121",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|investor|estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

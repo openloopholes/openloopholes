@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_RESEARCH_DEVELOPMENT_SPIRITS",
+  "name": "Tax-Free Withdrawal for Research and Testing",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Use must be limited to legitimate research, development, or testing activities as defined in section 5214(a)(10).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Permits the withdrawal of distilled spirits without payment of tax for use in research, development, or testing.",
+  "irc_reference": "IRC §5003(14)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

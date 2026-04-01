@@ -1,0 +1,29 @@
+{
+  "id": "DED_BOND_REPURCHASE_PREMIUM_BORROWING_COST",
+  "name": "Convertible Bond Repurchase Premium Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Corporations repurchasing their own convertible debt at a premium.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a deduction for repurchase premiums on convertible bonds to the extent the corporation can demonstrate the excess is attributable to the cost of borrowing rather than the conversion feature.",
+  "irc_reference": "IRC §249(a)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

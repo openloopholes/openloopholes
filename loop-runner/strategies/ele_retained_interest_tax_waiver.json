@@ -1,0 +1,29 @@
+{
+  "id": "ELE_RETAINED_INTEREST_TAX_WAIVER",
+  "name": "Waiver of Right of Recovery for Retained Interests",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires a specific indication of intent in a will or revocable trust to waive the recovery right against recipients of section 2036 property.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A decedent may waive the estate's right to recover a pro-rata share of estate taxes from recipients of property included in the estate due to retained life estates (Section 2036).",
+  "irc_reference": "IRC §2207B",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

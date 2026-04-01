@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_PRIVATE_COLLECTION_LOW_INCOME",
+  "name": "Low-Income Exclusion from Private Debt Collection",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Individuals with AGI not exceeding 200% of the poverty level for the most recent taxable year.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Prohibits the IRS from assigning tax debt to private collection agencies if the taxpayer's adjusted gross income is at or below 200% of the applicable poverty level.",
+  "irc_reference": "IRC §6306(d)(3)(F)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

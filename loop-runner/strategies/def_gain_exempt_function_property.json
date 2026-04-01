@@ -1,0 +1,29 @@
+{
+  "id": "DEF_GAIN_EXEMPT_FUNCTION_PROPERTY",
+  "name": "Nonrecognition of Gain on Exempt Function Property",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to social clubs (501(c)(7)), VEBAs (501(c)(9)), and SUBs (501(c)(17)) that reinvest sale proceeds into new exempt-use property.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows for the deferral/nonrecognition of gain on the sale of property used for an exempt function if replaced with similar property within a specific window (1 year before to 3 years after sale).",
+  "irc_reference": "IRC §512(a)(3)(D)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

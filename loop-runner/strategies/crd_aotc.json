@@ -1,0 +1,32 @@
+{
+  "id": "CRD_AOTC",
+  "name": "American Opportunity Tax Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "MAGI <$90K/$180K; first 4 years post-secondary",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "num_students": {
+      "type": "int",
+      "description": "number of qualifying students"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [
+    "CRD_LLC"
+  ],
+  "actionability": {
+    "retroactive_status": "depends",
+    "retroactive_note": "Tuition paid during 2025",
+    "forward_status": "available"
+  },
+  "description": "Up to $2,500 per student for first 4 years of college. 40% refundable.",
+  "irc_reference": "IRC §25A(b); Form 8863",
+  "deadline": "Tuition during tax year"
+}

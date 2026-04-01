@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FOREIGN_SHIPPING_AIRCRAFT",
+  "name": "Foreign Corporation Shipping and Aircraft Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The foreign corporation must be organized in a country that grants an equivalent exemption to U.S. corporations and must meet specific ownership requirements (e.g., being a CFC or a qualified publicly traded corporation).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes gross income derived by a foreign corporation from the international operation of ships or aircraft from U.S. taxation.",
+  "irc_reference": "IRC §883(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "WRONGFUL_LEVY_INTEREST_RECOVERY",
+  "name": "Interest on Returned Wrongful Levy Funds",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies when the IRS determines property was wrongfully levied upon and returns the money or sale proceeds.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "If the IRS returns money from a wrongful levy, the taxpayer is entitled to receive interest at the overpayment rate established under section 6621.",
+  "irc_reference": "IRC §6343(c)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

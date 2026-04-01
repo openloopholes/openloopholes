@@ -1,0 +1,29 @@
+{
+  "id": "DED_SUB_SEVERANCE_RESERVE",
+  "name": "SUB or Severance Pay Benefit Reserve",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Limit is based on any 2 of the immediately preceding 7 taxable years.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a reserve for supplemental unemployment or severance benefits up to 75% of average annual qualified direct costs.",
+  "irc_reference": "IRC §419A(c)(3)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

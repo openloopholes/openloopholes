@@ -1,0 +1,29 @@
+{
+  "id": "CRED_BIODIESEL_MIXTURE",
+  "name": "Biodiesel Mixture Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must produce a mixture of biodiesel and diesel fuel and obtain a certification from the producer/importer of the biodiesel.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A credit of $1.00 per gallon for biodiesel used by the taxpayer to produce a qualified biodiesel mixture used or sold as fuel in a trade or business.",
+  "irc_reference": "IRC §40A",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

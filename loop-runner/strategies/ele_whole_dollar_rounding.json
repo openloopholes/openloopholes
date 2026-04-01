@@ -1,0 +1,29 @@
+{
+  "id": "ELE_WHOLE_DOLLAR_ROUNDING",
+  "name": "Whole Dollar Amount Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to any person filing a return, statement, or other document required by the Internal Revenue Code.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect to disregard fractional parts of a dollar or round to the nearest dollar on final amounts shown on tax forms.",
+  "irc_reference": "IRC §6102",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

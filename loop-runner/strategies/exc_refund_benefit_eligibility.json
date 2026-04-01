@@ -1,0 +1,29 @@
+{
+  "id": "EXC_REFUND_BENEFIT_ELIGIBILITY",
+  "name": "Exclusion of Tax Refunds from Benefit Eligibility Calculations",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to any individual receiving a tax refund or advance credit payment who is also applying for or receiving benefits from federal, state, or local programs (e.g., SNAP, Medicaid, SSI).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Tax refunds and advance payments of refundable credits are excluded from income and resource tests for 12 months when determining eligibility for federal or federally-assisted programs.",
+  "irc_reference": "IRC §6409",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

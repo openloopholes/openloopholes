@@ -1,0 +1,29 @@
+{
+  "id": "DED_BOND_PREMIUM_AMORTIZATION",
+  "name": "Amortizable Bond Premium Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to taxable bonds where the purchase price was higher than the face value; requires an election that then applies to all similar bonds held by the taxpayer.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect to amortize the premium paid for a taxable bond, using the amount to offset and reduce the interest income reported from the bond.",
+  "irc_reference": "IRC §171",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

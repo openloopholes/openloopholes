@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_HEALTH_PLAN_REPORTING",
+  "name": "Medical Care Reporting Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to employers or administrators making payments for medical care under FSAs or HRAs that are treated as employer-provided coverage.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Payments for medical care made under a Flexible Spending Arrangement (FSA) or Health Reimbursement Arrangement (HRA) are excluded from information reporting requirements.",
+  "irc_reference": "IRC §6041(f)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

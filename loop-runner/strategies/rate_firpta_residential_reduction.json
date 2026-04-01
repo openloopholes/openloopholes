@@ -1,0 +1,29 @@
+{
+  "id": "RATE_FIRPTA_RESIDENTIAL_REDUCTION",
+  "name": "Reduced FIRPTA Withholding for Mid-Market Residences",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Property must be used as a residence and the amount realized must be between $300,001 and $1,000,000.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Reduces the FIRPTA withholding rate from 15% to 10% for the purchase of a residence from a foreign person.",
+  "irc_reference": "IRC §1445(c)(4)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

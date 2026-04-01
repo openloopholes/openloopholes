@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_RETIREMENT_PLAN_DECLARATORY_JUDGMENT",
+  "name": "Declaratory Judgment for Retirement Plan Qualification",
+  "category": "retirement",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to employers, plan administrators, or interested employees who have exhausted administrative remedies and have put the plan or amendment into effect.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows employers or plan administrators to seek a Tax Court ruling on the initial or continuing tax-qualified status of a retirement plan if the IRS fails to act or issues an adverse determination.",
+  "irc_reference": "IRC §7476",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

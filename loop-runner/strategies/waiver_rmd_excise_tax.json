@@ -1,0 +1,29 @@
+{
+  "id": "WAIVER_RMD_EXCISE_TAX",
+  "name": "Waiver of RMD Shortfall Excise Tax",
+  "category": "excise",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Payees of qualified retirement plans (401k, 403b, IRA, 457b) who failed to take their full RMD.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The 25% excise tax (formerly 50%) on missed Required Minimum Distributions (RMDs) can be waived if the taxpayer proves the shortfall was due to reasonable error and takes steps to remedy it.",
+  "irc_reference": "IRC §4974",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CRED_RIC_UNDISTRIBUTED_CAP_GAINS",
+  "name": "Undistributed Capital Gains Tax Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies when a RIC designates undistributed capital gains in a notice to shareholders; the shareholder must increase their share basis and claim the credit on their tax return.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Shareholders are treated as having paid the tax imposed on the RIC for undistributed capital gains, allowing the shareholder to claim a credit or refund for that tax on their own return.",
+  "irc_reference": "IRC §852(b)(3)(D)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

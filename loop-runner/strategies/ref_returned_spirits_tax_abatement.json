@@ -1,0 +1,29 @@
+{
+  "id": "REF_RETURNED_SPIRITS_TAX_ABATEMENT",
+  "name": "Tax Refund for Spirits Returned to Bond",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Claim must be filed by the proprietor within 6 months of the date the spirits are returned to the bonded premises.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides an abatement, credit, or refund of tax (without interest) for distilled spirits that are returned to the bonded premises of a distilled spirits plant.",
+  "irc_reference": "IRC §5008(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

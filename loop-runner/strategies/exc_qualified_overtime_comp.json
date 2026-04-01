@@ -1,0 +1,29 @@
+{
+  "id": "EXC_QUALIFIED_OVERTIME_COMP",
+  "name": "Qualified Overtime Compensation Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Employees receiving overtime compensation as defined in section 225(c).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Identifies a specific category of 'qualified overtime compensation' that is required to be separately reported on Form W-2, indicating potential exclusion or preferential treatment under related sections.",
+  "irc_reference": "IRC §6051(a)(19)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

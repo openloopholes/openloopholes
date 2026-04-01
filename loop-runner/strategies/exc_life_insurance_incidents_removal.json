@@ -1,0 +1,29 @@
+{
+  "id": "EXC_LIFE_INSURANCE_INCIDENTS_REMOVAL",
+  "name": "Removal of Incidents of Ownership",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires transferring all policy rights to another person or an Irrevocable Life Insurance Trust (ILIT) more than three years before death.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exclude life insurance proceeds from the gross estate by ensuring the decedent possesses no 'incidents of ownership' (like the right to change beneficiaries or borrow against the policy) at the time of death.",
+  "irc_reference": "IRC §2042(2)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

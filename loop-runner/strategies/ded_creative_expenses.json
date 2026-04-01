@@ -1,0 +1,29 @@
+{
+  "id": "DED_CREATIVE_EXPENSES",
+  "name": "Free Lance Author, Photographer, and Artist Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to self-employed writers, photographers, and artists whose personal efforts create the work.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Exempts qualified creative expenses from capitalization, allowing creators to deduct expenses in the year incurred rather than over the life of the work.",
+  "irc_reference": "IRC §263A(h)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

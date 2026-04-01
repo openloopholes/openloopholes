@@ -1,0 +1,29 @@
+{
+  "id": "EXC_HIGH_TAX_EXCEPTION",
+  "name": "High-Tax Exception for Subpart F Income",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "CFCs operating in high-tax jurisdictions where the foreign effective tax rate exceeds 18.9% (90% of the current 21% U.S. rate).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes items of income from foreign base company income if they were subject to an effective foreign tax rate greater than 90% of the maximum U.S. corporate tax rate.",
+  "irc_reference": "IRC §954(b)(4)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

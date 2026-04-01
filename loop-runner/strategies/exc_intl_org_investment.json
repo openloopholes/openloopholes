@@ -1,0 +1,29 @@
+{
+  "id": "EXC_INTL_ORG_INVESTMENT",
+  "name": "International Organization Investment Income Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to qualified international organizations on all U.S. source investment income.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes from gross income all income received by international organizations from U.S. investments, including stocks, bonds, securities, and bank interest.",
+  "irc_reference": "IRC §892(b)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

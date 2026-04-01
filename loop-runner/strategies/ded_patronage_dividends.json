@@ -1,0 +1,29 @@
+{
+  "id": "DED_PATRONAGE_DIVIDENDS",
+  "name": "Deduction for Patronage Dividends and Per-Unit Retains",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to farmers' cooperatives and corporations operating on a cooperative basis that distribute net earnings to patrons based on quantity or value of business done.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Cooperatives can deduct amounts paid as patronage dividends or per-unit retain allocations from their taxable income, effectively allowing for single-level taxation at the patron level.",
+  "irc_reference": "IRC §1382(b)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_FOREIGN_SOURCE_PORTION_DIVIDENDS",
+  "name": "Participation Exemption (100% DRD for Foreign Dividends)",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Domestic corporations that are 'United States shareholders' of a foreign corporation (excluding PFICs that are not CFCs). Does not apply to 'hybrid dividends' where the payer also received a tax benefit.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Provides a 100% deduction for the foreign-source portion of dividends received from specified 10-percent owned foreign corporations.",
+  "irc_reference": "IRC §245A",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

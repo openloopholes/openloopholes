@@ -1,0 +1,29 @@
+{
+  "id": "DED_FOREIGN_GIFT_TAX",
+  "name": "Foreign Gift or Estate Tax Reduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to U.S. persons receiving property from a covered expatriate where foreign transfer taxes were also paid.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "The tax imposed on U.S. citizens or residents receiving gifts or bequests from covered expatriates is reduced by the amount of any gift or estate tax paid to a foreign country regarding that same property.",
+  "irc_reference": "IRC §2801",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

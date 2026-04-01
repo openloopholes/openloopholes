@@ -1,0 +1,29 @@
+{
+  "id": "EXC_PUBLICLY_TRADED_NFFE",
+  "name": "Publicly Traded Foreign Entity Withholding Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Foreign corporations with stock regularly traded on established securities markets or their affiliated group members.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Exempts payments to foreign corporations from 30% FATCA withholding if their stock is regularly traded on an established securities market.",
+  "irc_reference": "IRC §1472(c)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_VOLUNTARY_DESTRUCTION_IN_BOND",
+  "name": "Tax Relief for Voluntary Destruction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to proprietors or persons liable for tax who wish to dispose of inventory without incurring tax liability.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows for the voluntary destruction of distilled spirits in bond without payment of tax, provided the destruction is supervised and follows regulations.",
+  "irc_reference": "IRC §5008(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_SEC351_TAX_FREE_INCORPORATION",
+  "name": "Tax-Free Transfer to Controlled Corporation",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "One or more persons must transfer property solely for stock and maintain control (80% voting/value) immediately after the exchange.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows taxpayers to transfer property to a corporation in exchange for stock without recognizing gain or loss, provided the transferors control at least 80% of the corporation immediately after.",
+  "irc_reference": "IRC §351",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

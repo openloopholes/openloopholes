@@ -1,0 +1,29 @@
+{
+  "id": "EXC_MEDICARE_ADVANTAGE_MSA",
+  "name": "Medicare Advantage MSA Income Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to individuals enrolled in a Medicare Advantage MSA plan under Part C of the Social Security Act.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes from gross income any payments made by the Secretary of Health and Human Services into a Medicare Advantage MSA for the benefit of the individual.",
+  "irc_reference": "IRC §138",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

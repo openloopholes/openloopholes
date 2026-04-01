@@ -1,0 +1,29 @@
+{
+  "id": "RATE_QUALIFIED_DECEDENT_ESTATE",
+  "name": "Reduced Estate Tax Rates for Qualified Decedents",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to U.S. citizens or residents who died in a combat zone, from combat-related injuries, as a specified terrorist victim, or as an astronaut in the line of duty. The executor must not elect out of this section.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Replaces the standard estate tax rate schedule with a significantly lower preferential rate schedule (capping at 20%) for estates of certain military members, astronauts, and terrorist victims.",
+  "irc_reference": "IRC §2201",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_ABANDONED_SPIRITS_DENATURATION",
+  "name": "Tax-Free Acquisition of Abandoned Spirits for Denaturation",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be a proprietor of a distilled spirits plant and use the spirits specifically for denaturation or redistillation and denaturation as provided by Secretary regulations.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Distilled spirits abandoned to the U.S. government may be sold to the proprietor of a distilled spirits plant for denaturation or redistillation without the collection of internal revenue tax.",
+  "irc_reference": "IRC §5243",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

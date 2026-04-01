@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_PORT_USE_TAX_EXPORTS",
+  "name": "Export Cargo Port Use Tax Exemption",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to all shippers and exporters moving commercial cargo out of U.S. ports to foreign destinations.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "The Harbor Maintenance Tax (port use tax) does not apply to any commercial cargo intended for export from the United States.",
+  "irc_reference": "IRC §4462(d)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

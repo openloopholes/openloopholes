@@ -1,0 +1,29 @@
+{
+  "id": "EXC_MEDICAL_PROFESSIONAL_COMP",
+  "name": "Medical Services Remuneration Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applicable tax-exempt organizations employing highly compensated doctors or veterinarians can exclude the portion of pay related to direct medical care from excise tax calculations.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Remuneration paid to licensed medical professionals (including veterinarians) for the performance of medical or veterinary services is excluded from the calculation of the $1,000,000 compensation threshold.",
+  "irc_reference": "IRC §4960(c)(3)(B)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

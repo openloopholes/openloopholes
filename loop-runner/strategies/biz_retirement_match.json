@@ -1,0 +1,32 @@
+{
+  "id": "BIZ_RETIREMENT_MATCH",
+  "name": "Employer 401(k) Match",
+  "category": "business",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "S-Corp makes employer match; part of $70K total limit",
+    "requires_entity_type": "s_corp",
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "amount": {
+      "type": "int",
+      "description": "employer matching contribution"
+    }
+  },
+  "entity_specific": true,
+  "entity_types": [
+    "s_corp"
+  ],
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "depends",
+    "retroactive_note": "Employer contributions by filing deadline with extension",
+    "forward_status": "available"
+  },
+  "description": "S-Corp employer match: deductible to business, part of $70K total limit.",
+  "irc_reference": "IRC §401(a); §404(a)",
+  "deadline": "Contributions by filing deadline"
+}

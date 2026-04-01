@@ -1,0 +1,29 @@
+{
+  "id": "EXC_GIFTS_AND_INHERITANCES",
+  "name": "Exclusion of Gifts and Inheritances",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to any individual receiving property as a gift or through an estate, provided the transfer is not from an employer to an employee.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Gross income does not include the value of property acquired by gift, bequest, devise, or inheritance.",
+  "irc_reference": "IRC §102",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

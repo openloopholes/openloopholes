@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_STUDENT_MEDICAL_LEAVE_CONTINUATION",
+  "name": "Medically Necessary Leave of Absence for Students",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Dependent students suffering from a serious illness or injury; requires written certification by a treating physician.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Prevents the termination of health coverage for a dependent child who loses student status at a postsecondary institution due to a medically necessary leave of absence for up to one year.",
+  "irc_reference": "IRC §9813",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

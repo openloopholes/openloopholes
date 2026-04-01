@@ -1,0 +1,30 @@
+{
+  "id": "CG_QSBS_1202",
+  "name": "Section 1202 QSBS Exclusion",
+  "category": "capital_gain",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "C-Corp stock held 5+ years; NOT S-Corp",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "excluded_gain": {
+      "type": "int",
+      "description": "gain to exclude (max $10M or 10x basis)"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Stock had to qualify at time of sale",
+    "forward_status": "available"
+  },
+  "description": "Exclude up to $10M (or 10x basis) of gain from Qualified Small Business Stock held 5+ years. C-Corp only.",
+  "irc_reference": "IRC §1202",
+  "deadline": "Stock must qualify at time of sale"
+}

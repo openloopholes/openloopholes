@@ -1,0 +1,29 @@
+{
+  "id": "DED_COOP_BUSINESS_DEPRECIATION",
+  "name": "Cooperative Stock Business Depreciation",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The proprietary lease or right of tenancy must be used for business or income-producing purposes.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a tenant-stockholder to depreciate their stock if the unit is used in a trade or business or for the production of income.",
+  "irc_reference": "IRC §216(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

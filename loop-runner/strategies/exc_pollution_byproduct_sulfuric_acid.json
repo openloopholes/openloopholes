@@ -1,0 +1,29 @@
+{
+  "id": "EXC_POLLUTION_BYPRODUCT_SULFURIC_ACID",
+  "name": "Air Pollution Control Byproduct Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to sulfuric acid generated as a result of environmental compliance/air pollution control processes at the production site.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Sulfuric acid produced solely as a byproduct of and on the same site as air pollution control equipment is exempt from the §4661 excise tax.",
+  "irc_reference": "IRC §4662(b)(3)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

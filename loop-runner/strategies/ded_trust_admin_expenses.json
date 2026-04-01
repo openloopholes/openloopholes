@@ -1,0 +1,29 @@
+{
+  "id": "DED_TRUST_ADMIN_EXPENSES",
+  "name": "Above-the-Line Trust Administration Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Estates and non-grantor trusts incurring specific administrative costs (e.g., fiduciary fees, certain legal/accounting fees).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Costs of trust administration that would not have been incurred if the property were not held in trust are deductible in arriving at Adjusted Gross Income, bypassing the suspension of miscellaneous itemized deductions.",
+  "irc_reference": "IRC §67(e)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "estate|individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

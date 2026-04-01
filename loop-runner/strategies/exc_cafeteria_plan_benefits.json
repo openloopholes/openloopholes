@@ -1,0 +1,29 @@
+{
+  "id": "EXC_CAFETERIA_PLAN_BENEFITS",
+  "name": "Section 125 Cafeteria Plan Exclusions",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires a written plan where all participants are employees and offers a choice between at least one taxable benefit (cash) and one qualified nontaxable benefit.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows employees to choose between cash and qualified benefits (like health insurance or HSAs) without including the value of those benefits in gross income.",
+  "irc_reference": "IRC §125",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

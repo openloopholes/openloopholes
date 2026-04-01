@@ -1,0 +1,29 @@
+{
+  "id": "DED_MARRIED_PUT_BASIS_ADJUSTMENT",
+  "name": "Married Put Basis Adjustment",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires the taxpayer to identify the property intended to be used in exercising the option on the same day the option and property are acquired.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "If an option to sell (put) is acquired on the same day as the underlying property, and the option is not exercised, the cost of the option is added to the basis of the property.",
+  "irc_reference": "IRC §1233(c)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

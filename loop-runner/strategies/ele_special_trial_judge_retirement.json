@@ -1,0 +1,29 @@
+{
+  "id": "ELE_SPECIAL_TRIAL_JUDGE_RETIREMENT",
+  "name": "Special Trial Judge Retirement Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Appointed special trial judges meeting age and service requirements (e.g., age 65 with 15 years service).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Special trial judges can elect into a specific retirement pay system based on a ratio of years of service to 15 years, providing a structured pension alternative.",
+  "irc_reference": "IRC §7447A",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

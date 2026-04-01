@@ -1,0 +1,29 @@
+{
+  "id": "PREF_RATE_COAL_IRON_ORE_ROYALTIES",
+  "name": "Capital Gain Treatment for Coal and Iron Ore Royalties",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Owner must hold the mineral interest for more than 1 year and retain an economic interest under a contract; not applicable to co-adventurers or partners in the actual mining.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Disposal of coal or domestic iron ore with a retained economic interest is treated as a sale of the mineral, qualifying the income for capital gains treatment.",
+  "irc_reference": "IRC §631",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FIRPTA_RESIDENTIAL_EXEMPTION",
+  "name": "FIRPTA Residential Use Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The property must be acquired for use as a residence and the total amount realized (sale price) must not exceed $300,000.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts the transferee from the 15% FIRPTA withholding requirement when purchasing a property from a foreign person for use as a residence.",
+  "irc_reference": "IRC §1445(b)(5)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

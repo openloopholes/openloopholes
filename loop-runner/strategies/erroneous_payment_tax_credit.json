@@ -1,0 +1,29 @@
+{
+  "id": "ERRONEOUS_PAYMENT_TAX_CREDIT",
+  "name": "Credit for Erroneously Paid Employment Taxes",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers who mistakenly paid Chapter 21 or 22 taxes for periods in which they had no legal liability.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Any tax paid under FICA or RRTA for a period where the taxpayer was not liable must be credited against other employment tax liabilities or refunded.",
+  "irc_reference": "IRC §3503",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

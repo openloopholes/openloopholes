@@ -1,0 +1,29 @@
+{
+  "id": "EXC_LIGNITE_COAL_EXEMPTION",
+  "name": "Lignite Coal Tax Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies automatically to producers of lignite coal (brown coal).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "The excise tax on coal produced from U.S. mines does not apply to lignite.",
+  "irc_reference": "IRC §4121(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

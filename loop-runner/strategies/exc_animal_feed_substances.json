@@ -1,0 +1,29 @@
+{
+  "id": "EXC_ANIMAL_FEED_SUBSTANCES",
+  "name": "Animal Feed Production Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be used in the manufacture or production of animal feed, supplements, or ingredients.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts nitric acid, sulfuric acid, ammonia, or methane used to produce ammonia from tax if used as a qualified animal feed substance.",
+  "irc_reference": "IRC §4662(b)(9)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_INNOCENT_SPOUSE_RELIEF",
+  "name": "Innocent Spouse Relief",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must have filed a joint return with an understatement of tax attributable to the other spouse; must establish lack of knowledge or reason to know of the understatement; must elect relief within 2 years of IRS collection activity.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Relieves a taxpayer of joint and several liability for tax, interest, and penalties when their spouse or former spouse failed to report income, reported income improperly, or claimed improper deductions or credits without the taxpayer's knowledge.",
+  "irc_reference": "IRC §6015(b)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

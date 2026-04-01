@@ -1,0 +1,29 @@
+{
+  "id": "EXC_ANNUITY_INVESTMENT_RECOVERY",
+  "name": "Annuity Exclusion Ratio",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to individuals receiving payments from an annuity, endowment, or life insurance contract where they have an unrecovered investment in the contract.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes the portion of annuity payments that represents a return of the taxpayer's original investment (cost basis) from gross income.",
+  "irc_reference": "IRC §72(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

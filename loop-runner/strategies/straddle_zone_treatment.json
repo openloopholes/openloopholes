@@ -1,0 +1,29 @@
+{
+  "id": "STRADDLE_ZONE_TREATMENT",
+  "name": "Business Straddle Census Tract Rule",
+  "category": "rental",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "The business must use real property inside the zone that is substantial compared to the contiguous property outside the zone.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows a business located on contiguous real property that is partially inside and partially outside an empowerment zone to treat the entire property as being inside the zone if the portion inside is 'substantial'.",
+  "irc_reference": "IRC §1397C(f)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

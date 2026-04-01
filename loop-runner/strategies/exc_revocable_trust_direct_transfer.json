@@ -1,0 +1,29 @@
+{
+  "id": "EXC_REVOCABLE_TRUST_DIRECT_TRANSFER",
+  "name": "Revocable Trust Transfer Treatment",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to individuals with revocable living trusts who make distributions to third parties from trust assets.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Transfers from a revocable trust (grantor trust) are treated as made directly by the decedent, allowing them to qualify for certain 3-year rule exceptions rather than being treated as a relinquishment of power under section 2038.",
+  "irc_reference": "IRC §2035(e)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

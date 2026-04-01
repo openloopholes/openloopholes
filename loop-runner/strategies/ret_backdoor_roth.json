@@ -1,0 +1,25 @@
+{
+  "id": "RET_BACKDOOR_ROTH",
+  "name": "Backdoor Roth IRA",
+  "category": "retirement",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "MAGI above Roth IRA phase-out; check pro rata rule",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Contribution deadline April 15, 2026",
+    "forward_status": "available"
+  },
+  "description": "Non-deductible Traditional IRA contribution followed by Roth conversion. Bypasses Roth IRA income limits. Watch for pro-rata rule if pre-tax IRA balances exist.",
+  "irc_reference": "IRC §408A; Form 8606",
+  "deadline": "April 15 following tax year"
+}

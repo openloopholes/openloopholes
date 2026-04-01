@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_MENTAL_HEALTH_PARITY",
+  "name": "Mental Health and Substance Use Disorder Parity",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Participants in group health plans that offer both medical/surgical and mental health/substance use disorder benefits.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Requires group health plans to ensure financial requirements (deductibles, copays) and treatment limits for mental health/substance use are no more restrictive than those for medical/surgical benefits.",
+  "irc_reference": "IRC §9812",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

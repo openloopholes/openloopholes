@@ -1,0 +1,29 @@
+{
+  "id": "DEF_QUALIFIED_EQUITY_GRANTS",
+  "name": "Qualified Equity Grant Deferral",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to non-excluded employees of private corporations with a written plan providing stock rights to at least 80% of full-time U.S. employees.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows qualified employees of private corporations to defer the recognition of income from the exercise of stock options or settlement of RSUs for up to 5 years.",
+  "irc_reference": "IRC §83(i)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ELE_RESCIND_DEFICIENCY_NOTICE",
+  "name": "Rescission of Notice of Deficiency",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires mutual consent between the taxpayer and the Secretary; typically used to correct administrative errors or when the taxpayer has provided new information that resolves the deficiency.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can request that the Secretary rescind a notice of deficiency with their consent. Once rescinded, the notice is treated as if it never existed, allowing the taxpayer and the IRS to continue administrative resolution without being forced into Tax Court.",
+  "irc_reference": "IRC §6212(d)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|investor|estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

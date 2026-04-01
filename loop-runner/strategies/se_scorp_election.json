@@ -1,0 +1,32 @@
+{
+  "id": "SE_SCORP_ELECTION",
+  "name": "S-Corp Election",
+  "category": "se_tax",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Schedule C net >$40K-$50K",
+    "requires_entity_type": "schedule_c",
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "salary": {
+      "type": "int",
+      "description": "reasonable compensation"
+    }
+  },
+  "entity_specific": true,
+  "entity_types": [
+    "schedule_c"
+  ],
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Form 2553 due March 15, 2025 for calendar year 2025",
+    "forward_status": "available"
+  },
+  "description": "Elect S-Corp status to split income between salary (FICA) and distributions (no SE tax).",
+  "irc_reference": "IRC §1362; Form 2553",
+  "deadline": "March 15 of election year"
+}

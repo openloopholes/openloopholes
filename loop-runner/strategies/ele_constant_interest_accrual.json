@@ -1,0 +1,29 @@
+{
+  "id": "ELE_CONSTANT_INTEREST_ACCRUAL",
+  "name": "Constant Interest Rate Accrual Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must make an irrevocable election with respect to a specific obligation to use yield-to-maturity compounding instead of straight-line ratable accrual.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows taxpayers to elect to accrue acquisition discount on short-term obligations using a constant interest rate (compounding daily) instead of the default ratable accrual method.",
+  "irc_reference": "IRC §1283(b)(2)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "investor|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

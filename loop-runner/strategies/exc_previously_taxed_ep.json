@@ -1,0 +1,29 @@
+{
+  "id": "EXC_PREVIOUSLY_TAXED_EP",
+  "name": "Exclusion of Previously Taxed Earnings and Profits (PTEP)",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to U.S. shareholders who have had income inclusions under section 951(a) or 951A and subsequently receive distributions from that CFC.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows U.S. shareholders to exclude from gross income actual distributions of a foreign corporation's earnings and profits that were already taxed under Subpart F or GILTI rules.",
+  "irc_reference": "IRC §959",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

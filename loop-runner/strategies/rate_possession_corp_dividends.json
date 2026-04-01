@@ -1,0 +1,29 @@
+{
+  "id": "RATE_POSSESSION_CORP_DIVIDENDS",
+  "name": "Reduced Withholding Rate for Puerto Rico Corporations",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Must meet specific ownership and income tests: less than 25% foreign ownership, at least 65% effectively connected income, and no substantial payments to non-residents.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Reduces the withholding tax rate from 30% to 10% on dividends received by a corporation organized in Puerto Rico.",
+  "irc_reference": "IRC §881(b)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

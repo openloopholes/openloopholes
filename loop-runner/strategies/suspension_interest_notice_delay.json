@@ -1,0 +1,29 @@
+{
+  "id": "SUSPENSION_INTEREST_NOTICE_DELAY",
+  "name": "Suspension of Interest for Delayed IRS Notice",
+  "category": "retirement",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to individuals who filed a timely return; does not apply to fraud, gross misstatements, or listed transactions.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "If the IRS fails to provide notice of liability within 36 months of a timely filed return, the imposition of interest and certain penalties is suspended until 21 days after the notice is eventually provided.",
+  "irc_reference": "IRC §6404(g)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_SBIC_ORDINARY_LOSS",
+  "name": "Ordinary Loss Treatment for SBIC Stock",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "The loss must be on stock in a small business investment company operating under the Small Business Investment Act of 1958.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Losses on stock in a Small Business Investment Company (SBIC) that would normally be capital losses are treated as ordinary losses, which can offset high-tax ordinary income without the $3,000 capital loss limitation.",
+  "irc_reference": "IRC §1242",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

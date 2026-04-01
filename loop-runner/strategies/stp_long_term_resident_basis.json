@@ -1,0 +1,29 @@
+{
+  "id": "STP_LONG_TERM_RESIDENT_BASIS",
+  "name": "Long-Term Resident Step-Up in Basis",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to long-term residents (non-citizens) who cease residency, effectively eliminating U.S. tax on appreciation that occurred before they moved to the U.S.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Treats property held by a long-term resident on the date they first became a U.S. resident as having a basis not less than the fair market value on that date for expatriation tax purposes.",
+  "irc_reference": "IRC §877(e)(3)(B)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

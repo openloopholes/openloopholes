@@ -1,0 +1,29 @@
+{
+  "id": "STAY_OF_COLLECTION_DELINQUENCY",
+  "name": "60-Day Collection Stay for First Delinquency",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Taxpayers facing their first assessment for a specific delinquency under court or administrative orders.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Provides an automatic 60-day stay of collection activities following the first notice and demand for a specific delinquency assessment.",
+  "irc_reference": "IRC §6305(a)(4)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

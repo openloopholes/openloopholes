@@ -1,0 +1,29 @@
+{
+  "id": "EXC_RELIGIOUS_ORG_FILING",
+  "name": "Mandatory Filing Exception for Religious Organizations",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to churches, their integrated auxiliaries, and conventions or associations of churches.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Churches, integrated auxiliaries, and conventions of churches are exempt from the requirement to file an annual information return (Form 990), reducing administrative costs and maintaining privacy.",
+  "irc_reference": "IRC §6033(a)(3)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

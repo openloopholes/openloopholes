@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_EXEMPT_INTEREST_DIVIDENDS",
+  "name": "Exempt-Interest Dividends Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to shareholders of mutual funds or other RICs that invest primarily in tax-exempt municipal bonds and meet the 50% asset threshold.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Shareholders of a Regulated Investment Company (RIC) can exclude from gross income dividends that the RIC reports as exempt-interest dividends, provided the RIC holds at least 50% of its assets in tax-exempt obligations.",
+  "irc_reference": "IRC §852(b)(5)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

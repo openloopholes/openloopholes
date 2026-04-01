@@ -1,0 +1,29 @@
+{
+  "id": "DED_DEFICIENCY_DIVIDENDS",
+  "name": "Deficiency Dividend Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be triggered by a court order, closing agreement, or signed agreement with the Secretary; distribution must occur within 90 days of determination and a claim filed within 120 days.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a corporation to avoid PHC tax liability after an IRS determination by distributing dividends to shareholders within 90 days.",
+  "irc_reference": "IRC §547",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

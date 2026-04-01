@@ -1,0 +1,29 @@
+{
+  "id": "EXC_WINE_TRANSFER_IN_BOND",
+  "name": "Transfer of Wine in Bond Liability Relief",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Proprietors of bonded wine cellars transferring wine under section 5362(b) or (c).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Relieves the transferor of liability for wine excise tax when wine is transferred in bond to a transferee or withdrawn by an authorized person.",
+  "irc_reference": "IRC §5043",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_CASUALTY_LOSS_TAX_RELIEF",
+  "name": "Casualty or Act of God Tax Relief",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires proof of loss; theft claims require proof that the loss occurred without brewer negligence or collusion.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a refund or credit for taxes paid on beer lost due to fire, theft, casualty, or act of God before title transfer.",
+  "irc_reference": "IRC §5056(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CRED_DEEMED_PAID_FTC",
+  "name": "Deemed Paid Foreign Tax Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to domestic corporations that are U.S. shareholders of a Controlled Foreign Corporation (CFC) with Subpart F or GILTI inclusions.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Domestic corporations are deemed to have paid the foreign taxes actually paid by their CFCs on income included under Subpart F or GILTI, allowing for a credit against U.S. tax liability.",
+  "irc_reference": "IRC §960",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

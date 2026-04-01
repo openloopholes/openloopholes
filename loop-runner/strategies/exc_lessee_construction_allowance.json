@@ -1,0 +1,29 @@
+{
+  "id": "EXC_LESSEE_CONSTRUCTION_ALLOWANCE",
+  "name": "Qualified Lessee Construction Allowance Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to retail tenants (selling goods or services to the public) with a lease of 15 years or less where the improvements revert to the lessor.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes from a lessee's gross income any cash or rent reductions received from a lessor for constructing or improving qualified long-term real property in a retail space.",
+  "irc_reference": "IRC §110",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

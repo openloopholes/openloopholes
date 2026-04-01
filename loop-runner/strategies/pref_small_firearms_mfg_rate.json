@@ -1,0 +1,29 @@
+{
+  "id": "PREF_SMALL_FIREARMS_MFG_RATE",
+  "name": "Reduced Occupational Tax for Small Firearms Importers and Manufacturers",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to firearms importers and manufacturers whose gross receipts for the most recent taxable year were less than $500,000.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Reduces the annual special occupational tax from $1,000 to $500 for businesses with gross receipts under $500,000.",
+  "irc_reference": "IRC §5801(b)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

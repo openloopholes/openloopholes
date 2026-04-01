@@ -1,0 +1,29 @@
+{
+  "id": "EXC_SMALL_GIFT_ESTATE_EXCLUSION",
+  "name": "Annual Exclusion Gift Estate Shield",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available for transfers (other than life insurance) to a donee where the total annual gift is below the IRC 2503(b) threshold ($19,000 for 2025).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Gifts made within 3 years of death are generally not pulled back into the gross estate if they were under the annual gift tax exclusion limit and did not require a gift tax return.",
+  "irc_reference": "IRC §2035(c)(3)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

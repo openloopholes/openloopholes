@@ -1,0 +1,29 @@
+{
+  "id": "EXM_PERSONAL_BEER_PRODUCTION",
+  "name": "Personal or Family Use Beer Exemption",
+  "category": "excise",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Any adult (18+ or legal drinking age) producing beer for non-commercial use within volume limits (100 gal/single adult, 200 gal/multi-adult households).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows adults to produce beer for personal or family use without paying federal excise tax, up to 200 gallons per year for households with 2+ adults.",
+  "irc_reference": "IRC §5053(e)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CREDIT_FOREIGN_TAX_UBTI",
+  "name": "Foreign Tax Credit for Exempt Organizations",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to exempt organizations subject to tax under section 511 that have foreign-sourced unrelated business income.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows tax-exempt organizations to claim a credit for foreign taxes paid on unrelated business taxable income (UBTI).",
+  "irc_reference": "IRC §515",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "OBBB_TIPS",
+  "name": "OBBB Tip Income Deduction",
+  "category": "obbb",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "W-2 tipped employees; phase-out $150K/$300K",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "amount": {
+      "type": "int",
+      "description": "W-2 tip income to deduct"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Tips earned during 2025",
+    "forward_status": "available"
+  },
+  "description": "Tipped W-2 employees can deduct tip income. Phases out at $75K/$150K.",
+  "irc_reference": "OBBB Act",
+  "deadline": "Tips during tax year"
+}

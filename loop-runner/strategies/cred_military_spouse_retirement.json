@@ -1,0 +1,29 @@
+{
+  "id": "CRED_MILITARY_SPOUSE_RETIREMENT",
+  "name": "Military Spouse Retirement Plan Eligibility Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Small employers (100 or fewer employees) providing immediate eligibility and vesting to non-highly compensated military spouses in a defined contribution plan.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Small employers can claim a credit of $200 per military spouse participant plus up to $300 in employer contributions for the first 3 years of participation.",
+  "irc_reference": "IRC §45AA",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

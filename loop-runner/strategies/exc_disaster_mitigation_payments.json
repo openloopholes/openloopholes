@@ -1,0 +1,29 @@
+{
+  "id": "EXC_DISASTER_MITIGATION_PAYMENTS",
+  "name": "Qualified Disaster Mitigation Payment Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Property owners receiving government payments for disaster risk reduction; note that basis in the property cannot be increased by the excluded amount.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes from gross income any amount received by a property owner for hazard mitigation under the Stafford Act or National Flood Insurance Act.",
+  "irc_reference": "IRC §139",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

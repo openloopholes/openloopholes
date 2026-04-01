@@ -1,0 +1,29 @@
+{
+  "id": "DEFER_NONRESIDENT_FILING",
+  "name": "Nonresident Alien Filing Deferral",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Nonresident aliens not subject to wage withholding and foreign corporations without a US place of business.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Nonresident alien individuals (without US wages) and foreign corporations (without a US office) are granted an additional two months to file, with a due date of June 15th instead of April 15th.",
+  "irc_reference": "IRC §6072(c)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

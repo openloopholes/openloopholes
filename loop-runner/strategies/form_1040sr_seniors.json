@@ -1,0 +1,29 @@
+{
+  "id": "FORM_1040SR_SENIORS",
+  "name": "Simplified Filing via Form 1040-SR",
+  "category": "capital_gain",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must have attained age 65 as of the close of the taxable year.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Individuals age 65 or older can use a simplified tax form (1040-SR) regardless of the amount of taxable income or types of common income like Social Security or capital gains.",
+  "irc_reference": "IRC §7805",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

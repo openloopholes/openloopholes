@@ -1,0 +1,29 @@
+{
+  "id": "EXC_QUALIFIED_COVERED_CALL",
+  "name": "Qualified Covered Call Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The option must be traded on a national exchange, granted more than 30 days before expiration, and not be deep-in-the-money.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts certain covered call options from the complex straddle loss deferral rules, allowing for normal tax treatment of losses.",
+  "irc_reference": "IRC §1092(c)(4)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

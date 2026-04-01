@@ -1,0 +1,29 @@
+{
+  "id": "EXM_SPECIFIED_COMMERCIAL_VEHICLES",
+  "name": "Heavy Vehicle Excise Tax Exemptions",
+  "category": "excise",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The vehicle must be designed for a specific exempt purpose (e.g., spreading fertilizer, mobile drilling, or idling reduction) as defined in the section.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Complete exemption from the 12% retail tax for specific vehicle types including mobile machinery, ambulances, hearses, concrete mixers, and farm equipment.",
+  "irc_reference": "IRC §4053",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

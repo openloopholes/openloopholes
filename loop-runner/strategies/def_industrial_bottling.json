@@ -1,0 +1,29 @@
+{
+  "id": "DEF_INDUSTRIAL_BOTTLING",
+  "name": "Tax Deferral on Industrial Alcohol Bottling",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Proprietors of distilled spirits plants processing alcohol for industrial (non-beverage) purposes.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows alcohol intended for industrial purposes to be bottled, labeled, and cased on bonded premises prior to the payment or determination of excise tax.",
+  "irc_reference": "IRC §5235",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_UNMERCHANTABLE_IMPORT_REFUND",
+  "name": "Refund on Exportation of Unmerchantable Imported Liquors",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Importers must return the goods to customs custody for exportation or destruction after finding they do not conform to samples or specifications.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a full refund, remission, or credit of internal revenue taxes paid on imported distilled spirits, wines, or beer that are found to be unmerchantable or non-conforming and are subsequently exported or destroyed.",
+  "irc_reference": "IRC §5062(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

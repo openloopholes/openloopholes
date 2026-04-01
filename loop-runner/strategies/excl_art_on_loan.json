@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_ART_ON_LOAN",
+  "name": "Works of Art on Loan Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The art must be on exhibition or en route to/from a qualified public gallery or museum at the time of the owner's death.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Works of art owned by a nonresident non-citizen are excluded from the U.S. estate tax if they are imported solely for exhibition and loaned to a non-profit public gallery or museum.",
+  "irc_reference": "IRC §2105(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

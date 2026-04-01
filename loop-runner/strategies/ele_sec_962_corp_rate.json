@@ -1,0 +1,29 @@
+{
+  "id": "ELE_SEC_962_CORP_RATE",
+  "name": "Individual Election to be Taxed at Corporate Rates",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "U.S. shareholders who are individuals (including through pass-throughs) with section 951(a) inclusions.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows individual U.S. shareholders to elect to be taxed on Subpart F and GILTI inclusions at corporate tax rates (21%) instead of individual rates, and to claim deemed-paid foreign tax credits.",
+  "irc_reference": "IRC §962",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

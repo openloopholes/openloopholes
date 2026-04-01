@@ -1,0 +1,29 @@
+{
+  "id": "DEF_THRIFT_SAVINGS_PLAN_TC",
+  "name": "Tax Court Judge TSP Contributions",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Active Tax Court judges not yet receiving retired pay.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Tax Court judges may elect to contribute to the Thrift Savings Fund (TSP), allowing for tax-deferred retirement savings.",
+  "irc_reference": "IRC §7447(j)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

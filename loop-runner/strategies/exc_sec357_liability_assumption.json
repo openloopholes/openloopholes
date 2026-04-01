@@ -1,0 +1,29 @@
+{
+  "id": "EXC_SEC357_LIABILITY_ASSUMPTION",
+  "name": "Tax-Free Assumption of Liabilities",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Liabilities must not exceed the adjusted basis of transferred property and must have a bona fide business purpose.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a corporation to assume a transferor's liabilities in a Section 351 or 361 exchange without the assumption being treated as taxable 'boot' or money received.",
+  "irc_reference": "IRC §357",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

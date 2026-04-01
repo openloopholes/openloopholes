@@ -1,0 +1,29 @@
+{
+  "id": "ELE_PASSIVE_INCOME_TAX_WAIVER",
+  "name": "Waiver of Tax on Excess Net Passive Income",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The S corporation must establish it determined in good faith it had no accumulated E&P and must distribute such E&P within a reasonable period after discovery.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a mechanism for the Secretary to waive the penalty tax on excess passive investment income if the S corporation acted in good faith and distributes the offending earnings and profits.",
+  "irc_reference": "IRC §1375",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

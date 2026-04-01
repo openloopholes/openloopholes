@@ -1,0 +1,29 @@
+{
+  "id": "RELEASE_LEVY_HARDSHIP",
+  "name": "Economic Hardship Levy Release",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must demonstrate that the levy prevents them from meeting basic necessary living expenses.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The IRS is required to release a levy if it determines the levy is creating an economic hardship due to the financial condition of the taxpayer.",
+  "irc_reference": "IRC §6343(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

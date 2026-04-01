@@ -1,0 +1,34 @@
+{
+  "id": "CG_INSTALLMENT_NOTE",
+  "name": "Structured Installment Note",
+  "category": "capital_gain",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Completed sales; requires legal structuring",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "total_gain": {
+      "type": "int",
+      "description": "total gain to spread"
+    },
+    "years": {
+      "type": "int",
+      "description": "years to spread over"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Must be structured at time of sale",
+    "forward_status": "available"
+  },
+  "description": "Spread gain recognition over multiple years using a structured installment note.",
+  "irc_reference": "IRC §453",
+  "deadline": "Structured at time of sale"
+}

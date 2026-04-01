@@ -1,0 +1,29 @@
+{
+  "id": "DED_MARITAL_UNLIMITED",
+  "name": "Unlimited Marital Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Property must pass to a surviving spouse who is a U.S. citizen and must not be a non-qualified terminable interest.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows an unlimited deduction for the value of property passing to a surviving spouse who is a U.S. citizen, effectively deferring estate tax until the second spouse's death.",
+  "irc_reference": "IRC §2056",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_RECLAMATION_RESERVE",
+  "name": "Mining and Solid Waste Reclamation Reserve Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to taxpayers with mining or solid waste disposal properties subject to Federal or State reclamation requirements.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect to deduct current-year reclamation and closing costs by establishing a reserve, effectively accelerating deductions before the actual cash expenditure occurs.",
+  "irc_reference": "IRC §468",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

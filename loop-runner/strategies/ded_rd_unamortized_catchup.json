@@ -1,0 +1,29 @@
+{
+  "id": "DED_RD_UNAMORTIZED_CATCHUP",
+  "name": "Catch-up Deduction for Unamortized R&D",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available for domestic R&D expenditures that were required to be capitalized under the previous IRC 174 rules for tax years 2022-2024.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect to deduct the remaining unamortized balance of domestic R&D costs incurred between 2022 and 2024 in the first tax year after 2024.",
+  "irc_reference": "IRC §174A(f)(2)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

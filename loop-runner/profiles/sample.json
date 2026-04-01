@@ -1,0 +1,107 @@
+{
+  "taxpayer_age": 42,
+  "spouse_age": 40,
+  "filing_status": "married_joint",
+  "state": "UT",
+  "optimization_mode": "both",
+  "tax_year": 2025,
+  "dependents": [
+    {"age": 8},
+    {"age": 12}
+  ],
+
+  "w2_income": [
+    {
+      "employer": "Acme Corp",
+      "wages": 185000,
+      "federal_withheld": 38000,
+      "state_withheld": 5000,
+      "has_401k": true,
+      "traditional_401k": 15000,
+      "roth_401k": 0
+    }
+  ],
+
+  "entities": [
+    {
+      "name": "Consulting LLC",
+      "type": "schedule_c",
+      "ein": null,
+      "gross_income": 120000,
+      "expenses": 28000,
+      "net_income": 92000,
+      "is_sstb": false,
+      "has_home_office": true,
+      "home_office_method": "simplified",
+      "vehicle_business_use": true,
+      "vehicle_method": "standard_mileage",
+      "has_employees": false
+    },
+    {
+      "name": "Marketing Agency Inc",
+      "type": "s_corp",
+      "ein": "12-3456789",
+      "officer_compensation": 45000,
+      "ordinary_income": 45000,
+      "distributions": 60000,
+      "is_sstb": false,
+      "has_employees": true,
+      "employee_count": 3
+    },
+    {
+      "name": "123 Main St Rental",
+      "type": "rental",
+      "gross_rent": 36000,
+      "expenses": 12000,
+      "net_income": 24000,
+      "property_value": 450000,
+      "avg_rental_days": 365,
+      "active_participation": true,
+      "material_participation_hours": 200
+    }
+  ],
+
+  "investment_income": {
+    "capital_gains_short": 0,
+    "capital_gains_long": 5000,
+    "capital_loss_carryforward": 0,
+    "interest_income": 1200,
+    "dividend_income_qualified": 3000,
+    "dividend_income_ordinary": 500
+  },
+
+  "other_income": {
+    "social_security": 0,
+    "pension": 0,
+    "other": 0
+  },
+
+  "deductions": {
+    "salt_paid": 9200,
+    "mortgage_interest": 14200,
+    "charitable_cash": 3500,
+    "charitable_noncash": 0,
+    "medical_expenses": 0,
+    "student_loan_interest": 0,
+    "educator_expenses": 0
+  },
+
+  "retirement": {
+    "traditional_ira_contributions": 0,
+    "roth_ira_contributions": 6500,
+    "sep_ira_contributions": 0,
+    "solo_401k_contributions": 0,
+    "hsa_contributions": 7300,
+    "has_hdhp": true,
+    "hdhp_coverage": "family",
+    "has_pretax_ira_balances": false
+  },
+
+  "self_employed_health_insurance": 8400,
+
+  "taxes_paid": {
+    "federal_withheld": 38000,
+    "estimated_payments": 12000,
+    "total_tax_on_return": 62000
+  }
+}

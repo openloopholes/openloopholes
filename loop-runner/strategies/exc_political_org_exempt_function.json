@@ -1,0 +1,29 @@
+{
+  "id": "EXC_POLITICAL_ORG_EXEMPT_FUNCTION",
+  "name": "Political Organization Exempt Function Income",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires the organization to be organized primarily for influencing elections and to provide electronic notice to the Secretary (Form 8871).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes contributions, membership dues, and political fundraising proceeds from the gross income of a political organization if used for exempt functions.",
+  "irc_reference": "IRC §527",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

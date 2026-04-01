@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_ESTATE_TAX_REFUND_JURISDICTION",
+  "name": "Estate Tax Refund Suit without Full Payment",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to estates that elected to pay estate tax in installments under Section 6166, provided installments are current and no Tax Court case is pending.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows an estate to bring a refund suit in District Court or the Court of Federal Claims even if the full tax liability has not been paid, provided a Section 6166 election is in effect.",
+  "irc_reference": "IRC §7422(j)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

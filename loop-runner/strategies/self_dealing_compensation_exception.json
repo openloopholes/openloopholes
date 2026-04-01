@@ -1,0 +1,29 @@
+{
+  "id": "SELF_DEALING_COMPENSATION_EXCEPTION",
+  "name": "Reasonable Compensation for Personal Services",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Disqualified persons (except government officials) providing necessary personal services to a foundation at non-excessive rates.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes from 'self-dealing' taxes the payment of compensation to a disqualified person for personal services that are reasonable and necessary to carry out the foundation's exempt purpose.",
+  "irc_reference": "IRC §4941(d)(2)(E)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_ACTIVE_RENTS_ROYALTIES",
+  "name": "Active Business Rents and Royalties Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "CFCs that maintain a substantial active presence and incur significant expenses in the licensing or leasing of property to unrelated persons.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes rents and royalties derived from the active conduct of a trade or business from being treated as foreign personal holding company income.",
+  "irc_reference": "IRC §954(c)(2)(A)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

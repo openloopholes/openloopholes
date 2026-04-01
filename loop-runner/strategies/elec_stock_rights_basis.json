@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_STOCK_RIGHTS_BASIS",
+  "name": "Election to Allocate Basis to Low-Value Stock Rights",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available when the fair market value of distributed stock rights is less than 15 percent of the fair market value of the old stock.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect to allocate basis to stock rights even if their value is less than 15% of the old stock's value, rather than accepting a zero basis. This increases the basis of the rights, reducing gain upon their sale.",
+  "irc_reference": "IRC §307(b)(2)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

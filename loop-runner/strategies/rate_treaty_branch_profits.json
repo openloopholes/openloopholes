@@ -1,0 +1,29 @@
+{
+  "id": "RATE_TREATY_BRANCH_PROFITS",
+  "name": "Treaty-Based Branch Profits Tax Reduction",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The foreign corporation must be a 'qualified resident' of a country with which the U.S. has an income tax treaty.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Reduces the 30% branch profits tax rate to the lower treaty rate applicable to dividends paid by a domestic subsidiary to its foreign parent.",
+  "irc_reference": "IRC §884(e)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

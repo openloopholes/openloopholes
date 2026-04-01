@@ -1,0 +1,29 @@
+{
+  "id": "EXEMPT_BOND_REQUIREMENT",
+  "name": "Small Taxpayer Bond Requirement Waiver",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to taxpayers who reasonably expect to be liable for not more than $50,000 in taxes on distilled spirits, wine, and beer for the calendar year and who were liable for not more than $50,000 in the preceding year.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Eliminates the requirement to furnish a bond for operations or withdrawals of distilled spirits, wines, or beer for nonindustrial use for taxpayers who meet specific low-liability thresholds.",
+  "irc_reference": "IRC §5551(d)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

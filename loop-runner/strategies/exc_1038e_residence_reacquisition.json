@@ -1,0 +1,29 @@
+{
+  "id": "EXC_1038E_RESIDENCE_REACQUISITION",
+  "name": "Principal Residence Reacquisition Rollover",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to reacquisitions of property where gain was excluded under Section 121, provided the property is resold within one year of reacquisition.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "If a principal residence is reacquired and resold within one year, the resale is treated as part of the original sale for purposes of the Section 121 exclusion.",
+  "irc_reference": "IRC §1038(e)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

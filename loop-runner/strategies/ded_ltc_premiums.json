@@ -1,0 +1,29 @@
+{
+  "id": "DED_LTC_PREMIUMS",
+  "name": "Deduction for Long-Term Care Premiums",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Premiums are deductible subject to age-based limits and the 7.5% AGI floor for itemized medical deductions.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Premiums paid for a qualified long-term care insurance contract are treated as deductible medical expenses under section 213(d).",
+  "irc_reference": "IRC §7702B",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

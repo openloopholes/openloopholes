@@ -1,0 +1,29 @@
+{
+  "id": "DED_EQUITABLE_RECOUPMENT",
+  "name": "Doctrine of Equitable Recoupment",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires a single transaction or event to be subjected to two taxes on inconsistent legal theories where one is barred by the statute of limitations.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The Tax Court can apply equitable recoupment to allow a taxpayer to offset a tax deficiency in one year with a tax overpayment from a different year that is otherwise barred by the statute of limitations, provided they arise from the same transaction.",
+  "irc_reference": "IRC §6214(b)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business|investor|estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_BLACK_LUNG_TRUST_COMPENSATION",
+  "name": "Reasonable Compensation for Trust Services",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Services must be reasonable and necessary to carry out the exempt purpose of the 501(c)(21) trust and compensation must not be excessive.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Payment of reasonable and necessary compensation to a disqualified person for personal services rendered to a Black Lung Benefit Trust is not treated as prohibited self-dealing.",
+  "irc_reference": "IRC §4951(d)(2)(C)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

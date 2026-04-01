@@ -1,0 +1,29 @@
+{
+  "id": "DEF_CORP_TAX_EXPECTED_CARRYBACK",
+  "name": "Extension of Time for Payment of Taxes by Corporations Expecting Carrybacks",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be a corporation that files a statement (Form 1138) predicting a net operating loss carryback from the current taxable year.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Corporations expecting a net operating loss in the current year can extend the time for payment of taxes for the immediately preceding taxable year.",
+  "irc_reference": "IRC §6164",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

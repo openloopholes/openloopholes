@@ -1,0 +1,29 @@
+{
+  "id": "EXC_ACTIVE_SOFTWARE_ROYALTIES",
+  "name": "Active Business Computer Software Royalties Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Corporation must derive at least 50% of ordinary gross income from software royalties and R&D/business deductions must exceed 25% of ordinary gross income.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes software royalties from personal holding company (PHC) income if the corporation is actively engaged in developing, manufacturing, or producing software.",
+  "irc_reference": "IRC §543(d)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

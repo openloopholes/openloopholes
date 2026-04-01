@@ -1,0 +1,29 @@
+{
+  "id": "SEPARATE_TRUST_TREATMENT",
+  "name": "Separate Trust Election for GST Planning",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to trusts with multiple transferors or distinct beneficiary shares to optimize the allocation of GST exemptions.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Treat portions of a single trust as separate trusts if they are attributable to different transferors or represent substantially separate shares for different beneficiaries.",
+  "irc_reference": "IRC §2654(b)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

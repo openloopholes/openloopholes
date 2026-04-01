@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_VARIABLE_CONTRACT_ASSET_APPRECIATION",
+  "name": "Variable Contract Basis Adjustment",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to life insurance companies issuing variable contracts (annuities or life insurance) with segregated asset accounts.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Provides for the automatic increase in basis of assets held in segregated accounts for variable contracts to the extent appreciation is reflected in reserves, preventing double taxation of investment growth.",
+  "irc_reference": "IRC §817",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

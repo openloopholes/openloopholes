@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_RESERVE_METHOD_CHANGE",
+  "name": "Adjustment for Change in Computing Reserves",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Life insurance companies that change their reserve valuation basis (e.g., changing to a more favorable NAIC-approved method).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows taxpayers to treat changes in the basis of determining reserves as a change in accounting method, spreading adjustments over a period under section 481.",
+  "irc_reference": "IRC §807(f)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

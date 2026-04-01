@@ -1,0 +1,29 @@
+{
+  "id": "CRED_WINE_FLAVOR_CONTENT",
+  "name": "Credit for Wine and Flavors Content",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Distilled spirits producers or importers whose products contain wine or eligible flavors (up to 2.5% of finished product for flavors).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a credit against distilled spirits excise tax for the wine and flavors content of a distilled spirits product, effectively reducing the tax rate on those components.",
+  "irc_reference": "IRC §5010",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

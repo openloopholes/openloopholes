@@ -1,0 +1,29 @@
+{
+  "id": "DEF_PENALTY_PROCEDURAL_DEFENSE",
+  "name": "Procedural Penalty Assessment Defense",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applicable to most non-automatic penalties where the IRS agent did not secure a signed approval from their immediate supervisor.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can challenge and potentially invalidate tax penalties if the IRS fails to obtain written supervisory approval before the initial determination of the assessment.",
+  "irc_reference": "IRC §6751",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business|investor|estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

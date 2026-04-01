@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_AMELIORATION_HIGH_ACID_FRUIT",
+  "name": "High-Acid Fruit Wine Amelioration Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to winemakers producing natural fruit or berry wines (other than grape) where the fruit has a natural fixed acid of 20 parts per thousand or more.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Winemakers can increase the volume of wine produced from high-acid fruits (20+ parts per thousand acid) by adding up to 60% ameliorating material (sugar/water) instead of the standard 35%.",
+  "irc_reference": "IRC §5384",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

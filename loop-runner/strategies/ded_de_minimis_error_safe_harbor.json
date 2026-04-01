@@ -1,0 +1,29 @@
+{
+  "id": "DED_DE_MINIMIS_ERROR_SAFE_HARBOR",
+  "name": "De Minimis Error Safe Harbor for Information Returns",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Automatic protection for small dollar errors on information returns unless the recipient elects to have the safe harbor not apply.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Errors on information returns (like Form 1099) do not require correction and are not penalized if the error is $100 or less ($25 for tax withheld).",
+  "irc_reference": "IRC §6721(c)(3)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business|employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

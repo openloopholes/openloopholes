@@ -1,0 +1,29 @@
+{
+  "id": "EXC_UNICAP_SMALL_BUSINESS",
+  "name": "Small Business Exemption from UNICAP",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to taxpayers (other than tax shelters) with average annual gross receipts for the 3-taxable-year period ending with the preceding taxable year that do not exceed $25,000,000 (indexed for inflation).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Exempts certain small businesses from the complex uniform capitalization (UNICAP) rules, allowing them to deduct costs that would otherwise be capitalized into inventory.",
+  "irc_reference": "IRC §263A(i)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

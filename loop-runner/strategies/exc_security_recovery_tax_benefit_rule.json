@@ -1,0 +1,29 @@
+{
+  "id": "EXC_SECURITY_RECOVERY_TAX_BENEFIT_RULE",
+  "name": "Expropriated Security Recovery Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Domestic corporations recovering value in securities previously declared worthless due to foreign government expropriation where the original loss provided no tax reduction.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Reduces the amount of income recognized upon the recovery of value in an expropriated security by any portion of the original loss that did not result in a tax benefit.",
+  "irc_reference": "IRC §80(b)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ELE_CAP_GAIN_AS_INVESTMENT_INCOME",
+  "name": "Election to Treat Capital Gains as Investment Income",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires giving up the preferential tax rate on the amount of capital gains/dividends elected to be treated as ordinary investment income.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect to include net capital gains or qualified dividends in 'investment income' to increase their investment interest deduction limit.",
+  "irc_reference": "IRC §163(d)(4)(B)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXM_COMM_TAX_INSTALLATION",
+  "name": "Communication Equipment Installation Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Automatic, provided the installation charges are properly attributed and likely separately stated from the service charges.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes amounts paid for the installation of instruments, wires, poles, switchboards, or other equipment from the 3% excise tax.",
+  "irc_reference": "IRC §4253(g)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

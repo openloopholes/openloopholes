@@ -1,0 +1,29 @@
+{
+  "id": "EXC_DIVIDEND_TREATMENT_REPURCHASE",
+  "name": "Dividend Treatment Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The repurchase must be characterized as a dividend under IRC rules.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes repurchases from the excise tax to the extent the transaction is already treated as a dividend for income tax purposes.",
+  "irc_reference": "IRC §4501(e)(6)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

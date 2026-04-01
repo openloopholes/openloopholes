@@ -1,0 +1,32 @@
+{
+  "id": "SE_SALARY_OPT",
+  "name": "S-Corp Salary Optimization",
+  "category": "se_tax",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Existing S-Corp; salary ≥$40K for substantial services",
+    "requires_entity_type": "s_corp",
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "salary": {
+      "type": "int",
+      "description": "optimized salary amount"
+    }
+  },
+  "entity_specific": true,
+  "entity_types": [
+    "s_corp"
+  ],
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "depends",
+    "retroactive_note": "Can be adjusted on amended W-2/K-1 if return not yet filed",
+    "forward_status": "available"
+  },
+  "description": "Optimize the split between officer compensation (W-2 salary) and pass-through distributions to minimize combined income and SE tax.",
+  "irc_reference": "IRC §1366",
+  "deadline": "Year-end payroll adjustment"
+}

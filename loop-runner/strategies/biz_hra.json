@@ -1,0 +1,35 @@
+{
+  "id": "BIZ_HRA",
+  "name": "Health Reimbursement Arrangement",
+  "category": "business",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "QSEHRA or ICHRA; S-Corp >2% shareholders use SE_HEALTH_INS instead",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "amount": {
+      "type": "int",
+      "description": "medical expense reimbursement"
+    }
+  },
+  "entity_specific": true,
+  "entity_types": [
+    "s_corp",
+    "schedule_c"
+  ],
+  "conflicts": [
+    "SE_HEALTH_INS"
+  ],
+  "actionability": {
+    "retroactive_status": "depends",
+    "retroactive_note": "If plan was in place during 2025",
+    "forward_status": "available"
+  },
+  "description": "Business pays medical expenses via QSEHRA/ICHRA. Tax-free to employees.",
+  "irc_reference": "IRC §9831(d)",
+  "deadline": "Plan during tax year"
+}

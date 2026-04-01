@@ -1,0 +1,33 @@
+{
+  "id": "RET_SIMPLE_IRA",
+  "name": "SIMPLE IRA",
+  "category": "retirement",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Employer ≤100 employees, no other qualified plan",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "contribution": {
+      "type": "int",
+      "description": "employee deferral amount"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [
+    "RET_401K_MAX",
+    "RET_SOLO_401K"
+  ],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Employee deferrals by Dec 31, 2025",
+    "forward_status": "available"
+  },
+  "description": "Up to $16,500 deferral + employer match. For small businesses with ≤100 employees.",
+  "irc_reference": "IRC §408(p)",
+  "deadline": "Dec 31 (employee)"
+}

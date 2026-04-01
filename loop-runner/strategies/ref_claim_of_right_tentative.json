@@ -1,0 +1,29 @@
+{
+  "id": "REF_CLAIM_OF_RIGHT_TENTATIVE",
+  "name": "Tentative Refund under Claim of Right",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to taxpayers who have an overpayment of tax for the taxable year under the section 1341(b)(1) claim of right rules.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides an expedited 90-day refund for taxes paid on income reported in a prior year that the taxpayer was later forced to relinquish.",
+  "irc_reference": "IRC §6411(d)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

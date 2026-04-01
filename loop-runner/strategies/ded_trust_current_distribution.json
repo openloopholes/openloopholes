@@ -1,0 +1,29 @@
+{
+  "id": "DED_TRUST_CURRENT_DISTRIBUTION",
+  "name": "Deduction for Simple Trust Distributions",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to trusts whose governing instruments require all income to be distributed currently and do not provide for charitable distributions.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a trust that is required to distribute all income currently to deduct the amount of that income from its taxable income, effectively shifting the tax burden to beneficiaries.",
+  "irc_reference": "IRC §651",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,34 @@
+{
+  "id": "CG_CRT",
+  "name": "Charitable Remainder Trust",
+  "category": "capital_gain",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Appreciated asset; irrevocable; must be established BEFORE sale",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "amount": {
+      "type": "int",
+      "description": "assets transferred to CRT"
+    },
+    "payout_rate": {
+      "type": "float",
+      "description": "annual payout rate (5-50%)"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Trust had to be established BEFORE the sale closed",
+    "forward_status": "available"
+  },
+  "description": "Transfer appreciated assets to an irrevocable CRT before sale. Avoids immediate capital gains, provides income stream, and generates a charitable deduction.",
+  "irc_reference": "IRC §664",
+  "deadline": "Must be established before asset sale"
+}

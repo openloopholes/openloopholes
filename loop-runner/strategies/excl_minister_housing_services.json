@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_MINISTER_HOUSING_SERVICES",
+  "name": "Ministerial Service Withholding Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Duly ordained, commissioned, or licensed ministers performing duties in the exercise of their ministry.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Services performed by ordained ministers or members of religious orders are excluded from the definition of wages for income tax withholding.",
+  "irc_reference": "IRC §3401(a)(9)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_FIRPTA_PUBLIC_STOCK",
+  "name": "Publicly Traded Stock Exception from FIRPTA",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Nonresident alien individuals or foreign corporations holding 5% or less of a class of stock regularly traded on an established securities market.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes the sale of stock in a U.S. Real Property Holding Corporation from U.S. tax for foreign investors if the stock is regularly traded on an established securities market and the investor holds 5% or less.",
+  "irc_reference": "IRC §897(c)(3)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

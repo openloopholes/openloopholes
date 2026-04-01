@@ -1,0 +1,29 @@
+{
+  "id": "ELE_MARK_TO_MARKET_TRADER",
+  "name": "Section 475(f) Mark-to-Market Election for Traders",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must be engaged in a trade or business as a trader in securities or commodities and make a timely election.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows active traders in securities or commodities to treat gains and losses as ordinary rather than capital, bypassing the $3,000 capital loss limitation and wash sale rules.",
+  "irc_reference": "IRC §475(f)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

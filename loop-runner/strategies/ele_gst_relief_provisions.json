@@ -1,0 +1,29 @@
+{
+  "id": "ELE_GST_RELIEF_PROVISIONS",
+  "name": "Late GST Allocation Relief",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires demonstrating intent to have the lowest possible inclusion ratio and requesting relief under Treasury regulations.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows taxpayers to request an extension of time to allocate GST exemption or to use 'substantial compliance' to treat a flawed allocation as valid if the intent to have a zero inclusion ratio is clear.",
+  "irc_reference": "IRC §2642(g)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_NONRESIDENT_BANK_DEPOSITS",
+  "name": "U.S. Bank Deposit Estate Tax Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Nonresident non-citizens holding deposits with U.S. banking institutions or foreign branches of U.S. banks, provided interest is not effectively connected to a U.S. trade or business.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Certain bank deposits and debt obligations generating portfolio interest are excluded from the U.S. gross estate for nonresident non-citizens.",
+  "irc_reference": "IRC §2105(b)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

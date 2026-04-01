@@ -1,0 +1,29 @@
+{
+  "id": "REFUND_NONTAXABLE_FUEL_USE",
+  "name": "Refund for Nontaxable Fuel Uses",
+  "category": "excise",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to purchasers who paid tax under section 4041 but used the fuel for a nontaxable purpose or resold it.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A payment/refund of excise taxes paid on fuel when that fuel is used for a purpose other than the taxable use for which it was sold.",
+  "irc_reference": "IRC §6427(a)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

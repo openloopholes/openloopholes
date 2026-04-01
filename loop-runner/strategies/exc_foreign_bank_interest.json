@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FOREIGN_BANK_INTEREST",
+  "name": "Foreign Branch Deposit Interest Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The interest must be paid on deposits with a foreign branch engaged in the commercial banking business.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Interest on deposits with a foreign branch of a U.S. corporation or partnership is treated as non-U.S. source income, potentially avoiding U.S. withholding or income tax.",
+  "irc_reference": "IRC §861",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

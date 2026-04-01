@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_FOREIGN_EARNED_INCOME_WITHHOLDING",
+  "name": "Foreign Earned Income Withholding Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "U.S. citizens working abroad who meet the physical presence or bona fide residence test for the Foreign Earned Income Exclusion.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Remuneration paid to U.S. citizens is excluded from 'wages' for withholding purposes if it is reasonable to believe the income will be excluded from gross income under Section 911.",
+  "irc_reference": "IRC §3401(a)(8)(A)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DEF_BULK_WINE_IMPORT",
+  "name": "Tax-Free Transfer of Bulk Natural Wine",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to importers of natural wine (as defined in § 5381) who transfer the product in bulk containers directly to the premises of a bonded wine cellar.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows natural wine imported in bulk to be withdrawn from customs and transferred to a bonded wine cellar without immediate payment of internal revenue tax.",
+  "irc_reference": "IRC §5364",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

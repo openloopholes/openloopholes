@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_QUALIFIED_SCHOLARSHIP_BONDS",
+  "name": "Qualified Scholarship Funding Bond Interest Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The bond must be issued by a non-profit corporation established exclusively to acquire student loan notes and organized at the request of a State or political subdivision.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Interest on qualified scholarship funding bonds is treated as interest on a State or local bond, making it eligible for exclusion from gross income.",
+  "irc_reference": "IRC §150(d)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

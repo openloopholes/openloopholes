@@ -1,0 +1,29 @@
+{
+  "id": "DED_CIRCULATION_EXPENDITURES",
+  "name": "Immediate Expensing of Circulation Expenditures",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to publishers of newspapers, magazines, or other periodicals for costs not related to purchasing land or an existing business.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows publishers to deduct all expenditures to establish, maintain, or increase the circulation of a periodical in the year incurred, rather than capitalizing them.",
+  "irc_reference": "IRC §173",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

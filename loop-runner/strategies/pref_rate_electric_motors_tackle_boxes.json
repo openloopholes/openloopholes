@@ -1,0 +1,29 @@
+{
+  "id": "PREF_RATE_ELECTRIC_MOTORS_TACKLE_BOXES",
+  "name": "Reduced Excise Tax Rate for Electric Motors and Tackle Boxes",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to manufacturers, producers, or importers of electric outboard motors or fishing tackle boxes.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Reduces the standard 10% sport fishing equipment excise tax to 3% for electric outboard motors and fishing tackle boxes.",
+  "irc_reference": "IRC §4161(a)(2)-(3)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

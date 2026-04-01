@@ -1,0 +1,29 @@
+{
+  "id": "EXC_PFIC_CHANGE_BUSINESS",
+  "name": "PFIC Change of Business Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to shareholders of foreign corporations in transition between active business operations, preventing accidental PFIC classification during the liquidation/reinvestment phase.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A corporation is not treated as a PFIC for a taxable year if its passive income is attributable to the disposition of active trades/businesses and it will not be a PFIC for the next two years.",
+  "irc_reference": "IRC §1298(b)(3)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_COMMERCIAL_FINANCING_PROTECTION",
+  "name": "Commercial Transactions Financing Priority",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires a written agreement entered into before the tax lien filing for commercial financing, real property construction, or obligatory disbursements.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Lenders and businesses can maintain priority over a federal tax lien for disbursements made within 45 days after a tax lien filing, provided a written agreement was in place before the filing.",
+  "irc_reference": "IRC §6323(c)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

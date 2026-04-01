@@ -1,0 +1,30 @@
+{
+  "id": "TIME_OZ",
+  "name": "Opportunity Zone Investment",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Capital gains within 180 days",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "amount": {
+      "type": "int",
+      "description": "capital gains invested in QOZ fund"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "180 days from gain event — check business_sales[].date_sold + 180 days vs current_date",
+    "forward_status": "available"
+  },
+  "description": "Invest capital gains into a Qualified Opportunity Zone fund within 180 days to defer recognition. After 10+ years, appreciation is tax-free.",
+  "irc_reference": "IRC §1400Z-2",
+  "deadline": "180 days from gain event"
+}

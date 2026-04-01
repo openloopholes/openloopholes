@@ -1,0 +1,29 @@
+{
+  "id": "ELE_ACCRUAL_FOREIGN_TAXES",
+  "name": "Election to Accrue Foreign Taxes",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to any taxpayer paying foreign taxes; once elected, it must be used for all subsequent years.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers may elect to claim foreign tax credits in the year the tax accrues, regardless of their normal accounting method (e.g., cash basis).",
+  "irc_reference": "IRC §905(a)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ELE_STAPLED_FOREIGN_CORP_DOMESTIC_TREATMENT",
+  "name": "Stapled Entity Domestic Treatment Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to groups of 2 or more entities where more than 50 percent in value of the beneficial ownership consists of stapled interests (interests that must be transferred together).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows certain stapled foreign entities to be treated as domestic corporations, which can be used to consolidate tax attributes or avoid certain foreign-controlled corporation regimes.",
+  "irc_reference": "IRC §269B",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

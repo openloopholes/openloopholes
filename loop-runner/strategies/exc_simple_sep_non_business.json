@@ -1,0 +1,29 @@
+{
+  "id": "EXC_SIMPLE_SEP_NON_BUSINESS",
+  "name": "Non-Business SIMPLE and SEP Excise Tax Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to contributions made to these specific plan types, provided they are not made on behalf of the employer or the employer's family members.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Contributions to SIMPLE IRAs, SIMPLE 401(k)s, or SEPs that are nondeductible solely because they are not made in connection with a trade or business are exempt from the 10% excise tax.",
+  "irc_reference": "IRC §4972",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

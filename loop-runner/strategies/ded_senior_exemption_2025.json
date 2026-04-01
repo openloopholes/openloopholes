@@ -1,0 +1,29 @@
+{
+  "id": "DED_SENIOR_EXEMPTION_2025",
+  "name": "Senior Taxpayer Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available for tax years beginning after 2017 and before 2029. Requires the taxpayer to be 65+ and have a modified adjusted gross income below $75,000 ($150,000 for joint returns) to receive the full amount; subject to a 6% phase-out above those thresholds.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "A specific deduction of $6,000 is allowed for taxpayers (and their spouses on joint returns) who have attained age 65 before the close of the taxable year.",
+  "irc_reference": "IRC §151(d)(5)(C)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

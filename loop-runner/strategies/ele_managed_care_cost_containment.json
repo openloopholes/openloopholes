@@ -1,0 +1,29 @@
+{
+  "id": "ELE_MANAGED_CARE_COST_CONTAINMENT",
+  "name": "Managed Care and Cost Containment Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to last signatory operators maintaining individual employer plans for coal industry retirees.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Operators can reduce their liability for retiree health benefits by electing to implement managed care and cost containment rules (such as drug formularies and provider discounts) without violating their statutory obligation to provide 'substantially the same' coverage.",
+  "irc_reference": "IRC §9711",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

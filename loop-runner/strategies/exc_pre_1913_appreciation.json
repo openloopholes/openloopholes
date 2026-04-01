@@ -1,0 +1,29 @@
+{
+  "id": "EXC_PRE_1913_APPRECIATION",
+  "name": "Pre-1913 Property Appreciation Step-Up",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Taxpayers selling property (including corporate stock) held since before March 1, 1913, where the 1913 value exceeds the original cost.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "For property acquired before March 1, 1913, the basis for determining gain is the higher of the adjusted cost basis or the fair market value as of March 1, 1913.",
+  "irc_reference": "IRC §1053",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

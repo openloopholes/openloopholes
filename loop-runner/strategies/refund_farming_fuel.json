@@ -1,0 +1,29 @@
+{
+  "id": "REFUND_FARMING_FUEL",
+  "name": "Fuel Used for Farming Purposes",
+  "category": "excise",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to the purchaser of fuel used on a farm by the owner, tenant, or operator for farming activities.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A refund of excise taxes paid on fuels used on a farm for farming purposes.",
+  "irc_reference": "IRC §6427(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

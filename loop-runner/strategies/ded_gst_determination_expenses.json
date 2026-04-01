@@ -1,0 +1,29 @@
+{
+  "id": "DED_GST_DETERMINATION_EXPENSES",
+  "name": "Taxable Distribution Expense Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to transferees who receive a taxable distribution from a trust and incur professional or legal fees related to the GST tax compliance.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The taxable amount of a generation-skipping distribution is reduced by any expenses incurred by the transferee in determining, collecting, or seeking a refund of the GST tax.",
+  "irc_reference": "IRC §2621(a)(2)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

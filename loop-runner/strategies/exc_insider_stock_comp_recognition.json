@@ -1,0 +1,29 @@
+{
+  "id": "EXC_INSIDER_STOCK_COMP_RECOGNITION",
+  "name": "Exception to Insider Stock Compensation Tax",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Disqualified individuals (insiders) of expatriating corporations who exercise options or sell stock compensation before the expatriation date.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Prevents the imposition of the section 4985 excise tax on stock options or compensation if the individual recognizes income under section 83 or recognizes gain/loss in full on or before the expatriation date.",
+  "irc_reference": "IRC §4985(d)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

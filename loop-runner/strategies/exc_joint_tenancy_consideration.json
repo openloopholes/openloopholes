@@ -1,0 +1,29 @@
+{
+  "id": "EXC_JOINT_TENANCY_CONSIDERATION",
+  "name": "Joint Interest Consideration Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to joint interests held with non-spouses where the survivor provided 'adequate and full consideration' for their share.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exclude the portion of a joint tenancy's value from the gross estate that can be proven to have originated from the surviving tenant's own funds rather than the decedent's.",
+  "irc_reference": "IRC §2040(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_NONRESIDENT_LIFE_INSURANCE",
+  "name": "Nonresident Life Insurance Proceeds Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to any nonresident not a citizen of the United States who holds a life insurance policy.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Proceeds of life insurance on the life of a nonresident non-citizen are not deemed property within the United States, excluding them from the U.S. estate tax.",
+  "irc_reference": "IRC §2105(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

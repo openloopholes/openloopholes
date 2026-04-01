@@ -1,0 +1,29 @@
+{
+  "id": "ELE_SEMI_GENERIC_DESIGNATION",
+  "name": "Use of Semi-Generic Wine Designations",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available for specific names like Champagne or Chianti if the user held a COLA for that brand name before March 10, 2006, and includes the actual appellation of origin.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows the use of high-value geographic designations (e.g., Champagne, Port, Sherry) for wines not from those regions, provided specific labeling and Certificate of Label Approval (COLA) requirements are met.",
+  "irc_reference": "IRC §5388",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

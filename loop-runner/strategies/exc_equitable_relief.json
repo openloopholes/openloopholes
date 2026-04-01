@@ -1,0 +1,29 @@
+{
+  "id": "EXC_EQUITABLE_RELIEF",
+  "name": "Equitable Relief from Joint Liability",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available when it is inequitable to hold the individual liable based on all facts and circumstances, even if the tax was correctly reported but not paid.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a 'catch-all' relief for taxpayers who do not qualify for Innocent Spouse or Separation of Liability relief but where it would be unfair to hold them liable for unpaid tax or a deficiency.",
+  "irc_reference": "IRC §6015(f)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

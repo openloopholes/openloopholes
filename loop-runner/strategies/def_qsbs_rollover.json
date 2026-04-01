@@ -1,0 +1,29 @@
+{
+  "id": "DEF_QSBS_ROLLOVER",
+  "name": "Qualified Small Business Stock Rollover",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Non-corporate taxpayers who sell section 1202 stock held for >6 months and reinvest the proceeds into new QSBS within a 60-day window.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows taxpayers to defer recognition of gain on the sale of Qualified Small Business Stock (QSBS) held for more than 6 months by purchasing new QSBS within 60 days of the sale.",
+  "irc_reference": "IRC §1045",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

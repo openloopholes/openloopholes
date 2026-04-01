@@ -1,0 +1,29 @@
+{
+  "id": "ELE_NONCUSTODIAL_PARENT_CLAIM",
+  "name": "Release of Claim to Exemption by Custodial Parent",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Parents must be divorced, separated, or living apart for the last 6 months of the year and provide >50% of the child's support.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a noncustodial parent to claim a child as a dependent if the custodial parent signs a written declaration (Form 8332) releasing the claim.",
+  "irc_reference": "IRC §152(e)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

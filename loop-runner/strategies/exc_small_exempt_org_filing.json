@@ -1,0 +1,29 @@
+{
+  "id": "EXC_SMALL_EXEMPT_ORG_FILING",
+  "name": "Small Exempt Organization Filing Threshold",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Non-private foundation exempt organizations with annual gross receipts under $5,000.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Organizations (other than private foundations) with gross receipts normally not more than $5,000 are exempt from filing annual returns.",
+  "irc_reference": "IRC §6033(a)(3)(A)(ii)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_ORGANIZATIONAL_EXPENSES",
+  "name": "Partnership Organizational Expense Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "New partnerships with organizational costs. The $5,000 immediate deduction is phased out if total organizational expenses exceed $50,000.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A partnership can elect to deduct up to $5,000 of organizational expenses in the year it begins business, with the remainder amortized over 180 months.",
+  "irc_reference": "IRC §709(b)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

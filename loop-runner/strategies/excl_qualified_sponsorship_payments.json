@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_QUALIFIED_SPONSORSHIP_PAYMENTS",
+  "name": "Qualified Sponsorship Payment Safe Harbor",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Payments must not be contingent on attendance/ratings and must not include qualitative advertising or inducements to buy.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes corporate sponsorship payments from UBIT provided the sponsor receives no 'substantial return benefit' other than use or acknowledgement of their name/logo.",
+  "irc_reference": "IRC §513(i)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

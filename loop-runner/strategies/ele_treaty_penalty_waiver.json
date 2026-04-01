@@ -1,0 +1,29 @@
+{
+  "id": "ELE_TREATY_PENALTY_WAIVER",
+  "name": "Treaty-Based Position Penalty Waiver",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to taxpayers who failed to file Form 8833 but can show their failure was not due to willful neglect.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can request a waiver of the $1,000 (or $10,000 for C-corps) penalty for failing to disclose treaty-based return positions by demonstrating reasonable cause and good faith.",
+  "irc_reference": "IRC §6712",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

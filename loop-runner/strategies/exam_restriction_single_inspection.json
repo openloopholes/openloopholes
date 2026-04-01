@@ -1,0 +1,29 @@
+{
+  "id": "EXAM_RESTRICTION_SINGLE_INSPECTION",
+  "name": "Restriction on Second Inspection of Books",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to any taxpayer currently under examination or who has already completed an inspection of books for a specific tax year.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The IRS is generally restricted to only one inspection of a taxpayer's books of account for each taxable year. Taxpayers can use this to prevent repetitive or harassing audits unless the IRS provides formal written notice that an additional inspection is necessary.",
+  "irc_reference": "IRC §7605(b)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

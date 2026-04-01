@@ -1,0 +1,32 @@
+{
+  "id": "CRD_LLC",
+  "name": "Lifetime Learning Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "MAGI <$90K/$180K; any post-secondary",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "expenses": {
+      "type": "int",
+      "description": "qualifying education expenses"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [
+    "CRD_AOTC"
+  ],
+  "actionability": {
+    "retroactive_status": "depends",
+    "retroactive_note": "Tuition paid during 2025",
+    "forward_status": "available"
+  },
+  "description": "20% of up to $10,000 education expenses ($2,000 max). Any post-secondary.",
+  "irc_reference": "IRC §25A(c); Form 8863",
+  "deadline": "Tuition during tax year"
+}

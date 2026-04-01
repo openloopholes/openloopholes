@@ -1,0 +1,29 @@
+{
+  "id": "DEF_SPECIAL_USE_VALUATION_TRANSFER",
+  "name": "Nonrecognition of Gain on Special Use Valuation Property",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The estate must have made a valid Section 2032A election. Gain is only recognized to the extent the FMV at transfer exceeds the FMV at death (ignoring the special use reduction).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Limits the recognition of gain by an estate when transferring farm or real property valued under Section 2032A to a qualified heir.",
+  "irc_reference": "IRC §1040",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

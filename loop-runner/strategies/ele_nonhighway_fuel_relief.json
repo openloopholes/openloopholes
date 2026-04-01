@@ -1,0 +1,29 @@
+{
+  "id": "ELE_NONHIGHWAY_FUEL_RELIEF",
+  "name": "Nonhighway Use Fuel Tax Relief",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to purchasers using fuel for off-road business equipment, stationary engines, or qualified local transit.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides relief from excise taxes for gasoline used for nonhighway purposes, local transit systems, or other exempt purposes via cross-reference to section 6421.",
+  "irc_reference": "IRC §4084(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

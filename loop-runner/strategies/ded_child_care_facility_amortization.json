@@ -1,0 +1,29 @@
+{
+  "id": "DED_CHILD_CARE_FACILITY_AMORTIZATION",
+  "name": "60-Month Amortization of Child Care Facilities",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The facility must be tangible property located in the U.S. and operated primarily for children of employees.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Employers can amortize the adjusted basis of a child care facility provided through a welfare benefit fund over a 60-month period instead of standard depreciation.",
+  "irc_reference": "IRC §419(c)(3)(C)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

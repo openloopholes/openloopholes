@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_REAL_PROPERTY_ECI",
+  "name": "Real Property Income ECI Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Nonresident alien individuals deriving income from U.S. real property held for the production of income.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Nonresident aliens can elect to treat U.S. real property income as 'effectively connected income' (ECI), allowing them to use deductions (like interest and depreciation) to reduce the tax base instead of paying a flat 30% gross tax.",
+  "irc_reference": "IRC §871(d)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

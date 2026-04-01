@@ -1,0 +1,29 @@
+{
+  "id": "EXEMPT_OPERATING_FOUNDATION_STATUS",
+  "name": "Exempt Operating Foundation Status",
+  "category": "excise",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be an operating foundation, publicly supported for 10+ years, with a governing body where 75% are not disqualified individuals and no officers are disqualified individuals.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Private foundations that qualify as 'exempt operating foundations' are entirely exempt from the 1.39% excise tax on net investment income.",
+  "irc_reference": "IRC §4940(d)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

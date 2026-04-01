@@ -1,0 +1,29 @@
+{
+  "id": "EXEMPT_PRINCIPAL_RESIDENCE",
+  "name": "Principal Residence Levy Protection",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to the taxpayer's primary home; requires legal defense or verification of residence status during collection proceedings.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Prohibits the IRS from levying a principal residence for small tax deficiencies (under $5,000) and requires judicial approval for larger deficiencies.",
+  "irc_reference": "IRC §6334(a)(13)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

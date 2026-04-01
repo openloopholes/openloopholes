@@ -1,0 +1,29 @@
+{
+  "id": "EXEMPT_DISTILLED_SPIRITS_DISASTER",
+  "name": "Disaster Relief Exemption for Distilled Spirits Plants",
+  "category": "retirement",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Proprietors of distilled spirits plants operating in areas or circumstances affected by a disaster as determined by the Secretary.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The Secretary may waive regulatory requirements for distilled spirits plants (excluding tax payment) when necessary or desirable due to a disaster.",
+  "irc_reference": "IRC §5562",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

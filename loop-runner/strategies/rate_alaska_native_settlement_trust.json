@@ -1,0 +1,29 @@
+{
+  "id": "RATE_ALASKA_NATIVE_SETTLEMENT_TRUST",
+  "name": "Alaska Native Settlement Trust Low-Rate Election",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Limited to Settlement Trusts established under the Alaska Native Claims Settlement Act.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Electing trusts are taxed at the lowest individual tax rate (currently 10%) on ordinary income and preferential rates on capital gains, rather than the high compressed trust rates.",
+  "irc_reference": "IRC §646",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

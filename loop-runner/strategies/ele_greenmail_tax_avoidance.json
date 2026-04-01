@@ -1,0 +1,29 @@
+{
+  "id": "ELE_GREENMAIL_TAX_AVOIDANCE",
+  "name": "Greenmail Excise Tax Avoidance",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The 50% tax is avoided if the shareholder holds the stock for 2+ years, does not make/threaten a public tender offer, or if the corporation's buyback offer is extended to all shareholders on equal terms.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Avoid a 50% excise tax on stock buyback gains by ensuring the acquisition offer is made on the same terms to all shareholders or by holding stock for at least 2 years.",
+  "irc_reference": "IRC §5881",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

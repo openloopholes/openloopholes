@@ -1,0 +1,29 @@
+{
+  "id": "ELE_RIC_TAXABLE_YEAR_REPORTING",
+  "name": "RIC Election to Use Taxable Year for Capital Gains",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be a RIC with a taxable year ending November 30 or December 31.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows RICs with fiscal years ending in November or December to elect to use their actual taxable year instead of the statutory October 31 cutoff for calculating capital gain net income.",
+  "irc_reference": "IRC §4982(e)(4)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

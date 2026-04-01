@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_ARTWORK_LOAN",
+  "name": "Gift Tax Exclusion for Loans of Art",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The loan must be to a public charity or private operating foundation and the use must be related to the organization's exempt purpose.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The loan of a qualified work of art to a 501(c)(3) organization (other than a private foundation) is not treated as a taxable transfer for gift tax purposes.",
+  "irc_reference": "IRC §2503(g)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

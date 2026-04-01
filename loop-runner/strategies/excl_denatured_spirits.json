@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_DENATURED_SPIRITS",
+  "name": "Tax-Free Withdrawal of Denatured Spirits",
+  "category": "excise",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Spirits must be denatured in accordance with regulations and withdrawn for authorized industrial or non-beverage uses.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Authorizes the withdrawal of distilled spirits that have been denatured from bonded premises without the payment of excise tax.",
+  "irc_reference": "IRC §5003(4)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

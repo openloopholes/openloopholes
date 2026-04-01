@@ -1,0 +1,29 @@
+{
+  "id": "EXC_ROLLOVER_CERTIFICATION_PROTECTION",
+  "name": "Rollover Certification Penalty Protection",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires obtaining a contemporaneous certification from the taxpayer and having no actual knowledge that the certification is false.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Financial institutions and plan administrators are exempt from penalties for incorrect reporting of distributions if they relied on a taxpayer's certification regarding a rollover or exchange.",
+  "irc_reference": "IRC §6724(g)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business|employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

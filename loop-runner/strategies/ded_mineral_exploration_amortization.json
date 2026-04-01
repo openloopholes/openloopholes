@@ -1,0 +1,29 @@
+{
+  "id": "DED_MINERAL_EXPLORATION_AMORTIZATION",
+  "name": "Amortization of Corporate Mineral and Drilling Costs",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to corporations (specifically integrated oil companies for IDCs) incurring costs under sections 263(c), 616(a), or 617(a).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "While 30% of intangible drilling costs and mineral exploration costs are disallowed as immediate deductions for corporations, these amounts can be amortized ratably over a 60-month period.",
+  "irc_reference": "IRC §291",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

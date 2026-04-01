@@ -1,0 +1,29 @@
+{
+  "id": "CRED_COBRA_PREMIUM_ASSISTANCE",
+  "name": "COBRA Premium Assistance Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to entities (employers, multiemployer plans, or insurers) that provided COBRA coverage without charging premiums to eligible individuals as required by ARPA 2021.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A refundable tax credit for employers or insurers equal to the amount of COBRA premiums not paid by assistance-eligible individuals under the American Rescue Plan Act.",
+  "irc_reference": "IRC §6432",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

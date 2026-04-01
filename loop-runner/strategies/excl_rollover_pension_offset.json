@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_ROLLOVER_PENSION_OFFSET",
+  "name": "Exclusion of Rollover Distributions from Unemployment Offsets",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Individuals receiving unemployment compensation who are also receiving retirement distributions that are not includible in gross income due to a rollover.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Prevents the reduction of unemployment benefits when an individual receives a pension or retirement payment that is rolled over into another qualified plan.",
+  "irc_reference": "IRC §3304(a)(15)(B)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

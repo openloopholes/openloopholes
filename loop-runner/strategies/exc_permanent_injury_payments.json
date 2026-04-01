@@ -1,0 +1,29 @@
+{
+  "id": "EXC_PERMANENT_INJURY_PAYMENTS",
+  "name": "Permanent Injury and Disfigurement Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Employees receiving specific injury-based (rather than disability-income-based) payments from an employer-funded health plan.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes from gross income payments received for the permanent loss of use of a limb or function of the body, or permanent disfigurement, provided payments are not based on time away from work.",
+  "irc_reference": "IRC §105",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

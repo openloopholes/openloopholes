@@ -1,0 +1,29 @@
+{
+  "id": "EXC_REASONABLE_CAUSE_REGISTRATION",
+  "name": "Reasonable Cause Penalty Abatement for Fuel Registration",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to persons required to register for fuel tax purposes who failed to do so but have a justifiable reason for non-compliance.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Avoid the $10,000 initial penalty and $1,000 daily recurring penalties for failure to register or reregister under section 4101 by showing reasonable cause.",
+  "irc_reference": "IRC §6719(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

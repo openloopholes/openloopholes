@@ -1,0 +1,29 @@
+{
+  "id": "DED_NOL_CARRYFORWARD_OPTIMIZATION",
+  "name": "NOL Carryforward Preservation after Ownership Change",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to corporations that have undergone an ownership change (more than 50% shift) but continue their business enterprise for at least 2 years.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a corporation to continue using pre-change net operating losses (NOLs) to offset post-change income, subject to a limitation based on the value of the corporation multiplied by the long-term tax-exempt rate.",
+  "irc_reference": "IRC §382",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

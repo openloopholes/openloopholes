@@ -1,0 +1,29 @@
+{
+  "id": "DED_DIVIDENDS_RECEIVED_DOMESTIC",
+  "name": "Dividends Received Deduction (DRD)",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Corporations receiving dividends from domestic corporations. Deduction is 50% for <20% ownership, 65% for 20-80% ownership, and 100% for affiliated group members (80% or more ownership).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows corporations to deduct a percentage of dividends received from domestic taxable corporations to mitigate triple taxation.",
+  "irc_reference": "IRC §243",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

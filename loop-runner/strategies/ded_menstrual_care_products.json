@@ -1,0 +1,29 @@
+{
+  "id": "DED_MENSTRUAL_CARE_PRODUCTS",
+  "name": "Menstrual Care Product Reimbursement",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must use funds from a health flexible spending arrangement, health reimbursement arrangement, or HSA to purchase these products.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Expenses for menstrual care products are treated as medical care, allowing them to be reimbursed tax-free via FSAs, HRAs, or HSAs.",
+  "irc_reference": "IRC §106(f)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

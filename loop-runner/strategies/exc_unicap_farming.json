@@ -1,0 +1,29 @@
+{
+  "id": "EXC_UNICAP_FARMING",
+  "name": "Farming Business UNICAP Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to non-accrual method farmers producing animals or plants with short preproductive cycles.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Exempts certain animals and plants with a preproductive period of 2 years or less from capitalization requirements.",
+  "irc_reference": "IRC §263A(d)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DEF_FUTA_THRESHOLD",
+  "name": "FUTA Payment Deferral Threshold",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to any employer whose accumulated FUTA tax liability for the period does not exceed $100.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Employers are not required to make a quarterly Federal Unemployment Tax (FUTA) deposit if the accumulated tax for the quarter plus unpaid amounts from prior quarters is $100 or less.",
+  "irc_reference": "IRC §6157(c)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

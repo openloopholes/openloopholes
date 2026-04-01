@@ -1,0 +1,29 @@
+{
+  "id": "REF_FLOOR_STOCKS_TIRES_FUEL",
+  "name": "Floor Stocks Refunds for Tires and Fuel",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to manufacturers, producers, or importers of tires or taxable fuel held by a dealer for sale as of October 1, 2028.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a credit or refund for the difference in tax paid on inventory (tires and taxable fuel) held by a dealer when tax rates are scheduled to decrease on October 1, 2028.",
+  "irc_reference": "IRC §6412",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

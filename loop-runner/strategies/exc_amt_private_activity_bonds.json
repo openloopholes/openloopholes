@@ -1,0 +1,29 @@
+{
+  "id": "EXC_AMT_PRIVATE_ACTIVITY_BONDS",
+  "name": "AMT Exclusion for Specific Housing and 501(c)(3) Bonds",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to interest on qualified 501(c)(3) bonds and specific exempt facility bonds for residential rental projects or qualified mortgage bonds.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts interest from qualified 501(c)(3) bonds and certain housing bonds (residential rental projects and mortgage bonds) from being treated as an AMT tax preference item.",
+  "irc_reference": "IRC §57(a)(5)(C)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor|individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ELE_336_E_ASSET_TRANSFER",
+  "name": "Stock Sale Treated as Asset Transfer",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The selling corporation must own stock meeting the 80% requirements of section 1504(a)(2) in the target corporation.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows an election to treat the sale, exchange, or distribution of stock in a controlled subsidiary as a disposition of the subsidiary's underlying assets, avoiding gain on the stock itself.",
+  "irc_reference": "IRC §336(e)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CRED_SMALL_AGRI_BIODIESEL",
+  "name": "Small Agri-Biodiesel Producer Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to producers with less than 60 million gallons of capacity, limited to the first 15 million gallons produced annually through 2026.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A 20 cents per gallon credit for qualified agri-biodiesel production for producers with a capacity not exceeding 60 million gallons.",
+  "irc_reference": "IRC §40A",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_UTILITY_AID_CONSTRUCTION",
+  "name": "Water and Sewerage Utility Capital Contributions",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be a regulated public utility providing water or sewerage services; must expend the amount on tangible property within two taxable years and maintain accurate records.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Regulated water and sewerage disposal utilities can exclude contributions in aid of construction (CIAC) from gross income if the funds are used for tangible property construction.",
+  "irc_reference": "IRC §118(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

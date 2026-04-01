@@ -1,0 +1,29 @@
+{
+  "id": "ELE_REDETERMINATION_OF_INTEREST",
+  "name": "Motion for Redetermination of Interest Overpayment",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must have paid the entire deficiency plus interest and received a finding of overpayment under Section 6512(b).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a taxpayer to move the Tax Court to reopen a case within one year of finality to determine if they overpaid interest on a deficiency.",
+  "irc_reference": "IRC §7481(c)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_PARTNERSHIP_EXCLUSION",
+  "name": "Partnership Subchapter K Election Out",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be for investment purposes only (not active business) or joint production/extraction where income can be determined without computing partnership taxable income.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows certain unincorporated organizations used for investment or joint production (like oil and gas or co-investments) to elect to be excluded from partnership tax rules, allowing members to report income/expenses directly.",
+  "irc_reference": "IRC §761(a)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

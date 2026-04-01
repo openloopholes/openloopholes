@@ -1,0 +1,29 @@
+{
+  "id": "EXC_COMMON_CONTROL_BUILT_IN_GAIN",
+  "name": "Common Control Exception to Built-in Gain Limitations",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "The loss corporation and the gain corporation must have been members of the same controlled group (using a 50% ownership test) for the 5-year period ending on the acquisition date.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Exempts corporations from the rule prohibiting preacquisition losses from offsetting built-in gains if the corporations were under common control for 5 years.",
+  "irc_reference": "IRC §384(b)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

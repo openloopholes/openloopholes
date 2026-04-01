@@ -1,0 +1,29 @@
+{
+  "id": "EXM_AVIATION_KEROSENE_FOREIGN_TRADE",
+  "name": "Zero-Rate Kerosene for Foreign Trade",
+  "category": "excise",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to commercial or non-commercial aircraft engaged in international trade or trade with U.S. possessions.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Reduces the excise tax rate to zero for kerosene removed directly into an aircraft fuel tank if the aircraft is employed in foreign trade or trade between the U.S. and its possessions.",
+  "irc_reference": "IRC §4082(e)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

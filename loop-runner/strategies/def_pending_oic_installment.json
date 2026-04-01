@@ -1,0 +1,29 @@
+{
+  "id": "DEF_PENDING_OIC_INSTALLMENT",
+  "name": "Levy Stay During Pending Offer or Agreement",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires the submission of a formal Offer-in-Compromise (Form 656) or Installment Agreement request (Form 9465).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The IRS cannot levy property while an Offer-in-Compromise or an Installment Agreement is pending, or for 30 days following a rejection.",
+  "irc_reference": "IRC §6331(k)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

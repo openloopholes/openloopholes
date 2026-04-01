@@ -1,0 +1,29 @@
+{
+  "id": "EXM_NFA_TRANSFER_TAX",
+  "name": "NFA Transfer Tax Exemption",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to transfers to the U.S. government, transfers between qualified importers/manufacturers/dealers, or transfers of unserviceable firearms as curios.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts the transfer of firearms from the $200 transfer tax when transferred to the U.S. government, between qualified SOT holders, or as unserviceable curios.",
+  "irc_reference": "IRC §5852",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ELE_TAXPAYER_ASSISTANCE_ORDER",
+  "name": "Taxpayer Assistance Order (TAO) Application",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to taxpayers facing significant hardship, including immediate threats of adverse action, delays over 30 days in problem resolution, or incurring significant professional fees.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can apply for a TAO to stop or prevent IRS collection actions (like levies) or to compel the IRS to take action if they are suffering significant hardship or irreparable injury.",
+  "irc_reference": "IRC §7811",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_REORG_DISTRIBUTION",
+  "name": "Tax-Free Distribution of Qualified Property",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The distribution must be made to shareholders in pursuance of the plan of reorganization and consist of qualified property.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Prevents the recognition of gain or loss by a corporation when it distributes 'qualified property' (stock or obligations of a party to the reorganization) to its shareholders.",
+  "irc_reference": "IRC §361(c)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

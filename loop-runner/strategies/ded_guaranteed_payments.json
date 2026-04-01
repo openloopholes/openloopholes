@@ -1,0 +1,29 @@
+{
+  "id": "DED_GUARANTEED_PAYMENTS",
+  "name": "Deductible Guaranteed Payments",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Partnerships that structure specific fixed payments to partners for services or capital rather than relying solely on profit distributions.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Payments to partners for services or the use of capital, determined without regard to partnership income, are deductible by the partnership as business expenses under section 162(a).",
+  "irc_reference": "IRC §707(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

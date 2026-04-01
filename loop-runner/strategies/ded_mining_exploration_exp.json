@@ -1,0 +1,29 @@
+{
+  "id": "DED_MINING_EXPLORATION_EXP",
+  "name": "Mining Exploration Expenditure Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to domestic mining exploration costs for minerals where percentage depletion is allowable; requires an election and is subject to recapture when the mine reaches the producing stage.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect to deduct expenditures paid or incurred for the purpose of ascertaining the existence, location, extent, or quality of any deposit of ore or other mineral before the development stage of the mine.",
+  "irc_reference": "IRC §617",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

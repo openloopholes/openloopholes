@@ -1,0 +1,29 @@
+{
+  "id": "MITIGATION_FORFEITURE_REMISSION",
+  "name": "Remission or Mitigation of Forfeiture",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to entities whose alcohol products have been seized or are subject to forfeiture under internal revenue laws, allowing for a reduction in loss through administrative compromise.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers may petition the Secretary to remit or mitigate the forfeiture of distilled spirits, wines, or beer, or compromise civil or criminal cases prior to the commencement of a suit.",
+  "irc_reference": "IRC §5688(a)(5)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

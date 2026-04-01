@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_SOCIAL_SECURITY_BENEFITS",
+  "name": "Social Security Income Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to taxpayers receiving Social Security or Tier 1 Railroad Retirement benefits whose total income falls below the statutory base amounts.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes a portion of Social Security benefits from gross income if the taxpayer's modified adjusted gross income plus one-half of benefits is below specific thresholds ($25,000 for individuals, $32,000 for joint filers).",
+  "irc_reference": "IRC §86",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

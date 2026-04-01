@@ -1,0 +1,29 @@
+{
+  "id": "EXEMPT_VOLUNTEER_BOARD_MEMBER",
+  "name": "Volunteer Board Member Liability Protection",
+  "category": "procedure",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Unpaid volunteers on boards of directors or trustees for 501(c) organizations with no financial oversight duties.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Exempts unpaid, voluntary board members of tax-exempt organizations from the 100% trust fund recovery penalty if they serve in an honorary capacity and do not participate in day-to-day financial operations.",
+  "irc_reference": "IRC §6672(e)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,38 @@
+{
+  "id": "RET_SOLO_401K",
+  "name": "Solo 401(k) Contribution",
+  "category": "retirement",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Self-employed, no full-time employees; conflicts with SEP for same business",
+    "requires_entity_type": "schedule_c",
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "employee_deferral": {
+      "type": "int",
+      "description": "employee deferral amount"
+    },
+    "employer_contribution": {
+      "type": "int",
+      "description": "employer profit-sharing amount"
+    }
+  },
+  "entity_specific": true,
+  "entity_types": [
+    "schedule_c"
+  ],
+  "conflicts": [
+    "RET_SEP_IRA"
+  ],
+  "actionability": {
+    "retroactive_status": "depends",
+    "retroactive_note": "Employer portion by filing deadline; plan must have been established by Dec 31, 2025",
+    "forward_status": "available"
+  },
+  "description": "Contribute as both employee (deferral) and employer (profit-sharing). Requires self-employment income from the sponsoring entity.",
+  "irc_reference": "IRC §401(k); Form 5500-EZ",
+  "deadline": "Employee: Dec 31. Employer: filing deadline with extension."
+}

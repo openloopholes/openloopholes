@@ -1,0 +1,29 @@
+{
+  "id": "EXC_PFIC_INTANGIBLE_BASIS_BOOST",
+  "name": "CFC Intangible Asset Basis Increase",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to Controlled Foreign Corporations (CFCs) conducting active research or licensing intangibles, making it easier to pass the PFIC asset test.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Increases the adjusted basis of total assets for a CFC by 100% of R&D expenses (last 3 years) and 300% of licensed intangible payments for PFIC testing purposes.",
+  "irc_reference": "IRC §1298(e)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

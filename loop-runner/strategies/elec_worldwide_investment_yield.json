@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_WORLDWIDE_INVESTMENT_YIELD",
+  "name": "Worldwide Yield Election for Foreign Insurance Companies",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Foreign companies carrying on an insurance business within the United States that are taxable under Part I or II of Subchapter L.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Foreign insurance companies can elect to use their worldwide current investment yield instead of the domestic investment yield when calculating minimum effectively connected net investment income.",
+  "irc_reference": "IRC §842",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

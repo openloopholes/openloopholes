@@ -1,0 +1,29 @@
+{
+  "id": "DED_POST_RETIREMENT_RESERVE_FUNDING",
+  "name": "Post-Retirement Medical and Life Insurance Reserve",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires actuarial determination and must be funded on a level basis over the working lives of covered employees; subject to nondiscrimination rules.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows for an additional reserve in a welfare benefit fund to be funded over the working lives of employees to provide post-retirement medical and life insurance benefits.",
+  "irc_reference": "IRC §419A(c)(2)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_QUALIFIED_DISASTER_RELIEF",
+  "name": "Qualified Disaster Relief Payment Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to individuals receiving payments for expenses related to federally declared disasters, terroristic actions, or common carrier accidents not covered by insurance.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Gross income does not include amounts received by an individual to reimburse or pay for personal, family, living, or funeral expenses, or home repairs resulting from a qualified disaster.",
+  "irc_reference": "IRC §139",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

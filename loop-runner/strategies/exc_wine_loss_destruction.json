@@ -1,0 +1,29 @@
+{
+  "id": "EXC_WINE_LOSS_DESTRUCTION",
+  "name": "Tax Relief for Lost or Destroyed Wine",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Proprietors of bonded wine cellars who experience loss by theft (without negligence) or perform voluntary destruction under government supervision.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes wine from excise tax if it is lost or destroyed while in bond, provided the loss is not due to theft involving negligence/collusion or voluntary destruction without government notice.",
+  "irc_reference": "IRC §5370",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

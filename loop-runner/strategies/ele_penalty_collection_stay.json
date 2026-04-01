@@ -1,0 +1,29 @@
+{
+  "id": "ELE_PENALTY_COLLECTION_STAY",
+  "name": "Extension of Penalty Collection Period",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires payment of 15% of the assessed penalty and the filing of a refund claim within 30 days of notice and demand.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can halt IRS levy and collection proceedings for penalties under sections 6700 or 6701 by paying 15% of the penalty and filing a claim for refund within 30 days.",
+  "irc_reference": "IRC §6703(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_QUID_PRO_QUO_REASONABLE_CAUSE",
+  "name": "Reasonable Cause Penalty Abatement for Quid Pro Quo Disclosures",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to charitable organizations that can demonstrate a legitimate, non-willful reason for failing to meet the disclosure requirements of section 6115.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts an organization from the $10-per-contribution penalty for failing to provide required disclosures for quid pro quo contributions if the failure is due to reasonable cause.",
+  "irc_reference": "IRC §6714",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

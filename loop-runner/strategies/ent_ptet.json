@@ -1,0 +1,25 @@
+{
+  "id": "ENT_PTET",
+  "name": "Pass-Through Entity Tax Election",
+  "category": "entity",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Pass-through in participating state",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "depends",
+    "retroactive_note": "Election during tax year (varies by state)",
+    "forward_status": "available"
+  },
+  "description": "Pay state tax at entity level to bypass federal SALT cap.",
+  "irc_reference": "Notice 2020-75",
+  "deadline": "Election during tax year"
+}

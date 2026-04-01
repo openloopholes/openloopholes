@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_LUMP_SUM_SS_BENEFIT",
+  "name": "Lump-Sum Social Security Benefit Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers who receive a lump-sum Social Security payment that includes benefits attributable to one or more prior taxable years.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows taxpayers receiving a lump-sum payment for prior years to elect to calculate the taxable portion as if it were received in those prior years, preventing a tax bracket spike.",
+  "irc_reference": "IRC §86(e)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

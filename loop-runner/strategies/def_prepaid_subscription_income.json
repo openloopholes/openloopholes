@@ -1,0 +1,29 @@
+{
+  "id": "DEF_PREPAID_SUBSCRIPTION_INCOME",
+  "name": "Prepaid Subscription Income Deferral",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to accrual-method businesses receiving prepaid income for newspapers, magazines, or other periodicals where the liability extends beyond the current tax year.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect to include prepaid subscription income in gross income over the years the liability to deliver the periodical exists, rather than entirely in the year of receipt.",
+  "irc_reference": "IRC §455",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

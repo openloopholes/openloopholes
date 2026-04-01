@@ -1,0 +1,29 @@
+{
+  "id": "DEF_EXPROPRIATION_INVOLUNTARY_CONVERSION",
+  "name": "Involuntary Conversion Deferral on Expropriation Recovery",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to domestic corporations receiving recoveries of foreign expropriation losses that exceed the amount of prior tax benefits derived from the original loss.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Treats the portion of a foreign expropriation recovery that exceeds prior deductions as a gain from an involuntary conversion, allowing for non-recognition of gain under section 1033.",
+  "irc_reference": "IRC §1351(e)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

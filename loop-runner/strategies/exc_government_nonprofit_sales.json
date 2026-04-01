@@ -1,0 +1,29 @@
+{
+  "id": "EXC_GOVERNMENT_NONPROFIT_SALES",
+  "name": "State, Local, and Educational Tax Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The sale must be for the exclusive use of the government entity or a qualified 501(c)(3) educational organization with a regular faculty and curriculum.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts manufacturers from excise tax on sales made to state/local governments or nonprofit educational organizations for their exclusive use.",
+  "irc_reference": "IRC §4221(a)(4)-(5)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_MINING_DEVELOPMENT_CARRYOVER",
+  "name": "Succession of Deferred Mining Expenses",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Limited to corporations acquiring mining assets through qualifying Section 381(a) transactions.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Acquiring corporations can deduct deferred mining development and exploration expenses previously elected by the transferor corporation under Section 616.",
+  "irc_reference": "IRC §381(c)(10)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

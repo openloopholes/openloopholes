@@ -1,0 +1,29 @@
+{
+  "id": "DED_BARRIER_REMOVAL",
+  "name": "Architectural and Transportation Barrier Removal Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to businesses that own or lease facilities or vehicles for use in their trade or business and make them more accessible to handicapped or elderly individuals.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect to immediately deduct up to $15,000 of expenses for removing architectural or transportation barriers for the handicapped or elderly instead of capitalizing them.",
+  "irc_reference": "IRC §190",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

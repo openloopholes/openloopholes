@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_TONNAGE_TAX_ALTERNATIVE",
+  "name": "Alternative Tonnage Tax Election for Shipping Activities",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be a qualifying vessel operator with U.S. flag vessels of at least 6,000 deadweight tons used in U.S. foreign trade.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows qualifying corporations to pay a tax based on the net tonnage of their vessels rather than the standard corporate income tax on actual profits from shipping activities.",
+  "irc_reference": "IRC §1352",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

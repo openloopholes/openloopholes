@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_ESPP_WAGE_WITHHOLDING",
+  "name": "ESPP Compensation Withholding Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to employers managing qualified employee stock purchase plans under Section 423.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "No amount is required to be deducted or withheld under wage withholding rules (Chapter 24) for amounts treated as compensation under a qualified ESPP disposition.",
+  "irc_reference": "IRC §423(c)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

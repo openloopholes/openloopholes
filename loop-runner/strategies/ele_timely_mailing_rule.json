@@ -1,0 +1,29 @@
+{
+  "id": "ELE_TIMELY_MAILING_RULE",
+  "name": "Timely Mailing Treated as Timely Filing",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to any return, claim, or payment sent via USPS or designated private delivery services (FedEx/UPS) if postmarked on or before the due date.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can treat the date of a postmark as the date of filing or payment, even if the document or payment is delivered after the deadline.",
+  "irc_reference": "IRC §7502",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|investor|estate|employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

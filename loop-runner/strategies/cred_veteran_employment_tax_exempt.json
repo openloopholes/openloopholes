@@ -1,0 +1,29 @@
+{
+  "id": "CRED_VETERAN_EMPLOYMENT_TAX_EXEMPT",
+  "name": "Credit for Employment of Qualified Veterans",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be a 501(c) organization that hires a qualified veteran as defined in section 51(d)(3).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Qualified tax-exempt organizations can claim a credit against their 6.2% employer OASDI tax for hiring qualified veterans, based on the Work Opportunity Tax Credit (WOTC) rules.",
+  "irc_reference": "IRC §3111(e)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

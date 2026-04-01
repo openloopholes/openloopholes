@@ -1,0 +1,29 @@
+{
+  "id": "EXC_RECYCLED_METALS",
+  "name": "Recycled Chromium, Cobalt, and Nickel Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The metal must be diverted from solid waste and not part of the original manufacturing process; requires completed environmental corrective actions if any were ordered.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts chromium, cobalt, or nickel from tax if recovered in the U.S. from solid waste as part of a recycling process.",
+  "irc_reference": "IRC §4662(b)(8)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

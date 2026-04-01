@@ -1,0 +1,29 @@
+{
+  "id": "ELE_INSTALLMENT_AGREEMENT",
+  "name": "Guaranteed Installment Agreements",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Individual taxpayers with liability under $10,000 (excluding interest/penalties) who have filed and paid on time for the last 5 years and are unable to pay immediately.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The IRS is required to enter into an installment agreement for individuals with liabilities under $10,000, allowing for the deferral of the full tax payment over a 3-year period.",
+  "irc_reference": "IRC §6159",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

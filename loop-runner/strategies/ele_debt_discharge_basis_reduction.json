@@ -1,0 +1,29 @@
+{
+  "id": "ELE_DEBT_DISCHARGE_BASIS_REDUCTION",
+  "name": "Election to Reduce Basis in Depreciable Property",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to taxpayers with excluded discharge of indebtedness income under section 108, particularly for qualified real property business indebtedness or insolvency.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect to reduce the basis of depreciable property instead of reducing other tax attributes when debt is discharged, effectively deferring tax liability.",
+  "irc_reference": "IRC §1017",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_QUALIFIED_ACCELERATED_DEATH_BENEFITS",
+  "name": "Qualified Accelerated Death Benefit Rider Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The rider must meet the requirements of section 101(g) and not be treated as a long-term care insurance contract under section 7702B.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Treats qualified accelerated death benefit riders as life insurance, allowing payments made to terminally or chronically ill individuals to be excluded from gross income.",
+  "irc_reference": "IRC §818(g)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

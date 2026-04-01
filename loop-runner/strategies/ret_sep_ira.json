@@ -1,0 +1,34 @@
+{
+  "id": "RET_SEP_IRA",
+  "name": "SEP IRA Contribution",
+  "category": "retirement",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Self-employed; conflicts with Solo 401(k) for same business",
+    "requires_entity_type": "schedule_c",
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "contribution": {
+      "type": "int",
+      "description": "employer contribution amount"
+    }
+  },
+  "entity_specific": true,
+  "entity_types": [
+    "schedule_c"
+  ],
+  "conflicts": [
+    "RET_SOLO_401K"
+  ],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Contribution deadline is filing deadline with extension (Oct 15, 2026)",
+    "forward_status": "available"
+  },
+  "description": "Employer contribution of up to 25% of net self-employment income. Simple to set up, no employee deferrals.",
+  "irc_reference": "IRC §408(k)",
+  "deadline": "Filing deadline with extension"
+}

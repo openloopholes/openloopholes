@@ -1,0 +1,29 @@
+{
+  "id": "EXC_VESSEL_AIRCRAFT_SUPPLIES",
+  "name": "Vessel and Aircraft Supply Registration Waiver",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to purchasers using articles as supplies for vessels or aircraft who comply with specific certificate regulations.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Purchasers of articles for use as supplies for vessels or aircraft can avoid the formal registration requirement for tax-free purchases by using exemption certificates.",
+  "irc_reference": "IRC §4222(b)(5)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

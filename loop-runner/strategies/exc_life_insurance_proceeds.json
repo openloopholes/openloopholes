@@ -1,0 +1,29 @@
+{
+  "id": "EXC_LIFE_INSURANCE_PROCEEDS",
+  "name": "Life Insurance Death Benefit Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to beneficiaries receiving proceeds from a valid life insurance contract upon the death of the insured, provided the policy was not transferred for valuable consideration.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Gross income does not include amounts received under a life insurance contract if such amounts are paid by reason of the death of the insured.",
+  "irc_reference": "IRC §101(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

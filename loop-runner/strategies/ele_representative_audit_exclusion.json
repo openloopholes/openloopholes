@@ -1,0 +1,29 @@
+{
+  "id": "ELE_REPRESENTATIVE_AUDIT_EXCLUSION",
+  "name": "Taxpayer Absence from Audit Interviews",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to any taxpayer undergoing an IRS interview relating to tax determination or collection who has a qualified representative with a written power of attorney.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can authorize a representative (CPA, Attorney, Enrolled Agent) via Power of Attorney to handle IRS interviews, allowing the taxpayer to avoid attending the interview personally unless an administrative summons is issued.",
+  "irc_reference": "IRC §7521",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

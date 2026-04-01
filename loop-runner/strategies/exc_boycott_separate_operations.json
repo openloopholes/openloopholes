@@ -1,0 +1,29 @@
+{
+  "id": "EXC_BOYCOTT_SEPARATE_OPERATIONS",
+  "name": "Separate and Identifiable Operations Demonstration",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to taxpayers with international operations in countries on the Secretary's boycott list who can prove specific transactions did not involve boycott cooperation.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can avoid the loss of foreign tax credits and other tax benefits by clearly demonstrating that specific business operations are separate and identifiable from those involving international boycott participation.",
+  "irc_reference": "IRC §999",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

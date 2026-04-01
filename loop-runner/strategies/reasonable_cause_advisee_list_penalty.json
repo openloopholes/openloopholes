@@ -1,0 +1,29 @@
+{
+  "id": "REASONABLE_CAUSE_ADVISEE_LIST_PENALTY",
+  "name": "Reasonable Cause Exception for Advisee List Penalties",
+  "category": "procedure",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to persons required to maintain lists under section 6112 who can provide a valid 'reasonable cause' justification for not providing the list within 20 business days of an IRS request.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Avoid the $10,000 per day penalty for failing to provide lists of advisees for reportable transactions by demonstrating that the failure was due to reasonable cause.",
+  "irc_reference": "IRC §6708",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business|individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

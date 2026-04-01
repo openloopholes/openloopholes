@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FATCA_LOW_RISK_ENTITIES",
+  "name": "FATCA Withholding Exception for Low-Risk Entities",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Beneficial owner must be a foreign government, international organization, foreign central bank, or a class of persons identified by the Secretary as posing a low risk of tax evasion.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts payments to specific foreign entities from the 30% FATCA withholding tax.",
+  "irc_reference": "IRC §1471(f)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

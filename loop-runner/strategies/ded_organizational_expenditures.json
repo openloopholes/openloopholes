@@ -1,0 +1,29 @@
+{
+  "id": "DED_ORGANIZATIONAL_EXPENDITURES",
+  "name": "Election to Deduct Organizational Expenditures",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "New corporations with expenditures incident to the creation of the corporation; the $5,000 is phased out if total costs exceed $50,000.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Corporations can elect to deduct up to $5,000 of organizational expenditures in the first year of business, with the remainder amortized over 180 months.",
+  "irc_reference": "IRC §248",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

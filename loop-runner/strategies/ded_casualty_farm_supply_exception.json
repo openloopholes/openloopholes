@@ -1,0 +1,29 @@
+{
+  "id": "DED_CASUALTY_FARM_SUPPLY_EXCEPTION",
+  "name": "Casualty Exception for Prepaid Farm Supplies",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Taxpayers engaged in farming who suffer specific natural disasters or business interruptions mentioned in the statute.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows an immediate deduction for prepaid supplies even if they exceed the 50% limit, provided the supplies are on hand at year-end due to fire, storm, flood, disease, or drought.",
+  "irc_reference": "IRC §464(c)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

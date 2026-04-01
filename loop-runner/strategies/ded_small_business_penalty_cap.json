@@ -1,0 +1,29 @@
+{
+  "id": "DED_SMALL_BUSINESS_PENALTY_CAP",
+  "name": "Lower Penalty Caps for Small Businesses",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies automatically to businesses meeting the $5,000,000 gross receipts test.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Businesses with average annual gross receipts of $5 million or less for the most recent 3 years qualify for significantly lower annual maximum penalty caps.",
+  "irc_reference": "IRC §6721(d)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_PORT_USE_TAX_HUMANITARIAN",
+  "name": "Humanitarian and Development Assistance Cargo Exemption",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be a nonprofit or cooperative and obtain certification from U.S. Customs that the cargo is for humanitarian/development use.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts nonprofit organizations or cooperatives from port use tax for cargo intended for overseas humanitarian or development assistance.",
+  "irc_reference": "IRC §4462(h)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

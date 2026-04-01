@@ -1,0 +1,29 @@
+{
+  "id": "ELE_VALUATION_PENALTY_EXCEPTION",
+  "name": "Appraisal Penalty Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to property valuations used for charitable deductions, estate taxes, or gift taxes where the appraisal is challenged by the IRS.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Avoids penalties for valuation misstatements if the appraiser can establish that the value provided was 'more likely than not' the proper value.",
+  "irc_reference": "IRC §6695A(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|estate|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

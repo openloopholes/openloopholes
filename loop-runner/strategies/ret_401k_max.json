@@ -1,0 +1,32 @@
+{
+  "id": "RET_401K_MAX",
+  "name": "Maximize 401(k) Contributions",
+  "category": "retirement",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Has employer plan, gap between current and max contributions",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "contribution": {
+      "type": "int",
+      "description": "target total 401(k) contribution"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [
+    "RET_SIMPLE_IRA"
+  ],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Employee deferrals had to be made by Dec 31, 2025",
+    "forward_status": "available"
+  },
+  "description": "Increase employee 401(k) deferrals to the annual limit, reducing taxable income at your marginal rate.",
+  "irc_reference": "IRC §401(k)",
+  "deadline": "Dec 31 of tax year (payroll)"
+}

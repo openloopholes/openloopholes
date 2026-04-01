@@ -1,0 +1,29 @@
+{
+  "id": "CRED_IN_LIEU_OF_TAXES",
+  "name": "Credit for Taxes in Lieu of Income Taxes",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must pay a foreign tax that is not a standard income tax but is specifically intended to replace an income, war profits, or excess profits tax.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows taxpayers to claim a foreign tax credit for taxes paid to a foreign country that are imposed in substitution for a generally imposed income tax.",
+  "irc_reference": "IRC §903",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

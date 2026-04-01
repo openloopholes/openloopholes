@@ -1,0 +1,29 @@
+{
+  "id": "EXC_SMALL_AIRCRAFT_EXCISE_TAX",
+  "name": "Small Aircraft Excise Tax Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to non-jet aircraft (propeller or rotorcraft) with a maximum certificated takeoff weight of 6,000 lbs or less that are not operated on an established line (scheduled routes). Sightseeing flights are specifically deemed not to be on an established line.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes transportation by small aircraft (6,000 lbs or less) from the 7.5% federal air transportation excise tax and the cargo tax, provided they do not operate on an established line.",
+  "irc_reference": "IRC §4281",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DISC_PREVIOUSLY_TAXED_INCOME_EXCLUSION",
+  "name": "Exclusion of Previously Taxed DISC Income",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Shareholders of a DISC receiving actual distributions after having already paid tax on deemed distributions.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Actual distributions made out of 'previously taxed income' (amounts already deemed distributed under Section 995) are excluded from the shareholder's gross income.",
+  "irc_reference": "IRC §996",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

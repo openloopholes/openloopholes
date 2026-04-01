@@ -1,0 +1,29 @@
+{
+  "id": "ELE_ALTERNATIVE_DISPUTE_RESOLUTION",
+  "name": "Appeals Mediation and Arbitration",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available for unresolved issues at the conclusion of appeals procedures or failed closing/compromise attempts.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides procedures for non-binding mediation or binding arbitration to resolve tax disputes more efficiently and potentially at a lower cost than litigation.",
+  "irc_reference": "IRC §7123",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

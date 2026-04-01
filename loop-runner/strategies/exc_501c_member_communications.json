@@ -1,0 +1,29 @@
+{
+  "id": "EXC_501C_MEMBER_COMMUNICATIONS",
+  "name": "Exempt Organization Communication Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be an organization described in section 501(c) and exempt under 501(a) communicating specifically to its own members.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Expenditures by 501(c) organizations for communicating the organization's views to its members regarding presidential candidates are excluded from the $1,000 expenditure limit.",
+  "irc_reference": "IRC §9012(f)(2)(B)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

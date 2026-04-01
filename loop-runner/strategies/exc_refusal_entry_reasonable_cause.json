@@ -1,0 +1,29 @@
+{
+  "id": "EXC_REFUSAL_ENTRY_REASONABLE_CAUSE",
+  "name": "Reasonable Cause Exception for Refusal of Entry",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to fuel-related business entities that can show reasonable cause for denying the Secretary entry or inspection actions.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides an exemption from the $1,000 penalty for refusing entry or inspection authorized under section 4083(d)(1) if the refusal is due to reasonable cause.",
+  "irc_reference": "IRC §6717",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

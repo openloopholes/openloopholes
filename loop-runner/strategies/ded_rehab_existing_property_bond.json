@@ -1,0 +1,29 @@
+{
+  "id": "DED_REHAB_EXISTING_PROPERTY_BOND",
+  "name": "Rehabilitation Expenditure Exception for Bond Financing",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The taxpayer must incur rehabilitation expenditures equal to at least 15% of the cost of the building (or 100% for other structures) within 2 years of acquisition or bond issuance.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Permits the use of tax-exempt bond proceeds for the acquisition of existing buildings if a minimum amount is spent on rehabilitation (15% of acquisition cost).",
+  "irc_reference": "IRC §147(d)(2)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

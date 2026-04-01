@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_PREMIUM_PREPAYMENT",
+  "name": "Prepayment of Premium Liability for Controlled Groups",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to assigned operators who were not 1988 agreement operators, ceased coal production by July 1, 2005, and were members of a publicly traded controlled group as of July 20, 1992.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Certain assigned operators or related persons can elect to make a lump-sum prepayment of the present value of their total future premium liability, potentially shifting the sole future liability to a common parent corporation.",
+  "irc_reference": "IRC §9704(j)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

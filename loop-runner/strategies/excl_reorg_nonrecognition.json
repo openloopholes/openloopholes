@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_REORG_NONRECOGNITION",
+  "name": "Corporate Reorganization Nonrecognition",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to corporations that are parties to a reorganization and exchange property pursuant to a formal plan of reorganization.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A corporation recognizes no gain or loss when it exchanges property solely for stock or securities in another corporation that is a party to the same reorganization plan.",
+  "irc_reference": "IRC §361",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

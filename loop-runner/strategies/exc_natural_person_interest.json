@@ -1,0 +1,29 @@
+{
+  "id": "EXC_NATURAL_PERSON_INTEREST",
+  "name": "Interest Reporting Exception for Natural Persons",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to individuals who pay interest on private loans or obligations, reducing the administrative burden and oversight of such payments.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Interest paid on obligations issued by a natural person is excluded from the definition of interest for information reporting purposes.",
+  "irc_reference": "IRC §6049",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

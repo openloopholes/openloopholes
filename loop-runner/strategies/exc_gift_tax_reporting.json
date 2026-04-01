@@ -1,0 +1,29 @@
+{
+  "id": "EXC_GIFT_TAX_REPORTING",
+  "name": "Gift Tax Return Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to transfers excluded under section 2503(b) (annual exclusion) or 2503(e) (tuition/medical), and most marital deduction transfers under 2523.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can transfer assets without filing a gift tax return if the gift falls under the annual exclusion or is a qualified transfer for medical or educational expenses.",
+  "irc_reference": "IRC §6019",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

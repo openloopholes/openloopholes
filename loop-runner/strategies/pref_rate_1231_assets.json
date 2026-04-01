@@ -1,0 +1,29 @@
+{
+  "id": "PREF_RATE_1231_ASSETS",
+  "name": "Section 1231 Capital Gain-Ordinary Loss Rule",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to depreciable property and real property used in a trade or business held for more than 1 year, subject to a 5-year lookback recapture rule for prior ordinary losses.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Net gains from the sale of business property held over one year are treated as long-term capital gains, while net losses are treated as ordinary losses (deductible against ordinary income).",
+  "irc_reference": "IRC §1231",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

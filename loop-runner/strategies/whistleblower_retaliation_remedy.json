@@ -1,0 +1,29 @@
+{
+  "id": "WHISTLEBLOWER_RETALIATION_REMEDY",
+  "name": "Tax Whistleblower Anti-Retaliation Relief",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to employees, contractors, or agents who provide information regarding tax underpayment or violations to the IRS or other authorized government bodies.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Employees who suffer retaliation for reporting tax fraud are entitled to 200% of back pay, 100% of lost benefits, and reimbursement for litigation costs and attorney fees.",
+  "irc_reference": "IRC §7623(d)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

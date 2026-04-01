@@ -1,0 +1,29 @@
+{
+  "id": "ELE_DEALER_INVESTMENT_ID",
+  "name": "Dealer Identification of Securities for Investment",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The dealer must clearly identify the security in their records as being held for investment before the close of the day it was acquired and must not hold it for sale to customers thereafter.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows securities dealers to treat specific securities as capital assets rather than inventory, qualifying them for lower long-term capital gains rates.",
+  "irc_reference": "IRC §1236",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

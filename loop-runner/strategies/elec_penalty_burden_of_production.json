@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_PENALTY_BURDEN_OF_PRODUCTION",
+  "name": "Penalty Defense via Burden of Production",
+  "category": "procedure",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to any individual facing penalties, additions to tax, or additional amounts in a court proceeding.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The IRS is required to provide initial evidence (burden of production) that a penalty or addition to tax is appropriate for an individual before the penalty can be sustained.",
+  "irc_reference": "IRC §7491(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "PREF_RATE_STOCK_REDEMPTION_EXCHANGE",
+  "name": "Capital Gains Treatment for Stock Redemptions",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Shareholders must meet the 80% voting/common stock reduction test or completely terminate their interest in the corporation.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Treats a stock redemption as an exchange (capital gain/loss) rather than a dividend if it meets specific tests like substantial disproportion or complete termination.",
+  "irc_reference": "IRC §302(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_MEDICINAL_ALCOHOL_DRAWBACK",
+  "name": "Drawback for Medicinal and Food Products Containing Alcohol",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to manufacturers of non-beverage products (medicines, food extracts, perfumes) containing distilled spirits sourced from PR or USVI.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows for a tax drawback on medicines, food products, flavors, or perfumes containing distilled spirits brought into the U.S. from Puerto Rico or the Virgin Islands, provided they are unfit for beverage purposes.",
+  "irc_reference": "IRC §7652(g)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

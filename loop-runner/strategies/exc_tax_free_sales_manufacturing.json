@@ -1,0 +1,29 @@
+{
+  "id": "EXC_TAX_FREE_SALES_MANUFACTURING",
+  "name": "Tax-Free Sales for Further Manufacture or Export",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires the manufacturer to obtain proof of export or further manufacture within 6 months and, in some cases, accept a good-faith certification from the purchaser.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts manufacturers from excise tax on sales of articles intended for further manufacture, export, or use as vessel/aircraft supplies.",
+  "irc_reference": "IRC §4221(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_PHYSICAL_INJURY_DAMAGES",
+  "name": "Exclusion of Damages for Physical Injury or Sickness",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must receive a settlement or court award specifically tied to a physical injury or physical sickness. Emotional distress damages are only excludable to the extent of actual medical care costs unless they stem from a physical injury.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Gross income does not include the amount of any damages (other than punitive damages) received on account of personal physical injuries or physical sickness, whether by suit or agreement.",
+  "irc_reference": "IRC §104(a)(2)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

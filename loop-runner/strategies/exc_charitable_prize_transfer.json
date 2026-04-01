@@ -1,0 +1,29 @@
+{
+  "id": "EXC_CHARITABLE_PRIZE_TRANSFER",
+  "name": "Exclusion of Prizes and Awards Transferred to Charity",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Recipient must be selected without action to enter, not be required to render future services, and must designate the transfer to a 170(c) organization before receiving the benefit.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can exclude certain recognition awards (religious, scientific, artistic, etc.) from gross income if they designate the payor to transfer the prize directly to a qualified charity.",
+  "irc_reference": "IRC §74",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

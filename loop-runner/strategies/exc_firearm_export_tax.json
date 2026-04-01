@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FIREARM_EXPORT_TAX",
+  "name": "Firearm Exportation Transfer Tax Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers must furnish proof of exportation in the form and manner prescribed by the Secretary to qualify for the exemption.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts the transfer of firearms from the section 5811 transfer tax if the firearm is exported.",
+  "irc_reference": "IRC §5854",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

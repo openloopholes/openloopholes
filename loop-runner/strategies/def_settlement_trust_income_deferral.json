@@ -1,0 +1,29 @@
+{
+  "id": "DEF_SETTLEMENT_TRUST_INCOME_DEFERRAL",
+  "name": "Settlement Trust Property Contribution Deferral",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to Settlement Trusts receiving property other than cash from a Native Corporation.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A Settlement Trust can elect to defer recognition of income from non-cash property contributions until the trust sells or exchanges the property.",
+  "irc_reference": "IRC §247(g)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

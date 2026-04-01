@@ -1,0 +1,29 @@
+{
+  "id": "DED_GIFT_TAX_BASIS_ADJ",
+  "name": "Basis Increase for Gift Tax Paid",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies when a donor pays gift tax on a transfer of appreciated property.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "The basis of gifted property is increased by the portion of gift tax paid that is attributable to the net appreciation in the value of the gift.",
+  "irc_reference": "IRC §1015(d)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_TENTATIVE_CARRYBACK_ADJUSTMENT",
+  "name": "Tentative Carryback Adjustment Application",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to taxpayers with a net operating loss carryback or unused excess profits credit carryback seeking accelerated refunds.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can file for a tentative carryback adjustment of income taxes for a quick refund of taxes paid in prior years due to a net operating loss carryback.",
+  "irc_reference": "IRC §6040(9)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

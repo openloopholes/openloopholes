@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FEEDER_ORG_RENTAL_INCOME",
+  "name": "Feeder Organization Rental Income Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "The organization must derive rents which would be excluded under section 512(b)(3).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes certain rental income from being treated as a taxable trade or business for organizations that pay all profits to an exempt entity.",
+  "irc_reference": "IRC §502",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

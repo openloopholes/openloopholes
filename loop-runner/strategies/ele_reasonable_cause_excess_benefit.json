@@ -1,0 +1,29 @@
+{
+  "id": "ELE_REASONABLE_CAUSE_EXCESS_BENEFIT",
+  "name": "Reasonable Cause Defense for Organization Managers",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to officers, directors, or trustees of 501(c)(3), 501(c)(4), or 501(c)(29) organizations facing intermediate sanctions.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Managers can avoid the 10% tax on excess benefit transactions if they can demonstrate that their participation was not willful and was due to reasonable cause (such as reliance on professional legal or accounting advice).",
+  "irc_reference": "IRC §4958(a)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

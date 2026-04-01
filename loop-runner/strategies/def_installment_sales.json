@@ -1,0 +1,29 @@
+{
+  "id": "DEF_INSTALLMENT_SALES",
+  "name": "Installment Sale Gain Deferral",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to dispositions of property where at least one payment is to be received after the close of the taxable year in which the disposition occurs.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows taxpayers to recognize gain from the sale of property over the period in which payments are actually received rather than entirely in the year of sale.",
+  "irc_reference": "IRC §1001(d)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

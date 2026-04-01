@@ -1,0 +1,29 @@
+{
+  "id": "EXC_RECAPTURE_DEATH_DIVORCE",
+  "name": "Investment Credit Recapture Exceptions",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to taxpayers who have taken investment credits and subsequently transfer the property due to death or Section 1041 divorce transfers.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Prevents the recapture of investment tax credits in the event of a transfer by reason of death or a transfer between spouses/incident to divorce.",
+  "irc_reference": "IRC §50",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

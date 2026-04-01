@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_COMPANION_SITTER_PLACEMENT",
+  "name": "Companion Sitter Placement Service Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be in the business of putting sitters (childcare, elderly, or disabled care) in touch with clients, must not pay or receive the sitter's wages, and must be compensated on a fee basis.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes placement agencies from being treated as employers for payroll tax purposes if they act as intermediaries between sitters and clients and do not handle wage payments directly.",
+  "irc_reference": "IRC §3506",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

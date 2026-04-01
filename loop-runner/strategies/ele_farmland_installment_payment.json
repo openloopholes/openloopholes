@@ -1,0 +1,29 @@
+{
+  "id": "ELE_FARMLAND_INSTALLMENT_PAYMENT",
+  "name": "Farmland Sale Tax Installment Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Property must have been used/leased for farming for 10 years and must be subject to a 10-year restrictive covenant for farming use after the sale.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows taxpayers to pay the net income tax liability from the sale of qualified farmland to a qualified farmer in 4 equal annual installments.",
+  "irc_reference": "IRC §1062",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DEF_PFIC_TAX_PAYMENT",
+  "name": "Election to Extend Time for Payment of Tax on Undistributed Earnings",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available for undistributed PFIC earnings included in income under Section 1293, provided the fund is not also a CFC under Section 951.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect to defer the payment of tax on their share of QEF earnings that have not yet been distributed by the fund, subject to an interest charge.",
+  "irc_reference": "IRC §1294",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

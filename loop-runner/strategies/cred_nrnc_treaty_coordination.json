@@ -1,0 +1,29 @@
+{
+  "id": "CRED_NRNC_TREATY_COORDINATION",
+  "name": "Enhanced Treaty-Based Unified Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to nonresident non-citizens who are residents of countries with specific tax treaties with the U.S. (e.g., Canada, Germany, UK) that allow for a proportional unified credit.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows certain nonresident non-citizens to claim a prorated portion of the full U.S. citizen unified credit (rather than just $13,000) based on the ratio of U.S. assets to global assets.",
+  "irc_reference": "IRC §2102(b)(3)(A)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

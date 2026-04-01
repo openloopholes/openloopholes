@@ -1,0 +1,29 @@
+{
+  "id": "EXC_GST_GRANDFATHERED_TRUSTS",
+  "name": "Grandfathered Irrevocable Trust Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to beneficiaries of trusts that were irrevocable as of 9/25/1985. Taxpayers must ensure no post-1985 additions were made to maintain the exempt status.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Generation-skipping transfers from trusts that were irrevocable on or before September 25, 1985, are generally exempt from GST tax, provided no new assets have been added to the corpus.",
+  "irc_reference": "IRC §2601",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

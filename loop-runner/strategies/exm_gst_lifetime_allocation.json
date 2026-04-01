@@ -1,0 +1,29 @@
+{
+  "id": "EXM_GST_LIFETIME_ALLOCATION",
+  "name": "GST Exemption Allocation",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to any individual making transfers to skip persons or GST trusts; requires affirmative allocation on a gift or estate tax return to maximize efficiency.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Every individual is allowed a GST exemption amount (equal to the basic exclusion amount) that can be allocated to property to reduce or eliminate generation-skipping transfer tax.",
+  "irc_reference": "IRC §2631",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

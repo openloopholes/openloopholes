@@ -1,0 +1,29 @@
+{
+  "id": "DEF_CORP_ESTIMATED_TAX_ADJUSTMENT",
+  "name": "Adjustment of Overpayment of Estimated Income Tax by Corporation",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The overpayment must be at least 10% of the expected tax liability and at least $500. Application must be filed by the 15th day of the 4th month after year-end.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Corporations can apply for a ‘quick refund’ of estimated tax overpayments after the close of the taxable year but before filing their tax return.",
+  "irc_reference": "IRC §6425",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

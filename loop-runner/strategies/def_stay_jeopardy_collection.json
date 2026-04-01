@@ -1,0 +1,29 @@
+{
+  "id": "DEF_STAY_JEOPARDY_COLLECTION",
+  "name": "Bond to Stay Jeopardy Assessment Collection",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to taxpayers subject to assessments under sections 6851, 6852, 6861, or 6862 who can provide a bond in the amount of the stayed collection.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can halt the immediate collection of a jeopardy or termination assessment by filing a bond with the IRS for the amount they wish to stay.",
+  "irc_reference": "IRC §6863(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

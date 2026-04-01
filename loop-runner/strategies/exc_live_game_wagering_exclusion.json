@@ -1,0 +1,29 @@
+{
+  "id": "EXC_LIVE_GAME_WAGERING_EXCLUSION",
+  "name": "Live Presence Wagering Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to games where all participants are physically present for the entire wagering cycle, typically excluding these activities from the federal wagering excise tax.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes games from the wagering excise tax where wagers, winner determination, and prize distribution occur in the presence of all participants.",
+  "irc_reference": "IRC §4421(2)(A)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

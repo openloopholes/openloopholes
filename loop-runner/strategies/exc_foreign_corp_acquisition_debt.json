@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FOREIGN_CORP_ACQUISITION_DEBT",
+  "name": "Foreign Corporation Acquisition Interest Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "U.S. corporations acquiring foreign targets with at least a 3-year history of primarily foreign-source income.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The $5 million interest deduction limit for corporate acquisition indebtedness does not apply to debt issued to acquire a foreign corporation that derives substantially all of its income from non-U.S. sources.",
+  "irc_reference": "IRC §279",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

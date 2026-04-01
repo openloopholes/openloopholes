@@ -1,0 +1,29 @@
+{
+  "id": "DED_DIESEL_WATER_EMULSION_RATE",
+  "name": "Diesel-Water Fuel Emulsion Reduced Rate",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The emulsion additive must be registered with the EPA and the person removing/selling the fuel must be registered under section 4101.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a reduced tax rate of 19.7 cents (instead of 24.3 cents) for diesel-water fuel emulsions that are at least 14 percent water.",
+  "irc_reference": "IRC §4081(a)(2)(D)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

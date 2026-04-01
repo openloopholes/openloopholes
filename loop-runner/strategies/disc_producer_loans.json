@@ -1,0 +1,29 @@
+{
+  "id": "DISC_PRODUCER_LOANS",
+  "name": "DISC Producer's Loans",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The loan must be designated as a producer's loan, have a maturity of 5 years or less, and the borrower must be engaged in U.S. manufacturing of export property.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A DISC can lend its accumulated tax-deferred income back to the U.S. manufacturing parent (the borrower) to fund export-related assets, R&D, and inventory without triggering a deemed distribution.",
+  "irc_reference": "IRC §993",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

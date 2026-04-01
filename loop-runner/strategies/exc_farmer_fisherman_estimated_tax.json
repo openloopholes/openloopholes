@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FARMER_FISHERMAN_ESTIMATED_TAX",
+  "name": "Farmer and Fisherman Special Rules",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "At least 66.67% of gross income must be from farming or fishing.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Qualifying individuals only need to make one estimated tax payment by January 15, or can skip estimated payments entirely if they file and pay by March 1.",
+  "irc_reference": "IRC §6654",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

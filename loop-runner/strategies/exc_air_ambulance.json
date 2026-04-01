@@ -1,0 +1,29 @@
+{
+  "id": "EXC_AIR_AMBULANCE",
+  "name": "Emergency Medical Services Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Transportation must be for the purpose of providing emergency medical services.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Complete exemption from air transportation excise taxes for emergency medical services provided by helicopter or dedicated fixed-wing aircraft.",
+  "irc_reference": "IRC §4261(g)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

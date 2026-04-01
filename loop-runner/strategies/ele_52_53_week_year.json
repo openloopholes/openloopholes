@@ -1,0 +1,29 @@
+{
+  "id": "ELE_52_53_WEEK_YEAR",
+  "name": "52-53 Week Taxable Year Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to taxpayers who keep books and compute income on a 52-53 week basis ending on the same day of the week.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect a fiscal year that varies from 52 to 53 weeks, ending always on the same day of the week. This allows businesses to align their tax year with their operational weekly accounting cycles.",
+  "irc_reference": "IRC §441(f)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

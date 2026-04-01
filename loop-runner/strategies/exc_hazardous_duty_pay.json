@@ -1,0 +1,29 @@
+{
+  "id": "EXC_HAZARDOUS_DUTY_PAY",
+  "name": "Qualified Hazardous Duty Area Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Members of the Armed Forces receiving special pay for duty subject to hostile fire or imminent danger in specified locations.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Extends combat zone tax exclusions to specific hazardous duty areas including the Sinai Peninsula, Kenya, Mali, Burkina Faso, and Chad.",
+  "irc_reference": "IRC §112",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

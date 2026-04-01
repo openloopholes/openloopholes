@@ -1,0 +1,29 @@
+{
+  "id": "AMT_RESEARCH_EXPENSE_EXCEPTION",
+  "name": "AMT Research and Experimental Expenditure Exception",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Individuals who materially participate in a business activity (per section 469(h)) and incur R&D expenses.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts taxpayers who materially participate in an activity from having to capitalize and amortize research/experimental expenditures over 10 years for AMT purposes.",
+  "irc_reference": "IRC §56",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

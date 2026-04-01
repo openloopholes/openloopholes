@@ -1,0 +1,29 @@
+{
+  "id": "CRE_UNIFIED_ESTATE_TAX_CREDIT",
+  "name": "Unified Credit Against Estate Tax",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to the estates of U.S. citizens and residents; the amount is adjusted for inflation and previous taxable gifts.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "A credit is allowed against the estate tax equal to the tax on the applicable exclusion amount ($15,000,000 base for 2026+), effectively exempting that amount of the estate from federal tax.",
+  "irc_reference": "IRC §2010",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

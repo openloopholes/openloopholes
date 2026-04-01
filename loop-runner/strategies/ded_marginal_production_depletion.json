@@ -1,0 +1,29 @@
+{
+  "id": "DED_MARGINAL_PRODUCTION_DEPLETION",
+  "name": "Enhanced Depletion for Marginal Production",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to stripper well properties (15 barrel equivalents or less per day) or heavy oil (20 degrees API or less).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Increases the 15% depletion rate (up to 25%) for oil and gas produced from stripper wells or heavy oil properties when reference crude oil prices are low.",
+  "irc_reference": "IRC §613A(c)(6)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

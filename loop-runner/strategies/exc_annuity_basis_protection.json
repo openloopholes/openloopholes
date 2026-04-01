@@ -1,0 +1,29 @@
+{
+  "id": "EXC_ANNUITY_BASIS_PROTECTION",
+  "name": "Annuity Sale Basis Floor",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to any taxpayer selling an annuity contract where cumulative tax-free returns of investment might otherwise have reduced the basis to a negative number.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Ensures that the adjusted basis of an annuity contract cannot be reduced below zero for the purpose of calculating gain or loss upon sale.",
+  "irc_reference": "IRC §1021",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ELE_QTIP_GIFT",
+  "name": "Qualified Terminable Interest Property (QTIP) Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The spouse must have a qualifying income interest for life, and the donor must make an irrevocable election on a gift tax return.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "An election to treat a life estate for a spouse as a deductible marital gift, allowing the donor to control the ultimate disposition of the property while deferring tax.",
+  "irc_reference": "IRC §2523(f)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

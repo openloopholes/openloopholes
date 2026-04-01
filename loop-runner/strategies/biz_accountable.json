@@ -1,0 +1,32 @@
+{
+  "id": "BIZ_ACCOUNTABLE",
+  "name": "Accountable Plan Reimbursements",
+  "category": "business",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "S-Corp/C-Corp with written plan",
+    "requires_entity_type": "s_corp",
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "amount": {
+      "type": "int",
+      "description": "reimbursement amount"
+    }
+  },
+  "entity_specific": true,
+  "entity_types": [
+    "s_corp"
+  ],
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "depends",
+    "retroactive_note": "If plan existed during 2025 and expenses were incurred",
+    "forward_status": "available"
+  },
+  "description": "S-Corp reimburses business expenses tax-free. Requires written plan.",
+  "irc_reference": "IRC §62(c)",
+  "deadline": "Expenses during tax year"
+}

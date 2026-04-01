@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FOREIGN_SOURCE_INTEREST",
+  "name": "Foreign Source Interest Reporting Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to interest income derived from foreign governments, international organizations, or foreign corporations not engaged in U.S. business.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes from reporting requirements interest that is income from sources outside the United States or paid by certain foreign entities not engaged in a U.S. trade or business.",
+  "irc_reference": "IRC §6049",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor|individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

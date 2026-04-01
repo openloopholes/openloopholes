@@ -1,0 +1,29 @@
+{
+  "id": "ELE_ADMIN_ADJUSTMENT_REQUEST",
+  "name": "Partnership Administrative Adjustment Request (AAR)",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to partnerships within 3 years of the return filing date, provided the IRS has not already mailed a notice of administrative proceeding for that year.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A partnership can voluntarily file a request to adjust partnership-related items for a prior year to correct errors that resulted in overpayment of tax or under-reporting of deductions/credits.",
+  "irc_reference": "IRC §6227",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_DEPLETION_ALLOWANCE",
+  "name": "Depletion Deduction for Natural Resources",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers with an economic interest in mines, oil and gas wells, other natural deposits, or timber are eligible for this deduction.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a deduction from taxable income to account for the reduction of a natural resource's reserves as they are extracted and sold.",
+  "irc_reference": "IRC §611",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

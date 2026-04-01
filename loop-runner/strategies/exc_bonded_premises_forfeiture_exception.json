@@ -1,0 +1,29 @@
+{
+  "id": "EXC_BONDED_PREMISES_FORFEITURE_EXCEPTION",
+  "name": "Exception to Forfeiture for Taxpaid Spirits",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to distilled spirits plants that ensure prompt removal of spirits after tax determination or follow section 5215 for returns.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Prevents the forfeiture of taxpaid distilled spirits remaining on bonded premises if they are in the process of prompt removal or are returned under specific legal provisions.",
+  "irc_reference": "IRC §5612(b)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

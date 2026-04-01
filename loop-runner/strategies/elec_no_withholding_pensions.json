@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_NO_WITHHOLDING_PENSIONS",
+  "name": "Election to Stop Withholding on Pension/Annuity Payments",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Individuals receiving periodic payments from employer deferred compensation plans, IRAs, or commercial annuities.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Payees of periodic pension or annuity payments can elect to have no federal income tax withheld from their distributions.",
+  "irc_reference": "IRC §3405(a)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

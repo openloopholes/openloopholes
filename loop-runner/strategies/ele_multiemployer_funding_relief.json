@@ -1,0 +1,29 @@
+{
+  "id": "ELE_MULTIEMPLOYER_FUNDING_RELIEF",
+  "name": "Multiemployer Plan Amortization Extension Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Multiemployer pension plans meeting specific solvency tests that experienced investment losses or COVID-19 related experience losses.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows multiemployer plans to elect to amortize net investment losses over 30 years rather than 15 years, and to expand the asset smoothing period to 10 years.",
+  "irc_reference": "IRC §431(b)(8)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

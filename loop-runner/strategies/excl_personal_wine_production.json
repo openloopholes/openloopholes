@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_PERSONAL_WINE_PRODUCTION",
+  "name": "Personal or Family Use Wine Exemption",
+  "category": "excise",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Any adult (18+ or legal drinking age) may produce up to 100 gallons/year (single adult) or 200 gallons/year (2+ adults) for non-commercial use.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Exempts wine produced for personal or family use from federal excise tax, subject to annual volume limitations per household.",
+  "irc_reference": "IRC §5042(a)(2)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

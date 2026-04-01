@@ -1,0 +1,29 @@
+{
+  "id": "EXC_LOST_DEDUCTION_DISCHARGE",
+  "name": "No Income Realized for Deductible Liabilities",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to liabilities like accrued interest or accounts payable for cash-basis taxpayers.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "No income is realized from the discharge of debt to the extent that payment of the liability would have given rise to a tax deduction.",
+  "irc_reference": "IRC §108(e)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

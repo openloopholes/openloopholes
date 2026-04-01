@@ -1,0 +1,29 @@
+{
+  "id": "ELE_TRANSFER_CLEAN_ENERGY_CREDITS",
+  "name": "Transfer of Certain Credits (Credit Trading)",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers with eligible credits (e.g., Energy Credit, Advanced Manufacturing Credit) can transfer them to a transferee. The cash received by the seller is tax-exempt; the buyer cannot deduct the cash paid but receives the full credit value.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows eligible taxpayers to sell certain clean energy tax credits to unrelated third-party taxpayers for cash.",
+  "irc_reference": "IRC §6418",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

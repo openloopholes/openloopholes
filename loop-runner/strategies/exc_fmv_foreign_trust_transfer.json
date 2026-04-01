@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FMV_FOREIGN_TRUST_TRANSFER",
+  "name": "Fair Market Value Transfer to Foreign Trust",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to U.S. persons transferring property to foreign trusts where the transfer is a bona fide sale for FMV and gain is recognized.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Avoids being treated as the owner of a foreign trust (and the resulting U.S. tax on trust income) by transferring property in exchange for consideration of at least fair market value.",
+  "irc_reference": "IRC §679(a)(2)(B)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

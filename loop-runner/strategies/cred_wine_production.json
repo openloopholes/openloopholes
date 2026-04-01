@@ -1,0 +1,29 @@
+{
+  "id": "CRED_WINE_PRODUCTION",
+  "name": "Tiered Wine Production Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Domestic wine producers and electing importers of foreign wine; specific limits apply to controlled groups.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A tiered credit ranging from $0.535 to $1.00 per wine gallon on the first 750,000 gallons produced or imported annually.",
+  "irc_reference": "IRC §5041(c)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

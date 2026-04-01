@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_GST_SOURCE_DIRECTION",
+  "name": "Specific Tax Source Direction Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires specific reference to the GST tax in the governing instrument to override the default rule that the tax is charged to the transferred property.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can use a governing instrument (will or trust) to specifically direct that GST tax be paid from a different source rather than being charged against the transferred property itself.",
+  "irc_reference": "IRC §2603",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

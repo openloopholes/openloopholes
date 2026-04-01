@@ -1,0 +1,29 @@
+{
+  "id": "EXC_MUNI_BOND_INTEREST",
+  "name": "Exclusion of Interest on State and Local Bonds",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers must invest in municipal bonds that are not disqualified private activity bonds, arbitrage bonds, or non-registered bonds.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Gross income does not include interest earned on obligations issued by states, territories, possessions of the United States, or their political subdivisions.",
+  "irc_reference": "IRC §103",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

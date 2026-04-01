@@ -1,0 +1,32 @@
+{
+  "id": "DED_HOME_OFFICE",
+  "name": "Home Office Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Self-employed with qualifying space; NOT W-2 employees",
+    "requires_entity_type": "schedule_c",
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "amount": {
+      "type": "int",
+      "description": "deduction amount (max $1,500 simplified)"
+    }
+  },
+  "entity_specific": true,
+  "entity_types": [
+    "schedule_c"
+  ],
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "depends",
+    "retroactive_note": "If space was used during 2025, can still claim on return",
+    "forward_status": "available"
+  },
+  "description": "Self-employed: $5/sq ft up to $1,500 (simplified) or actual expenses.",
+  "irc_reference": "IRC §280A(c); Form 8829",
+  "deadline": "Space used during tax year"
+}

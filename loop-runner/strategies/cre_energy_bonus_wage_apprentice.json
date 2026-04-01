@@ -1,0 +1,29 @@
+{
+  "id": "CRE_ENERGY_BONUS_WAGE_APPRENTICE",
+  "name": "Energy Credit 5x Multiplier",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Project must satisfy specific labor requirements or be under 1 megawatt in capacity.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Increases the base energy credit rate by 5 times (e.g., from 6% to 30%) for projects meeting prevailing wage and apprenticeship requirements.",
+  "irc_reference": "IRC §48(a)(9)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

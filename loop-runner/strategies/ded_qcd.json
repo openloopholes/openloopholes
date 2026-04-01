@@ -1,0 +1,32 @@
+{
+  "id": "DED_QCD",
+  "name": "Qualified Charitable Distribution",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Age 70½+; IRA distributions direct to charity, up to $105K",
+    "requires_entity_type": null,
+    "min_age": 70,
+    "max_age": null
+  },
+  "parameters": {
+    "amount": {
+      "type": "int",
+      "description": "IRA distribution to charity (max $105K)"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [
+    "DED_CHARITABLE"
+  ],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Distributions had to be made by Dec 31, 2025",
+    "forward_status": "available"
+  },
+  "description": "Distribute up to $105,000 from your IRA directly to qualified charities. Excluded from income entirely — better than a deduction because it reduces AGI. Must be age 70½ or older.",
+  "irc_reference": "IRC §408(d)(8)",
+  "deadline": "Distributions by Dec 31 of tax year"
+}

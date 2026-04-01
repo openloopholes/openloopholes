@@ -1,0 +1,29 @@
+{
+  "id": "EXC_MOBILE_MACHINERY_REFUND",
+  "name": "Mobile Machinery Excise Tax Refund",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The vehicle must meet specific design-based tests for mobile carriage and a use-based test of under 7,500 highway miles per year.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a refund of gasoline excise taxes for vehicles with permanently mounted machinery (like cranes or drills) that travel less than 7,500 miles on public highways annually.",
+  "irc_reference": "IRC §6421(e)(2)(C)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,33 @@
+{
+  "id": "TIME_ACCEL_EXP",
+  "name": "Expense Acceleration",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "All businesses",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "amount": {
+      "type": "int",
+      "description": "expenses accelerated into current year"
+    }
+  },
+  "entity_specific": true,
+  "entity_types": [
+    "schedule_c",
+    "s_corp"
+  ],
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Dec 31, 2025",
+    "forward_status": "available"
+  },
+  "description": "Accelerate deductible expenses into current year.",
+  "irc_reference": "IRC §162",
+  "deadline": "Dec 31 of tax year"
+}

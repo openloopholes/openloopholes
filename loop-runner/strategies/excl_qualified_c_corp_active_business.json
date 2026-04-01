@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_QUALIFIED_C_CORP_ACTIVE_BUSINESS",
+  "name": "Active Business Exception for Qualified C Corporations",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Non-personal holding company C corporations with at least 1 full-time management employee and 3 full-time non-owner employees for the entire year.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes 'qualifying businesses' of C corporations from the at-risk rules, allowing the corporation to deduct losses from an active trade or business without being limited by the amount at risk.",
+  "irc_reference": "IRC §465(c)(7)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

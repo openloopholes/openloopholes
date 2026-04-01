@@ -1,0 +1,29 @@
+{
+  "id": "ELE_FOREIGN_BEER_TAX_ASSIGNMENT",
+  "name": "Foreign Brewer Reduced Rate Assignment",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Importers who are assigned reduced rates by foreign manufacturers and make the proper election.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows foreign brewers to assign their $16 per barrel reduced tax rate to electing importers.",
+  "irc_reference": "IRC §5051",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

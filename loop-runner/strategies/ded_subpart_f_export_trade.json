@@ -1,0 +1,29 @@
+{
+  "id": "DED_SUBPART_F_EXPORT_TRADE",
+  "name": "Reduction of Subpart F Income for Export Trade Corporations",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Only available to legacy 'Export Trade Corporations' that qualified as such for a taxable year beginning before October 31, 1971, and have not failed to qualify for any 3 consecutive years since.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Reduces the Subpart F income of an Export Trade Corporation by the amount of its export trade income, subject to limitations based on export promotion expenses or gross receipts.",
+  "irc_reference": "IRC §970(a)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

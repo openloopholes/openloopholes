@@ -1,0 +1,29 @@
+{
+  "id": "REFUND_SURPLUS_PROCEEDS",
+  "name": "Application for Surplus Levy Proceeds",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to any person legally entitled to proceeds remaining after the IRS applies sale proceeds to expenses and the delinquent tax liability.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can claim a refund or credit for any money remaining from a seizure and sale of property after the expenses and the specific tax liability have been satisfied.",
+  "irc_reference": "IRC §6342(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

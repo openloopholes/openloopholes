@@ -1,0 +1,29 @@
+{
+  "id": "CRED_MARGINAL_OIL_GAS_CARRYBACK",
+  "name": "Marginal Oil and Gas Well Production Credit 5-Year Carryback",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers producing oil or gas from marginal wells who have unused credits under Section 45I.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides an extended 5-year carryback period (instead of 1 year) and a 25-year carryforward for unused marginal oil and gas well production credits.",
+  "irc_reference": "IRC §39(a)(3)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_TIRE_TAX_CREDIT",
+  "name": "Credit Against Heavy Vehicle Tax for Tire Tax Paid",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to purchasers of heavy trucks and trailers where the tires were subject to separate excise taxes.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a credit against the 12% heavy vehicle retail tax for the amount of excise tax already paid on the tires sold with the vehicle under section 4071.",
+  "irc_reference": "IRC §4051(d)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

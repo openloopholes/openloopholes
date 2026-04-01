@@ -1,0 +1,29 @@
+{
+  "id": "EXC_STUDENT_SCHOLARSHIP_SUPPORT",
+  "name": "Student Scholarship Support Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "The individual must be a child of the taxpayer and a full-time student at an educational organization.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Scholarships received by a child who is a full-time student are not counted as 'self-support' when determining if the parent provided more than half of the child's support.",
+  "irc_reference": "IRC §152(f)(5)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_REPAIR_MODIFICATION_THRESHOLD",
+  "name": "Heavy Vehicle Repair and Modification Safe Harbor",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Owners of existing heavy vehicles can perform significant upgrades or repairs without triggering the retail excise tax, provided costs stay below the 75% threshold.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Repairs or modifications to a heavy truck are not treated as 'manufacture' (triggering the 12% tax) if the cost does not exceed 75% of the price of a comparable new article.",
+  "irc_reference": "IRC §4052(f)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

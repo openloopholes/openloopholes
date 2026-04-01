@@ -1,0 +1,29 @@
+{
+  "id": "EXC_UBTI_CAPITAL_GAINS",
+  "name": "Exclusion of Gains from Property Disposition",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to exempt organizations selling investment assets like stocks, bonds, or real estate not held as primary business inventory.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes gains or losses from the sale, exchange, or disposition of property from UBTI, except for inventory or property held for sale to customers.",
+  "irc_reference": "IRC §512(b)(5)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

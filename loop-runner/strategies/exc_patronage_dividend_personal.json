@@ -1,0 +1,29 @@
+{
+  "id": "EXC_PATRONAGE_DIVIDEND_PERSONAL",
+  "name": "Exclusion of Patronage Dividends for Personal Items",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to individuals receiving dividends from a cooperative for purchases of non-business, personal items.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Patrons can exclude patronage dividends from gross income if the dividend is attributable to personal, living, or family items (e.g., consumer goods) rather than business expenses.",
+  "irc_reference": "IRC §1385(b)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

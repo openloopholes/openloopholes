@@ -1,0 +1,29 @@
+{
+  "id": "ELE_CLEAN_FUEL_REGISTRATION",
+  "name": "Clean Fuel Production Registration",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Producers of biodiesel, sustainable aviation fuel, or other clean fuels must register with the Secretary to be eligible for associated tax credits.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Mandatory registration that enables producers to claim the Clean Fuel Production Credit (45Z), Sustainable Aviation Fuel Credit (40B), and Biodiesel/Alcohol credits.",
+  "irc_reference": "IRC §4101(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

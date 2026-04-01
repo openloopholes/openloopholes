@@ -1,0 +1,25 @@
+{
+  "id": "DED_SALT",
+  "name": "SALT Optimization",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Itemizers with state/local tax liability; PTET for pass-throughs",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Computed on return",
+    "forward_status": "available"
+  },
+  "description": "Optimize state and local tax deductions within the $40K SALT cap. Consider PTET for pass-throughs.",
+  "irc_reference": "IRC §164; Schedule A",
+  "deadline": "Computed on return"
+}

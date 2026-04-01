@@ -1,0 +1,29 @@
+{
+  "id": "DEF_ESTATE_TAX_EXTENSION",
+  "name": "Estate Tax Payment Extension for Reasonable Cause",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Executors of estates who can demonstrate reasonable cause for the inability to pay the estate tax by the original due date.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The Secretary may extend the time for payment of estate taxes for a reasonable period of up to 10 years for reasonable cause.",
+  "irc_reference": "IRC §6161(a)(2)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

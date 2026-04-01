@@ -1,0 +1,29 @@
+{
+  "id": "EXC_PERSONAL_RESIDENCE_TRUST",
+  "name": "Personal Residence Trust Exception (QPRT)",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The trust property must consist solely of a residence to be used as a personal residence by persons holding term interests in the trust.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The zero-valuation rule for retained interests in trusts does not apply to trusts consisting of a personal residence, allowing for the use of Qualified Personal Residence Trusts (QPRTs) to transfer a home at a reduced gift tax cost.",
+  "irc_reference": "IRC §2702",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

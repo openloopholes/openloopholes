@@ -1,0 +1,29 @@
+{
+  "id": "DED_COAL_INDUSTRY_PREMIUMS",
+  "name": "Deduction for Coal Industry Health and Death Benefit Premiums",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to 'assigned operators' in the coal industry who are required to pay premiums for retirees under the Coal Industry Retiree Health Benefit Act.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Assigned operators can deduct 100% of the health, death, and unassigned beneficiary premiums paid to the Combined Fund. This deduction is specifically allowed without regard to standard limitations on prefunding health benefits.",
+  "irc_reference": "IRC §9704(g)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

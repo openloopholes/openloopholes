@@ -1,0 +1,29 @@
+{
+  "id": "CRED_FTC_LIMITATION_INCREASE",
+  "name": "Foreign Tax Credit Limitation Increase for PTEP",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers receiving distributions excludable under section 959(a) who paid or accrued foreign taxes on such distributions.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Increases the section 904 foreign tax credit limitation in the year of a PTEP distribution to allow for the credit of foreign withholding taxes paid on that distribution.",
+  "irc_reference": "IRC §960(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

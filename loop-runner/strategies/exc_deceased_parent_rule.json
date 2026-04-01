@@ -1,0 +1,29 @@
+{
+  "id": "EXC_DECEASED_PARENT_RULE",
+  "name": "Deceased Parent Generation Step-Up",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to descendants of the transferor's parents (or spouse's parents) when the intermediate ancestor is deceased at the time of the transfer.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "If a beneficiary's parent (who is a descendant of the transferor's parent) is deceased at the time of the transfer, the beneficiary is moved up one generation, potentially avoiding GST tax by no longer being classified as a 'skip person'.",
+  "irc_reference": "IRC §2651(e)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

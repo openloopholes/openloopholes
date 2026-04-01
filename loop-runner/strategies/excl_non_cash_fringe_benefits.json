@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_NON_CASH_FRINGE_BENEFITS",
+  "name": "Fringe Benefit Withholding Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Employers providing qualified non-cash fringe benefits to employees.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes from withholding any benefit provided to an employee that is reasonably believed to be excludable under sections 117 (scholarships) or 132 (working condition fringes, de minimis fringes, etc.).",
+  "irc_reference": "IRC §3401(a)(19)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

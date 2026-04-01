@@ -1,0 +1,29 @@
+{
+  "id": "EXEMPT_LEVY_ASSETS",
+  "name": "Exemption of Essential Property from IRS Levy",
+  "category": "excise",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Automatic protection for individuals facing IRS collection actions; applies to basic household necessities and personal effects.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Protects specific categories of property from IRS seizure, including necessary wearing apparel, school books, fuel, provisions, furniture, and personal effects up to $6,250 (adjusted for inflation).",
+  "irc_reference": "IRC §6334",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

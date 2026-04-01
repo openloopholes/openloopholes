@@ -1,0 +1,29 @@
+{
+  "id": "DED_FOREIGN_AFFILIATE_CONTRIBUTIONS",
+  "name": "Foreign Affiliate Deduction for Plan Contributions",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies when U.S. employees of a foreign affiliate are covered by the American parent's qualified plan under a 3121(l) agreement.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a foreign affiliate to take a deduction for contributions made to a qualified plan on behalf of U.S. employees treated as employees of the American parent.",
+  "irc_reference": "IRC §406(d)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

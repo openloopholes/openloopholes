@@ -1,0 +1,29 @@
+{
+  "id": "ELE_MARKET_DISCOUNT_DE_MINIMIS",
+  "name": "De Minimis Market Discount Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies automatically if the market discount is below the specified threshold (1/4 of 1 percent of the stated redemption price at maturity multiplied by the number of complete years to maturity).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Treats market discount as zero if it is less than 0.25% of the redemption price multiplied by the years to maturity, effectively allowing the discount to be treated as capital gain rather than ordinary interest.",
+  "irc_reference": "IRC §1278(a)(2)(C)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

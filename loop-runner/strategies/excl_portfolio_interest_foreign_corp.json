@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_PORTFOLIO_INTEREST_FOREIGN_CORP",
+  "name": "Portfolio Interest Tax Exclusion for Foreign Corporations",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to interest on obligations in registered form where the recipient is not a 10-percent shareholder, not a bank lending in the ordinary course, and not a related controlled foreign corporation.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes U.S. source portfolio interest from the 30% flat tax normally imposed on foreign corporations not engaged in a U.S. trade or business.",
+  "irc_reference": "IRC §881(c)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

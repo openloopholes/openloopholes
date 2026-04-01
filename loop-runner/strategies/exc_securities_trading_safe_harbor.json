@@ -1,0 +1,29 @@
+{
+  "id": "EXC_SECURITIES_TRADING_SAFE_HARBOR",
+  "name": "Trading in Securities/Commodities Safe Harbor",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to nonresident aliens and foreign corporations trading for their own account, even if through a U.S. broker or with discretionary authority, provided they are not dealers.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Trading in stocks, securities, or commodities for the taxpayer's own account does not constitute a 'trade or business within the United States,' protecting foreign investors from ECI taxation.",
+  "irc_reference": "IRC §864",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

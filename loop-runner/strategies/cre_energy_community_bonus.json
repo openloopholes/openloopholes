@@ -1,0 +1,29 @@
+{
+  "id": "CRE_ENERGY_COMMUNITY_BONUS",
+  "name": "Energy Community Bonus Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Energy project must be placed in service within a defined energy community.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Provides an additional 10 percentage point increase to the energy credit for projects located in 'energy communities' (e.g., brownfield sites or areas with high fossil fuel employment).",
+  "irc_reference": "IRC §48(a)(14)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

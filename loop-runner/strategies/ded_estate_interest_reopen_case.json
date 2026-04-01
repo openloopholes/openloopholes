@@ -1,0 +1,29 @@
+{
+  "id": "DED_ESTATE_INTEREST_REOPEN_CASE",
+  "name": "Tax Court Reopening for Interest Deductions",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The estate must have an active Section 6166 extension and have paid interest that qualifies as an administrative expense.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Permits an estate to reopen a final Tax Court case to deduct interest paid on installment estate taxes as an administrative expense under Section 2053.",
+  "irc_reference": "IRC §7481(d)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

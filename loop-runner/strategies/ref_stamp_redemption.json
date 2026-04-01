@@ -1,0 +1,29 @@
+{
+  "id": "REF_STAMP_REDEMPTION",
+  "name": "Redemption of Unused or Spoiled Internal Revenue Stamps",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The claim must be presented within 3 years after the purchase of the stamps from the Government and requires satisfactory evidence of the stamps' destruction or uselessness.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can receive a refund or replacement for internal revenue stamps that have been spoiled, destroyed, rendered useless, or for which the owner has no further use.",
+  "irc_reference": "IRC §6805",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

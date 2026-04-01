@@ -1,0 +1,29 @@
+{
+  "id": "RATE_FARM_FISH_INCOME_AVERAGING",
+  "name": "Farm and Fishing Income Averaging",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to individuals (not estates or trusts) engaged in a farming or commercial fishing business with fluctuating annual income.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows individuals to elect to average their current year farm or fishing income over the previous three years to reduce the impact of high-income years and progressive tax brackets.",
+  "irc_reference": "IRC §1301",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

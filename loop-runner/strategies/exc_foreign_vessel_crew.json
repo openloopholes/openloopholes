@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FOREIGN_VESSEL_CREW",
+  "name": "Foreign Vessel Crew Member Income Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Must be a nonresident alien individual and a regular member of the crew of a foreign vessel engaged in transportation between the U.S. and a foreign country/possession.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Compensation for services performed by a nonresident alien as a regular crew member of a foreign vessel in international transportation is not deemed U.S. source income.",
+  "irc_reference": "IRC §861",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

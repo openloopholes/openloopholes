@@ -1,0 +1,29 @@
+{
+  "id": "EXC_LOANS_BETWEEN_NATURAL_PERSONS",
+  "name": "De Minimis Loan OID Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Loan must be between natural persons, not in the course of the lender's trade or business, and not for tax avoidance.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes loans of $10,000 or less between natural persons from the requirement to include Original Issue Discount (OID) in current income.",
+  "irc_reference": "IRC §1272(a)(2)(E)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

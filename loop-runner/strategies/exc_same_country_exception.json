@@ -1,0 +1,29 @@
+{
+  "id": "EXC_SAME_COUNTRY_EXCEPTION",
+  "name": "Same Country Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Multinational groups with tiered structures within a single foreign jurisdiction.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes dividends, interest, rents, and royalties received from a related person organized in the same foreign country as the CFC, provided the related person uses a substantial part of its assets in a trade or business in that country.",
+  "irc_reference": "IRC §954(c)(3)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

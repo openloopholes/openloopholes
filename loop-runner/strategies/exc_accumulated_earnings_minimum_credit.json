@@ -1,0 +1,29 @@
+{
+  "id": "EXC_ACCUMULATED_EARNINGS_MINIMUM_CREDIT",
+  "name": "Minimum Accumulated Earnings Credit",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to most C corporations; service corporations in health, law, engineering, architecture, accounting, actuarial science, performing arts, or consulting are limited to a $150,000 threshold.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows corporations to accumulate up to $250,000 ($150,000 for certain service corporations) in earnings and profits without being subject to the 20% accumulated earnings tax, regardless of business necessity.",
+  "irc_reference": "IRC §535(c)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

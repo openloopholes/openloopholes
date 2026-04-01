@@ -1,0 +1,29 @@
+{
+  "id": "DAMAGES_FAILURE_TO_RELEASE_LIEN",
+  "name": "Civil Damages for Failure to Release Lien",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires exhaustion of administrative remedies within the IRS and a filing within 2 years of the right of action accruing.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers may recover actual, direct economic damages and costs if the IRS knowingly or negligently fails to release a lien on property under section 6325.",
+  "irc_reference": "IRC §7432",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

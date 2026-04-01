@@ -1,0 +1,29 @@
+{
+  "id": "DED_BUSINESS_BAD_DEBT",
+  "name": "Business Bad Debt Ordinary Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The debt must be created or acquired in connection with the taxpayer's trade or business.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Business debts that become wholly or partially worthless can be deducted against ordinary income.",
+  "irc_reference": "IRC §166(a)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

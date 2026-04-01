@@ -1,0 +1,29 @@
+{
+  "id": "RATE_RIC_QUALIFIED_DIVIDENDS",
+  "name": "Preferential Rates on RIC Qualified Dividend Income",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to individuals receiving dividends from a RIC that derives income from qualified domestic or foreign corporations.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Individual shareholders can treat portions of RIC distributions as qualified dividend income taxable at lower capital gains rates if the RIC reports the amount as such.",
+  "irc_reference": "IRC §854",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_SELF_EMPLOYED_HOUSING",
+  "name": "Foreign Housing Deduction for Self-Employed",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Qualified individuals with foreign earned income not attributable to employer-provided amounts; includes a 1-year carryover for excess amounts.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows an above-the-line deduction for foreign housing costs to the extent they are not provided by an employer (e.g., for freelancers or partners).",
+  "irc_reference": "IRC §911(c)(4)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

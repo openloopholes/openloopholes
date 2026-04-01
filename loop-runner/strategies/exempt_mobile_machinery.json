@@ -1,0 +1,29 @@
+{
+  "id": "EXEMPT_MOBILE_MACHINERY",
+  "name": "Mobile Machinery Exemption",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to vehicles that meet the technical specifications of mobile machinery rather than standard highway transportation vehicles.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Vehicles designed as mobile machinery (as defined in section 4053(8)) are exempt from the heavy vehicle use tax.",
+  "irc_reference": "IRC §4483",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

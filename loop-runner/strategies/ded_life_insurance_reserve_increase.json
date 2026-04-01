@@ -1,0 +1,29 @@
+{
+  "id": "DED_LIFE_INSURANCE_RESERVE_INCREASE",
+  "name": "Life Insurance Reserve Increase Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to life insurance companies maintaining reserves for life insurance, annuity, or noncancellable accident and health contracts.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows life insurance companies to deduct the increase in the closing balance of certain reserves over the opening balance, including life insurance reserves and unearned premiums.",
+  "irc_reference": "IRC §807",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

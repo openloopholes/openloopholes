@@ -1,0 +1,29 @@
+{
+  "id": "ELE_DISC_EXPORT_INCENTIVE",
+  "name": "DISC Status Election",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires a domestic corporation with one class of stock, minimum $2,500 capital, and shareholder consent. Election must be made during the 90-day period preceding the tax year.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Election to be treated as a DISC to defer tax on export income or convert high-taxed ordinary income into lower-taxed dividend income for shareholders.",
+  "irc_reference": "IRC §992(b)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business|individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_HANDICAPPED_SHELTERED_WORKSHOP",
+  "name": "Handicapped Dependent Income Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "The individual must be permanently and totally disabled and the income must be from a 501(c)(3) or government-run sheltered workshop.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Income earned by a permanently disabled individual at a sheltered workshop is excluded from gross income for purposes of the 'qualifying relative' gross income test.",
+  "irc_reference": "IRC §152(d)(4)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

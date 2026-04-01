@@ -1,0 +1,29 @@
+{
+  "id": "DED_E_P_ADJUSTMENT_LIABILITIES",
+  "name": "Earnings and Profits Reduction for Liabilities",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Corporations distributing property encumbered by debt or where the shareholder assumes corporate debt in connection with the distribution.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Reduces the impact of property distributions on corporate earnings and profits by the amount of any liability to which the property is subject or any liability assumed by the shareholder.",
+  "irc_reference": "IRC §312(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

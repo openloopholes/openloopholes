@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FRACTIONAL_OWNERSHIP_FUEL_TAX",
+  "name": "Fractional Ownership Aircraft Program Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be a participant in a fractional aircraft ownership program where fuel taxes are paid under IRC 4043. Valid through September 30, 2028.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts air transportation in fractional ownership programs from the 7.5% ticket tax if the fuel used is subject to the section 4043 fuel tax.",
+  "irc_reference": "IRC §4261(j)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

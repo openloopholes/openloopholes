@@ -1,0 +1,29 @@
+{
+  "id": "ELECTION_MONTHLY_DRAWBACK_CLAIMS",
+  "name": "Monthly Drawback Payment Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Any person entitled to a drawback under Section 5114 who files a written election and potentially provides a bond or security.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect in writing to file for and receive drawback payments monthly rather than quarterly to improve cash flow.",
+  "irc_reference": "IRC §5114(b)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_MARITAL_GIFT",
+  "name": "Unlimited Marital Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "The recipient must be the donor's spouse at the time of the gift and must be a U.S. citizen.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows for the transfer of an unlimited amount of assets to a spouse who is a U.S. citizen during their lifetime without incurring gift tax.",
+  "irc_reference": "IRC §2523",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

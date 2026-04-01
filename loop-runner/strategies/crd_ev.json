@@ -1,0 +1,30 @@
+{
+  "id": "CRD_EV",
+  "name": "Clean Vehicle Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "EXPIRES 9/30/2025; income and MSRP limits",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "amount": {
+      "type": "int",
+      "description": "EV credit amount (max $7,500)"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Purchase by Sept 30, 2025",
+    "forward_status": "available"
+  },
+  "description": "Up to $7,500 for qualifying new EVs. Price and income limits apply.",
+  "irc_reference": "IRC §30D",
+  "deadline": "Purchase by Sept 30, 2025"
+}

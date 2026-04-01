@@ -1,0 +1,29 @@
+{
+  "id": "MOD_LOWER_RATE_CERTIFICATION",
+  "name": "Modification of Imputed Underpayment Tax Rates",
+  "category": "capital_gain",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to partnerships under audit with C corporation partners or those with capital gain/qualified dividend adjustments allocable to individuals.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows the partnership to prove that a portion of an adjustment is allocable to a C corporation or an individual (for capital gains/qualified dividends) to apply a tax rate lower than the highest statutory rate.",
+  "irc_reference": "IRC §6225(c)(4)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

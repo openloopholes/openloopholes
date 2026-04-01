@@ -1,0 +1,29 @@
+{
+  "id": "DED_WORTHLESS_SECURITIES",
+  "name": "Worthless Securities Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The security must be a capital asset and must be 100% worthless; partial worthlessness does not qualify for individuals.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a capital loss deduction for securities that become entirely worthless during the taxable year, treated as a sale on the last day of the year.",
+  "irc_reference": "IRC §165(g)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

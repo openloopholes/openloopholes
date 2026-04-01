@@ -1,0 +1,29 @@
+{
+  "id": "CRED_RIC_FOREIGN_TAX_PASS_THROUGH",
+  "name": "RIC Foreign Tax Credit Pass-Through",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The RIC must make an election under Section 853 and provide a written statement to the shareholder reporting their share of foreign taxes and foreign source income.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows shareholders of a RIC to claim a foreign tax credit or deduction for their proportionate share of foreign taxes paid by the fund, provided the fund elects this treatment and holds more than 50% of its assets in foreign corporations.",
+  "irc_reference": "IRC §853",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

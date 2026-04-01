@@ -1,0 +1,29 @@
+{
+  "id": "ELE_PARTNERSHIP_ADJUSTMENT_LIMITATION",
+  "name": "Partnership Statute of Limitations Defense",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to all partnerships provided they have not filed a fraudulent return, omitted more than 25% of gross income, or failed to report listed transactions.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Prevents the IRS from making partnership adjustments after 3 years from the later of the return filing date, the due date, or an administrative adjustment request.",
+  "irc_reference": "IRC §6235",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

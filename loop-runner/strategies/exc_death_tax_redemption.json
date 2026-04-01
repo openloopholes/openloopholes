@@ -1,0 +1,29 @@
+{
+  "id": "EXC_DEATH_TAX_REDEMPTION",
+  "name": "Section 303 Redemption to Pay Death Taxes",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The value of the corporate stock must exceed 35% of the decedent's adjusted gross estate.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a portion of a stock redemption to be treated as an exchange (qualifying for stepped-up basis) rather than a dividend to pay for estate taxes and funeral expenses.",
+  "irc_reference": "IRC §303",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

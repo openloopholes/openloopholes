@@ -1,0 +1,29 @@
+{
+  "id": "EXC_CASH_METHOD_FARMING",
+  "name": "Cash Method Exception for Farming Corporations",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to S corporations or corporations with average annual gross receipts under the inflation-adjusted threshold (approx. $30M for 2024-2025).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows S corporations and corporations meeting the section 448(c) gross receipts test to avoid mandatory accrual accounting, permitting the use of the cash method for farming activities.",
+  "irc_reference": "IRC §447",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_CASH_METHOD_PSC",
+  "name": "Qualified Personal Service Corporation Cash Method",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Corporations where substantially all activities involve health, law, engineering, architecture, accounting, actuarial science, performing arts, or consulting, and stock is held by employees.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Qualified Personal Service Corporations (PSCs) are permitted to use the cash method of accounting regardless of gross receipts, provided they operate in specific fields.",
+  "irc_reference": "IRC §448",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

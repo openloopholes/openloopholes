@@ -1,0 +1,37 @@
+{
+  "id": "BIZ_FAMILY_EMPLOY",
+  "name": "Hire Family Members",
+  "category": "business",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Children under 18; no FICA if sole prop/partnership. S-Corp: FICA applies.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "num_children": {
+      "type": "int",
+      "description": "number of children to employ"
+    },
+    "wage_per_child": {
+      "type": "int",
+      "description": "annual wage per child"
+    }
+  },
+  "entity_specific": true,
+  "entity_types": [
+    "schedule_c",
+    "s_corp"
+  ],
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "depends",
+    "retroactive_note": "If children actually worked during 2025, wages can still be reported",
+    "forward_status": "available"
+  },
+  "description": "Employ your children (under 18) in legitimate business roles. Wages are deductible to the business and sheltered by the child's standard deduction. No FICA if sole proprietorship.",
+  "irc_reference": "IRC §3121(b)(3)(A)",
+  "deadline": "Work performed during tax year"
+}

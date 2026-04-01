@@ -1,0 +1,29 @@
+{
+  "id": "ELE_ACQUISITION_DEBT_REDETERMINATION",
+  "name": "3-Year Debt Status Redetermination",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Corporations with existing acquisition debt that have improved their financial ratios (debt-to-equity < 2:1 or improved earnings) over a 3-year period.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "If an obligation was previously classified as corporate acquisition indebtedness, it can lose that restrictive status if the corporation meets the debt-to-equity and earnings tests for three consecutive years.",
+  "irc_reference": "IRC §279",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "WHISTLEBLOWER_TAX_AWARD",
+  "name": "IRS Whistleblower Award Program",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies if the individual's gross income exceeds $200,000 for the year in question and the total proceeds in dispute exceed $2,000,000. Information must be submitted under penalty of perjury.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Individuals who provide original information to the IRS regarding tax underpayments or fraud can receive a mandatory award of 15% to 30% of the proceeds collected.",
+  "irc_reference": "IRC §7623",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

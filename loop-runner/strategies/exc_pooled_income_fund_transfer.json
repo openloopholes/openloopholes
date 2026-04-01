@@ -1,0 +1,29 @@
+{
+  "id": "EXC_POOLED_INCOME_FUND_TRANSFER",
+  "name": "Pooled Income Fund Gain Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must transfer property to a pooled income fund as defined in section 642(c)(5).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes the recognition of gain when property is transferred to a trust in exchange for an interest in other trust property, provided the trust is a qualified pooled income fund.",
+  "irc_reference": "IRC §683(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

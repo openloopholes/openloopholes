@@ -1,0 +1,30 @@
+{
+  "id": "TIME_TLH",
+  "name": "Tax Loss Harvesting",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Unrealized losses; no wash sales",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "loss_amount": {
+      "type": "int",
+      "description": "losses to realize"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Losses had to be realized by Dec 31, 2025",
+    "forward_status": "available"
+  },
+  "description": "Realize investment losses to offset capital gains. Net losses can offset up to $3,000 of ordinary income per year.",
+  "irc_reference": "IRC §1091 (wash sale rule)",
+  "deadline": "Losses realized by Dec 31"
+}

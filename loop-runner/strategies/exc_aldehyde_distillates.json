@@ -1,0 +1,29 @@
+{
+  "id": "EXC_ALDEHYDE_DISTILLATES",
+  "name": "Tax-Free Removal of Aldehyde Distillates",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Distilled spirits plants adjacent to bonded wine cellars using unfinished spirits for fermentation material.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Permits the removal of distillates containing aldehydes without payment of tax for use in the fermentation of wine to be used as distilling material.",
+  "irc_reference": "IRC §5373(c)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

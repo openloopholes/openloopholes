@@ -1,0 +1,29 @@
+{
+  "id": "EXC_UBTI_RESEARCH_INCOME",
+  "name": "Exclusion of Research Income",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to exempt organizations conducting scientific or medical research where results are often made available to the public or performed for government agencies.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes income derived from research performed for government entities, or research performed by colleges, universities, hospitals, or fundamental research organizations.",
+  "irc_reference": "IRC §512(b)(7)-(9)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

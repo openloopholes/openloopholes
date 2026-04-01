@@ -1,0 +1,29 @@
+{
+  "id": "EXC_PTP_PASSIVE_INCOME",
+  "name": "Publicly Traded Partnership Passive Income Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Partnership must meet the 90% gross income requirement consisting of interest, dividends, real property rents, or gains from natural resources/minerals.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a publicly traded partnership to be treated as a partnership rather than a corporation if 90% or more of its gross income is 'qualifying' passive-type income.",
+  "irc_reference": "IRC §7704(c)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

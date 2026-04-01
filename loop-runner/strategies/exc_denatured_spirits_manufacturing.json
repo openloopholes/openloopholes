@@ -1,0 +1,29 @@
+{
+  "id": "EXC_DENATURED_SPIRITS_MANUFACTURING",
+  "name": "Tax-Free Use of Denatured Spirits in Manufacturing",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Distilled spirits plants qualified for processing that denature spirits according to Treasury regulations for industrial or manufacturing use.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Distilled spirits may be denatured on bonded premises, rendering them unfit for beverage use and allowing them to be used in the manufacture of other articles without immediate excise tax liability.",
+  "irc_reference": "IRC §5241",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

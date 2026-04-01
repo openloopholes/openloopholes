@@ -1,0 +1,30 @@
+{
+  "id": "TIME_DEFER",
+  "name": "Income Deferral",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Cash-basis self-employed",
+    "requires_entity_type": "schedule_c",
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "amount": {
+      "type": "int",
+      "description": "income deferred to next year"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Year-end planning for 2025",
+    "forward_status": "available"
+  },
+  "description": "Cash-basis self-employed can defer income by delaying invoicing.",
+  "irc_reference": "IRC §451",
+  "deadline": "Year-end planning"
+}

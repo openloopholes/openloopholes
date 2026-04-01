@@ -1,0 +1,29 @@
+{
+  "id": "CRED_LOW_INCOME_HOUSING",
+  "name": "Low-Income Housing Tax Credit (LIHTC)",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers must own a qualified low-income building that meets specific occupancy and rent-restriction requirements and receive an allocation from a state housing agency.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a substantial tax credit for the construction or rehabilitation of affordable rental housing. The credit is typically 9% for new non-federally subsidized buildings and 4% for other projects, taken over a 10-year period.",
+  "irc_reference": "IRC §42",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

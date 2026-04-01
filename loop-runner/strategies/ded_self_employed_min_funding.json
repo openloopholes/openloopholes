@@ -1,0 +1,29 @@
+{
+  "id": "DED_SELF_EMPLOYED_MIN_FUNDING",
+  "name": "Self-Employed Minimum Funding Deduction Expansion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to self-employed individuals (Section 401(c)(1)) where the required plan contribution exceeds the earned income of the trade or business.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Amounts required to be contributed to a plan under section 412 on behalf of a self-employed individual are treated as deductible under section 404 even if they exceed earned income, avoiding the 10% excise tax.",
+  "irc_reference": "IRC §4972",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

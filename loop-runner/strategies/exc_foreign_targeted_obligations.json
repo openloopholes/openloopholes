@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FOREIGN_TARGETED_OBLIGATIONS",
+  "name": "Exclusion for Foreign-Targeted Obligations",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Obligations must have arrangements ensuring sale only to non-U.S. persons, pay interest outside the U.S., and include specific tax limitation statements on the face of the obligation.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Issuers can avoid the 1% excise tax on non-registered obligations by structuring debt to be sold only to non-U.S. persons with interest payable outside the U.S.",
+  "irc_reference": "IRC §4701",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

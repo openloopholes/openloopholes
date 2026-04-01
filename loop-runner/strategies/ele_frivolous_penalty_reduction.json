@@ -1,0 +1,29 @@
+{
+  "id": "ELE_FRIVOLOUS_PENALTY_REDUCTION",
+  "name": "Discretionary Reduction of Frivolous Penalties",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers subject to Section 6702 penalties who can demonstrate that a reduction in the penalty amount would improve their future tax compliance.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The Secretary may reduce the amount of a frivolous submission penalty if it is determined that such a reduction would promote compliance with and administration of Federal tax laws.",
+  "irc_reference": "IRC §6702(d)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

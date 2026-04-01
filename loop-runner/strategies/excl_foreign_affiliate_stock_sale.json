@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_FOREIGN_AFFILIATE_STOCK_SALE",
+  "name": "Foreign Affiliate Stock Sale Sourcing",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "U.S. resident selling stock in a foreign affiliate where the affiliate is engaged in active trade or business and 50%+ of gross income is from that country.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Gain from the sale of stock in a foreign affiliate is sourced outside the U.S. if the sale occurs in the country where the affiliate derives most of its active business income.",
+  "irc_reference": "IRC §865(f)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

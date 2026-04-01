@@ -1,0 +1,29 @@
+{
+  "id": "ELE_REASONABLE_CAUSE_PENALTY_WAIVER",
+  "name": "Reasonable Cause Penalty Abatement",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to failures regarding tax-favored accounts (IRA, HSA, 529), return preparation errors, or energy credit certifications where the taxpayer acted in good faith and had a valid reason for the non-compliance.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers and preparers can avoid penalties for reporting failures, understatements, or incorrect certifications by demonstrating that the error was due to reasonable cause and not willful neglect.",
+  "irc_reference": "IRC §6693, 6694, 6695, 6695B",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual|business|employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DEF_ESOP_ROLLOVER",
+  "name": "Section 1042 ESOP Stock Sale Rollover",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The seller must have held the stock of a domestic C-corp (with no readily tradable stock) for at least 3 years, and the ESOP must own at least 30% of the company after the sale. Reinvestment in QRP must occur within a 15-month window.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a taxpayer to elect nonrecognition of gain on the sale of qualified securities to an ESOP if the proceeds are reinvested in qualified replacement property (QRP).",
+  "irc_reference": "IRC §1042",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

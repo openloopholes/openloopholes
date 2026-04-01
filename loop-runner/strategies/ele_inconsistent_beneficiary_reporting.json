@@ -1,0 +1,29 @@
+{
+  "id": "ELE_INCONSISTENT_BENEFICIARY_REPORTING",
+  "name": "Beneficiary Inconsistent Treatment Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Beneficiaries of estates or trusts who believe the entity's reporting of an item is incorrect.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a beneficiary to treat an item on their tax return differently than how the estate or trust reported it on the Schedule K-1, provided they notify the IRS of the inconsistency.",
+  "irc_reference": "IRC §6034A(c)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

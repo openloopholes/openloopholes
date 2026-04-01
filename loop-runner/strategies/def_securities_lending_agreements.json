@@ -1,0 +1,29 @@
+{
+  "id": "DEF_SECURITIES_LENDING_AGREEMENTS",
+  "name": "Nonrecognition of Gain on Securities Lending",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The agreement must provide for the return of identical securities, payment of equivalent distributions (dividends/interest), and not reduce the transferor's risk of loss or opportunity for gain.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "No gain or loss is recognized when a taxpayer transfers securities pursuant to a qualifying lending agreement that requires the return of identical securities.",
+  "irc_reference": "IRC §1058",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

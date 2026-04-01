@@ -1,0 +1,29 @@
+{
+  "id": "CRED_SECOND_GEN_BIOFUEL",
+  "name": "Second Generation Biofuel Producer Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Producers of liquid fuel derived from qualified feedstocks (like algae or lignocellulosic matter) registered with the EPA and the IRS.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a credit of $1.01 per gallon for qualified second generation biofuel production through December 31, 2024.",
+  "irc_reference": "IRC §40(b)(6)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

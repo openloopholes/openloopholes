@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_529_EARNINGS",
+  "name": "529 Plan Tax-Free Growth and Distributions",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to taxpayers contributing to state-sponsored or institutional tuition programs for a designated beneficiary's education.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Earnings on contributions to a qualified tuition program are excluded from gross income if used for qualified higher education expenses.",
+  "irc_reference": "IRC §529",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_NEIGHBORHOOD_LAND_ACQUISITION",
+  "name": "Neighborhood Land Rule for Debt-Financed Property",
+  "category": "rental",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The land must be in the neighborhood of other exempt-use property and the organization must intend to use it for exempt purposes within 10 years.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts real property from being treated as 'debt-financed property' (and thus avoids UBIT on income/gain) if acquired for exempt use within 10 years (15 for churches).",
+  "irc_reference": "IRC §514(b)(3)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_NONRESIDENT_MARITAL",
+  "name": "Nonresident Marital Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to nonresident non-citizens; typically requires the use of a Qualified Domestic Trust (QDOT) if the surviving spouse is not a U.S. citizen.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a marital deduction for property situated in the U.S. under the principles of section 2056.",
+  "irc_reference": "IRC §2106(a)(3)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

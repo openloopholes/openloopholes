@@ -1,0 +1,29 @@
+{
+  "id": "DED_PENALTY_REDUCTION_TIMELY_CORRECTION",
+  "name": "Penalty Reduction for Prompt Correction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to any person who files a corrected information return within the specified windows (30 days or by August 1).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Penalties for incorrect information returns are significantly reduced if the taxpayer corrects the failure within 30 days or by August 1st.",
+  "irc_reference": "IRC §6721(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business|employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

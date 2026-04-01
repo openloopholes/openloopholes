@@ -1,0 +1,29 @@
+{
+  "id": "EXEMPT_REASONABLE_CAUSE_GOOD_FAITH",
+  "name": "Reasonable Cause and Good Faith Exception",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers who can document reliance on professional advice, honest misunderstandings of law, or isolated mathematical errors.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a complete exemption from accuracy-related and fraud penalties if the taxpayer can demonstrate reasonable cause for the underpayment and that they acted in good faith.",
+  "irc_reference": "IRC §6664(c)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

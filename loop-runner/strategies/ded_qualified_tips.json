@@ -1,0 +1,29 @@
+{
+  "id": "DED_QUALIFIED_TIPS",
+  "name": "Qualified Tips Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to tips reported on tax forms for tax years 2025-2028; subject to AGI phase-outs starting at $150k ($300k joint) and excludes specified service trades.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a deduction of up to $25,000 for qualified cash tips received in the course of an occupation that customarily receives tips, effectively making that tip income tax-free.",
+  "irc_reference": "IRC §224",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

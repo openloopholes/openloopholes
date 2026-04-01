@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_DEFERRED_ESTATE_TAX_LIEN",
+  "name": "Special Lien for Deferred Estate Tax",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to estates electing to defer tax payments under IRC 6166. Requires a written agreement signed by all parties with an interest in the designated lien property.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows an executor to elect a specific lien on designated property in lieu of a general estate tax lien or a costly surety bond when deferring estate taxes under section 6166.",
+  "irc_reference": "IRC §6324A",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_HEAVY_TRUCK_WEIGHT_LIMITS",
+  "name": "Heavy Truck Retail Tax Weight Exclusions",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers must purchase vehicles meeting specific Gross Vehicle Weight (GVW) or Gross Combined Weight (GCW) thresholds to avoid the 12% tax.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The 12% retail excise tax is excluded for trucks with a GVW of 33,000 lbs or less, trailers of 26,000 lbs or less, and certain tractors of 19,500 lbs or less.",
+  "irc_reference": "IRC §4051(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

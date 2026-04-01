@@ -1,0 +1,29 @@
+{
+  "id": "ELE_ALTERNATE_VALUATION",
+  "name": "Alternate Valuation Date Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available if the total value of the estate and the tax due decrease between the date of death and the 6-month anniversary.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows the executor to value the estate assets as of 6 months after the date of death if both the gross estate value and the estate tax liability decrease.",
+  "irc_reference": "IRC §2032",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

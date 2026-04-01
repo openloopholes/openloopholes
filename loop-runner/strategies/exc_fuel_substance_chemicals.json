@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FUEL_SUBSTANCE_CHEMICALS",
+  "name": "Fuel Production Chemical Tax Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must use the chemicals in a 'qualified fuel use' or sell them for such use/resale.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts specific chemicals (acetylene, benzene, butylene, butadiene, ethylene, naphthalene, propylene, toluene, and xylene) from tax if used as fuel or to produce motor, diesel, aviation, or jet fuel.",
+  "irc_reference": "IRC §4662(b)(5)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

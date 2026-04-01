@@ -1,0 +1,29 @@
+{
+  "id": "DEF_CORPORATE_ATTRIBUTE_CARRYOVER",
+  "name": "Succession of Tax Attributes in Acquisitions",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to Section 332 liquidations and Section 368(a)(1) reorganizations (Types A, C, D, F, and G).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Acquiring corporations in specific tax-free reorganizations or liquidations can inherit and utilize the target company's tax attributes, including NOL carryovers, capital losses, and charitable contribution carryforwards.",
+  "irc_reference": "IRC §381",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

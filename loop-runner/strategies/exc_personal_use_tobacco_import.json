@@ -1,0 +1,29 @@
+{
+  "id": "EXC_PERSONAL_USE_TOBACCO_IMPORT",
+  "name": "Personal Use Tobacco Import Tax and Penalty Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to individuals relanding or receiving tobacco products for personal use in quantities allowed entry free of tax and duty under chapter 98 of the Harmonized Tariff Schedule of the United States.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows individuals to bring previously exported tobacco products back into the U.S. without incurring excise tax or civil penalties, provided the quantity falls within the limits of the Harmonized Tariff Schedule.",
+  "irc_reference": "IRC §5761",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

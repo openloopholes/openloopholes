@@ -1,0 +1,29 @@
+{
+  "id": "ABATE_INTEREST_IRS_ERROR",
+  "name": "Abatement of Interest Due to IRS Error or Delay",
+  "category": "estate",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies if no significant aspect of the delay is attributed to the taxpayer and the IRS has already contacted the taxpayer in writing regarding the deficiency.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The IRS may abate interest on a tax deficiency if the interest is attributable to unreasonable errors or delays by an IRS employee in performing a ministerial or managerial act.",
+  "irc_reference": "IRC §6404(e)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|investor|estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_PRIOR_TAXED_GST",
+  "name": "Prior Taxed Property GST Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "The transfer must not have the effect of avoiding tax and must involve property already taxed under Chapter 13.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes transfers from GST tax if the property was previously subject to GST tax and the new transferee is in the same or lower generation as the prior transferee.",
+  "irc_reference": "IRC §2611(b)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

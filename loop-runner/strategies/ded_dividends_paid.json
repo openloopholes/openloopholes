@@ -1,0 +1,29 @@
+{
+  "id": "DED_DIVIDENDS_PAID",
+  "name": "Dividends Paid Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Primarily benefits Personal Holding Companies and other entities subject to specialized corporate taxes that allow for a dividends paid deduction.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a deduction for dividends paid to shareholders, including consent dividends and carryovers, to reduce taxable income for specific corporate entities.",
+  "irc_reference": "IRC §561",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

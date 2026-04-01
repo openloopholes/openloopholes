@@ -1,0 +1,29 @@
+{
+  "id": "ABATE_PENALTY_WRITTEN_ADVICE",
+  "name": "Abatement of Penalty Due to Erroneous Written Advice",
+  "category": "procedure",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The advice must have been in response to a specific written request by the taxpayer and based on accurate information provided by the taxpayer.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The IRS is required to abate any penalty or addition to tax that resulted from a taxpayer's reasonable reliance on erroneous written advice provided by an IRS employee.",
+  "irc_reference": "IRC §6404(f)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

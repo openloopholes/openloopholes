@@ -1,0 +1,29 @@
+{
+  "id": "EXC_UNICAP_CASUALTY_REPLANTING",
+  "name": "Casualty Loss Replanting Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to taxpayers replanting plants bearing the same type of crop lost to natural disasters or pests.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows immediate deduction of costs to replant edible crops lost to freezing, disease, drought, or casualty, even if the taxpayer is otherwise subject to UNICAP.",
+  "irc_reference": "IRC §263A(d)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

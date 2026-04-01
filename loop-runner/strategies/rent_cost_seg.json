@@ -1,0 +1,32 @@
+{
+  "id": "RENT_COST_SEG",
+  "name": "Cost Segregation Study",
+  "category": "rental",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Property $500K+; 100% bonus depr. on reclassified components",
+    "requires_entity_type": "rental",
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "depreciation_amount": {
+      "type": "int",
+      "description": "accelerated depreciation amount"
+    }
+  },
+  "entity_specific": true,
+  "entity_types": [
+    "rental"
+  ],
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Property had to be placed in service during 2025",
+    "forward_status": "available"
+  },
+  "description": "Reclassify building components to shorter lives. Large paper losses with bonus depreciation.",
+  "irc_reference": "IRC §168",
+  "deadline": "Property in service during tax year"
+}

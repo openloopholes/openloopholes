@@ -1,0 +1,29 @@
+{
+  "id": "CONTRIBUTION_VALIDATION_PENDING_LITIGATION",
+  "name": "Validation of Charitable Contributions During Status Revocation Proceedings",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Individual donors (not responsible for the organization's actions) contributing to an organization during the period its status is being litigated in court.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows individuals to still claim a tax deduction for contributions (up to $1,000) to an organization even if the IRS has revoked its 501(c)(3) status, provided a declaratory judgment action is pending.",
+  "irc_reference": "IRC §7428(c)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CREDIT_FUEL_USE_NON_TAXABLE",
+  "name": "Section 34 Fuel Tax Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers must qualify under IRC Section 34 for credits related to fuel used for non-taxable purposes.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a credit against income tax for amounts equivalent to excise taxes paid on fuels used for specific non-taxable purposes, including certain aviation and non-highway uses.",
+  "irc_reference": "IRC §9502(d)(3)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

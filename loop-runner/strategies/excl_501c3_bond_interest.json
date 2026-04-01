@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_501C3_BOND_INTEREST",
+  "name": "Qualified 501(c)(3) Bond Financing",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be a 501(c)(3) organization or governmental unit; property must be owned by the 501(c)(3) or government; specific limits apply to non-hospital bonds ($150M) and residential rental housing.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows 501(c)(3) organizations to access tax-exempt bond financing for capital expenditures, including hospitals and educational facilities, effectively lowering the cost of capital.",
+  "irc_reference": "IRC §145",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

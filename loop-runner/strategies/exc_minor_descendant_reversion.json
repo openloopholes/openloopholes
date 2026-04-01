@@ -1,0 +1,29 @@
+{
+  "id": "EXC_MINOR_DESCENDANT_REVERSION",
+  "name": "Minor Lineal Descendant Reversionary Interest",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The beneficiary must be a lineal descendant of the grantor and hold all present interests in the trust portion.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A grantor is not treated as the owner of a trust portion if they hold a reversionary interest that only takes effect upon the death of a lineal descendant beneficiary before that beneficiary reaches age 21. This allows for certain trust structures for minors without triggering the 5% reversionary rule.",
+  "irc_reference": "IRC §673(b)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

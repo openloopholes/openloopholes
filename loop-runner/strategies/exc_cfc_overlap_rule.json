@@ -1,0 +1,29 @@
+{
+  "id": "EXC_CFC_OVERLAP_RULE",
+  "name": "CFC/PFIC Overlap Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "The shareholder must be a 'United States shareholder' (10% or more) of a CFC.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes a foreign corporation from being treated as a PFIC for a U.S. shareholder during the period they are subject to the Controlled Foreign Corporation (CFC) rules.",
+  "irc_reference": "IRC §1297(d)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

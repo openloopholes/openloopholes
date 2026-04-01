@@ -1,0 +1,29 @@
+{
+  "id": "CRED_OFF_HIGHWAY_FUEL",
+  "name": "Federal Fuel Tax Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to taxpayers who use fuel for off-highway business purposes (e.g., stationary engines, forklifts, construction equipment) or for farming purposes. The credit is generally claimed on Form 4136.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a refundable tax credit for the federal excise taxes paid on gasoline and special fuels used for non-taxable purposes, such as farming, off-highway business use, or certain bus services.",
+  "irc_reference": "IRC §34",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

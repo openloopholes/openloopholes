@@ -1,0 +1,29 @@
+{
+  "id": "EXC_COMBAT_ZONE_COMPENSATION",
+  "name": "Combat Zone Compensation Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Members of the Armed Forces serving in a Presidentially designated combat zone or hospitalized as a result of such service.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes 100% of active service compensation for enlisted members and a capped amount for commissioned officers for any month served in a designated combat zone.",
+  "irc_reference": "IRC §112",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_ACQUISITION_INTEREST_LIMIT_AVOIDANCE",
+  "name": "Acquisition Debt Interest Optimization",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Corporations engaging in M&A activity can structure debt to avoid subordination or convertibility features to bypass the $5M interest deduction cap.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Corporations can deduct up to $5 million in interest on debt used to acquire another corporation's stock or assets, provided the debt does not meet all four criteria of 'corporate acquisition indebtedness' (subordination, convertibility, high debt-to-equity, and low earnings coverage).",
+  "irc_reference": "IRC §279",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

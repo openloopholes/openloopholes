@@ -1,0 +1,29 @@
+{
+  "id": "DED_LIQUIDATION_LOSS_ORGANIZATION",
+  "name": "Liquidation Deduction for Unamortized Organization Costs",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Partnerships that dissolve or liquidate before the full 15-year amortization of startup/org costs is complete.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "If a partnership liquidates before the end of the 180-month amortization period, it can deduct the remaining unamortized organizational expenses as a loss under section 165.",
+  "irc_reference": "IRC §709(b)(2)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

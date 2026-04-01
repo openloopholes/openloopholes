@@ -1,0 +1,29 @@
+{
+  "id": "EXC_SUBDIVIDED_REAL_ESTATE",
+  "name": "Real Property Subdivided for Sale Safe Harbor",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must have held the property for 5 years (unless inherited), made no substantial improvements that enhance value, and not previously held the tract as a dealer.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows non-C corporation taxpayers to subdivide a tract of land for sale without being classified as a 'dealer,' preserving capital gain treatment on the first 5 lots sold.",
+  "irc_reference": "IRC §1237",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

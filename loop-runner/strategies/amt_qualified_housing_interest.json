@@ -1,0 +1,29 @@
+{
+  "id": "AMT_QUALIFIED_HOUSING_INTEREST",
+  "name": "AMT Qualified Housing Interest Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Taxpayers paying mortgage interest on a primary or secondary residence that meets the definition of qualified housing interest.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows a deduction for interest paid on debt used to acquire, construct, or substantially improve a principal residence or qualified dwelling for AMT purposes.",
+  "irc_reference": "IRC §56",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

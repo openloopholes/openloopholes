@@ -1,0 +1,29 @@
+{
+  "id": "PASSIVE_BUSINESS_HOLDINGS_EXCLUSION",
+  "name": "Passive Income Business Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Foundations holding interests in entities generating primarily passive income such as dividends, interest, or royalties.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes from the definition of 'business enterprise' (and thus from excess business holdings taxes) any trade or business where at least 95% of gross income is from passive sources.",
+  "irc_reference": "IRC §4943(d)(3)(B)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

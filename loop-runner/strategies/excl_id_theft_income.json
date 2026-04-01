@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_ID_THEFT_INCOME",
+  "name": "Exclusion of Identity Theft Income",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers who are victims of identity theft where a third party used their SSN to obtain employment or report income.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Income reported to the IRS resulting from the unauthorized use of a taxpayer's identity (employment-related identity theft) is not taken into account for determining underreporting penalties or tax liability for the victim.",
+  "irc_reference": "IRC §7529",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

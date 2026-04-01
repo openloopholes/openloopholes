@@ -1,0 +1,29 @@
+{
+  "id": "DED_BLUE_CROSS_SPECIAL_DEDUCTION",
+  "name": "Health Organization Special Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to existing Blue Cross/Blue Shield organizations and other health organizations meeting strict community-rating and open-enrollment criteria.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Provides a special deduction for certain health insurance organizations equal to 25% of claims and expenses incurred, minus adjusted surplus.",
+  "irc_reference": "IRC §833(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

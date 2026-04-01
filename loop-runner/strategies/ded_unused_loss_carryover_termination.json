@@ -1,0 +1,29 @@
+{
+  "id": "DED_UNUSED_LOSS_CARRYOVER_TERMINATION",
+  "name": "Excess Deduction and Loss Pass-Through on Termination",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Beneficiaries succeeding to the property of an estate or trust upon its termination.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Unused net operating losses, capital loss carryovers, and deductions in excess of gross income in the final year of an estate or trust flow through to the beneficiaries.",
+  "irc_reference": "IRC §642(h)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

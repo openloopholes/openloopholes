@@ -1,0 +1,29 @@
+{
+  "id": "EXEMPT_TOOLS_OF_TRADE",
+  "name": "Business Tools Levy Exemption",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to individuals operating a trade or business to ensure they retain the means to continue earning income.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Exempts books and tools necessary for a taxpayer's trade, business, or profession from IRS levy up to an aggregate value of $3,125 (adjusted for inflation).",
+  "irc_reference": "IRC §6334(a)(3)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

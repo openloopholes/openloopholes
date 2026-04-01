@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_NATURAL_WOOD_ARROWS",
+  "name": "Exemption for Natural Wood Arrow Shafts",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to manufacturers of traditional wooden arrows that meet specific diameter and material requirements.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes certain all-natural wood arrow shafts (5/16 inch or less in diameter) from the per-shaft excise tax.",
+  "irc_reference": "IRC §4161(b)(2)(B)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

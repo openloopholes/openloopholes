@@ -1,0 +1,29 @@
+{
+  "id": "ELE_PTTP_CASH_DISTRIBUTION",
+  "name": "Post-Termination Transition Period Cash Distributions",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to shareholders of a corporation whose S-election has terminated; distributions must be in cash and made during the post-termination transition period.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows shareholders to receive tax-free cash distributions (to the extent of stock basis and AAA) during the period immediately following an S-election termination.",
+  "irc_reference": "IRC §1371(e)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

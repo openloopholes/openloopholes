@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_NON_NFA_TRANSFER_TAX",
+  "name": "Zero-Rate Transfer Tax for Non-NFA Firearms",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to any firearm transfer where the weapon is not a machinegun or a destructive device as defined by the IRC.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Establishes a $0 tax rate on the transfer of firearms that are not classified as machineguns or destructive devices.",
+  "irc_reference": "IRC §5811(a)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

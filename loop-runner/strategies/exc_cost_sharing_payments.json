@@ -1,0 +1,29 @@
+{
+  "id": "EXC_COST_SHARING_PAYMENTS",
+  "name": "Exclusion of Conservation Cost-Sharing Payments",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Taxpayers receiving government grants for conservation or environmental improvements on their land where the payment does not substantially increase the property's annual income.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Gross income does not include the excludable portion of payments received under various federal and state programs for soil conservation, environmental restoration, or wildlife habitat improvement.",
+  "irc_reference": "IRC §126",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

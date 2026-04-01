@@ -1,0 +1,29 @@
+{
+  "id": "EXM_LOW_INCOME_OIC_WAIVER",
+  "name": "Low-Income Offer-in-Compromise Fee Waiver",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Individuals with adjusted gross income (AGI) that does not exceed 250 percent of the applicable poverty level.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts low-income taxpayers from the 20% initial payment, the first installment payment, and the application user fee when submitting an offer-in-compromise.",
+  "irc_reference": "IRC §7122(c)(3)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

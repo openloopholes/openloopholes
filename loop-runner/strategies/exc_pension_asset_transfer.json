@@ -1,0 +1,29 @@
+{
+  "id": "EXC_PENSION_ASSET_TRANSFER",
+  "name": "Transfer of Excess Pension Assets to Retiree Health/Life Accounts",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The pension plan must have assets exceeding 125% of its funding target (or 110% for de minimis transfers) and must meet specific vesting and cost maintenance requirements.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows an employer to transfer excess assets from a defined benefit pension plan to a retiree health or life insurance account without the transfer being treated as a taxable reversion or a prohibited transaction.",
+  "irc_reference": "IRC §420",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

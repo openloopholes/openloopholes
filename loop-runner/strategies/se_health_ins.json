@@ -1,0 +1,30 @@
+{
+  "id": "SE_HEALTH_INS",
+  "name": "Self-Employed Health Insurance Deduction",
+  "category": "se_tax",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Self-employed/partner/>2% S-Corp shareholder",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "amount": {
+      "type": "int",
+      "description": "annual premium amount"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Premiums paid during 2025",
+    "forward_status": "available"
+  },
+  "description": "Deduct health, dental, and vision insurance premiums for yourself, your spouse, and dependents as an above-the-line deduction.",
+  "irc_reference": "IRC §162(l)",
+  "deadline": "Premiums paid during tax year"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "CRD_CHILDCARE",
+  "name": "Child & Dependent Care Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Qualifying expenses, both spouses earned income",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "expenses": {
+      "type": "int",
+      "description": "qualifying care expenses"
+    },
+    "num_children": {
+      "type": "int",
+      "description": "number of qualifying dependents"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "depends",
+    "retroactive_note": "Expenses paid during 2025",
+    "forward_status": "available"
+  },
+  "description": "Credit for care expenses enabling you to work. 20-35% of up to $3K (one) or $6K (two+).",
+  "irc_reference": "IRC §21; Form 2441",
+  "deadline": "Expenses during tax year"
+}

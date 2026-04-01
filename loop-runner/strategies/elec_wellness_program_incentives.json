@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_WELLNESS_PROGRAM_INCENTIVES",
+  "name": "Wellness Program Premium Discounts and Rebates",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to group health plans that implement wellness programs adhering to specific health promotion and disease prevention criteria.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Employers can reduce their health plan costs and employee contributions by establishing programs of health promotion and disease prevention that offer premium discounts, rebates, or modified copayments/deductibles.",
+  "irc_reference": "IRC §9802",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

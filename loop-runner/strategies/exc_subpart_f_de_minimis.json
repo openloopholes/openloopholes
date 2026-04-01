@@ -1,0 +1,29 @@
+{
+  "id": "EXC_SUBPART_F_DE_MINIMIS",
+  "name": "Subpart F De Minimis Rule",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Controlled Foreign Corporations (CFCs) with small amounts of passive or mobile income relative to their total gross income.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes all foreign base company income and insurance income from Subpart F inclusion if the sum of such income is less than the lesser of 5% of gross income or $1,000,000.",
+  "irc_reference": "IRC §954(b)(3)(A)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

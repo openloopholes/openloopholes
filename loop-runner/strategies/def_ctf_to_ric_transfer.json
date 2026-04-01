@@ -1,0 +1,29 @@
+{
+  "id": "DEF_CTF_TO_RIC_TRANSFER",
+  "name": "Nonrecognition of Gain on CTF to RIC Transfers",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The transfer must be solely for stock in the RIC and the common trust fund must meet specific diversification requirements under section 368(a)(2)(F)(ii).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "No gain or loss is recognized when a common trust fund transfers substantially all assets to a Regulated Investment Company (RIC) in exchange for stock which is then distributed to participants.",
+  "irc_reference": "IRC §584(h)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DISC_INTERCOMPANY_PRICING_MAXIMIZATION",
+  "name": "IC-DISC Inter-company Pricing Optimization",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Businesses selling export property to a related DISC or using a DISC as a commission agent for export sales.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can choose between three pricing methods (4% of gross receipts, 50% of combined taxable income, or Section 482 arm's length) to maximize the amount of income shifted to the tax-exempt DISC.",
+  "irc_reference": "IRC §994",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

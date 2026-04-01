@@ -1,0 +1,29 @@
+{
+  "id": "DEF_IMPORTED_SPIRITS_BULK_TRANSFER",
+  "name": "Tax-Free Transfer of Imported Bulk Spirits",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to importers and distilled spirits plant operators who transfer spirits in bulk containers or via pipeline.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Imported distilled spirits in bulk containers can be transferred from customs custody to a distilled spirits plant without the immediate payment of internal revenue tax.",
+  "irc_reference": "IRC §5232(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

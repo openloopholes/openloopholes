@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FOREIGN_RAILROAD_ROLLING_STOCK",
+  "name": "Foreign Railroad Rolling Stock Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "The foreign country of organization must grant an equivalent exemption to U.S. corporations.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Exempts earnings from the temporary use (under 90 days) of railroad rolling stock owned by a foreign corporation.",
+  "irc_reference": "IRC §883(a)(3)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

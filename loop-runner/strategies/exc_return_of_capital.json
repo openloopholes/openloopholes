@@ -1,0 +1,29 @@
+{
+  "id": "EXC_RETURN_OF_CAPITAL",
+  "name": "Tax-Free Return of Capital Distribution",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to shareholders receiving corporate distributions when the corporation has no accumulated or current earnings and profits.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Distributions made by a corporation that exceed its earnings and profits are not taxed as dividends; instead, they reduce the shareholder's basis in the stock.",
+  "irc_reference": "IRC §301(c)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

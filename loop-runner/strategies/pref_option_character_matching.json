@@ -1,0 +1,29 @@
+{
+  "id": "PREF_OPTION_CHARACTER_MATCHING",
+  "name": "Capital Gain Treatment for Option Sales",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to purchasers of options where the underlying property is a capital asset.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Ensures that gain from the sale or exchange of an option is treated as capital gain if the underlying property would be a capital asset in the taxpayer's hands.",
+  "irc_reference": "IRC §1234(a)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

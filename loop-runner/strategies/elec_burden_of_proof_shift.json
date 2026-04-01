@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_BURDEN_OF_PROOF_SHIFT",
+  "name": "Burden of Proof Shifting Statement",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers who receive a notification from the Secretary regarding a proposed deficiency involving the accumulated earnings tax.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can shift the burden of proof to the IRS in Tax Court regarding the reasonableness of accumulations by submitting a detailed statement of the grounds and facts for the retention.",
+  "irc_reference": "IRC §534(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "RET_TRAD_IRA",
+  "name": "Traditional IRA Contribution",
+  "category": "retirement",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Earned income; check deductibility limits if workplace plan",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "contribution": {
+      "type": "int",
+      "description": "total IRA contribution"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Contribution deadline April 15, 2026",
+    "forward_status": "available"
+  },
+  "description": "Contribute to a Traditional IRA for an above-the-line deduction. Deductibility depends on MAGI and workplace plan coverage.",
+  "irc_reference": "IRC §219",
+  "deadline": "April 15 following tax year"
+}

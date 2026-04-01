@@ -1,0 +1,29 @@
+{
+  "id": "EXC_BLOCKED_FOREIGN_INCOME",
+  "name": "Exclusion of Blocked Foreign Income",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must establish to the satisfaction of the Secretary that foreign law restrictions or currency limitations prevent the distribution of CFC earnings.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Earnings and profits of a controlled foreign corporation (CFC) are excluded from Subpart F and Section 956 inclusions if currency or other legal restrictions in a foreign country prevent the distribution of such income to U.S. shareholders.",
+  "irc_reference": "IRC §964(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

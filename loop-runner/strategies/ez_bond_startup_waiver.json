@@ -1,0 +1,29 @@
+{
+  "id": "EZ_BOND_STARTUP_WAIVER",
+  "name": "Enterprise Zone Business Startup Waiver",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires a reasonable expectation at the start of the period that the business will meet zone requirements and bona fide efforts to comply.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a waiver of certain business requirement tests during a 'startup period' (up to 5 years) to maintain tax-exempt bond status.",
+  "irc_reference": "IRC §1394",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

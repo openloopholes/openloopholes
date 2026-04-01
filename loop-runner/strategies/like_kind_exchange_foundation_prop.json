@@ -1,0 +1,29 @@
+{
+  "id": "LIKE_KIND_EXCHANGE_FOUNDATION_PROP",
+  "name": "Foundation Like-Kind Exchange",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Private foundations exchanging exempt-function property for like-kind property to be used for exempt purposes.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "No gain or loss is recognized on the exchange of property used for exempt functions for at least 1 year if exchanged for property of like kind to be used for similar exempt functions.",
+  "irc_reference": "IRC §4940(c)(4)(D)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_DRAWBACK_NONBEVERAGE_SPIRITS",
+  "name": "Drawback on Distilled Spirits for Nonbeverage Products",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to manufacturers using tax-paid distilled spirits to produce nonbeverage products like extracts, medicines, or food items that meet the 'unfit for beverage purposes' standard.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can claim a refund (drawback) of excise taxes paid on distilled spirits used to manufacture medicines, food products, flavors, or perfumes that are unfit for beverage purposes.",
+  "irc_reference": "IRC §5111",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

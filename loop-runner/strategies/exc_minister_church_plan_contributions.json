@@ -1,0 +1,29 @@
+{
+  "id": "EXC_MINISTER_CHURCH_PLAN_CONTRIBUTIONS",
+  "name": "Minister Church Plan Income Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to duly ordained, commissioned, or licensed ministers participating in a church plan while self-employed or working for certain organizations.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Contributions made to a church plan on behalf of a self-employed minister or a minister employed by a non-501(c)(3) organization are excluded from the minister's gross income.",
+  "irc_reference": "IRC §414(e)(5)(E)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

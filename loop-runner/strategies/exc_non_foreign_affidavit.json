@@ -1,0 +1,29 @@
+{
+  "id": "EXC_NON_FOREIGN_AFFIDAVIT",
+  "name": "Non-Foreign Affidavit Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The transferor must provide a valid U.S. TIN and swear under penalty of perjury they are not a foreign person.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Eliminates the requirement to withhold 15% on a real estate transaction if the transferor provides an affidavit stating they are a U.S. person.",
+  "irc_reference": "IRC §1445(b)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

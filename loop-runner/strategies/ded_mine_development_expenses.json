@@ -1,0 +1,29 @@
+{
+  "id": "DED_MINE_DEVELOPMENT_EXPENSES",
+  "name": "Current Deduction of Mine Development Costs",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to development stage costs; does not apply to oil/gas wells or depreciable equipment (though depreciation itself is a development cost).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows an immediate deduction for all expenditures paid or incurred for the development of a mine or natural deposit after the existence of ores in commercially marketable quantities is disclosed.",
+  "irc_reference": "IRC §616(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

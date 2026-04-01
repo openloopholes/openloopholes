@@ -1,0 +1,29 @@
+{
+  "id": "DED_DIVIDENDS_PAID_ON_DEPOSITS",
+  "name": "Deduction for Dividends Paid on Deposits",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to mutual savings banks, cooperative banks, and domestic building and loan associations where amounts are withdrawable on demand.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Mutual savings banks and similar institutions can deduct amounts paid or credited to depositor accounts as dividends or interest.",
+  "irc_reference": "IRC §591(a)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

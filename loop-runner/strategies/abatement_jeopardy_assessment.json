@@ -1,0 +1,29 @@
+{
+  "id": "ABATEMENT_JEOPARDY_ASSESSMENT",
+  "name": "Abatement of Jeopardy Assessment",
+  "category": "procedure",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to any taxpayer subject to a jeopardy assessment under Section 6861 where the IRS's belief that collection is in jeopardy is factually incorrect.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can request the Secretary to abate a jeopardy assessment if they can demonstrate that jeopardy does not actually exist, effectively reversing the immediate demand for payment.",
+  "irc_reference": "IRC §6861(g)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

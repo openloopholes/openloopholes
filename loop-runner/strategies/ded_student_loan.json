@@ -1,0 +1,30 @@
+{
+  "id": "DED_STUDENT_LOAN",
+  "name": "Student Loan Interest Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "MAGI <$95K single / $195K MFJ",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "amount": {
+      "type": "int",
+      "description": "student loan interest paid (max $2,500)"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "depends",
+    "retroactive_note": "Interest paid during 2025",
+    "forward_status": "available"
+  },
+  "description": "Above-the-line deduction up to $2,500. Phases out at higher incomes.",
+  "irc_reference": "IRC §221",
+  "deadline": "Interest during tax year"
+}

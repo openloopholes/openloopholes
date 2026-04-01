@@ -1,0 +1,30 @@
+{
+  "id": "OBBB_OVERTIME",
+  "name": "OBBB Overtime Pay Deduction",
+  "category": "obbb",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "FLSA overtime W-2; NOT self-employed",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "amount": {
+      "type": "int",
+      "description": "FLSA overtime pay to deduct"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Overtime during 2025",
+    "forward_status": "available"
+  },
+  "description": "FLSA overtime pay for W-2 employees is deductible. Not for self-employed.",
+  "irc_reference": "OBBB Act",
+  "deadline": "Overtime during tax year"
+}

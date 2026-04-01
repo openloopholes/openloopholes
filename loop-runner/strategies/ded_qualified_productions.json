@@ -1,0 +1,29 @@
+{
+  "id": "DED_QUALIFIED_PRODUCTIONS",
+  "name": "Accelerated Expensing for Film, TV, and Live Theater",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to productions where 75% of compensation is for services in the US; includes sound recordings up to $150,000. Valid for productions commencing before December 31, 2025.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows an immediate deduction for the first $15 million ($20 million in distressed areas) of production costs for qualified films, television series, and live theatrical productions.",
+  "irc_reference": "IRC §181",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

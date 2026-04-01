@@ -1,0 +1,29 @@
+{
+  "id": "ELE_SIMPLE_CAFETERIA_PLAN",
+  "name": "Simple Cafeteria Plan for Small Businesses",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Employers with an average of 100 or fewer employees during either of the two preceding years.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Small businesses can bypass complex nondiscrimination testing by adopting a 'simple' cafeteria plan with specific contribution and eligibility requirements.",
+  "irc_reference": "IRC §125(j)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

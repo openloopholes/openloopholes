@@ -1,0 +1,29 @@
+{
+  "id": "DED_WHOLLY_OWNED_FOREIGN_SUBSIDIARY",
+  "name": "100% Deduction for Wholly Owned Foreign Subsidiary Dividends",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Domestic corporation must own 100% of the foreign subsidiary, and the subsidiary's income must be 100% U.S. effectively connected income.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows a 100% deduction for dividends received from a wholly owned foreign subsidiary if all of its gross income is effectively connected with a U.S. trade or business.",
+  "irc_reference": "IRC §245(b)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

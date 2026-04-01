@@ -1,0 +1,29 @@
+{
+  "id": "CRED_FOREIGN_TAX_ACCUMULATION",
+  "name": "Foreign Tax Credit on Trust Accumulations",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "U.S. beneficiaries receiving accumulation distributions from foreign trusts that paid foreign income taxes.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a beneficiary to claim a foreign tax credit (or a deduction) for taxes paid by a foreign trust on accumulated income being distributed.",
+  "irc_reference": "IRC §667(d)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_WINE_DIPLOMATIC_USE",
+  "name": "Tax-Free Wine for Foreign Embassies",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Foreign governments, organizations, and individuals entitled to diplomatic tax immunity.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Wine may be withdrawn from customs bonded warehouses free of tax for the official or family use of foreign governments, organizations, and individuals (diplomats).",
+  "irc_reference": "IRC §5362(e)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_CHARITABLE_BEQUESTS",
+  "name": "Charitable Estate Tax Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Bequests must be made to qualified 501(c)(3) organizations, government entities for public purposes, or veterans' organizations.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides an unlimited deduction for transfers of property to qualified religious, charitable, scientific, or educational organizations.",
+  "irc_reference": "IRC §2055",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

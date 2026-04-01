@@ -1,0 +1,29 @@
+{
+  "id": "DEF_REDISTILLATION_TAX_EXTINGUISHMENT",
+  "name": "Extinguishment of Prior Tax Obligations via Redistillation",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to proprietors of distilled spirits plants who redistill spirits, articles, or residues on bonded premises.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Any prior obligation as to taxes, liens, and bonds with respect to distilled spirits is extinguished upon redistillation on bonded premises.",
+  "irc_reference": "IRC §5223(e)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

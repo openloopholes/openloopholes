@@ -1,0 +1,29 @@
+{
+  "id": "ELE_CRITICAL_STATUS_VOLUNTARY",
+  "name": "Voluntary Election of Critical Status",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Multiemployer plans not yet in critical status but projected by an actuary to enter it within the next 5 plan years.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a plan sponsor to elect to be in critical status early if projected to be so within 5 years, enabling the use of rehabilitation tools and benefit adjustments to manage funding liabilities.",
+  "irc_reference": "IRC §432(b)(4)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_SE_CAPITAL_GAINS",
+  "name": "Capital Gains Exclusion from Self-Employment Tax",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Taxpayers with gains from the disposition of property that is not inventory or held primarily for sale to customers.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes gains or losses from the sale or exchange of capital assets and certain other property from self-employment tax.",
+  "irc_reference": "IRC §1402(a)(3)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

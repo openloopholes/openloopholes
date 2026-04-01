@@ -1,0 +1,29 @@
+{
+  "id": "EXC_UBTI_INVESTMENT_INCOME",
+  "name": "Exclusion of Investment Income from UBTI",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to tax-exempt organizations receiving passive investment income, provided the assets are not debt-financed under section 514.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes dividends, interest, annuities, royalties, and most rents from real property from the calculation of Unrelated Business Taxable Income (UBTI).",
+  "irc_reference": "IRC §512(b)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

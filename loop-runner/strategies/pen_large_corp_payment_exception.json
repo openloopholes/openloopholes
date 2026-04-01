@@ -1,0 +1,29 @@
+{
+  "id": "PEN_LARGE_CORP_PAYMENT_EXCEPTION",
+  "name": "Large Corporate Underpayment Interest Avoidance",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to C corporations with underpayments exceeding $100,000; payment must be made within 30 days of the first letter of proposed deficiency.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Avoids the 2% increase in the underpayment interest rate (hot interest) for large corporate underpayments if the amount is paid in full within 30 days of the IRS notice.",
+  "irc_reference": "IRC §6621(c)(2)(B)(ii)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

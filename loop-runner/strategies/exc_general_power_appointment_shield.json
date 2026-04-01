@@ -1,0 +1,29 @@
+{
+  "id": "EXC_GENERAL_POWER_APPOINTMENT_SHIELD",
+  "name": "General Power of Appointment Override",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires the trust instrument to grant a beneficiary a general power of appointment that was exercisable immediately before the decedent's death.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Property is not included in the gross estate as a transfer taking effect at death if a beneficiary could have obtained the property during the decedent's life through the exercise of a general power of appointment.",
+  "irc_reference": "IRC §2037(b)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

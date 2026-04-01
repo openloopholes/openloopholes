@@ -1,0 +1,29 @@
+{
+  "id": "RESCISSION_REPORTABLE_TRANSACTION_PENALTY",
+  "name": "Rescission of Reportable Transaction Penalty",
+  "category": "procedure",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to taxpayers who have been assessed a penalty under Section 6707A for a reportable transaction (other than a listed transaction) where rescinding the penalty would promote compliance and effective tax administration.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The Commissioner of Internal Revenue has the authority to rescind all or any portion of a penalty imposed for failing to include reportable transaction information on a return, provided it is not a 'listed transaction'.",
+  "irc_reference": "IRC §6707A",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

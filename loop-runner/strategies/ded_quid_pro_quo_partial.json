@@ -1,0 +1,29 @@
+{
+  "id": "DED_QUID_PRO_QUO_PARTIAL",
+  "name": "Partial Charitable Deduction for Quid Pro Quo Contributions",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies when a taxpayer makes a payment to a 501(c)(3) organization exceeding $75 and receives a benefit (like a dinner or tickets) in return.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can deduct the portion of a payment to a charitable organization that exceeds the fair market value of goods or services received in return.",
+  "irc_reference": "IRC §6115",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

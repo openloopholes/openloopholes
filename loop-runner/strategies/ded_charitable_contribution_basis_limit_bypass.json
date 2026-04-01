@@ -1,0 +1,29 @@
+{
+  "id": "DED_CHARITABLE_CONTRIBUTION_BASIS_LIMIT_BYPASS",
+  "name": "Enhanced Charitable Deduction for Appreciated Property",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies when a partnership makes a charitable contribution of property with a fair market value exceeding its adjusted basis.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows a partner to take a distributive share of a charitable deduction for the appreciation (FMV over basis) of contributed property even if it exceeds the partner's adjusted basis in the partnership.",
+  "irc_reference": "IRC §704(d)(3)(B)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

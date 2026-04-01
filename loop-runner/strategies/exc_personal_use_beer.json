@@ -1,0 +1,29 @@
+{
+  "id": "EXC_PERSONAL_USE_BEER",
+  "name": "Personal or Family Use Beer Production Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to individuals brewing beer for personal or family consumption rather than for sale, provided they comply with the volume limits and requirements of IRC section 5053(e).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes individuals from criminal penalties and fines for brewing beer without a qualified brewery permit, provided the production is for personal or family use under section 5053(e).",
+  "irc_reference": "IRC §5674(a)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

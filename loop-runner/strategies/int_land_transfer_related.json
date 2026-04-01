@@ -1,0 +1,29 @@
+{
+  "id": "INT_LAND_TRANSFER_RELATED",
+  "name": "Maximum Interest Rate on Related Party Land Sales",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to sales of land between an individual and a family member (as defined in section 267(c)(4)) for the first $500,000 of sales price in a calendar year. Both parties must be U.S. persons.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Limits the imputed interest rate to a maximum of 6% compounded semiannually for certain land sales between family members, even if the Applicable Federal Rate (AFR) is higher.",
+  "irc_reference": "IRC §483(e)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

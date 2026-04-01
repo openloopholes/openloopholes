@@ -1,0 +1,29 @@
+{
+  "id": "PASSPORT_PROTECTION_COMPLIANCE",
+  "name": "Passport Revocation Avoidance via Collection Alternatives",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to individuals with assessed tax debt exceeding $50,000 (inflation-adjusted to $62,000 for 2024) who are facing passport sanctions. Debt must be handled via IRC 6159, 7122, or 6015.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can prevent or reverse the certification of 'seriously delinquent tax debt' (which triggers passport denial or revocation) by entering into an installment agreement, an offer-in-compromise, or requesting innocent spouse relief.",
+  "irc_reference": "IRC §7345",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

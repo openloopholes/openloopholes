@@ -1,0 +1,29 @@
+{
+  "id": "DRAWBACK_COMPLIANCE_WAIVER",
+  "name": "Drawback Allowance Despite Non-Compliance",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Claimants who failed to meet specific regulatory requirements but can establish the factual qualifying use of the distilled spirits.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Prevents the denial of a tax refund claim for technical failures to comply with regulations if the taxpayer can prove the spirits were actually used for qualifying nonbeverage purposes.",
+  "irc_reference": "IRC §5114(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

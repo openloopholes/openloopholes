@@ -1,0 +1,29 @@
+{
+  "id": "DED_INVESTMENT_EXPENSES_4940",
+  "name": "Investment Income Expense Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to private foundations subject to the section 4940 excise tax on investment income.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows a deduction for all ordinary and necessary expenses paid for the production or collection of gross investment income or the maintenance of property held for such income.",
+  "irc_reference": "IRC §4940(c)(3)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

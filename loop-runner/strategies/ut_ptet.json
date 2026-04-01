@@ -1,0 +1,33 @@
+{
+  "id": "UT_PTET",
+  "name": "Utah Pass-Through Entity Tax (PTET)",
+  "category": "entity",
+  "jurisdiction": "state:UT",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "S-Corp or partnership in Utah",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "amount": {
+      "type": "int",
+      "description": "state tax paid at entity level"
+    }
+  },
+  "entity_specific": true,
+  "entity_types": [
+    "s_corp",
+    "partnership"
+  ],
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Election had to be made during the 2025 tax year",
+    "forward_status": "available"
+  },
+  "description": "Elect to pay Utah state income tax at the entity level, converting it from a SALT-capped itemized deduction to an uncapped business deduction on the federal return.",
+  "irc_reference": "Notice 2020-75; Utah Code §59-10-1033.1",
+  "deadline": "Election during tax year"
+}

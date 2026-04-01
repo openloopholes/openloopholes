@@ -1,0 +1,29 @@
+{
+  "id": "EXC_ESOP_DISPOSITION_EXCEPTIONS",
+  "name": "ESOP Disposition Tax Exceptions",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to employers or cooperatives that have acquired securities in a section 1042 sale or 664(g) transfer and need to dispose of them within 3 years.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Avoid the 10% excise tax on early dispositions of ESOP securities by structuring the transfer as a distribution due to death, disability, retirement after age 59.5, or a qualified corporate reorganization.",
+  "irc_reference": "IRC §4978",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

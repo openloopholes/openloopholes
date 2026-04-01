@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_INTANGIBLE_RELIGIOUS_BENEFIT",
+  "name": "Intangible Religious Benefit Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Taxpayer must receive a benefit that is provided by an organization organized exclusively for religious purposes and the benefit is not generally sold in commercial transactions.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Payments made to religious organizations in exchange for solely intangible religious benefits are fully deductible as charitable contributions without reduction for the value of the benefit.",
+  "irc_reference": "IRC §6115(b)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

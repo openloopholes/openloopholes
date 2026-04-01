@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_TREATY_SOURCE_BENEFIT",
+  "name": "Treaty-Based Sourcing Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to sales of stock in foreign corporations or intangibles where a U.S. treaty provides favorable sourcing rules.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect to source gain from the sale of certain stock or intangibles outside the U.S. if a treaty obligation would otherwise source it that way.",
+  "irc_reference": "IRC §865(h)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

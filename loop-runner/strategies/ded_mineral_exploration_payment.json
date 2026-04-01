@@ -1,0 +1,29 @@
+{
+  "id": "DED_MINERAL_EXPLORATION_PAYMENT",
+  "name": "Mineral Production Payment for Exploration or Development",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to taxpayers carving out production payments specifically for the exploration or development of mineral property.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a production payment carved out for exploration or development to be treated as an economic interest rather than a mortgage loan, potentially allowing the developer to avoid realizing gross income on the property.",
+  "irc_reference": "IRC §636(a)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

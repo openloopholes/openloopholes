@@ -1,0 +1,29 @@
+{
+  "id": "RATE_HEAD_OF_HOUSEHOLD",
+  "name": "Head of Household Filing Status",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Must be unmarried at year-end and pay more than half the cost of maintaining a household for a qualifying child or other dependent for more than half the year.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Provides lower tax rates and a higher standard deduction than the 'Single' filing status for unmarried individuals who support dependents.",
+  "irc_reference": "IRC §2",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

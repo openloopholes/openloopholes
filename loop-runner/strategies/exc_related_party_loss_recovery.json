@@ -1,0 +1,29 @@
+{
+  "id": "EXC_RELATED_PARTY_LOSS_RECOVERY",
+  "name": "Related Party Loss Recovery on Subsequent Sale",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires tracking the disallowed loss from the original related-party transaction to apply it against gain when the property is eventually sold to an outsider.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "If a loss was previously disallowed on a sale between related parties, the original buyer can reduce their taxable gain on a future sale to an unrelated party by the amount of the previously disallowed loss.",
+  "irc_reference": "IRC §267(d)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

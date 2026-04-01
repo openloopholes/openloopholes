@@ -1,0 +1,29 @@
+{
+  "id": "EXEMPT_PENSION_DETERMINATION_USER_FEE",
+  "name": "IRS User Fee Exemption for Small Business Pension Plans",
+  "category": "retirement",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to eligible employers with at least one non-highly compensated employee during the first five years of the plan's existence.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Small businesses can avoid paying IRS user fees for determination letters regarding the qualified status of a new pension, profit-sharing, or 401(k) plan.",
+  "irc_reference": "IRC §7528",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

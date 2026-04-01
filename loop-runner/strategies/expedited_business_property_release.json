@@ -1,0 +1,29 @@
+{
+  "id": "EXPEDITED_BUSINESS_PROPERTY_RELEASE",
+  "name": "Expedited Determination for Business Property",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The property must be essential to the operation of the business and the levy must prevent the taxpayer from carrying on that business.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can request an expedited determination for the release of a levy on tangible personal property essential for carrying on a trade or business.",
+  "irc_reference": "IRC §6343(a)(2)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

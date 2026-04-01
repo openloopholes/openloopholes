@@ -1,0 +1,29 @@
+{
+  "id": "DED_RETURNED_BEER_OFFSET",
+  "name": "Returned Beer Tax Offset",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The beer must be returned to the brewery or destroyed under supervision; claims must be filed within 6 months.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows brewers to claim a refund, credit, or relief from liability for tax paid on beer that is returned to the brewery or destroyed.",
+  "irc_reference": "IRC §5056(a)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

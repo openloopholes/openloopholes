@@ -1,0 +1,29 @@
+{
+  "id": "CRED_FOREIGN_TAX_CREDIT",
+  "name": "Foreign Tax Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers who have paid or accrued foreign taxes on income from sources outside the United States, subject to the limitations of section 901.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a credit against U.S. income tax for taxes paid or accrued to foreign countries and U.S. possessions.",
+  "irc_reference": "IRC §27",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

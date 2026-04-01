@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FOREIGN_FOUNDATION_SUPPORT",
+  "name": "Foreign Foundation Tax Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "The foreign organization must receive substantially all support (other than gross investment income) from sources outside the United States.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Foreign organizations receiving substantially all support from non-U.S. sources are exempt from most private foundation excise taxes (Sections 507, 508, and 4941-4945).",
+  "irc_reference": "IRC §4948(b)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

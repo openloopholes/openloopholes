@@ -1,0 +1,29 @@
+{
+  "id": "DAMAGES_IRS_DISREGARD",
+  "name": "Recovery of Damages for IRS Misconduct",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Third parties whose property was subject to IRS levy and who sustained actual economic damages due to IRS disregard of the law.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Permits recovery of up to $1,000,000 for reckless/intentional disregard or $100,000 for negligent disregard of the IRC by IRS officers during a levy action.",
+  "irc_reference": "IRC §7426(h)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

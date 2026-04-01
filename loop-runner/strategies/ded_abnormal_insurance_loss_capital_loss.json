@@ -1,0 +1,29 @@
+{
+  "id": "DED_ABNORMAL_INSURANCE_LOSS_CAPITAL_LOSS",
+  "name": "Capital Loss Deduction for Abnormal Insurance Losses",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to insurance companies electing under 831(b) that experience losses, dividends, or expenses exceeding investment income and premiums.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows insurance companies to deduct capital losses against ordinary income if the assets were sold to meet abnormal insurance losses or pay dividends to policyholders.",
+  "irc_reference": "IRC §834(c)(6)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

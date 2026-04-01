@@ -1,0 +1,29 @@
+{
+  "id": "EXC_SHIPOWNERS_ASSOC",
+  "name": "Shipowners' Protection and Indemnity Association Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Must be a mutual protection and indemnity association of shipowners not organized for profit with no net earnings inuring to private shareholders.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes receipts of non-profit shipowners' mutual protection and indemnity associations from gross income, except for income from interest, dividends, and rents.",
+  "irc_reference": "IRC §526",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

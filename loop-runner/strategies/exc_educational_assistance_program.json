@@ -1,0 +1,29 @@
+{
+  "id": "EXC_EDUCATIONAL_ASSISTANCE_PROGRAM",
+  "name": "Employer-Provided Educational Assistance Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires a separate written plan that does not discriminate in favor of highly compensated employees or owners (5% limit for owners).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Employers can provide up to $5,250 per year in tax-free educational assistance to employees for tuition, fees, books, and certain student loan repayments.",
+  "irc_reference": "IRC §127",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

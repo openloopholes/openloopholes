@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_CIVILIAN_TERROR_VICTIM_FORGIVENESS",
+  "name": "Income Tax Forgiveness for Victims of Terroristic or Military Action",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to military or civilian employees of the U.S. who die from wounds or injuries incurred in a terroristic or military action.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Forgives income tax for U.S. military or civilian employees who die from injuries sustained in a terroristic or military action directed against the U.S. or its allies.",
+  "irc_reference": "IRC §692(c)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

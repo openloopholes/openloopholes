@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FIRST_TIME_DEPOSITOR_WAIVER",
+  "name": "First-Time Depositor Penalty Waiver",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to the first quarter a person is required to deposit or the first deposit after a frequency change.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The Secretary may waive penalties for inadvertent failure to deposit employment taxes for first-time depositors or those with a change in deposit frequency.",
+  "irc_reference": "IRC §6656",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

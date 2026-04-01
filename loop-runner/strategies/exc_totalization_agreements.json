@@ -1,0 +1,29 @@
+{
+  "id": "EXC_TOTALIZATION_AGREEMENTS",
+  "name": "International Social Security Agreement Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to individuals working in a foreign country that has a social security agreement with the U.S. and who are subject to that foreign country's social security laws.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Wages received by an individual are exempt from U.S. Social Security and Medicare taxes if the wages are subject to the social security system of a foreign country under a 'Totalization Agreement'.",
+  "irc_reference": "IRC §3101(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

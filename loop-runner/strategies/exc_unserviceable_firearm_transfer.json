@@ -1,0 +1,29 @@
+{
+  "id": "EXC_UNSERVICEABLE_FIREARM_TRANSFER",
+  "name": "Unserviceable Firearm Tax Relief",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The firearm must be rendered permanently inoperable according to regulatory standards to meet the definition of unserviceable.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Firearms classified as unserviceable (incapable of discharging a shot and not readily restorable) may qualify for tax-exempt transfer status under related NFA provisions.",
+  "irc_reference": "IRC §5845(h)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

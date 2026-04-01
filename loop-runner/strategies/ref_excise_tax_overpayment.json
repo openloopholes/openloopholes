@@ -1,0 +1,29 @@
+{
+  "id": "REF_EXCISE_TAX_OVERPAYMENT",
+  "name": "Excise Tax Price Readjustments and Export Credits",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to manufacturers or retailers who have paid excise taxes on articles that are subsequently exported, sold to state/local governments, or where the price was lowered via a bona fide discount or rebate.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows for a credit or refund of manufacturers or retail excise taxes when the price is readjusted (rebates/discounts) or the article is exported.",
+  "irc_reference": "IRC §6416",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

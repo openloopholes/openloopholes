@@ -1,0 +1,29 @@
+{
+  "id": "DED_REDEEMABLE_GROUND_RENT_INTEREST",
+  "name": "Redeemable Ground Rent Interest Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers paying on a redeemable ground rent (common in MD/PA) with a lease term over 15 years and a legal right to acquire the lessor's entire interest.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Redeemable ground rents are treated as mortgage interest, allowing the lessee to deduct payments as interest under section 163 and include the liability in the property's basis.",
+  "irc_reference": "IRC §1055",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ELE_ABANDONED_SPOUSE_STATUS",
+  "name": "Abandoned Spouse Rule for Head of Household",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must file a separate return, pay >50% of household costs, and live with a qualifying child for >50% of the year while the spouse is absent for the final 6 months.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Married individuals living apart from their spouse for the last 6 months of the year who maintain a household for a child can be treated as unmarried.",
+  "irc_reference": "IRC §7703",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

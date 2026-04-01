@@ -1,0 +1,29 @@
+{
+  "id": "EXEMPT_CONTINUING_CARE_LOAN",
+  "name": "Continuing Care Facility Loan Exception",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The lender (or spouse) must be age 65 or older (or 62 under subsection h) and the loan must be made pursuant to a continuing care contract to a qualified facility.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts refundable entrance fees (structured as loans) to qualified continuing care facilities from imputed interest rules.",
+  "irc_reference": "IRC §7872(g)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_RELIANCE_ON_INCORRECT_DIRECTORY",
+  "name": "Incorrect Provider Directory Cost-Sharing Limit",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies when a participant receives services from a nonparticipating provider after being informed by the plan's directory or response protocol that the provider was in-network.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Limits cost-sharing to in-network levels if a taxpayer relies on inaccurate provider directory information that incorrectly listed a provider as participating.",
+  "irc_reference": "IRC §9820",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

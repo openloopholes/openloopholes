@@ -1,0 +1,29 @@
+{
+  "id": "DED_SOIL_WATER_CONSERVATION",
+  "name": "Soil and Water Conservation Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be engaged in the business of farming. Expenditures must be consistent with a government-approved conservation or recovery plan.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Farmers can deduct expenditures for soil/water conservation or endangered species recovery instead of capitalizing them, up to 25% of gross farming income.",
+  "irc_reference": "IRC §175",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

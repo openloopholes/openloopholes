@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FOREIGN_GRANTOR_TRUST_EXCLUSION",
+  "name": "Foreign Grantor Trust Income Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to foreign trusts where the power to revest title is exercisable solely by the foreign grantor or distributions are restricted to the grantor/spouse.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "U.S. beneficiaries of a foreign trust may avoid being taxed on trust income if the trust is revocable solely by a foreign grantor or if distributions are limited to the grantor and their spouse, effectively keeping the income out of the U.S. tax net until distributed.",
+  "irc_reference": "IRC §672(f)(2)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

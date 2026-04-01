@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_SECONDARY_SHIPPING_ACTIVITIES",
+  "name": "Exclusion of Secondary and Incidental Shipping Income",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to electing corporations performing vessel management, terminal services, or inland haulage integral to their qualifying shipping business.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Extends the alternative tonnage tax treatment to secondary activities (up to 20% of gross income) and incidental activities (up to 0.1% of gross income) related to core shipping operations.",
+  "irc_reference": "IRC §1356",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

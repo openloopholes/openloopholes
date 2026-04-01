@@ -1,0 +1,29 @@
+{
+  "id": "PROC_TRANSFEREE_BURDEN_SHIFT",
+  "name": "Burden of Proof Shift in Transferee Liability",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers who have received assets (transferees) and are being pursued by the IRS for the transferor's tax liabilities.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "In Tax Court proceedings, the burden of proof is on the IRS to prove that a petitioner is liable as a transferee of property. This provides a strategic defense advantage to avoid paying a predecessor's tax debts.",
+  "irc_reference": "IRC §6902(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ELE_FOREIGN_TAX_TRANSLATION",
+  "name": "Election to Translate Foreign Taxes at Payment Date",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to taxpayers who take foreign income taxes into account when accrued, specifically for taxes denominated in a currency other than the taxpayer's functional currency.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect to translate foreign income taxes into dollars using the exchange rate at the time of payment rather than the average exchange rate for the year.",
+  "irc_reference": "IRC §986",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

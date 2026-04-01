@@ -1,0 +1,29 @@
+{
+  "id": "CREDIT_ADV_ENERGY_PROJECT",
+  "name": "Qualifying Advanced Energy Project Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must apply for and receive an allocation from the Secretary. Covers manufacturing of solar/wind equipment, fuel cells, energy storage, and critical material processing. 6% base rate if labor requirements are not met.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A 30% investment tax credit (if wage/apprenticeship rules met) for re-equipping, expanding, or establishing facilities that produce renewable energy property, EVs, or grid modernization equipment.",
+  "irc_reference": "IRC §48C",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

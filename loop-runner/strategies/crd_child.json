@@ -1,0 +1,25 @@
+{
+  "id": "CRD_CHILD",
+  "name": "Child Tax Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Children under 17; phase-out $200K/$400K",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Computed on return",
+    "forward_status": "available"
+  },
+  "description": "Credit of $2,200 per qualifying child under 17. Partially refundable.",
+  "irc_reference": "IRC §24; Schedule 8812",
+  "deadline": "Child under 17 at year-end"
+}

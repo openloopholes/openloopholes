@@ -1,0 +1,29 @@
+{
+  "id": "EXM_COMM_TAX_STATE_LOCAL_GOVT",
+  "name": "State and Local Government Communication Tax Exemption",
+  "category": "excise",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to services furnished to the government of any State or political subdivision; requires filing an exemption certificate with the provider.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts state and local governments, including political subdivisions and the District of Columbia, from the federal communications excise tax.",
+  "irc_reference": "IRC §4253(i)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

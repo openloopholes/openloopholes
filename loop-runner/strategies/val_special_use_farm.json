@@ -1,0 +1,29 @@
+{
+  "id": "VAL_SPECIAL_USE_FARM",
+  "name": "Special Use Valuation for Farms and Business Real Estate",
+  "category": "rental",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The decedent must be a US citizen/resident; the property must be used for farming or business; and at least 50% of the adjusted gross estate must consist of the business/farm assets.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Values real property based on its actual use (e.g., farming) rather than its highest and best use (e.g., development), reducing the value by up to $750,000 (adjusted for inflation; $1,390,000 in 2025).",
+  "irc_reference": "IRC §2032A",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

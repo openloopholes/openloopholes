@@ -1,0 +1,29 @@
+{
+  "id": "DED_GEOTHERMAL_DEPLETION",
+  "name": "Geothermal Deposit Percentage Depletion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to geothermal reservoirs consisting of natural heat stored in rocks or aqueous liquid/vapor.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Provides a 15% percentage depletion deduction for geothermal deposits located in the United States or its possessions.",
+  "irc_reference": "IRC §613(e)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

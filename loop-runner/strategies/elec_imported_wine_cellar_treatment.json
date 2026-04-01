@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_IMPORTED_WINE_CELLAR_TREATMENT",
+  "name": "Importer Self-Certification of Cellar Treatment",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to importers that own or control a winery operating under a domestic basic permit.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Importers who own or control a domestic winery can self-certify that imported wine production practices meet U.S. standards, bypassing certain foreign government certification requirements.",
+  "irc_reference": "IRC §5382",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

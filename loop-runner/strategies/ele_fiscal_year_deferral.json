@@ -1,0 +1,29 @@
+{
+  "id": "ELE_FISCAL_YEAR_DEFERRAL",
+  "name": "Election of Taxable Year Other Than Required Year",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Partnerships, S-Corps, and PSCs not part of a tiered structure; requires making 'required payments' under Section 7519 for partnerships/S-Corps or meeting deduction limits under 280H for PSCs.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Partnerships, S corporations, and personal service corporations can elect a taxable year other than the required calendar year, allowing for a deferral period of up to 3 months.",
+  "irc_reference": "IRC §444",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

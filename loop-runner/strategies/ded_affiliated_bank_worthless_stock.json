@@ -1,0 +1,29 @@
+{
+  "id": "DED_AFFILIATED_BANK_WORTHLESS_STOCK",
+  "name": "Ordinary Loss for Worthless Affiliated Bank Stock",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Taxpayer must be a bank and own directly at least 80 percent of each class of stock of the affiliated bank.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows a bank that owns at least 80% of another bank to treat the stock of that affiliate as a non-capital asset, enabling an ordinary loss deduction if the stock becomes worthless.",
+  "irc_reference": "IRC §582(b)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

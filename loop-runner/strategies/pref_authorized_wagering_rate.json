@@ -1,0 +1,29 @@
+{
+  "id": "PREF_AUTHORIZED_WAGERING_RATE",
+  "name": "Reduced Occupational Tax for Authorized Wagering",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must be liable for wagering tax solely under Section 4401(a)(1), which typically covers state-authorized wagers.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Reduces the annual special occupational tax from $500 to $50 for persons involved in state-authorized wagering activities.",
+  "irc_reference": "IRC §4411(b)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

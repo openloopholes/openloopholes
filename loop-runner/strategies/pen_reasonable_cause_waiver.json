@@ -1,0 +1,29 @@
+{
+  "id": "PEN_REASONABLE_CAUSE_WAIVER",
+  "name": "Reasonable Cause Penalty Abatement",
+  "category": "procedure",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to taxpayers who can provide documentation of circumstances (e.g., natural disaster, serious illness, or reliance on erroneous advice) that prevented timely compliance.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides for the complete waiver of failure-to-file and failure-to-pay penalties if the taxpayer can demonstrate the failure was due to reasonable cause and not willful neglect.",
+  "irc_reference": "IRC §6651(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

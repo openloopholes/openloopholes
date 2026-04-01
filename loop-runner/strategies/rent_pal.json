@@ -1,0 +1,25 @@
+{
+  "id": "RENT_PAL",
+  "name": "Passive Activity Loss Allowance",
+  "category": "rental",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Rental owner; $25K allowance phases out $100K-$150K AGI",
+    "requires_entity_type": "rental",
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "depends",
+    "retroactive_note": "Based on 2025 activity",
+    "forward_status": "available"
+  },
+  "description": "Claim up to $25K of rental losses if actively participating. Phases out $100K-$150K AGI.",
+  "irc_reference": "IRC §469(i)",
+  "deadline": "Tax year activity"
+}

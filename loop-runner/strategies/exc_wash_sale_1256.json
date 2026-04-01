@@ -1,0 +1,29 @@
+{
+  "id": "EXC_WASH_SALE_1256",
+  "name": "Wash Sale Rule Exception for Section 1256 Contracts",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to investors trading Section 1256 contracts who wish to realize losses without being restricted by the 30-day wash sale window.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Section 1091 wash sale rules do not apply to losses taken into account under the mark-to-market rules of Section 1256.",
+  "irc_reference": "IRC §1256(f)(5)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

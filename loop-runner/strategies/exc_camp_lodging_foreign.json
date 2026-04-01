@@ -1,0 +1,29 @@
+{
+  "id": "EXC_CAMP_LODGING_FOREIGN",
+  "name": "Foreign Camp Lodging Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Lodging must be in a remote area where housing is unavailable, located near the workplace, and in a common enclave for 10 or more employees.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Lodging provided in a remote foreign camp is treated as being on the business premises, allowing employees to exclude the value from gross income.",
+  "irc_reference": "IRC §119(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

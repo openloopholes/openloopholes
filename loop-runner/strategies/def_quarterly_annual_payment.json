@@ -1,0 +1,29 @@
+{
+  "id": "DEF_QUARTERLY_ANNUAL_PAYMENT",
+  "name": "Small Taxpayer Deferred Payment Election",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must have reasonably expected and actually had less than $50,000 (quarterly) or $1,000 (annually) in total alcohol excise tax liability in the prior and current year.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows small brewers to pay excise taxes quarterly (if liability <$50k) or annually (if liability <$1k) instead of semi-monthly.",
+  "irc_reference": "IRC §5061(d)(4)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

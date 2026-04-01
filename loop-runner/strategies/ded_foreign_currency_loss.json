@@ -1,0 +1,29 @@
+{
+  "id": "DED_FOREIGN_CURRENCY_LOSS",
+  "name": "Recognition of Foreign Currency Loss on PTEP",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to U.S. shareholders of foreign corporations receiving distributions of previously taxed income under sections 959 or 1293(c).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows for the recognition of ordinary loss on distributions of previously taxed earnings and profits (PTEP) when exchange rate movements between the time of inclusion and distribution are unfavorable.",
+  "irc_reference": "IRC §986",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

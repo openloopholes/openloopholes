@@ -1,0 +1,29 @@
+{
+  "id": "CRED_EMPOWERMENT_ZONE_WAGES",
+  "name": "Empowerment Zone Employment Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Employer must pay wages to a 'qualified zone employee' who performs substantially all services within an empowerment zone and maintains their principal residence within that same zone.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A 20% tax credit on the first $15,000 of qualified wages paid to employees who both live and work within a federally designated empowerment zone.",
+  "irc_reference": "IRC §1396",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

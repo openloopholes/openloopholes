@@ -1,0 +1,29 @@
+{
+  "id": "EXM_COMM_TAX_NONPROFIT_HOSPITAL",
+  "name": "Nonprofit Hospital Communication Tax Exemption",
+  "category": "excise",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be a hospital referred to in section 170(b)(1)(A)(iii) and exempt from income tax under section 501(a); requires filing an exemption certificate with the service provider.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts nonprofit hospitals from the 3% federal excise tax on all communication services.",
+  "irc_reference": "IRC §4253(h)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

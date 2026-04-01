@@ -1,0 +1,29 @@
+{
+  "id": "CRED_FUTA_ADDITIONAL_EXPERIENCE",
+  "name": "FUTA Additional Credit for Favorable Experience Ratings",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Employers who maintain low unemployment claims and are granted a reduced tax rate by their state based on experience.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows employers to take a credit for the difference between the state's highest tax rate (or 5.4%) and the lower rate they actually pay due to a favorable experience rating.",
+  "irc_reference": "IRC §3302(b)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

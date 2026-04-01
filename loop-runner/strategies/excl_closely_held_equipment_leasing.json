@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_CLOSELY_HELD_EQUIPMENT_LEASING",
+  "name": "At-Risk Exclusion for Closely Held Equipment Leasing",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Closely held C corporations where 50% or more of gross receipts are from equipment leasing (Section 1245 property).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Exempts certain closely held C corporations from the at-risk loss limitation rules for equipment leasing activities, allowing full deduction of losses against other corporate income.",
+  "irc_reference": "IRC §465(c)(4)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

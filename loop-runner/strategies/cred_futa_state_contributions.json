@@ -1,0 +1,29 @@
+{
+  "id": "CRED_FUTA_STATE_CONTRIBUTIONS",
+  "name": "FUTA Credit for State Unemployment Tax Contributions",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to employers who pay timely contributions to a state unemployment insurance program certified by the Secretary of Labor.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Employers can credit up to 5.4% of taxable wages against the 6.0% federal unemployment tax (FUTA) for contributions paid into a certified state unemployment fund.",
+  "irc_reference": "IRC §3302(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

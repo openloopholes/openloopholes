@@ -1,0 +1,29 @@
+{
+  "id": "EXC_STOCK_FOR_PROPERTY",
+  "name": "Nonrecognition of Gain on Corporate Stock Issuance",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to corporations issuing their own equity in exchange for capital or services.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "A corporation does not recognize gain or loss when it receives money or property in exchange for its own stock (including treasury stock) or options to buy/sell its stock.",
+  "irc_reference": "IRC §1032",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_ESTATE_TAX_ON_IRD",
+  "name": "Income in Respect of a Decedent (IRD) Estate Tax Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must include an item of IRD in their gross income for a year in which the decedent's estate was subject to federal estate tax.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides an income tax deduction for the portion of federal estate tax paid that is attributable to items of gross income (like IRAs or unpaid wages) included in the decedent's estate.",
+  "irc_reference": "IRC §691(c)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

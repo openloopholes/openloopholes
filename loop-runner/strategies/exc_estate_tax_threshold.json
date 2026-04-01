@@ -1,0 +1,29 @@
+{
+  "id": "EXC_ESTATE_TAX_THRESHOLD",
+  "name": "Estate Tax Filing Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to U.S. citizens or residents whose gross estate plus adjusted taxable gifts is less than the section 2010(c) exclusion amount.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Estates are not required to file a return or pay estate tax if the gross estate is below the basic exclusion amount (inflation-adjusted).",
+  "irc_reference": "IRC §6018",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

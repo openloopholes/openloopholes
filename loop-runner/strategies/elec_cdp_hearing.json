@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_CDP_HEARING",
+  "name": "Collection Due Process (CDP) Hearing Request",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must request the hearing in writing within 30 days of receiving a Notice of Intent to Levy.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can request a formal hearing to challenge a proposed levy, raise spousal defenses, and propose collection alternatives like installment agreements or offers-in-compromise.",
+  "irc_reference": "IRC §6330",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

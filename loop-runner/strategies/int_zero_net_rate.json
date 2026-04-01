@@ -1,0 +1,29 @@
+{
+  "id": "INT_ZERO_NET_RATE",
+  "name": "Interest Netting (Zero Net Rate)",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to the same taxpayer with equivalent underpayments and overpayments for the same period; requires identifying and establishing the overlapping periods to the IRS.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Eliminates interest charges on overlapping periods where a taxpayer has both an underpayment and an overpayment of tax, resulting in a net interest rate of zero.",
+  "irc_reference": "IRC §6621(d)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

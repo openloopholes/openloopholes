@@ -1,0 +1,29 @@
+{
+  "id": "ELE_AUTOMATIC_EXTENSION_CORP",
+  "name": "Automatic Corporate Filing Extension",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to corporations that file the prescribed form and pay their properly estimated tax liability by the original due date.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Corporations can obtain an automatic 6-month extension of time to file their income tax returns by filing the appropriate form and paying the estimated tax due.",
+  "irc_reference": "IRC §6081",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

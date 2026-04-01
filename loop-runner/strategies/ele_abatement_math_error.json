@@ -1,0 +1,29 @@
+{
+  "id": "ELE_ABATEMENT_MATH_ERROR",
+  "name": "Request for Abatement of Mathematical or Clerical Errors",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must file a request for abatement within 60 days after the notice of mathematical or clerical error is sent.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can request an abatement of an assessment based on a mathematical or clerical error within 60 days of the notice. This forces the IRS to follow standard deficiency procedures if they wish to reassess, preserving the taxpayer's right to go to Tax Court.",
+  "irc_reference": "IRC §6213(b)(2)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DEF_BONDED_TRANSFER_EXEMPTION",
+  "name": "Bonded Premises Transfer Exemption",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires transfer to the bonded premises of another manufacturer or export warehouse proprietor or release in bond from customs custody.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Tobacco products and processed tobacco transferred to bonded premises of another manufacturer or export warehouse are exempt from immediate packaging and marking requirements, allowing for tax-deferred movement of inventory.",
+  "irc_reference": "IRC §5723(e)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

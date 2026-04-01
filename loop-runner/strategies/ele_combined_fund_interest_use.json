@@ -1,0 +1,29 @@
+{
+  "id": "ELE_COMBINED_FUND_INTEREST_USE",
+  "name": "Election to Use Interest for Benefit Payments",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to the trustees of the UMWA Combined Benefit Fund to manage fund liquidity and reduce employer premium burdens.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Trustees may elect to use interest earned by the Combined Fund to pay for health benefits, which can offset the total premium payments required to be paid into the fund.",
+  "irc_reference": "IRC §9703",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

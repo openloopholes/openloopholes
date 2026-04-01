@@ -1,0 +1,29 @@
+{
+  "id": "EXC_DEPENDENT_CARE_ASSISTANCE",
+  "name": "Dependent Care Assistance Program Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The assistance must be provided under a written plan by the employer and cannot exceed the employee's (or spouse's) earned income. The 2025 limit is $7,500 per year.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Employees can exclude from gross income up to $7,500 ($3,750 if married filing separately) paid by their employer for child or dependent care services necessary for the employee to work.",
+  "irc_reference": "IRC §129",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

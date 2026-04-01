@@ -1,0 +1,29 @@
+{
+  "id": "EXM_FOREIGN_GOVT_INSURER",
+  "name": "Foreign Government Insurance Provider Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Entities that qualify as foreign governments or municipal corporations are not subject to the excise tax on insurance policies or indemnity bonds they issue.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "The definition of a 'foreign insurer' specifically excludes foreign governments or municipal corporations exercising taxing power from the section 4371 excise tax.",
+  "irc_reference": "IRC §4372(a)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

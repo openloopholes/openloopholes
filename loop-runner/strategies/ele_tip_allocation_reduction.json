@@ -1,0 +1,29 @@
+{
+  "id": "ELE_TIP_ALLOCATION_REDUCTION",
+  "name": "Petition for Lower Tip Allocation Rate",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Large food or beverage establishments where the actual tip rate is demonstrably lower than the 8% statutory default.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Employers or a majority of employees can petition the IRS to reduce the 8% tip allocation rate to as low as 2% if the actual tipping rate is lower.",
+  "irc_reference": "IRC §6053(c)(3)(C)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

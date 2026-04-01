@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_PRIVATE_ACTIVITY_VOL_CAP",
+  "name": "Volume Cap Exception for 501(c)(3) and Specific Facilities",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to qualified 501(c)(3) bonds and specific exempt facility bonds under 142(a) such as airports, docks, and certain high-speed intercity rail facilities.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts qualified 501(c)(3) bonds and certain exempt facility bonds (like airports, docks, and high-speed rail) from the restrictive State volume caps.",
+  "irc_reference": "IRC §146",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

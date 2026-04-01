@@ -1,0 +1,29 @@
+{
+  "id": "CREDIT_WITHHELD_TAX_RECIPIENT",
+  "name": "Withheld Tax Credit for Income Recipients",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to any recipient of income where tax was required to be withheld at the source under Chapter 3 of the IRC.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Ensures that any tax withheld at the source on income is fully creditable against the recipient's total income tax liability.",
+  "irc_reference": "IRC §1462",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_PRESCRIPTION_DRUG_SUBSIDY",
+  "name": "Prescription Drug Plan Subsidy Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Employers receiving federal subsidies for providing retiree prescription drug coverage.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes special subsidy payments received under section 1860D-22 of the Social Security Act from gross income.",
+  "irc_reference": "IRC §139A",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_DISASTER_INSURANCE_PROCEEDS",
+  "name": "Disaster Area Principal Residence Insurance Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "The residence must be located in a federally declared disaster area and the conversion must result from that disaster.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "No gain is recognized on insurance proceeds received for unscheduled personal property contents of a principal residence in a federally declared disaster area.",
+  "irc_reference": "IRC §1033(h)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

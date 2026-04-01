@@ -1,0 +1,30 @@
+{
+  "id": "DED_MEDICAL",
+  "name": "Medical Expense Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Only if >7.5% AGI; rare for high-income",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "amount": {
+      "type": "int",
+      "description": "total medical expenses"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "depends",
+    "retroactive_note": "Expenses paid during 2025",
+    "forward_status": "available"
+  },
+  "description": "Deduct unreimbursed medical expenses exceeding 7.5% of AGI.",
+  "irc_reference": "IRC §213; Schedule A",
+  "deadline": "Expenses during tax year"
+}

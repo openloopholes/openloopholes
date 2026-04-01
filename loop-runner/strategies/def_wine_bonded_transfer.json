@@ -1,0 +1,29 @@
+{
+  "id": "DEF_WINE_BONDED_TRANSFER",
+  "name": "Tax Deferral via In-Bond Transfers",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Proprietors of bonded wine cellars or distilled spirits plants.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Wine may be transferred between bonded premises (cellars or distilled spirits plants) without payment or determination of tax, deferring the tax liability until removal for sale.",
+  "irc_reference": "IRC §5362(b)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

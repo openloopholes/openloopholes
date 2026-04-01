@@ -1,0 +1,29 @@
+{
+  "id": "BASIS_STEP_UP_CFC",
+  "name": "Basis Increase for Taxed Foreign Income",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "U.S. shareholders who include amounts in gross income under section 951(a).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Increases the tax basis of CFC stock by the amount of Subpart F or GILTI income included in the shareholder's gross income, reducing future gain upon the sale of the stock.",
+  "irc_reference": "IRC §961",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

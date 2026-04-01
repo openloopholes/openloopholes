@@ -1,0 +1,30 @@
+{
+  "id": "CRD_ENERGY_HOME",
+  "name": "Energy Efficient Home Improvement Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "EXPIRES 12/31/2025",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "cost": {
+      "type": "int",
+      "description": "qualifying improvements cost"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Installed by Dec 31, 2025",
+    "forward_status": "available"
+  },
+  "description": "30% on insulation, windows, doors, heat pumps. $3,200 annual limit.",
+  "irc_reference": "IRC §25C",
+  "deadline": "Installed by Dec 31, 2025"
+}

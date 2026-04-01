@@ -1,0 +1,29 @@
+{
+  "id": "EXC_BIASPLY_SUPER_SINGLE_TIRE",
+  "name": "Preferential Rate for Biasply and Super Single Tires",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to manufacturers, producers, or importers of biasply tires or super single tires (greater than 13 inches wide, replacing dual fitments, and not for steering).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Reduces the excise tax rate on taxable tires from 9.45 cents to 4.725 cents per 10 pounds of load capacity exceeding 3,500 pounds for specific tire types.",
+  "irc_reference": "IRC §4071(a)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

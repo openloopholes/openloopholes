@@ -1,0 +1,29 @@
+{
+  "id": "DED_CFC_STOCK_SALE_DRD",
+  "name": "Dividends Received Deduction for CFC Stock Sales",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to U.S. shareholders that are domestic corporations holding stock in a CFC that sells stock in another foreign corporation held for at least 1 year.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "When a CFC sells stock in another foreign corporation, the portion of the gain treated as a dividend is eligible for a 100% dividends received deduction (DRD) under Section 245A for the U.S. shareholder.",
+  "irc_reference": "IRC §964(e)(4)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

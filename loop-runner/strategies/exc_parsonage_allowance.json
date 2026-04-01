@@ -1,0 +1,29 @@
+{
+  "id": "EXC_PARSONAGE_ALLOWANCE",
+  "name": "Minister's Housing Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to a 'minister of the gospel' for amounts used to provide a home, limited to the fair rental value plus utilities.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes from gross income the rental value of a home furnished to a minister or a rental allowance paid to them as compensation.",
+  "irc_reference": "IRC §107",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "RAT_LTCG_QEF",
+  "name": "QEF Capital Gains Pass-Through",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires a valid Section 1295 election and the fund must have net capital gains.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Under a QEF election, the shareholder's pro rata share of the fund's net capital gain is treated as long-term capital gain rather than ordinary income.",
+  "irc_reference": "IRC §1293",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

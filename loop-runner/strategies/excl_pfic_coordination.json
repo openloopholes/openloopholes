@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_PFIC_COORDINATION",
+  "name": "CFC/PFIC Coordination Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to US shareholders who would otherwise be subject to tax on the same income under both the CFC and PFIC regimes.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Prevents double taxation by excluding amounts from gross income under the Passive Foreign Investment Company (PFIC) rules if they are already included as Subpart F income.",
+  "irc_reference": "IRC §951(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

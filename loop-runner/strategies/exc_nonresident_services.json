@@ -1,0 +1,29 @@
+{
+  "id": "EXC_NONRESIDENT_SERVICES",
+  "name": "Nonresident Alien De Minimis Service Income Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Nonresident alien must be in the U.S. for ≤ 90 days during the tax year, compensation must be ≤ $3,000, and the employer must be a foreign entity not engaged in U.S. trade/business or a foreign office of a U.S. entity.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Compensation for labor or services performed in the U.S. by a nonresident alien is excluded from U.S. source income if specific time and dollar thresholds are met.",
+  "irc_reference": "IRC §861",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

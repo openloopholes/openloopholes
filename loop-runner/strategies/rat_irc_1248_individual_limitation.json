@@ -1,0 +1,29 @@
+{
+  "id": "RAT_IRC_1248_INDIVIDUAL_LIMITATION",
+  "name": "Limitation on Tax for Individuals Selling CFC Stock",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Individuals who are U.S. persons owning 10% or more of a CFC and have held the stock as a capital asset for more than one year.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Limits the tax on the dividend portion of gain from the sale of Controlled Foreign Corporation (CFC) stock to the amount of U.S. tax that would have been paid if the CFC were a domestic corporation.",
+  "irc_reference": "IRC §1248(b)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

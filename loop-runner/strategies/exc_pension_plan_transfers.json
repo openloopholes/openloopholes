@@ -1,0 +1,29 @@
+{
+  "id": "EXC_PENSION_PLAN_TRANSFERS",
+  "name": "Exclusion of Pension Plan Asset Transfers from Gross Income",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to employers maintaining the 1950 UMWA Pension Plan when assets are transferred to the Combined Fund to cover retiree health costs.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Transfers of assets from the 1950 UMWA Pension Plan to the Combined Fund are not includible in the gross income of any employer maintaining the plan and are not treated as employer reversions subject to excise tax.",
+  "irc_reference": "IRC §9705(a)(4)(B)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

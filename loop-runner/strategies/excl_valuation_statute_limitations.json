@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_VALUATION_STATUTE_LIMITATIONS",
+  "name": "Gift Valuation Finality",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires filing a gift tax return that adequately discloses the transfer to start the statute of limitations period.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Prevents the IRS from revaluing a gift for purposes of computing future tax liability once the statute of limitations for assessment has expired, provided the value was 'finally determined'.",
+  "irc_reference": "IRC §2504(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

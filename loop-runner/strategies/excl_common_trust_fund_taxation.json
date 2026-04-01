@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_COMMON_TRUST_FUND_TAXATION",
+  "name": "Common Trust Fund Tax Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be a fund maintained by a bank exclusively for collective investment of moneys contributed in a fiduciary capacity (trustee, executor, etc.) in conformity with banking regulations.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A common trust fund is not subject to federal income tax and is not treated as a corporation; instead, income and losses flow through to participants.",
+  "irc_reference": "IRC §584(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

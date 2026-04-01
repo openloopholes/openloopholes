@@ -1,0 +1,29 @@
+{
+  "id": "ELE_CORP_PRIOR_YEAR_SAFE_HARBOR",
+  "name": "Corporate Prior Year Safe Harbor",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Corporation must not be a 'large corporation' (taxable income of $1M+ in any of the 3 preceding years).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Non-large corporations can avoid penalties by paying 100% of the tax shown on the prior year's return.",
+  "irc_reference": "IRC §6655",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

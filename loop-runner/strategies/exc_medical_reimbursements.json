@@ -1,0 +1,29 @@
+{
+  "id": "EXC_MEDICAL_REIMBURSEMENTS",
+  "name": "Employer-Provided Medical Expense Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Employees receiving reimbursements under an employer-sponsored accident or health plan; self-insured plans must meet specific non-discrimination requirements.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes from gross income any amounts paid by an employer to reimburse an employee for medical care expenses for themselves, their spouse, dependents, or children under age 27.",
+  "irc_reference": "IRC §105",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

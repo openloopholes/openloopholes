@@ -1,0 +1,29 @@
+{
+  "id": "ELE_755_BASIS_ALLOCATION_OPTIMIZATION",
+  "name": "Strategic Allocation of Basis Adjustments",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires a valid Section 754 election to be in effect and a triggering event (transfer or distribution) to occur.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides the rules for allocating basis increases among partnership assets. Taxpayers can use these rules to ensure basis increases are allocated to depreciable or amortizable assets rather than non-depreciable land or goodwill.",
+  "irc_reference": "IRC §755",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

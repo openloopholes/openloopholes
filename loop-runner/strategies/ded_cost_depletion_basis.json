@@ -1,0 +1,29 @@
+{
+  "id": "DED_COST_DEPLETION_BASIS",
+  "name": "Cost Depletion Basis Optimization",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to taxpayers who have a cost basis in mineral or timber property and are calculating depletion based on units extracted.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Establishes that the basis for depletion is the adjusted basis of the property, allowing taxpayers to recover their capital investment as resources are sold.",
+  "irc_reference": "IRC §612",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

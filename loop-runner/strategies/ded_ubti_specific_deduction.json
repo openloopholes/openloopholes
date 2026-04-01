@@ -1,0 +1,29 @@
+{
+  "id": "DED_UBTI_SPECIFIC_DEDUCTION",
+  "name": "UBTI Specific Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to most organizations subject to the section 511 tax on unrelated business income.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Provides a specific deduction of $1,000 against unrelated business taxable income.",
+  "irc_reference": "IRC §512(b)(12)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

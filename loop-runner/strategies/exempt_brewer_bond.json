@@ -1,0 +1,29 @@
+{
+  "id": "EXEMPT_BREWER_BOND",
+  "name": "Exemption from Brewer Bond Requirements",
+  "category": "excise",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to taxpayers who reasonably expect to be liable for not more than $50,000 in beer excise taxes for the calendar year and who were liable for not more than $50,000 in the preceding calendar year.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Qualifying small brewers are exempt from the requirement to execute and maintain a federal surety bond to cover excise tax liabilities.",
+  "irc_reference": "IRC §5401(c)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

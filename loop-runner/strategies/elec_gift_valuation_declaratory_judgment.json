@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_GIFT_VALUATION_DECLARATORY_JUDGMENT",
+  "name": "Declaratory Judgment for Gift Valuation",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Only the donor may file after exhausting administrative remedies and within 90 days of the IRS mailing a determination notice.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Enables donors to contest an IRS determination regarding the value of a gift by seeking a binding declaration from the Tax Court.",
+  "irc_reference": "IRC §7477",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

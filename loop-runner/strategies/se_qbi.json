@@ -1,0 +1,25 @@
+{
+  "id": "SE_QBI",
+  "name": "QBI Deduction Optimization",
+  "category": "se_tax",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Pass-through income; check SSTB status and thresholds",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Computed on return",
+    "forward_status": "available"
+  },
+  "description": "Optimize 20% QBI deduction considering W-2 wages, SSTB phase-outs.",
+  "irc_reference": "IRC §199A",
+  "deadline": "Computed on return"
+}

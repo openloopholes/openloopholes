@@ -1,0 +1,29 @@
+{
+  "id": "DEF_PF_60_MONTH_OPERATING_PERIOD",
+  "name": "60-Month Public Charity Operation Termination",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Private foundations seeking to transition to public charity status (509(a)(1), (2), or (3)) over a five-year period.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Foundations can avoid termination taxes by operating as a public charity for a continuous 60-month period and notifying the IRS before the period begins.",
+  "irc_reference": "IRC §507",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

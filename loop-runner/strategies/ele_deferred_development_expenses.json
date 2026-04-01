@@ -1,0 +1,29 @@
+{
+  "id": "ELE_DEFERRED_DEVELOPMENT_EXPENSES",
+  "name": "Election to Defer Development Expenditures",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Election must be made for the total amount of expenditures for a specific mine and is binding for that taxable year.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect to defer development expenses and deduct them ratably as the minerals are sold, which is useful for offsetting future income in higher tax brackets.",
+  "irc_reference": "IRC §616(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

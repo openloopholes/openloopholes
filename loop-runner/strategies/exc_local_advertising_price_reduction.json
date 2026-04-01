@@ -1,0 +1,29 @@
+{
+  "id": "EXC_LOCAL_ADVERTISING_PRICE_REDUCTION",
+  "name": "Local Advertising Price Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The charge must be separate, intended for reimbursement to the purchaser for local ads naming the article and retail location, and must be refunded within a specific timeframe.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Manufacturers can exclude from the taxable sale price of an article charges for local advertising (radio, TV, newspaper, or outdoor signs) up to 5% of the sales price.",
+  "irc_reference": "IRC §4216(e)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

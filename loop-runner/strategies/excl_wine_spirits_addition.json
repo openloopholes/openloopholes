@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_WINE_SPIRITS_ADDITION",
+  "name": "Tax-Free Wine Spirit Addition",
+  "category": "excise",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to bonded wine cellars adding spirits distilled in the U.S. from the same kind of fruit as the wine being treated.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Winemakers may add wine spirits (whether or not tax-paid) to natural wine or juice of the same fruit kind without triggering immediate tax, provided the alcohol content does not exceed 24% by volume.",
+  "irc_reference": "IRC §5382",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FIVE_AND_FIVE_LAPSE",
+  "name": "5-and-5 Power Lapse Protection",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to the lapse of a general power of appointment created after October 21, 1942.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a power of appointment to lapse annually without being treated as a taxable release, up to the greater of $5,000 or 5% of the assets.",
+  "irc_reference": "IRC §2041(b)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

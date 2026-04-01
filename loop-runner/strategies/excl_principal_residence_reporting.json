@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_PRINCIPAL_RESIDENCE_REPORTING",
+  "name": "Principal Residence Sale Reporting Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to sales of principal residences for $250,000 or less ($500,000 for married couples) where the seller provides written assurance that the gain is fully excludable from gross income.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can prevent the reporting of a home sale to the IRS by providing written assurance that the full gain is excludable under Section 121.",
+  "irc_reference": "IRC §6045(e)(5)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ELE_CORP_ANNUALIZED_SEASONAL_METHOD",
+  "name": "Corporate Annualized or Seasonal Installment Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to corporations with fluctuating or seasonal income; seasonal method requires 70% of income to fall within 6 consecutive months.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Corporations can lower required quarterly installments by using annualized income or adjusted seasonal installment methods rather than standard 25% payments.",
+  "irc_reference": "IRC §6655",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

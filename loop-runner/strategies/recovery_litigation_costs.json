@@ -1,0 +1,29 @@
+{
+  "id": "RECOVERY_LITIGATION_COSTS",
+  "name": "Awarding of Costs and Attorneys' Fees",
+  "category": "estate",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers who substantially prevail against the IRS, meet net worth requirements (under $2M for individuals), and have exhausted administrative remedies.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows the prevailing party in a tax dispute to recover reasonable administrative and litigation costs, including attorneys' fees, if the IRS position was not substantially justified.",
+  "irc_reference": "IRC §7430",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

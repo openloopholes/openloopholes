@@ -1,0 +1,29 @@
+{
+  "id": "DED_LIFE_INS_DIVIDENDS_RECEIVED",
+  "name": "Life Insurance Dividends Received Deduction (DRD)",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Life insurance companies receiving dividends from domestic corporations or insurance subsidiaries.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Provides a 100 percent deduction for certain dividends received from affiliates and a deduction for the company's share of other dividends.",
+  "irc_reference": "IRC §805(a)(4)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

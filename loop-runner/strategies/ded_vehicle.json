@@ -1,0 +1,33 @@
+{
+  "id": "DED_VEHICLE",
+  "name": "Business Vehicle Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Business use vehicle with mileage log",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "business_miles": {
+      "type": "int",
+      "description": "business miles driven"
+    }
+  },
+  "entity_specific": true,
+  "entity_types": [
+    "schedule_c",
+    "s_corp"
+  ],
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "depends",
+    "retroactive_note": "If miles were driven for business during 2025, can still claim",
+    "forward_status": "available"
+  },
+  "description": "Standard mileage ($0.70/mile) or actual expenses. Requires mileage log.",
+  "irc_reference": "IRC §162; Form 4562",
+  "deadline": "Miles during tax year"
+}

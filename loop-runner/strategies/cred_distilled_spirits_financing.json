@@ -1,0 +1,29 @@
+{
+  "id": "CRED_DISTILLED_SPIRITS_FINANCING",
+  "name": "Income Tax Credit for Average Cost of Carrying Excise Tax",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Eligible wholesalers of distilled spirits or persons subject to IRC 5005 who store spirits in certain state-operated warehouses.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "An income tax credit (part of the General Business Credit) to offset the interest costs associated with carrying the federal excise tax on bottled distilled spirits inventory.",
+  "irc_reference": "IRC §5011",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "RATE_SMALL_TOBACCO_PROPRIETOR",
+  "name": "Small Tobacco Proprietor Reduced Tax Rate",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Taxpayer must have gross receipts of less than $500,000 for the most recent taxable year ending before the tax period begins.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Reduces the annual occupational tax from $1,000 to $500 per premises for tobacco manufacturers and export warehouse proprietors with gross receipts under $500,000.",
+  "irc_reference": "IRC §5731(b)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

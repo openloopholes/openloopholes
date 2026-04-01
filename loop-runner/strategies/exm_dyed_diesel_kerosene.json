@@ -1,0 +1,29 @@
+{
+  "id": "EXM_DYED_DIESEL_KEROSENE",
+  "name": "Nontaxable Use Fuel Exemption",
+  "category": "excise",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Fuel must be used for nontaxable purposes such as farming, off-highway business use, or use in trains, and must be properly dyed/marked.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts diesel fuel and kerosene from the 18.3/24.3 cent per gallon excise tax if the fuel is indelibly dyed and destined for a nontaxable use.",
+  "irc_reference": "IRC §4082(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

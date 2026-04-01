@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_SUBSTANTIAL_AUTHORITY_DISCLOSURE",
+  "name": "Accuracy-Related Penalty Avoidance",
+  "category": "procedure",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers must either prove substantial authority for their treatment of an item or attach a disclosure statement (Form 8275) to the return explaining the reasonable basis for the position.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Reduces or eliminates the 20% accuracy-related penalty by establishing 'substantial authority' for a tax position or by adequately disclosing the position on the return with a 'reasonable basis'.",
+  "irc_reference": "IRC §6662",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

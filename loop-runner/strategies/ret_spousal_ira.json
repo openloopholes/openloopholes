@@ -1,0 +1,30 @@
+{
+  "id": "RET_SPOUSAL_IRA",
+  "name": "Spousal IRA",
+  "category": "retirement",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Non-working/low-income spouse; working spouse has earned income",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "contribution": {
+      "type": "int",
+      "description": "IRA contribution for spouse"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Contribution deadline April 15, 2026",
+    "forward_status": "available"
+  },
+  "description": "IRA for non-working spouse using working spouse's earned income.",
+  "irc_reference": "IRC §219(c)",
+  "deadline": "April 15 following tax year"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXEMPT_REMIC_ENTITY",
+  "name": "REMIC Entity Tax Exemption",
+  "category": "estate",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Entities that meet the requirements to be treated as a REMIC under IRC sections 860A through 860G.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts Real Estate Mortgage Investment Conduits (REMICs) from entity-level federal income tax, passing all tax liability to the interest holders.",
+  "irc_reference": "IRC §860A",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

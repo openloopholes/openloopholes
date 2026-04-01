@@ -1,0 +1,29 @@
+{
+  "id": "ELE_ANNUALIZED_INCOME_INSTALLMENT",
+  "name": "Annualized Income Installment Method",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to individuals whose income fluctuates significantly throughout the year.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Reduces required estimated tax payments for individuals with seasonal income or income back-loaded toward the end of the year by calculating payments based on actual income earned to date.",
+  "irc_reference": "IRC §6654",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

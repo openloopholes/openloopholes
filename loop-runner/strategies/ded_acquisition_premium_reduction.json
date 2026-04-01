@@ -1,0 +1,29 @@
+{
+  "id": "DED_ACQUISITION_PREMIUM_REDUCTION",
+  "name": "OID Reduction for Acquisition Premium",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies when a taxpayer purchases a debt instrument for more than its issue price plus previously included OID.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Subsequent purchasers of a debt instrument at a premium over its adjusted issue price can reduce the amount of OID they must include in daily income.",
+  "irc_reference": "IRC §1272(a)(7)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

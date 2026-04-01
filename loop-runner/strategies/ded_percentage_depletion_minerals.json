@@ -1,0 +1,29 @@
+{
+  "id": "DED_PERCENTAGE_DEPLETION_MINERALS",
+  "name": "Percentage Depletion for Minerals",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to owners of economic interests in mines, wells, and other natural deposits. The deduction is limited to 50% of taxable income from the property.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows a deduction for the exhaustion of mineral deposits based on a fixed percentage of gross income from the property (ranging from 5% to 22% depending on the mineral), rather than the cost basis.",
+  "irc_reference": "IRC §613",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

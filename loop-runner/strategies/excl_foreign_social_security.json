@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_FOREIGN_SOCIAL_SECURITY",
+  "name": "International Social Security Agreement Exemption",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers working in a foreign country with which the U.S. has a social security agreement (Totalization Agreement) and who are paying into that country's system.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts self-employment income from U.S. self-employment tax if the income is subject to the social security system of a foreign country under a Totalization Agreement.",
+  "irc_reference": "IRC §1401(c)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

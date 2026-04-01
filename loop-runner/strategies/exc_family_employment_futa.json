@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FAMILY_EMPLOYMENT_FUTA",
+  "name": "Family Member Employment Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to sole proprietorships or family partnerships where the employer is the spouse or parent of the employee.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Services performed by an individual in the employ of their spouse, or by a child under age 21 in the employ of their parent, are exempt from FUTA tax.",
+  "irc_reference": "IRC §3306(c)(5)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_NON_CITIZEN_SPOUSE_ANNUAL_GIFT",
+  "name": "Enhanced Annual Exclusion for Non-Citizen Spouses",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to gifts that would otherwise qualify for the marital deduction if the spouse were a U.S. citizen.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Increases the annual gift tax exclusion (to $100,000, adjusted for inflation) for gifts to a spouse who is not a U.S. citizen, since the unlimited marital deduction does not apply.",
+  "irc_reference": "IRC §2523(i)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXEM_CONSUMER_COOPERATIVE_REPORTING",
+  "name": "Consumer Cooperative Reporting Exemption",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Cooperatives primarily engaged in selling goods or services for personal, living, or family use.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Retail consumer cooperatives can apply for an exemption from filing information returns regarding patronage dividends.",
+  "irc_reference": "IRC §6044(c)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

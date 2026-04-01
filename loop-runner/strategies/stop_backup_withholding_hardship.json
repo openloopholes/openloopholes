@@ -1,0 +1,29 @@
+{
+  "id": "STOP_BACKUP_WITHHOLDING_HARDSHIP",
+  "name": "Undue Hardship Backup Withholding Cessation",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to payees currently subject to backup withholding due to notified underreporting who can demonstrate financial hardship and a commitment to future compliance.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can request the Secretary to stop backup withholding on interest and dividends if they can prove it causes undue hardship and future underreporting is unlikely.",
+  "irc_reference": "IRC §3406(c)(3)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

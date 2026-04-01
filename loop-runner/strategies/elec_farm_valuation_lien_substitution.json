@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_FARM_VALUATION_LIEN_SUBSTITUTION",
+  "name": "Substitution of Security for Farm Valuation Lien",
+  "category": "rental",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to estates that elected special use valuation under IRC 2032A and wish to free the specific real property from the federal tax lien.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows taxpayers to furnish alternative security instead of maintaining a statutory lien on qualified real property (farms/closely held businesses) valued under section 2032A.",
+  "irc_reference": "IRC §6324B",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

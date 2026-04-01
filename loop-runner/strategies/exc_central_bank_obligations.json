@@ -1,0 +1,29 @@
+{
+  "id": "EXC_CENTRAL_BANK_OBLIGATIONS",
+  "name": "Foreign Central Bank U.S. Obligation Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to foreign central banks of issue and the Bank for International Settlements, provided the assets are not used for commercial banking functions.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes income derived by a foreign central bank of issue from U.S. government obligations, agency instruments, or bank deposits.",
+  "irc_reference": "IRC §895",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

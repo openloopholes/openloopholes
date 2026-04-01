@@ -1,0 +1,29 @@
+{
+  "id": "CREDIT_ADV_COAL_PROJECT",
+  "name": "Qualifying Advanced Coal Project Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires certification from the Secretary of the Treasury and Energy. Project must use advanced coal-based technology, be located in the US, and meet specific capacity and emission standards.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a tax credit of 15%, 20%, or 30% of the qualified investment in advanced coal-based generation technology projects.",
+  "irc_reference": "IRC §48A",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

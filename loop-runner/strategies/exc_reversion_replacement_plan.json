@@ -1,0 +1,29 @@
+{
+  "id": "EXC_REVERSION_REPLACEMENT_PLAN",
+  "name": "Qualified Replacement Plan Excise Tax Reduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Employer must establish or maintain a qualified replacement plan where at least 95% of active participants from the terminated plan remain as employees and receive a direct transfer of assets.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Reduces the excise tax on the reversion of qualified plan assets from 50% to 20% if the employer transfers at least 25% of the maximum reversion amount to a qualified replacement plan.",
+  "irc_reference": "IRC §4980(d)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

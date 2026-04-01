@@ -1,0 +1,29 @@
+{
+  "id": "DEF_VESSEL_REPLACEMENT_ROLLOVER",
+  "name": "Nonrecognition of Gain on Disposition of Qualifying Vessels",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to qualifying vessel operators who reinvest sale proceeds into a replacement qualifying vessel within the statutory replacement period.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a vessel operator to elect to defer the recognition of gain on the sale of a qualifying vessel if a replacement vessel is acquired within a specific window (generally 3 years).",
+  "irc_reference": "IRC §1359",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

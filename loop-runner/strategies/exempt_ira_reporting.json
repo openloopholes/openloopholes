@@ -1,0 +1,29 @@
+{
+  "id": "EXEMPT_IRA_REPORTING",
+  "name": "IRA Annual Return Exemption",
+  "category": "retirement",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Individual retirement plan holders with no prohibited transactions (Section 4973/4974 taxes) and standard contribution/distribution activity.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Exempts individuals who establish IRAs from filing annual information returns (Form 5500 series) if there is no special IRP tax (excise taxes) and no activity other than contributions and distributions.",
+  "irc_reference": "IRC §6058",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

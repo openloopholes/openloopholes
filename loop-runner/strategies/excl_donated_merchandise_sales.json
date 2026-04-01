@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_DONATED_MERCHANDISE_SALES",
+  "name": "Donated Merchandise Sales Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to thrift shops or similar operations run by exempt organizations where inventory is donated.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes income from the sale of merchandise from UBIT if substantially all the items sold were received as gifts or contributions.",
+  "irc_reference": "IRC §513(a)(3)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

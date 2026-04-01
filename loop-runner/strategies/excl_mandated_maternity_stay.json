@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_MANDATED_MATERNITY_STAY",
+  "name": "Maternity and Newborn Minimum Stay Protection",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to any mother or newborn enrolled in a group health plan that provides maternity benefits.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Prohibits group health plans from restricting hospital stays for childbirth to less than 48 hours (vaginal) or 96 hours (caesarean) and prevents plans from offering monetary incentives to mothers to accept shorter stays.",
+  "irc_reference": "IRC §9811",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

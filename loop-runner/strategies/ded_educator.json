@@ -1,0 +1,30 @@
+{
+  "id": "DED_EDUCATOR",
+  "name": "Educator Expense Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "K-12 educators, 900+ hours",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "amount": {
+      "type": "int",
+      "description": "educator expenses (max $300)"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "depends",
+    "retroactive_note": "Expenses during 2025 school year",
+    "forward_status": "available"
+  },
+  "description": "Above-the-line deduction up to $300 for K-12 educators.",
+  "irc_reference": "IRC §62(a)(2)(D)",
+  "deadline": "Expenses during school year"
+}

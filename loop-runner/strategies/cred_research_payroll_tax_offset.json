@@ -1,0 +1,29 @@
+{
+  "id": "CRED_RESEARCH_PAYROLL_TAX_OFFSET",
+  "name": "Research Credit Offset Against Payroll Tax",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to 'qualified small businesses' (generally those with less than $5 million in gross receipts and no receipts for years prior to the 5-year period ending with the tax year) who make an election under section 41(h).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Qualified small businesses can elect to apply a portion of their Section 41 research credit against the employer's share of Social Security and Medicare taxes rather than income tax.",
+  "irc_reference": "IRC §3111(f)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FARM_FUEL_USE",
+  "name": "Farming Purposes Fuel Tax Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Fuel must be used on a farm in the United States for farming purposes as defined in section 6420(c).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a complete exemption from special motor fuel taxes for liquids sold for use or used on a farm for farming purposes.",
+  "irc_reference": "IRC §4041(f)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

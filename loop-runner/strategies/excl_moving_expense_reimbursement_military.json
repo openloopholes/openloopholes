@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_MOVING_EXPENSE_REIMBURSEMENT_MILITARY",
+  "name": "Military Moving Expense Reimbursement Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Limited to active duty members of the Armed Forces moving due to military orders (cross-referenced with section 132(a)(6)).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "While moving expense reimbursements are generally taxable, reimbursements for members of the Armed Forces on active duty moving pursuant to a military order are excluded from gross income.",
+  "irc_reference": "IRC §82",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

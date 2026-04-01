@@ -1,0 +1,29 @@
+{
+  "id": "DED_TAXPAYER_ADVOCATE_INTERVENTION",
+  "name": "Office of the Taxpayer Advocate Assistance",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to taxpayers experiencing significant hardship or systemic problems with IRS administrative practices.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a formal mechanism to resolve persistent IRS problems, mitigate compliance burdens, and challenge IRS positions through an independent forum.",
+  "irc_reference": "IRC §7803(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

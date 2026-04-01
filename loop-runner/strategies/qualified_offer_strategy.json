@@ -1,0 +1,29 @@
+{
+  "id": "QUALIFIED_OFFER_STRATEGY",
+  "name": "Qualified Offer Rule for Litigation Costs",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers who make a formal written offer to settle the tax liability during the qualified offer period that the IRS rejects.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A taxpayer can be treated as the 'prevailing party' (eligible for cost recovery) regardless of the IRS's justification if the final court judgment is less than or equal to a 'qualified offer' made by the taxpayer during the dispute.",
+  "irc_reference": "IRC §7430(g)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

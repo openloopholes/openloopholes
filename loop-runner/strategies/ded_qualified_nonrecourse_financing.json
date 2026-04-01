@@ -1,0 +1,29 @@
+{
+  "id": "DED_QUALIFIED_NONRECOURSE_FINANCING",
+  "name": "At-Risk Exception for Qualified Nonrecourse Financing",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to the activity of holding real property where debt is borrowed from a qualified person (like a bank) or government, and is secured by the real property.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows taxpayers to include their share of qualified nonrecourse financing in their 'at-risk' amount for real estate activities, enabling the deduction of losses exceeding their actual cash investment.",
+  "irc_reference": "IRC §465(b)(6)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor|individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

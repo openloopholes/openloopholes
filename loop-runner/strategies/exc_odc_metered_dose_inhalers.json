@@ -1,0 +1,29 @@
+{
+  "id": "EXC_ODC_METERED_DOSE_INHALERS",
+  "name": "Medical Inhaler Propellant Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires registration of the manufacturer and purchasers and proof of use in medical inhalers.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts substances used as propellants in metered-dose inhalers from the ODC tax and provides for credits/refunds if tax was previously paid.",
+  "irc_reference": "IRC §4682(g)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_POLLUTION_CONTROL_RECAPTURE_LIMIT",
+  "name": "Pollution Control Facility Recapture Limitation",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Corporations disposing of section 1250 property that is part of a certified pollution control facility with a valid section 169 election.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides that the 20% ordinary income recapture rule for Section 1250 property does not apply to certified pollution control facilities where a Section 169 election was made.",
+  "irc_reference": "IRC §291",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

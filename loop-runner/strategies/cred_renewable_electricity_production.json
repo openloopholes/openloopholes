@@ -1,0 +1,29 @@
+{
+  "id": "CRED_RENEWABLE_ELECTRICITY_PRODUCTION",
+  "name": "Renewable Electricity Production Credit (PTC)",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must produce electricity from qualified resources at a qualified facility and sell it to an unrelated person. Credit is increased 5x if prevailing wage and apprenticeship requirements are met.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a per-kilowatt-hour tax credit for electricity produced from qualified energy resources (wind, biomass, geothermal, solar, etc.) and sold to unrelated persons.",
+  "irc_reference": "IRC §45",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

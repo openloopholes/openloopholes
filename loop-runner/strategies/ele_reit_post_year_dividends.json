@@ -1,0 +1,29 @@
+{
+  "id": "ELE_REIT_POST_YEAR_DIVIDENDS",
+  "name": "REIT Spillover Dividend Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The dividend must be declared before the return filing deadline and distributed within the following 12-month period.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A REIT can elect to treat dividends declared before the tax return due date and paid within 12 months after year-end as paid during the prior taxable year.",
+  "irc_reference": "IRC §858",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

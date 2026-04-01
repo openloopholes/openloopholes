@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_COVERDELL_EARNINGS",
+  "name": "Coverdell ESA Tax-Free Growth",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Contributors must meet income phase-out requirements (MAGI below $110k single/$220k joint); annual contribution limit of $2,000.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Earnings in a Coverdell Education Savings Account grow tax-free and distributions are tax-exempt for qualified K-12 or higher education expenses.",
+  "irc_reference": "IRC §530",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

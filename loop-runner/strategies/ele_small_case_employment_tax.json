@@ -1,0 +1,29 @@
+{
+  "id": "ELE_SMALL_CASE_EMPLOYMENT_TAX",
+  "name": "Small Case Procedure Election for Employment Tax",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Disputed employment tax must be $50,000 or less for each calendar quarter involved; requires Tax Court concurrence.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect simplified, less expensive small case procedures in Tax Court if the amount of employment taxes in dispute is $50,000 or less per quarter.",
+  "irc_reference": "IRC §7436(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

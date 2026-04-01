@@ -1,0 +1,29 @@
+{
+  "id": "CRED_HEALTH_INSURANCE_COSTS",
+  "name": "Health Coverage Tax Credit (HCTC)",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to 'eligible individuals' which include TAA (Trade Adjustment Assistance) recipients, Alternative TAA recipients, and PBGC (Pension Benefit Guaranty Corporation) pension recipients aged 55 or older. Note: While the statute text shows a 2022 expiration, taxpayers should monitor for legislative extensions as this credit is frequently extended retroactively.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A refundable tax credit covering 72.5% of the premiums paid for qualified health insurance for eligible individuals and their family members.",
+  "irc_reference": "IRC §35",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

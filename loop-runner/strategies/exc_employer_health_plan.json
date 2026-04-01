@@ -1,0 +1,29 @@
+{
+  "id": "EXC_EMPLOYER_HEALTH_PLAN",
+  "name": "Exclusion of Employer-Provided Health Coverage",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to employees receiving health insurance coverage paid for by their employer.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Gross income of an employee does not include employer-provided coverage under an accident or health plan, effectively providing a tax-free fringe benefit.",
+  "irc_reference": "IRC §106(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

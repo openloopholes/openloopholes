@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FOUNDATION_SELF_DEFENSE",
+  "name": "Foundation Self-Defense Lobbying Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Communications must be limited to legislative decisions affecting the foundation's legal or tax status.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Foundations may incur expenses to communicate with legislative bodies regarding decisions that affect the foundation's own existence, powers, duties, tax-exempt status, or the deductibility of contributions to it.",
+  "irc_reference": "IRC §4945(e)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXM_DEFENSE_COAST_GUARD_TIRES",
+  "name": "Military and Coast Guard Tire Exemption",
+  "category": "excise",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Manufacturers or importers must document that the sale is for the exclusive use of the DoD or Coast Guard.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Complete exemption from the tire excise tax for tires sold for the exclusive use of the Department of Defense or the Coast Guard.",
+  "irc_reference": "IRC §4073",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

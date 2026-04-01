@@ -1,0 +1,29 @@
+{
+  "id": "ELE_WEEKEND_HOLIDAY_EXTENSION",
+  "name": "Automatic Deadline Extension for Weekends and Holidays",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Automatically applies to any act required under internal revenue laws, including filings and payments.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "If a tax deadline falls on a Saturday, Sunday, or legal holiday, the act is considered timely if performed on the next business day.",
+  "irc_reference": "IRC §7503",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual|business|investor|estate|employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

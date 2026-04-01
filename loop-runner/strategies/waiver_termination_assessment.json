@@ -1,0 +1,29 @@
+{
+  "id": "WAIVER_TERMINATION_ASSESSMENT",
+  "name": "Waiver of Termination Assessment for Departing Citizens",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "U.S. citizens or citizens of U.S. possessions who are departing the country and can demonstrate that such departure does not prejudice tax collection.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The Secretary has the discretion to waive the requirements of a termination assessment for U.S. citizens about to depart the United States, preventing the immediate acceleration of tax liability.",
+  "irc_reference": "IRC §6851(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

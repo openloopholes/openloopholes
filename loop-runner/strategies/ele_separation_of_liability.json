@@ -1,0 +1,29 @@
+{
+  "id": "ELE_SEPARATION_OF_LIABILITY",
+  "name": "Separation of Liability Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must be divorced, legally separated, or not living in the same household as the former spouse for the 12 months preceding the election.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a taxpayer to limit their liability for a joint tax deficiency by allocating the deficiency between themselves and their former or separated spouse as if they had filed separate returns.",
+  "irc_reference": "IRC §6015(c)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

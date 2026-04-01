@@ -1,0 +1,29 @@
+{
+  "id": "ELE_SHORT_TERM_GOV_ACCRUAL",
+  "name": "Constant Interest Rate Election for Short-Term Obligations",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to obligations of the U.S. or its possessions/states with a maturity of 1 year or less.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect to determine the ratable share of acquisition discount on short-term government obligations using a constant interest rate instead of a daily linear ratable share.",
+  "irc_reference": "IRC §1271(a)(3)(E)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

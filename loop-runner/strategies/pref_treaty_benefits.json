@@ -1,0 +1,29 @@
+{
+  "id": "PREF_TREATY_BENEFITS",
+  "name": "Income Tax Treaty Rate Reductions and Exclusions",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to nonresident aliens and foreign corporations who are residents of a country with which the U.S. has an active income tax treaty.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides for reduced tax rates or full exemptions on U.S. source income based on bilateral income tax treaties between the U.S. and the taxpayer's country of residence.",
+  "irc_reference": "IRC §894",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

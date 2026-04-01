@@ -1,0 +1,29 @@
+{
+  "id": "ELE_RIC_ORDINARY_LOSS_DEFERRAL",
+  "name": "RIC Elective Deferral of Post-October Ordinary Losses",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to RICs with a taxable year other than the calendar year that incur ordinary losses in the latter portion of the year.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a RIC to elect to defer ordinary losses incurred after the start of its taxable year (but within the calendar year) to the following calendar year for excise tax purposes.",
+  "irc_reference": "IRC §4982(e)(7)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_AFSI_NOL_CARRYOVER",
+  "name": "Financial Statement Net Operating Loss Carryover",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applicable corporations with financial statement losses in prior years (post-2019).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows a deduction for financial statement net operating losses (FSNOL) from years ending after 2019, up to 80% of AFSI.",
+  "irc_reference": "IRC §56A(d)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

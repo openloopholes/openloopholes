@@ -1,0 +1,29 @@
+{
+  "id": "EXC_REASONABLE_CAUSE_FUEL_PENALTY",
+  "name": "Reasonable Cause Exception for Fuel Tax Claims",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers who made excessive claims under sections 6416(a)(4), 6420, 6421, 6427, or 6435 but can prove the error was not due to willful neglect.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Avoid a penalty equal to twice the excessive amount claimed for non-taxable fuel use (e.g., farming or non-highway use) by demonstrating the claim was due to reasonable cause.",
+  "irc_reference": "IRC §6675",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

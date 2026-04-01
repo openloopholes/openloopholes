@@ -1,0 +1,29 @@
+{
+  "id": "EXC_CAPITAL_CONTRIBUTIONS",
+  "name": "Exclusion of Capital Contributions",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to corporations receiving capital from shareholders; however, it generally excludes contributions from customers or governmental entities.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Gross income of a corporation does not include any contribution to its capital, allowing corporations to receive funding from shareholders without triggering a tax liability.",
+  "irc_reference": "IRC §118",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ELE_AVERAGE_BASIS_RIC",
+  "name": "Average Basis Method Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to shareholders of mutual funds and participants in dividend reinvestment plans (DRIPs).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect to use the average basis method for regulated investment company (mutual fund) shares and certain dividend reinvestment plans to simplify gain/loss calculations.",
+  "irc_reference": "IRC §1012(c)(2)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

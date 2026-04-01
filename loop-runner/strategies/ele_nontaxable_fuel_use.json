@@ -1,0 +1,29 @@
+{
+  "id": "ELE_NONTAXABLE_FUEL_USE",
+  "name": "Taxable Fuel Nontaxable Use Relief",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to taxpayers who can demonstrate that fuel was used in a manner that does not trigger the standard excise tax liability.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides relief from excise tax in cases where taxable fuel is ultimately used for a nontaxable purpose via cross-reference to section 6427.",
+  "irc_reference": "IRC §4084(3)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

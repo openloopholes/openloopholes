@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_SEC_1248_TAX_LIMIT",
+  "name": "Limitation on Tax for Deemed Sales of Section 1248 Stock",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to individual partners when a partnership sale triggers ordinary income treatment due to the partnership's ownership of controlled foreign corporation (CFC) stock.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Limits the tax attributable to ordinary income amounts resulting from the sale of partnership interests that hold certain foreign corporation stock (Section 1248 stock) for individual partners.",
+  "irc_reference": "IRC §751(e)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

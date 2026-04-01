@@ -1,0 +1,29 @@
+{
+  "id": "REFUND_LOST_DESTROYED_SPIRITS",
+  "name": "Refund for Spirits Lost or Destroyed in Bond",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to spirits lost in bond; requires filing a claim and proving the loss was not due to connivance, collusion, fraud, or negligence.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxes are not collected, or are refunded if already paid, on distilled spirits lost or destroyed while in bond, provided the loss is not due to negligence or unexplained shortage.",
+  "irc_reference": "IRC §5008(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

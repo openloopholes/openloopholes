@@ -1,0 +1,29 @@
+{
+  "id": "DEF_PHC_LIQUIDATION_DIVIDEND",
+  "name": "Personal Holding Company Liquidation Dividend Election",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Personal Holding Companies undergoing complete liquidation within 24 months of adopting a plan, where the corporation notifies distributees of the dividend designation.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a Personal Holding Company (PHC) to treat liquidating distributions to non-corporate shareholders as dividends to the extent of undistributed PHC income, effectively eliminating the PHC penalty tax.",
+  "irc_reference": "IRC §316(b)(2)(B)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

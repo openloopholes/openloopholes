@@ -1,0 +1,29 @@
+{
+  "id": "CRED_FUTA_SUCCESSOR_EMPLOYER",
+  "name": "Successor Employer FUTA Credit Carryover",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Employers who acquire a business or a separate unit of a business and immediately employ the predecessor's employees.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Acquiring employers can claim FUTA credits for state unemployment taxes paid by a predecessor during the same calendar year if they acquire substantially all business property.",
+  "irc_reference": "IRC §3302(e)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

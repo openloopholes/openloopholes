@@ -1,0 +1,29 @@
+{
+  "id": "DEF_FINANCIAL_DISABILITY_TOLLING",
+  "name": "Tolling of Refund Deadlines for Financial Disability",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Individuals with a medically determinable impairment that is expected to result in death or last at least 12 months, preventing them from managing financial affairs.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Suspends the running of the 3-year/2-year refund limitation periods during any period an individual is 'financially disabled' (unable to manage financial affairs due to medically determinable physical or mental impairment).",
+  "irc_reference": "IRC §6511(h)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

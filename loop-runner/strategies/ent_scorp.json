@@ -1,0 +1,32 @@
+{
+  "id": "ENT_SCORP",
+  "name": "S-Corp Election",
+  "category": "entity",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "= SE_SCORP_ELECTION",
+    "requires_entity_type": "schedule_c",
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "salary": {
+      "type": "int",
+      "description": "reasonable compensation"
+    }
+  },
+  "entity_specific": true,
+  "entity_types": [
+    "schedule_c"
+  ],
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Form 2553 due March 15",
+    "forward_status": "available"
+  },
+  "description": "Elect S-Corp status to split income between salary and distributions.",
+  "irc_reference": "IRC §1362; Form 2553",
+  "deadline": "March 15 of election year"
+}

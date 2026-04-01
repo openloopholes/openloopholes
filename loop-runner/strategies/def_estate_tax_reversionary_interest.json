@@ -1,0 +1,29 @@
+{
+  "id": "DEF_ESTATE_TAX_REVERSIONARY_INTEREST",
+  "name": "Extension of Time for Payment of Estate Tax on Reversionary or Remainder Interests",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The value of a reversionary or remainder interest must be included in the gross estate. Requires an election by the executor.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows an executor to postpone payment of estate tax attributable to reversionary or remainder interests until 6 months after the termination of the preceding property interests.",
+  "irc_reference": "IRC §6163",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

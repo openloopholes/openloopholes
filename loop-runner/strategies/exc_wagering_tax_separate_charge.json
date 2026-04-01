@@ -1,0 +1,29 @@
+{
+  "id": "EXC_WAGERING_TAX_SEPARATE_CHARGE",
+  "name": "Wagering Tax Exclusion via Separate Charging",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to businesses engaged in accepting wagers that explicitly break out the tax amount as a separate charge to the customer.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes the amount of the excise tax from the taxable 'amount of wager' if the taxpayer establishes that the tax was collected as a separate charge from the person placing the wager.",
+  "irc_reference": "IRC §4401(b)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

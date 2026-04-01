@@ -1,0 +1,29 @@
+{
+  "id": "ELE_NETTING_GAINS_LOSSES",
+  "name": "Optional Netting of Patronage Gains and Losses",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to cooperatives with multiple functional or geographic allocation units; requires specific notice to patrons.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Cooperatives may elect to offset patronage losses from one allocation unit (e.g., a specific department or geographic region) against patronage earnings of another unit.",
+  "irc_reference": "IRC §1388(j)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

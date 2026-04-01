@@ -1,0 +1,29 @@
+{
+  "id": "CRED_GBC_CARRYBACK_FORWARD",
+  "name": "General Business Credit Carryback and Carryforward",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to any business with general business credits (Section 38) that exceed the annual tax liability limitation.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows taxpayers to carry unused general business credits back 1 year to offset past tax liability for a refund, and forward up to 20 years to offset future liability.",
+  "irc_reference": "IRC §39",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

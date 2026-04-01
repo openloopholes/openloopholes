@@ -1,0 +1,29 @@
+{
+  "id": "EXC_TWO_PARTY_EXCHANGE_FUEL",
+  "name": "Two-Party Exchange Liability Relief",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires both parties to be registered taxable fuel registrants under section 4101, a written contract, and specific terminal operator record-keeping treating the receiving person as the remover.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "In a qualified two-party exchange of taxable fuel between registered registrants, the delivering person is not liable for the fuel excise tax normally imposed under section 4081.",
+  "irc_reference": "IRC §4105",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

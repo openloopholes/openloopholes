@@ -1,0 +1,29 @@
+{
+  "id": "DED_UNLIMITED_CHARITABLE_CONTRIBUTIONS",
+  "name": "Unlimited Charitable Contribution Adjustment",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Corporations that make charitable contributions in excess of the standard Section 170(b)(2) limits.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "When calculating accumulated taxable income, the standard corporate 10% limitation on charitable contributions is ignored, allowing a full deduction for all charitable gifts made during the year.",
+  "irc_reference": "IRC §535(b)(2)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

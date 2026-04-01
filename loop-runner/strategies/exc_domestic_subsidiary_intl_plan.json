@@ -1,0 +1,29 @@
+{
+  "id": "EXC_DOMESTIC_SUBSIDIARY_INTL_PLAN",
+  "name": "International Domestic Subsidiary Plan Coverage",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Subsidiary must derive 95% of gross income from foreign sources and 90% from active trade or business.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Treats U.S. citizens/residents working for a domestic subsidiary engaged in business outside the U.S. as employees of the domestic parent for retirement plan purposes.",
+  "irc_reference": "IRC §407",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

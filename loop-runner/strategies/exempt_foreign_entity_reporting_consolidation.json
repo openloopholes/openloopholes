@@ -1,0 +1,29 @@
+{
+  "id": "EXEMPT_FOREIGN_ENTITY_REPORTING_CONSOLIDATION",
+  "name": "Foreign Business Entity Reporting Consolidation",
+  "category": "procedure",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies when two or more U.S. persons meet the control/ownership thresholds for the same foreign corporation or partnership.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Where multiple U.S. persons are required to file information returns for the same foreign entity, the Secretary may allow a single person to file, reducing compliance costs and penalty risks.",
+  "irc_reference": "IRC §6038(d)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

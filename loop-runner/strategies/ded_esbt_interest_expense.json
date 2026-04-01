@@ -1,0 +1,29 @@
+{
+  "id": "DED_ESBT_INTEREST_EXPENSE",
+  "name": "ESBT Interest Expense Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to trusts that have made an ESBT election and carry debt used to purchase S corporation shares.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows an Electing Small Business Trust (ESBT) to deduct interest expense paid or accrued on indebtedness incurred to acquire stock in an S corporation.",
+  "irc_reference": "IRC §641(c)(2)(C)(iv)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DEF_TOBACCO_TAX_SUCCESSION",
+  "name": "Occupational Tax Succession Rights",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires registration of the succession or relocation with the Secretary to transfer the existing tax credit to the new person or location.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows certain successors (spouses, heirs, or bankruptcy trustees) or relocating businesses to continue operations for the remainder of the tax year without paying a new occupational tax.",
+  "irc_reference": "IRC §5733(d)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

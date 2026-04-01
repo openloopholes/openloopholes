@@ -1,0 +1,29 @@
+{
+  "id": "DED_BANKRUPTCY_ADMIN_EXPENSES",
+  "name": "Bankruptcy Administrative Expense Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to the bankruptcy estate of an individual debtor under Chapter 7 or 11.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows the bankruptcy estate to deduct administrative expenses, fees, and charges assessed against the estate. Excess expenses can be carried back 3 years or forward 7 years.",
+  "irc_reference": "IRC §1398(h)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

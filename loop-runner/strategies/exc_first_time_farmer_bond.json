@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FIRST_TIME_FARMER_BOND",
+  "name": "First-Time Farmer Land Acquisition Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to individuals who have not previously owned substantial farmland and will materially participate in the farm operation. Financing is limited to $450,000 (inflation-adjusted) for land and $62,500 for used equipment.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows the use of tax-exempt private activity bonds to finance the acquisition of farmland and used equipment for first-time farmers, bypassing the general 25% land acquisition limit.",
+  "irc_reference": "IRC §147(c)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

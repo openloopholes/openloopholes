@@ -1,0 +1,29 @@
+{
+  "id": "RETIREMENT_PLAN_LEVY_ROLLOVER",
+  "name": "Wrongful Levy Retirement Plan Rollover",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The contribution must be made by the tax return due date (excluding extensions) for the year the money is returned; the original levy must have been determined to be wrongful or premature.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "If the IRS returns funds levied from an eligible retirement plan, the individual can contribute the money (plus interest) back into the plan or an IRA, treating it as a tax-free rollover.",
+  "irc_reference": "IRC §6343(f)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

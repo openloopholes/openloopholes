@@ -1,0 +1,29 @@
+{
+  "id": "ELE_FRINGE_BENEFIT_LINE_OF_BUSINESS",
+  "name": "Line of Business Fringe Benefit Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Employers who had substantially all employees entitled to discounts in one line of business as of Jan 1, 1984, and wish to extend those tax-free discounts to other lines.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows an employer to treat employees from different lines of business as being in one line for purposes of excluding employee discounts from gross income.",
+  "irc_reference": "IRC §4977",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

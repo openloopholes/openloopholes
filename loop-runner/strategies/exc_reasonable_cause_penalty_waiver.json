@@ -1,0 +1,29 @@
+{
+  "id": "EXC_REASONABLE_CAUSE_PENALTY_WAIVER",
+  "name": "Reasonable Cause Penalty Waiver",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to penalties under IRC 6721, 6722, and 6723 when the taxpayer shows they acted in a responsible manner both before and after the failure occurred.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can avoid penalties for failing to file correct information returns or payee statements if they can demonstrate the failure was due to reasonable cause and not willful neglect.",
+  "irc_reference": "IRC §6724(a)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business|employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

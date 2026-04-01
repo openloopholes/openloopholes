@@ -1,0 +1,29 @@
+{
+  "id": "ELE_CARRYING_CHARGES_CAPITALIZATION",
+  "name": "Election to Capitalize Carrying Charges",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Useful when a taxpayer has no current income to offset with deductions; adding these costs to the basis reduces future taxable gain upon sale.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect to capitalize taxes and carrying charges (like interest) on property rather than deducting them currently.",
+  "irc_reference": "IRC §266",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

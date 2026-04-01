@@ -1,0 +1,29 @@
+{
+  "id": "DED_CASUALTY_LOSS_DISASTER",
+  "name": "Disaster Loss Acceleration Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be a loss in a disaster area attributable to a federally declared disaster.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers may elect to deduct a loss attributable to a federally declared disaster on the tax return for the year immediately preceding the disaster year.",
+  "irc_reference": "IRC §165(i)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

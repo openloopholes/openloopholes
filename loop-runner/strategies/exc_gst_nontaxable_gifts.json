@@ -1,0 +1,29 @@
+{
+  "id": "EXC_GST_NONTAXABLE_GIFTS",
+  "name": "GST Exclusion for Nontaxable Gifts",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to direct skips; for transfers in trust, the trust must be for a single beneficiary and includible in their gross estate upon death.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Direct skips that qualify as nontaxable gifts under the annual gift tax exclusion (2503(b)) or medical/educational exclusion (2503(e)) are assigned an inclusion ratio of zero, making them entirely exempt from Generation-Skipping Transfer tax.",
+  "irc_reference": "IRC §2642(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

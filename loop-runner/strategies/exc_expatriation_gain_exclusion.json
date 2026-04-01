@@ -1,0 +1,29 @@
+{
+  "id": "EXC_EXPATRIATION_GAIN_EXCLUSION",
+  "name": "Expatriation Mark-to-Market Gain Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to 'covered expatriates' (certain high-net-worth or high-income individuals) who relinquish citizenship or long-term residency.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes a significant amount of the deemed gain from the mark-to-market tax imposed upon expatriation. For 2025, this amount is inflation-adjusted (exceeding the $600,000 base).",
+  "irc_reference": "IRC §877A(a)(3)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

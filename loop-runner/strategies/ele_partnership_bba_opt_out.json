@@ -1,0 +1,29 @@
+{
+  "id": "ELE_PARTNERSHIP_BBA_OPT_OUT",
+  "name": "Election Out of Centralized Partnership Audit Regime",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Partnership must have 100 or fewer partners and all partners must be individuals, C corporations, S corporations, or estates of deceased partners.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Eligible partnerships with 100 or fewer partners can elect out of the BBA audit rules, allowing adjustments to be handled at the individual partner level rather than the partnership paying an imputed underpayment at the highest marginal tax rate.",
+  "irc_reference": "IRC §6221(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

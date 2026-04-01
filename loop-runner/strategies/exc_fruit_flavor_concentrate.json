@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FRUIT_FLAVOR_CONCENTRATE",
+  "name": "Volatile Fruit-Flavor Concentrate Tax Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Manufacturers must ensure the concentrate contains no more alcohol than reasonably unavoidable, render it unfit for beverage use (or keep under 24% ABV for wine production), and comply with specific record-keeping and application requirements.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts the manufacture of volatile fruit-flavor concentrates from distilled spirits taxes and most regulatory requirements of Chapter 51, provided the concentrate is rendered unfit for beverage use or transferred to a bonded wine cellar.",
+  "irc_reference": "IRC §5511",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

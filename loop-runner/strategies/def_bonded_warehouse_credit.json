@@ -1,0 +1,29 @@
+{
+  "id": "DEF_BONDED_WAREHOUSE_CREDIT",
+  "name": "Bonded Wine Warehouse for Credit Purposes",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Responsible warehouse companies or persons with the consent of a bonded wine cellar proprietor and surety.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows for the establishment of facilities to store wine and allied products for credit purposes while maintaining the untaxpaid status of the inventory.",
+  "irc_reference": "IRC §5353",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

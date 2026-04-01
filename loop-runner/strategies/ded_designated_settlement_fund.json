@@ -1,0 +1,29 @@
+{
+  "id": "DED_DESIGNATED_SETTLEMENT_FUND",
+  "name": "Designated Settlement Fund Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires a court order, a fund independent of the taxpayer, and an election to extinguish completely the taxpayer's tort liability.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can treat payments to a court-ordered settlement fund as 'economic performance,' allowing an immediate deduction for tort liabilities before the funds are actually distributed to claimants.",
+  "irc_reference": "IRC §468B",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

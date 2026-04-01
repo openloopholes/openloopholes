@@ -1,0 +1,29 @@
+{
+  "id": "ELE_FOREIGN_INSURANCE_DOMESTIC_TREATMENT",
+  "name": "Foreign Insurance Company Domestic Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be a CFC, qualify as an insurance company under Subchapter L, and waive all treaty benefits.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a foreign insurance CFC to elect to be treated as a domestic corporation for US tax purposes, potentially allowing it to join a consolidated return and use domestic tax benefits.",
+  "irc_reference": "IRC §953(d)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

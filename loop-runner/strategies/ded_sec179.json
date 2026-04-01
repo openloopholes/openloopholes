@@ -1,0 +1,33 @@
+{
+  "id": "DED_SEC179",
+  "name": "Section 179 Expense Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Business property placed in service; needs taxable income",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "amount": {
+      "type": "int",
+      "description": "property cost to expense"
+    }
+  },
+  "entity_specific": true,
+  "entity_types": [
+    "schedule_c",
+    "s_corp"
+  ],
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Property had to be placed in service by Dec 31, 2025",
+    "forward_status": "available"
+  },
+  "description": "Immediately expense business property. Up to $2,500,000 for 2025.",
+  "irc_reference": "IRC §179; Form 4562",
+  "deadline": "Property in service during tax year"
+}

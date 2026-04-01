@@ -1,0 +1,29 @@
+{
+  "id": "DEF_ESTATE_TAX_LENDING_FINANCE_BUSINESS",
+  "name": "Lending and Finance Business Active Trade Treatment",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The business must meet specific employee and gross receipt thresholds ($5M+) and not be readily tradable on an established market.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Treats qualifying lending and finance businesses as active trades or businesses, allowing the estate to qualify for installment payments of estate tax.",
+  "irc_reference": "IRC §6166(b)(10)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_AIR_AMBULANCE_SURPRISE_BILLING",
+  "name": "Air Ambulance Cost-Sharing Protection",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to individuals in group health plans receiving air ambulance services from nonparticipating providers for services that would otherwise be covered in-network.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Limits a taxpayer's cost-sharing for out-of-network air ambulance services to the same rates and deductibles that would apply to in-network services.",
+  "irc_reference": "IRC §9817",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

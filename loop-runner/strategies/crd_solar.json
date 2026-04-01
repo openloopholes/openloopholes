@@ -1,0 +1,30 @@
+{
+  "id": "CRD_SOLAR",
+  "name": "Residential Clean Energy Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "EXPIRES 12/31/2025",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "cost": {
+      "type": "int",
+      "description": "installed solar system cost"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Installed by Dec 31, 2025",
+    "forward_status": "available"
+  },
+  "description": "30% credit on solar panels, water heaters, battery storage. No maximum.",
+  "irc_reference": "IRC §25D",
+  "deadline": "Installed by Dec 31, 2025"
+}

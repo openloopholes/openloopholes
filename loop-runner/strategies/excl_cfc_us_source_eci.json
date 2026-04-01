@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_CFC_US_SOURCE_ECI",
+  "name": "US Source Effectively Connected Income Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to CFCs with US operations where the income is already taxed at the corporate level in the US.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes from Subpart F income any US source income that is effectively connected with a US trade or business and already subject to US tax.",
+  "irc_reference": "IRC §952(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,25 @@
+{
+  "id": "TIME_LTCG",
+  "name": "LTCG Characterization",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Assets held or holdable >1 year",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Hold period must be met before sale",
+    "forward_status": "available"
+  },
+  "description": "Hold assets 1+ year for preferential 0%/15%/20% rates.",
+  "irc_reference": "IRC §1(h)",
+  "deadline": "Hold period before sale"
+}

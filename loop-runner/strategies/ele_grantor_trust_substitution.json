@@ -1,0 +1,29 @@
+{
+  "id": "ELE_GRANTOR_TRUST_SUBSTITUTION",
+  "name": "Power of Substitution for Asset Basis Management",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires specific language in the trust instrument granting the power to substitute assets in a nonfiduciary capacity.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "By including a power to reacquire trust corpus by substituting other property of equivalent value in a nonfiduciary capacity, the grantor is treated as the owner for income tax purposes. This allows the grantor to swap low-basis assets in the trust for high-basis assets (like cash) before death to achieve a step-up in basis under Section 1014.",
+  "irc_reference": "IRC §675(4)(C)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

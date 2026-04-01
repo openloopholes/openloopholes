@@ -1,0 +1,29 @@
+{
+  "id": "DED_NOL_CARRYOVER",
+  "name": "Net Operating Loss (NOL) Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to taxpayers whose business deductions exceed gross income; specific rules apply for farming and insurance companies regarding carrybacks.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows businesses to carry forward losses from one year to offset up to 80% of taxable income in future years, and provides a 2-year carryback for farming losses.",
+  "irc_reference": "IRC §172",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

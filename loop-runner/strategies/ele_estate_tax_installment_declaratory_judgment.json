@@ -1,0 +1,29 @@
+{
+  "id": "ELE_ESTATE_TAX_INSTALLMENT_DECLARATORY_JUDGMENT",
+  "name": "Declaratory Judgment for Section 6166 Eligibility",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to executors of estates consisting largely of interests in closely held businesses where there is a controversy regarding Section 6166 eligibility.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows an estate to seek a Tax Court ruling to confirm eligibility for 15-year installment payments of estate tax when the IRS fails to make a determination or denies the election.",
+  "irc_reference": "IRC §7479",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

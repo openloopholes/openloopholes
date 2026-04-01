@@ -1,0 +1,29 @@
+{
+  "id": "DED_OIL_GAS_INDEPENDENT_PRODUCER",
+  "name": "Independent Producer and Royalty Owner Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Taxpayer must not be a 'retailer' or 'refiner' as defined in Section 613A(d). The deduction is limited to 100% of taxable income from the property.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows independent producers and royalty owners to claim a 15% percentage depletion deduction on domestic crude oil and natural gas production, up to 1,000 barrels of oil equivalent per day.",
+  "irc_reference": "IRC §613A(c)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

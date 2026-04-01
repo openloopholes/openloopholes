@@ -1,0 +1,29 @@
+{
+  "id": "CRED_FOREIGN_DEATH_TAXES",
+  "name": "Credit for Foreign Death Taxes",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The estate must include property situated in a foreign country (or U.S. possession) that was subjected to foreign death taxes and is also included in the U.S. gross estate.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a credit against U.S. federal estate tax for the amount of any estate, inheritance, legacy, or succession taxes actually paid to a foreign country on property situated there.",
+  "irc_reference": "IRC §2014",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_CASH_OWNER_SUBSTITUTION",
+  "name": "True Owner Substitution for Unclaimed Cash",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires the true owner of cash (exceeding $10,000) to come forward, acknowledge ownership, and be readily identifiable by the Secretary after an initial assessment against the possessor.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows the actual owner of cash to be substituted for the possessor in a jeopardy assessment, potentially reducing the tax rate from the highest individual rate to the owner's actual effective rate.",
+  "irc_reference": "IRC §6867(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

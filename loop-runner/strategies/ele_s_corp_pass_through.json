@@ -1,0 +1,29 @@
+{
+  "id": "ELE_S_CORP_PASS_THROUGH",
+  "name": "S-Corporation Election for Single-Level Taxation",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Domestic corporations with no more than 100 shareholders (families treated as one), one class of stock, and only eligible shareholders (individuals, certain trusts/estates).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a small business corporation to avoid double taxation by passing income, losses, deductions, and credits through to shareholders.",
+  "irc_reference": "IRC §1361",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

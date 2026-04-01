@@ -1,0 +1,29 @@
+{
+  "id": "ELE_PARTNERSHIP_AUDIT_OPT_OUT",
+  "name": "Small Partnership Audit Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to partnerships with 100 or fewer partners who are individuals, C corporations, foreign entities treated as C corps, S corporations, or estates of deceased partners.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Eligible partnerships can elect out of the centralized partnership audit regime, potentially reducing collective tax liability and administrative costs.",
+  "irc_reference": "IRC §6031",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

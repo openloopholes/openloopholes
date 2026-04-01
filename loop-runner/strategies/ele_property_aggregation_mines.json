@@ -1,0 +1,29 @@
+{
+  "id": "ELE_PROPERTY_AGGREGATION_MINES",
+  "name": "Election to Aggregate Mineral Interests",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be made by the return due date for the first year development expenditures are incurred.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect to aggregate separate operating mineral interests into one property for depletion purposes, which can optimize the 50% taxable income limitation.",
+  "irc_reference": "IRC §614(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

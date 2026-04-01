@@ -1,0 +1,29 @@
+{
+  "id": "EXC_SERVICE_SCHOLARSHIP_EXCEPTIONS",
+  "name": "Service-Based Scholarship Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Must be a participant in the National Health Service Corps Scholarship Program, Armed Forces Health Professions Scholarship, or a comprehensive student work-learning-service program at a work college.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows exclusion of scholarship amounts even if they represent payment for services if received through specific programs like the National Health Service Corps or Armed Forces Health Professions program.",
+  "irc_reference": "IRC §117(c)(2)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

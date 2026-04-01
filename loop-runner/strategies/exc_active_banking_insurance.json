@@ -1,0 +1,29 @@
+{
+  "id": "EXC_ACTIVE_BANKING_INSURANCE",
+  "name": "Active Banking and Insurance Income Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "The entity must be a licensed bank or a qualifying insurance corporation meeting specific liability-to-asset ratios.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes income derived from the active conduct of a banking or insurance business from the definition of passive income for PFIC status.",
+  "irc_reference": "IRC §1297(b)(2)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

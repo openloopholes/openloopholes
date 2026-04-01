@@ -1,0 +1,25 @@
+{
+  "id": "CRD_EITC",
+  "name": "Earned Income Tax Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Low income; investment income <$11,950",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Based on tax year earnings",
+    "forward_status": "available"
+  },
+  "description": "Refundable credit for low-to-moderate income workers. Varies by income and children.",
+  "irc_reference": "IRC §32",
+  "deadline": "Based on tax year earnings"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_SPUDDING_OIL_GAS_WELLS",
+  "name": "Oil and Gas Spudding Rule",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to amounts paid during the taxable year for drilling where 'spudding' occurs within the 90-day window.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows tax shelters to treat economic performance as occurring in the current year if the drilling of an oil or gas well commences within 90 days after year-end.",
+  "irc_reference": "IRC §461",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

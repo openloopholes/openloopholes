@@ -1,0 +1,29 @@
+{
+  "id": "DISC_EXPORT_PROMOTION_EXPENSE_DEDUCTION",
+  "name": "Export Promotion Expense Enhancement",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Businesses incurring costs to advance the distribution or sale of export property outside the U.S.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a 10% additional profit allocation to the DISC based on 'export promotion expenses,' including 50% of freight costs for U.S. flagged ships or aircraft.",
+  "irc_reference": "IRC §994",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

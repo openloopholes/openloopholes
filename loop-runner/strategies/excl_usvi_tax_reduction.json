@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_USVI_TAX_REDUCTION",
+  "name": "US Virgin Islands Tax Liability Reduction",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to income sourced within the USVI or effectively connected to a USVI trade or business. Does not apply to U.S. citizens/residents who are required to pay tax to the USVI under section 932(b).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows for the reduction of tax liability incurred to the Virgin Islands for income derived from sources within the USVI or effectively connected with a USVI trade or business.",
+  "irc_reference": "IRC §934(b)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ELE_338_H_10_JOINT_ELECTION",
+  "name": "Section 338(h)(10) Joint Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The target must be a member of a selling consolidated group (or an S-corp) and both buyer and seller must consent to the election.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a selling consolidated group and the purchaser to treat a stock sale as an asset sale, often resulting in a single level of tax and a basis step-up for the buyer.",
+  "irc_reference": "IRC §338(h)(10)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

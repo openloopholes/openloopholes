@@ -1,0 +1,29 @@
+{
+  "id": "DED_PRIOR_TAX_PETROLEUM",
+  "name": "Petroleum Single Tax Rule",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must establish that a prior section 4611 tax was imposed on the specific petroleum product.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Prevents double taxation by prohibiting the imposition of the section 4611 tax if the taxpayer can prove the tax was already paid on that product.",
+  "irc_reference": "IRC §4612(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

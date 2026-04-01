@@ -1,0 +1,29 @@
+{
+  "id": "EXC_INDIVIDUAL_STUDY_GRANTS",
+  "name": "Approved Individual Grant Procedures",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Grants must be scholarships, prizes, or for specific objectives awarded on an objective and nondiscriminatory basis with prior Secretary approval.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Foundations can avoid the 20% taxable expenditure tax on grants to individuals for travel or study by obtaining advance IRS approval of their grant-making procedures.",
+  "irc_reference": "IRC §4945(g)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "REFUND_MOTORBOAT_SMALL_ENGINE_FUEL",
+  "name": "Non-Highway Use Fuel Tax Refund",
+  "category": "excise",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to gasoline used in the nonbusiness use of small-engine outdoor power equipment or recreational motorboats.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides for the transfer of funds for refunds to taxpayers who paid gasoline taxes for fuel used in motorboats or small-engine outdoor power equipment.",
+  "irc_reference": "IRC §9503(c)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

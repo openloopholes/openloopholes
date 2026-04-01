@@ -1,0 +1,29 @@
+{
+  "id": "DEF_PARTNERSHIP_CONTRIBUTION",
+  "name": "Nonrecognition of Gain on Partnership Contribution",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Partners contributing property to a partnership; does not apply to 'investment company' partnerships or certain foreign transfers.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows for the tax-free contribution of appreciated property to a partnership in exchange for a partnership interest, deferring capital gains tax.",
+  "irc_reference": "IRC §721(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

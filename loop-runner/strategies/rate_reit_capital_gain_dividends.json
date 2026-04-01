@@ -1,0 +1,29 @@
+{
+  "id": "RATE_REIT_CAPITAL_GAIN_DIVIDENDS",
+  "name": "REIT Capital Gain Dividend Treatment",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to distributions designated as capital gain dividends by a REIT in written notice to shareholders.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Shareholders can treat dividends designated by the REIT as capital gain dividends as long-term capital gains, regardless of the shareholder's actual holding period.",
+  "irc_reference": "IRC §857",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_VOLUNTEER_RESPONDER_BENEFITS",
+  "name": "Volunteer First Responder Benefit Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Members of qualified volunteer emergency response organizations receiving state or local incentives.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes from gross income any qualified State/local tax benefits (rebates/reductions) and qualified payments (up to $50/month) provided to volunteer firefighters and EMS workers.",
+  "irc_reference": "IRC §139B",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

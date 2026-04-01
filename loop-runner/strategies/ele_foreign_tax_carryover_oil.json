@@ -1,0 +1,29 @@
+{
+  "id": "ELE_FOREIGN_TAX_CARRYOVER_OIL",
+  "name": "Foreign Oil and Gas Tax Carryback and Carryover",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Corporations or individuals paying foreign oil and gas extraction taxes (FOGEI) or foreign oil related income taxes (FORI) exceeding current year limits.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows foreign oil and gas taxes that exceed the Section 907(a) limitation to be carried back 1 year and forward 10 years.",
+  "irc_reference": "IRC §907(f)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

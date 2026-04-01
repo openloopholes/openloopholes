@@ -1,0 +1,29 @@
+{
+  "id": "DEF_INVENTORY_EXCHANGE",
+  "name": "Tax-Free Inventory Exchange Election",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Both parties must be registered with the Secretary and provide required registration notifications.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows manufacturers to exchange taxable chemicals as part of an inventory exchange without triggering a 'sale' for tax purposes.",
+  "irc_reference": "IRC §4662(c)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

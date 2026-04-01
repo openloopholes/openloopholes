@@ -1,0 +1,29 @@
+{
+  "id": "RATE_BEER_TIERED_RATE",
+  "name": "Tiered Beer Excise Tax Rate",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Brewers and electing importers of beer.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Applies a reduced tax rate of $16 per barrel on the first 6,000,000 barrels of beer removed or imported during the year.",
+  "irc_reference": "IRC §5051",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

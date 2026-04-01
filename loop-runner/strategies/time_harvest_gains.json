@@ -1,0 +1,25 @@
+{
+  "id": "TIME_HARVEST_GAINS",
+  "name": "Capital Gain Harvesting",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Low-income year to fill 0% LTCG bracket ($96,700 MFJ)",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Gains realized by Dec 31",
+    "forward_status": "available"
+  },
+  "description": "Realize gains in low-income years to fill 0% LTCG bracket.",
+  "irc_reference": "IRC §1(h)",
+  "deadline": "Dec 31 of tax year"
+}

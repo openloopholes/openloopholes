@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_STATISTICAL_INCOME_RECONSTRUCTION",
+  "name": "Exclusion of Statistical Income Reconstruction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to individual taxpayers where the IRS uses external statistical data rather than the taxpayer's own records to determine income.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The IRS bears the burden of proof if they attempt to reconstruct an individual's income solely using statistical information from unrelated taxpayers (e.g., industry averages), providing a defense against arbitrary income assessments.",
+  "irc_reference": "IRC §7491(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_QUALIFIED_DISABILITY_TRUST_EXEMPTION",
+  "name": "Qualified Disability Trust Enhanced Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Trusts where all beneficiaries are determined to be disabled by the Commissioner of Social Security.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Provides a significantly higher deduction (indexed for inflation, $4,150 base) in lieu of the standard $100 or $300 trust exemption.",
+  "irc_reference": "IRC §642(b)(2)(C)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

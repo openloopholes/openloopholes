@@ -1,0 +1,29 @@
+{
+  "id": "REDEMPTION_OF_REAL_ESTATE",
+  "name": "Post-Sale Redemption of Real Property",
+  "category": "rental",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Owners, heirs, or persons with an interest in the real property sold at an IRS auction.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a 180-day window after a tax sale to redeem seized real estate by paying the purchaser the amount paid plus 20% interest per annum.",
+  "irc_reference": "IRC §6337(b)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

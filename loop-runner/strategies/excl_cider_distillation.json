@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_CIDER_DISTILLATION",
+  "name": "Tax-Exempt Cider Receipt for Distillation",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to distilled spirits plant operators receiving specific tax-exempt cider for the production of spirits.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Cider that is exempt from tax under section 5042(a)(1) may be received on the bonded premises of a distilled spirits plant without triggering immediate tax liability.",
+  "irc_reference": "IRC §5222(b)(3)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

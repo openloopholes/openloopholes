@@ -1,0 +1,29 @@
+{
+  "id": "PREF_RATE_INHERITED_PROPERTY",
+  "name": "Automatic Long-Term Status for Inherited Property",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to persons acquiring property from a decedent where the basis is determined under section 1014.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Property acquired from a decedent is automatically considered held for more than one year, regardless of the actual holding period, ensuring long-term capital gain treatment upon sale.",
+  "irc_reference": "IRC §1223(9)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

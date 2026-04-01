@@ -1,0 +1,29 @@
+{
+  "id": "ELE_STOCK_CO_CONTIGUOUS_TRANSFER",
+  "name": "Tax-Free Transfer of Contiguous Branch Assets",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to domestic stock life insurance companies with branches in Canada or Mexico that meet the operational requirements of Section 814(b).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Domestic stock life insurance companies can elect to transfer contiguous country branch assets to a foreign corporation without the application of Section 367 gain recognition (subject to certain limitations).",
+  "irc_reference": "IRC §814(h)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

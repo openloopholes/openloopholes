@@ -1,0 +1,30 @@
+{
+  "id": "RET_DB_PLAN",
+  "name": "Defined Benefit Plan",
+  "category": "retirement",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Self-employed, stable income $250K+, age 50+ preferred",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "contribution": {
+      "type": "int",
+      "description": "defined benefit plan contribution (max varies by age, $50K-$300K)"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Plan had to be established by Dec 31, 2025",
+    "forward_status": "available"
+  },
+  "description": "Establish a defined benefit pension plan for large, tax-deductible contributions. Contribution limits based on actuarial calculations. Requires professional setup.",
+  "irc_reference": "IRC §412; Form 5500",
+  "deadline": "Plan established by Dec 31, contributions by filing deadline"
+}

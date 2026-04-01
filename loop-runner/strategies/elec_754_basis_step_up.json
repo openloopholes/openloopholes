@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_754_BASIS_STEP_UP",
+  "name": "Section 754 Optional Basis Adjustment",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires a valid Section 754 election by the partnership. The adjustment (increase or decrease) applies only to the transferee partner to align their outside basis with their share of inside basis.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a partnership to adjust the basis of its assets when a partnership interest is transferred or a partner dies. This results in a 'step-up' in basis for the transferee partner, increasing their depreciation deductions and reducing future gain on asset sales.",
+  "irc_reference": "IRC §743",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|investor|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

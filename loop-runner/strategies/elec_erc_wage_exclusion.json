@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_ERC_WAGE_EXCLUSION",
+  "name": "Election to Not Take ERC Wages into Account",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Eligible employers who wish to coordinate the ERC with other tax incentives like the R&D credit or Work Opportunity Tax Credit.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows an employer to elect not to treat certain wages as qualified wages for the ERC, which can be used to optimize for other credits or to avoid the deduction disallowance under section 280C.",
+  "irc_reference": "IRC §3134(g)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

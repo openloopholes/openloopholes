@@ -1,0 +1,29 @@
+{
+  "id": "EXC_SPOUSAL_QUALIFIED_JOINT_INTEREST",
+  "name": "Qualified Spousal Joint Interest Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to married couples who are the only joint tenants with right of survivorship.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Automatically exclude 50% of the value of property held solely by a decedent and their spouse as joint tenants or tenants by the entirety from the gross estate.",
+  "irc_reference": "IRC §2040(b)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

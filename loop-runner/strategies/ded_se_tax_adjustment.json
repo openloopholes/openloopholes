@@ -1,0 +1,29 @@
+{
+  "id": "DED_SE_TAX_ADJUSTMENT",
+  "name": "Self-Employment Tax Deduction Adjustment",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "All self-employed individuals calculating their SE tax liability.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Provides a deduction equal to 7.65% of net self-employment earnings when calculating the self-employment tax itself, effectively reducing the taxable base.",
+  "irc_reference": "IRC §1402(a)(12)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

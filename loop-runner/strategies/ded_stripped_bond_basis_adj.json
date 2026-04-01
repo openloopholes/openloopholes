@@ -1,0 +1,29 @@
+{
+  "id": "DED_STRIPPED_BOND_BASIS_ADJ",
+  "name": "Tax-Exempt OID Basis Step-up",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to holders of tax-exempt obligations issued with original issue discount.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Original issue discount on tax-exempt obligations is treated as accruing for basis purposes, allowing the holder to increase their basis and reduce gain (or increase loss) upon sale.",
+  "irc_reference": "IRC §1288",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

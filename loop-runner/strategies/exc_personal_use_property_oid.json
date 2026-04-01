@@ -1,0 +1,29 @@
+{
+  "id": "EXC_PERSONAL_USE_PROPERTY_OID",
+  "name": "Personal Use Property OID Deferral",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to individuals where substantially all the use of the property is not in connection with a trade, business, or investment activity.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Exempts borrowers from the OID rules for debt incurred to buy personal use property, allowing them to deduct interest only when paid rather than as it accrues.",
+  "irc_reference": "IRC §1275(b)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_S_CORP_DISTRIBUTIONS",
+  "name": "Tax-Free Distributions of Basis",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to S corporations with no accumulated earnings and profits, or distributions from the Accumulated Adjustments Account (AAA).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Distributions to shareholders are tax-free to the extent they do not exceed the shareholder's adjusted basis in the stock.",
+  "irc_reference": "IRC §1368(b)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

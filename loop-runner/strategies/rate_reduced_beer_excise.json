@@ -1,0 +1,29 @@
+{
+  "id": "RATE_REDUCED_BEER_EXCISE",
+  "name": "Reduced Excise Tax Rate for Small Brewers",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Domestic brewers producing not more than 2,000,000 barrels of beer during the calendar year.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Reduces the excise tax rate to $3.50 per barrel on the first 60,000 barrels for domestic brewers producing less than 2 million barrels annually.",
+  "irc_reference": "IRC §5051",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

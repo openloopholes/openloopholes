@@ -1,0 +1,29 @@
+{
+  "id": "EXM_QDOT_HARDSHIP_DISTRIBUTION",
+  "name": "QDOT Hardship Distribution Exemption",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The distribution must meet the regulatory definition of 'hardship' to avoid the section 2056A(b)(1) tax.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts distributions from a QDOT to a surviving spouse from the deferred estate tax if the distribution is made on account of hardship.",
+  "irc_reference": "IRC §2056A(b)(3)(B)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

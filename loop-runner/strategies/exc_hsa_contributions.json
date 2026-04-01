@@ -1,0 +1,29 @@
+{
+  "id": "EXC_HSA_CONTRIBUTIONS",
+  "name": "Exclusion of Employer HSA Contributions",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Employee must be an eligible individual under section 223(c)(1) (covered by a High Deductible Health Plan).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Employer contributions to an employee's Health Savings Account (HSA) are excluded from the employee's gross income, up to the annual statutory limits.",
+  "irc_reference": "IRC §106(d)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

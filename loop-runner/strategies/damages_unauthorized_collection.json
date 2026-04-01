@@ -1,0 +1,29 @@
+{
+  "id": "DAMAGES_UNAUTHORIZED_COLLECTION",
+  "name": "Civil Damages for Unauthorized Collection Actions",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available when IRS officers disregard any provision of the IRC or regulations during collection; requires exhaustion of administrative remedies.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can recover up to $1,000,000 for reckless/intentional disregard (or $100,000 for negligence) of tax laws by IRS employees during collection activities.",
+  "irc_reference": "IRC §7433",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

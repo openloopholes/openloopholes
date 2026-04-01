@@ -1,0 +1,29 @@
+{
+  "id": "DED_BANK_BAD_DEBT_RESERVE",
+  "name": "Bank Reserve for Bad Debts",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to banks as defined in section 581, provided they are not 'large banks' (assets exceeding $500 million).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Banks are allowed a deduction for a reasonable addition to a reserve for bad debts using the experience method instead of waiting for specific debts to become worthless.",
+  "irc_reference": "IRC §585(a)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

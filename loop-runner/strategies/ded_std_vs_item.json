@@ -1,0 +1,25 @@
+{
+  "id": "DED_STD_VS_ITEM",
+  "name": "Standard vs. Itemized",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "All filers",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Computed on return",
+    "forward_status": "available"
+  },
+  "description": "Compare total itemized deductions to standard deduction and choose the higher.",
+  "irc_reference": "IRC §63",
+  "deadline": "Computed on return"
+}

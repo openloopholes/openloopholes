@@ -1,0 +1,29 @@
+{
+  "id": "DED_MORTGAGE_POINTS",
+  "name": "Immediate Deduction of Mortgage Points",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "The debt must be secured by the taxpayer's principal residence and the payment of points must be an established business practice in the area.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows cash-method taxpayers to fully deduct points paid on debt incurred to purchase or improve a principal residence in the year paid.",
+  "irc_reference": "IRC §461",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

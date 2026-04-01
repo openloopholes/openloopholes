@@ -1,0 +1,29 @@
+{
+  "id": "REF_WAGERING_TAX_LAYOFF",
+  "name": "Credit or Refund on Laid-off Wagers",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to taxpayers in the wagering business who can prove they did not collect the tax from the bettor or have repaid it.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a credit or refund for wagering excise taxes when a taxpayer 'lays off' a wager with another person liable for the tax.",
+  "irc_reference": "IRC §6419",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

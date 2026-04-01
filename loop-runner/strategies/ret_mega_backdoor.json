@@ -1,0 +1,25 @@
+{
+  "id": "RET_MEGA_BACKDOOR",
+  "name": "Mega Backdoor Roth",
+  "category": "retirement",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Plan allows after-tax + in-service distribution",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Contributions by Dec 31, 2025",
+    "forward_status": "available"
+  },
+  "description": "After-tax 401(k) contributions converted to Roth. Allows up to $70K total 401(k) limit. Requires plan to allow after-tax contributions and in-service distributions.",
+  "irc_reference": "IRC §402(c)",
+  "deadline": "Dec 31 of tax year"
+}

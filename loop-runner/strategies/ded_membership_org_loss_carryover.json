@@ -1,0 +1,29 @@
+{
+  "id": "DED_MEMBERSHIP_ORG_LOSS_CARRYOVER",
+  "name": "Membership Organization Expense Carryover",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to social clubs or membership organizations operated primarily to furnish goods or services to members that are not tax-exempt.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Non-exempt membership organizations can carry forward excess deductions (losses) from providing services to members to the succeeding taxable year to offset future member income.",
+  "irc_reference": "IRC §277",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

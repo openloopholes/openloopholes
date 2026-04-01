@@ -1,0 +1,29 @@
+{
+  "id": "DED_ACCRUAL_POLITICAL_BAD_DEBT",
+  "name": "Political Party Bad Debt Deduction for Accrual Taxpayers",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must use accrual accounting, show the debt arose from a bona fide sale of goods/services in the ordinary course of business, and demonstrate substantial continuing efforts to collect.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a bad debt deduction for uncollectible receivables from political parties if the taxpayer uses the accrual method and more than 30% of their receivables are from political parties.",
+  "irc_reference": "IRC §271(c)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

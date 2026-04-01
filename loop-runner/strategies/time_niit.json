@@ -1,0 +1,25 @@
+{
+  "id": "TIME_NIIT",
+  "name": "NIIT Planning",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Investment income + MAGI >$200K/$250K",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Year-end planning",
+    "forward_status": "available"
+  },
+  "description": "Reduce 3.8% NIIT by lowering investment income or MAGI below threshold.",
+  "irc_reference": "IRC §1411",
+  "deadline": "Year-end planning"
+}

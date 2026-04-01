@@ -1,0 +1,29 @@
+{
+  "id": "CRED_NRNC_UNIFIED_CREDIT",
+  "name": "Unified Credit for Nonresident Non-Citizens",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to decedents who are nonresidents and not citizens of the United States with property situated in the U.S.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Provides a $13,000 credit against estate tax for nonresident non-citizens, with potentially higher prorated credits for residents of U.S. possessions or under specific treaty obligations.",
+  "irc_reference": "IRC §2102",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

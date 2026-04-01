@@ -1,0 +1,29 @@
+{
+  "id": "ELE_SPECIFIC_STOCK_IDENTIFICATION",
+  "name": "Specific Identification of Securities Sold",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to any taxpayer selling 'covered securities' through a broker where multiple lots were acquired at different prices and dates.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can minimize capital gains tax by notifying their broker to sell specific shares with a higher cost basis rather than using the default FIFO method.",
+  "irc_reference": "IRC §6045(g)(2)(B)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

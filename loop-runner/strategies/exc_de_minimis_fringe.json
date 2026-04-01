@@ -1,0 +1,29 @@
+{
+  "id": "EXC_DE_MINIMIS_FRINGE",
+  "name": "De Minimis Fringe Benefits",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Value and frequency must be sufficiently small to make accounting unreasonable.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes small-value benefits where accounting is impractical, such as occasional meal money, holiday gifts, or use of office equipment.",
+  "irc_reference": "IRC §132(a)(4)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FOSTER_CARE_PAYMENTS",
+  "name": "Qualified Foster Care Payment Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to foster care providers receiving payments from a State, political subdivision, or qualified placement agency for care provided in the provider's home.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes from gross income amounts received as qualified foster care payments, including 'difficulty of care' payments for individuals with physical or mental handicaps.",
+  "irc_reference": "IRC §131",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

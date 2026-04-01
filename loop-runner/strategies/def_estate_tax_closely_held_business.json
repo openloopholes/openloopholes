@@ -1,0 +1,29 @@
+{
+  "id": "DEF_ESTATE_TAX_CLOSELY_HELD_BUSINESS",
+  "name": "5-Year Deferral and 10-Year Installment Payment for Estate Tax",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The value of an interest in a closely held business must exceed 35 percent of the adjusted gross estate. The decedent must have been a U.S. citizen or resident.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows estates to defer principal payments for 5 years (paying only interest) and then pay the estate tax in up to 10 annual installments at a preferential interest rate.",
+  "irc_reference": "IRC §6166",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

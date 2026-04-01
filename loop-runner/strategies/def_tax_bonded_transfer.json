@@ -1,0 +1,29 @@
+{
+  "id": "DEF_TAX_BONDED_TRANSFER",
+  "name": "Tax-Free Transfer of Beer Between Bonded Facilities",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to transfers between breweries belonging to the same brewer, controlled corporations, or independent brewers where the transferee accepts tax responsibility.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows for the removal of beer from one brewery to another without immediate payment of excise tax, effectively deferring the tax liability until the beer is removed for consumption or sale from the receiving brewery.",
+  "irc_reference": "IRC §5414",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

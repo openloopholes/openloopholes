@@ -1,0 +1,29 @@
+{
+  "id": "CR_ADOPTION_EXPENSES",
+  "name": "Adoption Tax Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available for expenses related to the legal adoption of an eligible child (under 18 or disabled). Special needs adoptions qualify for the full credit regardless of actual expenses. Subject to income phase-outs starting at $150,000 (adjusted for inflation).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a credit for qualified adoption expenses, including fees, court costs, and attorney fees. A portion of the credit (up to $5,000) is refundable.",
+  "irc_reference": "IRC §23",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

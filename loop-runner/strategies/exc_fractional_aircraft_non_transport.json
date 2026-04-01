@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FRACTIONAL_AIRCRAFT_NON_TRANSPORT",
+  "name": "Fractional Aircraft Surtax Exclusion for Non-Transportation Use",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to fractional ownership program managers and owners when fuel is used for non-transportation purposes specifically listed in the code.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Fuel used in fractional program aircraft is exempt from the 14.1 cents per gallon surtax when used for flight demonstration, maintenance, or crew training.",
+  "irc_reference": "IRC §4043(c)(5)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

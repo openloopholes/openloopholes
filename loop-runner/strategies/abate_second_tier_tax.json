@@ -1,0 +1,29 @@
+{
+  "id": "ABATE_SECOND_TIER_TAX",
+  "name": "Abatement of Second Tier Taxes via Correction",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers facing severe second-tier penalties for prohibited transactions or failures to distribute income can eliminate the liability by fully 'correcting' the transaction within the correction period.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Second tier excise taxes (often 100% or higher) are automatically abated, credited, or refunded if the underlying taxable event is corrected within the specified correction period.",
+  "irc_reference": "IRC §4961(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_STOCK_DIVIDENDS",
+  "name": "Tax-Free Stock Dividends",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to pro-rata distributions of common stock on common stock where no cash option is provided.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "General exclusion from gross income for distributions of a corporation's own stock (or rights to acquire stock) made to its shareholders.",
+  "irc_reference": "IRC §305(a)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

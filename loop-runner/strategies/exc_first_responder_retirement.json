@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FIRST_RESPONDER_RETIREMENT",
+  "name": "Disability-Related First Responder Retirement Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Law enforcement, firefighters, and EMS personnel receiving pensions related to qualified service; applicable for tax years beginning after Dec 31, 2026.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes qualified first responder retirement payments from gross income up to the 'annualized excludable disability amount' for individuals who previously received service-connected disability payments.",
+  "irc_reference": "IRC §139C",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FRINGE_BENEFITS_FUTA",
+  "name": "FUTA Tax Exclusion for Employee Benefits",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Employers must establish qualified plans or systems (e.g., under sections 125, 127, 129, or 401(a)) to provide these benefits to employees.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Various employee benefits are excluded from the definition of 'wages' for FUTA purposes, including employer contributions to 401(k) plans, cafeteria plans, health insurance, and educational assistance.",
+  "irc_reference": "IRC §3306(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

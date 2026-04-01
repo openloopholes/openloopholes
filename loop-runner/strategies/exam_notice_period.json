@@ -1,0 +1,29 @@
+{
+  "id": "EXAM_NOTICE_PERIOD",
+  "name": "Minimum 10-Day Summons Notice Period",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to any person or entity served with an IRS summons for testimony or production of records.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The IRS must set an appearance date for a summons no less than 10 days from the date the summons is issued. This provides taxpayers a mandatory window to consult with counsel and organize records to minimize potential liability.",
+  "irc_reference": "IRC §7605(a)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

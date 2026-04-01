@@ -1,0 +1,29 @@
+{
+  "id": "DED_LOGGING_VEHICLE_REDUCTION",
+  "name": "Logging Vehicle Tax Reduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires the vehicle to be registered as a logging vehicle and used exclusively for transporting forest products from the harvest site.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Reduces the heavy vehicle use tax by 25% for vehicles used exclusively to transport harvested forest products to or from forested sites.",
+  "irc_reference": "IRC §4483",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

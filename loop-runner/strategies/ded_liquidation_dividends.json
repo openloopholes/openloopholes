@@ -1,0 +1,29 @@
+{
+  "id": "DED_LIQUIDATION_DIVIDENDS",
+  "name": "Liquidation Distribution Dividend Treatment",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Corporations (excluding personal holding companies in some cases) undergoing complete liquidation or redemptions under section 302.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Treats distributions in complete liquidation (within 24 months of a plan) as dividends for the dividends paid deduction to the extent of earnings and profits.",
+  "irc_reference": "IRC §562(b)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_SUSPENSION_OF_INTEREST_WAIVER",
+  "name": "Suspension of Interest via Deficiency Waiver",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers facing an audit deficiency who are willing to waive the right to petition the Tax Court to stop the accrual of interest during IRS processing delays.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Suspends the imposition of interest on a deficiency if the taxpayer files a waiver of restrictions on assessment (Form 870) and the IRS fails to issue a notice and demand for payment within 30 days.",
+  "irc_reference": "IRC §6601(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

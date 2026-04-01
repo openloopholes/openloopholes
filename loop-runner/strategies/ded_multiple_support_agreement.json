@@ -1,0 +1,29 @@
+{
+  "id": "DED_MULTIPLE_SUPPORT_AGREEMENT",
+  "name": "Multiple Support Agreement Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The group must provide >50% of support; the claimant must provide >10%; and others providing >10% must sign a waiver (Form 2120).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows one taxpayer in a group that collectively supports an individual to claim that individual as a dependent, even if no single person provides more than 50% of the support.",
+  "irc_reference": "IRC §152(d)(3)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "PROC_BURDEN_OF_PRODUCTION_SHIFT",
+  "name": "Information Return Dispute Burden Shift",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must assert a reasonable dispute regarding a third-party information return and fully cooperate with IRS requests for witnesses and documents.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "If a taxpayer reasonably disputes an item on a third-party information return (like a 1099) and cooperates with the IRS, the burden shifts to the IRS to produce additional probative information.",
+  "irc_reference": "IRC §6201(d)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

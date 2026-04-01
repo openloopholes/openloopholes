@@ -1,0 +1,29 @@
+{
+  "id": "DEFER_COOP_FILING",
+  "name": "Cooperative Association Filing Deferral",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Exempt cooperative associations or organizations under obligation to pay patronage dividends equal to at least 50% of net earnings.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Exempt and certain non-exempt cooperative associations are permitted to file their income tax returns by the 15th day of the 9th month (September 15th for calendar year filers), providing significant cash flow management and time for patronage dividend calculations.",
+  "irc_reference": "IRC §6072(d)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

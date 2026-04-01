@@ -1,0 +1,29 @@
+{
+  "id": "ELE_CHARITABLE_VALUATION_DATE",
+  "name": "Prior-Month Interest Rate Election for Charitable Transfers",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers making a transfer of an annuity, life interest, remainder, or reversionary interest where a charitable deduction is allowable.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "For valuations involving charitable contributions (like CRATs or CLATs), taxpayers can elect to use the 7520 interest rate from either of the two months preceding the valuation date.",
+  "irc_reference": "IRC §7520(a)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

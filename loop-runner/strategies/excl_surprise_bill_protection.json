@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_SURPRISE_BILL_PROTECTION",
+  "name": "Emergency Services and Surprise Bill Prevention",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Participants in group health plans receiving emergency services or certain non-emergency services at participating facilities from nonparticipating providers.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Mandates that emergency services provided by nonparticipating providers be covered at in-network cost-sharing rates and that these payments count toward in-network deductibles and out-of-pocket maximums.",
+  "irc_reference": "IRC §9816",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

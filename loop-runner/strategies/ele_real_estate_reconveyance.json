@@ -1,0 +1,29 @@
+{
+  "id": "ELE_REAL_ESTATE_RECONVEYANCE",
+  "name": "Release of Seized Real Estate to Debtor",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers whose real estate was taken by the U.S. as payment or security for a tax debt, provided they pay the debt plus 1% monthly interest within 2 years.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A debtor can have seized real estate released back to them if the underlying tax debt and interest are paid within 2 years of acquisition.",
+  "irc_reference": "IRC §7506(d)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

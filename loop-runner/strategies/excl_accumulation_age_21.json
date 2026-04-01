@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_ACCUMULATION_AGE_21",
+  "name": "Minor Accumulation Distribution Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to domestic trusts (other than certain foreign trusts) distributing previously accumulated income to a beneficiary who has reached age 21.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes from the 'accumulation distribution' rules any income accumulated before the beneficiary reaches age 21 or before they are born.",
+  "irc_reference": "IRC §665(b)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

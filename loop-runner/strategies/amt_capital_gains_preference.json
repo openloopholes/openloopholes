@@ -1,0 +1,29 @@
+{
+  "id": "AMT_CAPITAL_GAINS_PREFERENCE",
+  "name": "AMT Preferential Rates on Capital Gains",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to non-corporate taxpayers with net capital gains or qualified dividends.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Ensures that the lower capital gains tax rates (0%, 15%, or 20%) apply to the calculation of the Alternative Minimum Tax, preventing long-term gains from being taxed at higher AMT rates.",
+  "irc_reference": "IRC §55",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

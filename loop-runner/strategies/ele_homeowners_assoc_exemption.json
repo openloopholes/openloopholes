@@ -1,0 +1,29 @@
+{
+  "id": "ELE_HOMEOWNERS_ASSOC_EXEMPTION",
+  "name": "Homeowners Association Tax Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to condominium management, residential real estate, or timeshare associations where 60% of income is from dues/fees and 90% of expenses are for association property maintenance.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows HOAs to elect to be treated as tax-exempt organizations, whereby membership dues, fees, and assessments (exempt function income) are excluded from gross income.",
+  "irc_reference": "IRC §528",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

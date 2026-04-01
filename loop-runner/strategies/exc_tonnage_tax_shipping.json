@@ -1,0 +1,29 @@
+{
+  "id": "EXC_TONNAGE_TAX_SHIPPING",
+  "name": "Tonnage Tax Exclusion for Qualifying Shipping Activities",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be a qualifying corporation making a valid election under the tonnage tax regime for its shipping activities.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows an electing corporation to exclude all income from qualifying shipping activities from gross income, replacing the regular corporate income tax with a tax based on the tonnage of the vessels.",
+  "irc_reference": "IRC §1357",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

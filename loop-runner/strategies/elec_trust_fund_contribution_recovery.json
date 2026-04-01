@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_TRUST_FUND_CONTRIBUTION_RECOVERY",
+  "name": "Right of Contribution for Trust Fund Penalties",
+  "category": "procedure",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Any person held liable for a company's failure to pay over employment taxes where multiple 'responsible persons' exist.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a person who paid a section 6672 penalty to legally recover the excess of their proportionate share from other responsible parties who are also liable.",
+  "irc_reference": "IRC §6672(d)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

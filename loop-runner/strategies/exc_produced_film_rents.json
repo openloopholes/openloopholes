@@ -1,0 +1,29 @@
+{
+  "id": "EXC_PRODUCED_FILM_RENTS",
+  "name": "Produced Film Rents Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Produced film rents must constitute 50% or more of the corporation's ordinary gross income.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes payments from film interests from PHC income if the interest was acquired before substantial completion of the film.",
+  "irc_reference": "IRC §543(a)(5)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

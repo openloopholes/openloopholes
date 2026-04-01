@@ -1,0 +1,29 @@
+{
+  "id": "EXC_UNINTERRUPTED_INTL_TRANS",
+  "name": "Uninterrupted International Air Transportation Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The scheduled interval between the U.S. segments and the international segment must not exceed 12 hours.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes the domestic portion of an international trip from the 7.5% tax if the layover between the domestic and international segment is 12 hours or less.",
+  "irc_reference": "IRC §4262(c)(3)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

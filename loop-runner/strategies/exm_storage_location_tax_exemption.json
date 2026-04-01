@@ -1,0 +1,29 @@
+{
+  "id": "EXM_STORAGE_LOCATION_TAX_EXEMPTION",
+  "name": "Storage and Production Site Tax Exemption",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Secondary locations must be used strictly for storage or as the principal office/place of manufacture where only samples are kept for sale.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Businesses can avoid additional special taxes for secondary locations used solely for storage or for the sale of goods at the original place of manufacture.",
+  "irc_reference": "IRC §4903",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

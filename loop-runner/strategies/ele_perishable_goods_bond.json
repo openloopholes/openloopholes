@@ -1,0 +1,29 @@
+{
+  "id": "ELE_PERISHABLE_GOODS_BOND",
+  "name": "Return of Perishable Seized Property Under Bond",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to owners of property seized under sections 7301 or 7302 that is liable to perish, decrease greatly in value, or is too expensive to keep.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can prevent the total loss or forced low-value sale of seized perishable goods by posting a bond equal to the appraised value to have the property returned.",
+  "irc_reference": "IRC §7324",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

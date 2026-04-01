@@ -1,0 +1,25 @@
+{
+  "id": "RENT_STR",
+  "name": "Short-Term Rental Exception",
+  "category": "rental",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Avg rental ≤7 days + material participation",
+    "requires_entity_type": "rental",
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "depends",
+    "retroactive_note": "Classification determined by 2025 activity",
+    "forward_status": "available"
+  },
+  "description": "Avg stay ≤7 days + material participation = non-passive losses.",
+  "irc_reference": "IRC §469",
+  "deadline": "Tax year activity"
+}

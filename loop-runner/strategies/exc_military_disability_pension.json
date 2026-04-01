@@ -1,0 +1,29 @@
+{
+  "id": "EXC_MILITARY_DISABILITY_PENSION",
+  "name": "Military and Government Disability Pension Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to veterans with combat-related injuries or those entitled to receive disability compensation from the Department of Veterans Affairs.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes from gross income pensions or annuities for personal injuries or sickness resulting from active service in the armed forces or certain other government services.",
+  "irc_reference": "IRC §104(a)(4)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ELE_INVENTORY_AS_DEPRECIABLE",
+  "name": "Election to Treat Real Property Inventory as Depreciable",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers holding real estate inventory who have excluded debt discharge income and wish to prioritize basis reduction on those specific assets.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers may elect to treat real property held for sale to customers (inventory) as depreciable property for the purpose of basis reduction following debt discharge.",
+  "irc_reference": "IRC §1017(b)(3)(E)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

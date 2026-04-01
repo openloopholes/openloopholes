@@ -1,0 +1,29 @@
+{
+  "id": "ELE_SPECIAL_NATURAL_WINE_FORMULA",
+  "name": "Special Natural Wine Classification",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires the submission and approval of a formula by the Secretary and adherence to natural flavoring and sugar/water ratio regulations.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows for the addition of natural herbs, spices, and flavorings to a natural wine base to create a distinct 'special natural wine' product while maintaining standard wine status.",
+  "irc_reference": "IRC §5386",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

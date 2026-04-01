@@ -1,0 +1,33 @@
+{
+  "id": "BIZ_MEALS",
+  "name": "Business Meals Deduction",
+  "category": "business",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "50% deduction for business meals with documentation",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "amount": {
+      "type": "int",
+      "description": "total business meal expenses"
+    }
+  },
+  "entity_specific": true,
+  "entity_types": [
+    "schedule_c",
+    "s_corp"
+  ],
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "depends",
+    "retroactive_note": "If meals occurred during 2025 and records exist",
+    "forward_status": "available"
+  },
+  "description": "50% deduction for business meals. Requires documentation.",
+  "irc_reference": "IRC §274(k)",
+  "deadline": "Meals during tax year"
+}

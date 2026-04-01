@@ -1,0 +1,29 @@
+{
+  "id": "DED_BANK_SECURITY_BAD_DEBT",
+  "name": "Ordinary Bad Debt Deduction for Bank Securities",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Must meet the definition of a 'bank' under section 581 and hold a debt evidenced by a security.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows banks to treat losses from worthless debts evidenced by a security as ordinary bad debt deductions rather than capital losses.",
+  "irc_reference": "IRC §582(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

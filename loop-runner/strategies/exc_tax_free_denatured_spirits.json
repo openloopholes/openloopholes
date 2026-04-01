@@ -1,0 +1,29 @@
+{
+  "id": "EXC_TAX_FREE_DENATURED_SPIRITS",
+  "name": "Tax-Free Procurement of Specially Denatured Spirits",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires filing an application and receiving a permit from the Secretary to use tax-free spirits under section 5214(a)(2) or (3) or specially denatured spirits.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows for the procurement, use, or recovery of distilled spirits free of tax for specific industrial or manufacturing purposes provided a permit is obtained.",
+  "irc_reference": "IRC §5271",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_RETIREMENT_PLAN_CONTRIBUTION",
+  "name": "Retirement Plan Contribution Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Corporation must contribute repurchased stock or equivalent value to a qualified retirement plan or ESOP.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes repurchased stock (or an equivalent value of stock) from the excise tax if it is contributed to an employer-sponsored retirement plan or ESOP.",
+  "irc_reference": "IRC §4501(e)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

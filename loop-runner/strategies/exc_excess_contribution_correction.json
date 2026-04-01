@@ -1,0 +1,29 @@
+{
+  "id": "EXC_EXCESS_CONTRIBUTION_CORRECTION",
+  "name": "Correction of Excess Plan Contributions",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to employers maintaining 401(k), 403(b), SEP, or 501(c)(18) plans that exceed annual contribution limits.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Avoid a 10% excise tax on excess 401(k) or SEP contributions by distributing the excess amounts and allocable income within 2.5 months (or 6 months for automatic contribution arrangements) after the plan year ends.",
+  "irc_reference": "IRC §4979",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

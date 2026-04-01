@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_LIABILITY_ASSUMPTION_BASIS",
+  "name": "Liability Assumption Basis Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to liabilities excluded under section 357(c)(3) in exchanges involving sections 351, 354, 355, 356, or 361.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes certain liabilities (those that would give rise to a deduction) from being treated as 'money received' for basis reduction purposes in corporate exchanges.",
+  "irc_reference": "IRC §358(d)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

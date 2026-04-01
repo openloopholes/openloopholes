@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_BONA_FIDE_POSSESSION_RESIDENCY",
+  "name": "Bona Fide Possession Residency Status",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires physical presence in the possession for at least 183 days, no tax home outside the possession, and no closer connection to the U.S. or a foreign country.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Establishes the criteria to be treated as a bona fide resident of a U.S. possession (Guam, American Samoa, CNMI, Puerto Rico, or USVI) to access territory-specific tax exclusions and credits.",
+  "irc_reference": "IRC §937",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

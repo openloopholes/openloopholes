@@ -1,0 +1,29 @@
+{
+  "id": "EXC_TOBACCO_EXPERIMENTAL_USE",
+  "name": "Experimental Use Tobacco Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to manufacturers using tobacco products for bona fide experimental purposes as prescribed by regulations.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Tobacco products used for experimental purposes are exempt from standard packaging and marking requirements, facilitating R&D activities without standard removal compliance costs.",
+  "irc_reference": "IRC §5723(e)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

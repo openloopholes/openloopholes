@@ -1,0 +1,29 @@
+{
+  "id": "EXC_COMMUNITY_PROP_STEP_UP",
+  "name": "Double Step-Up for Community Property",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to married couples in community property states (e.g., CA, TX, WA) where at least half of the community interest is includible in the decedent's estate.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "In community property states, both the decedent's and the surviving spouse's one-half share of community property receive a basis step-up to fair market value upon the first spouse's death.",
+  "irc_reference": "IRC §1014(b)(6)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

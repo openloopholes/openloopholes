@@ -1,0 +1,29 @@
+{
+  "id": "EXM_SMALL_ORG_NOTICE_EXCEPTION",
+  "name": "Small Organization 501(c)(3) Exemption",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Non-private foundations with annual gross receipts normally not exceeding $5,000.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Organizations that are not private foundations and normally have gross receipts of $5,000 or less are exempt from the mandatory requirement to notify the IRS of their 501(c)(3) status.",
+  "irc_reference": "IRC §508",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

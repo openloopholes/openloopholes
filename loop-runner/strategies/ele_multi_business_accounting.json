@@ -1,0 +1,29 @@
+{
+  "id": "ELE_MULTI_BUSINESS_ACCOUNTING",
+  "name": "Separate Accounting Methods for Multiple Businesses",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers must have distinct and separate trades or businesses and maintain separate books and records for each.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A taxpayer engaged in more than one trade or business may use a different method of accounting for each business. This allows for the optimization of cash vs. accrual methods depending on the specific needs and income profiles of separate entities.",
+  "irc_reference": "IRC §446(d)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

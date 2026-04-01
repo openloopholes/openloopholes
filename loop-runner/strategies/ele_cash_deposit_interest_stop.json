@@ -1,0 +1,29 @@
+{
+  "id": "ELE_CASH_DEPOSIT_INTEREST_STOP",
+  "name": "Cash Deposit to Suspend Underpayment Interest",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to taxpayers who anticipate a tax deficiency and want to mitigate interest exposure during an audit or dispute.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can make a cash deposit to stop the running of underpayment interest on potential tax liabilities not yet assessed, while potentially earning interest on the deposit if returned.",
+  "irc_reference": "IRC §6603",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_WINE_SPIRITS_WITHDRAWAL",
+  "name": "Tax-Free Withdrawal of Wine Spirits",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Proprietors of bonded wine cellars using spirits for fortification or production of natural wine.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows the withdrawal of wine spirits without payment of tax for use in natural wine production or for addition to juice for wine production.",
+  "irc_reference": "IRC §5373",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

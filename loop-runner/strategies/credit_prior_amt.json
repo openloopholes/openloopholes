@@ -1,0 +1,29 @@
+{
+  "id": "CREDIT_PRIOR_AMT",
+  "name": "Minimum Tax Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Taxpayers who paid AMT in a prior year due to 'deferral preferences' rather than 'exclusion preferences'.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Provides a credit against regular tax liability for Alternative Minimum Tax (AMT) paid in prior years.",
+  "irc_reference": "IRC §53",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

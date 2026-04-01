@@ -1,0 +1,29 @@
+{
+  "id": "ELE_WAIVE_VALUATION_PENALTY",
+  "name": "Reasonable Basis Valuation Penalty Waiver",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to persons who organized or sold interests in an entity/plan and made a valuation statement exceeding 200% of the correct amount, provided they can prove good faith and a reasonable basis.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "The Secretary has the authority to waive penalties related to gross valuation overstatements if the taxpayer can demonstrate a reasonable basis for the valuation and that it was made in good faith.",
+  "irc_reference": "IRC §6700(b)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

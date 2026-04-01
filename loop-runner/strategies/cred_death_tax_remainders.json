@@ -1,0 +1,29 @@
+{
+  "id": "CRED_DEATH_TAX_REMAINDERS",
+  "name": "Credit for Death Taxes on Remainders",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires an election under section 6163(a) to postpone tax payment on a reversionary or remainder interest.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Extends the time to claim foreign death tax credits when a taxpayer elects to postpone payment of estate tax on reversionary or remainder interests.",
+  "irc_reference": "IRC §2015",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

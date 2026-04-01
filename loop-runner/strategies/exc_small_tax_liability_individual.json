@@ -1,0 +1,29 @@
+{
+  "id": "EXC_SMALL_TAX_LIABILITY_INDIVIDUAL",
+  "name": "Small Tax Liability Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Net tax due after withholding must be under $1,000.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "No underpayment penalty is imposed if the tax shown on the return (after withholding) is less than $1,000.",
+  "irc_reference": "IRC §6654",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

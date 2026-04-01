@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FOREIGN_SERVICE_DEFERRED_COMP",
+  "name": "Foreign Service Deferred Compensation Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to covered expatriates with deferred compensation earned during non-resident foreign service.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes deferred compensation from expatriation tax to the extent it is attributable to services performed outside the U.S. while the individual was not a U.S. citizen or resident.",
+  "irc_reference": "IRC §877A(d)(5)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

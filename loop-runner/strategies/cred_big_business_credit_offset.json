@@ -1,0 +1,29 @@
+{
+  "id": "CRED_BIG_BUSINESS_CREDIT_OFFSET",
+  "name": "C-Corporation Business Credit Carryforward Offset",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to S corporations with remaining general business credits from their tenure as a C corporation.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows business credit carryforwards (under Section 39) arising from C corporation years to be used as a credit against the S corporation's built-in gains tax.",
+  "irc_reference": "IRC §1374(b)(3)(B)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

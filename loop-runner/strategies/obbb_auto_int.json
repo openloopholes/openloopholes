@@ -1,0 +1,30 @@
+{
+  "id": "OBBB_AUTO_INT",
+  "name": "OBBB Auto Loan Interest Deduction",
+  "category": "obbb",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "US-manufactured vehicle loan interest",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "amount": {
+      "type": "int",
+      "description": "auto loan interest paid"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Interest during 2025",
+    "forward_status": "available"
+  },
+  "description": "Interest on US-manufactured vehicle loans is deductible above the line.",
+  "irc_reference": "OBBB Act",
+  "deadline": "Interest during tax year"
+}

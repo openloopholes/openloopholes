@@ -1,0 +1,29 @@
+{
+  "id": "EXC_SEC_306_NON_AVOIDANCE",
+  "name": "Section 306 Stock Tax Avoidance Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires establishing to the satisfaction of the Secretary that the transaction was not in pursuance of a plan having tax avoidance as a principal purpose.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Avoids ordinary income treatment on the disposition of Section 306 (preferred) stock if the taxpayer can prove the distribution and disposition were not part of a tax avoidance plan.",
+  "irc_reference": "IRC §306(b)(4)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

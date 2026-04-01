@@ -1,0 +1,29 @@
+{
+  "id": "ELE_QDOT_NON_CITIZEN_SPOUSE",
+  "name": "Qualified Domestic Trust (QDOT) Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires at least one U.S. trustee, specific withholding rights for the trustee, and an irrevocable election by the executor.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Enables the marital deduction for property passing to a non-U.S. citizen spouse if the property is placed in a qualified trust with a U.S. trustee.",
+  "irc_reference": "IRC §2056A",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

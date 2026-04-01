@@ -1,0 +1,29 @@
+{
+  "id": "DED_NEGATIVE_NET_PREMIUM_OFFSET",
+  "name": "Negative Net Premium Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available when an insurance company's return premiums and reinsurance costs exceed gross premiums for a specific category of insurance contracts in a taxable year.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows a current year deduction for negative capitalization amounts to the extent they reduce previously capitalized unamortized balances.",
+  "irc_reference": "IRC §848(f)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

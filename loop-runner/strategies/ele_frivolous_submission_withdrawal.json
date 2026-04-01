@@ -1,0 +1,29 @@
+{
+  "id": "ELE_FRIVOLOUS_SUBMISSION_WITHDRAWAL",
+  "name": "Frivolous Submission Penalty Safe Harbor",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to taxpayers who have filed a submission identified by the IRS as frivolous but act within the 30-day grace period to retract it.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can avoid a $5,000 penalty for specified frivolous submissions (like installment agreement requests or collection due process hearings) by withdrawing the submission within 30 days of IRS notice.",
+  "irc_reference": "IRC §6702(b)(3)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

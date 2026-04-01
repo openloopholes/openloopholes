@@ -1,0 +1,29 @@
+{
+  "id": "DED_ALASKA_NATIVE_SETTLEMENT_TRUST_CONTRIBUTION",
+  "name": "Alaska Native Settlement Trust Contribution Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be a Native Corporation as defined under section 646(h) making an annual election.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a Native Corporation to deduct cash or property contributions made to a Settlement Trust, with a 15-year carryover for excess contributions.",
+  "irc_reference": "IRC §247",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

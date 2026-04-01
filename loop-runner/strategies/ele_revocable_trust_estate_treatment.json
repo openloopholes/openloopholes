@@ -1,0 +1,29 @@
+{
+  "id": "ELE_REVOCABLE_TRUST_ESTATE_TREATMENT",
+  "name": "Section 645 Election for Qualified Revocable Trusts",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires a joint election by the executor and the trustee of a qualified revocable trust (grantor trust prior to death).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Elect to treat a qualified revocable trust as part of the decedent's estate for tax purposes, allowing for a fiscal year election and a larger personal exemption.",
+  "irc_reference": "IRC §645",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

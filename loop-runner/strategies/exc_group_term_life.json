@@ -1,0 +1,29 @@
+{
+  "id": "EXC_GROUP_TERM_LIFE",
+  "name": "Group-Term Life Insurance Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to employees receiving group-term life insurance under a policy carried by their employer; must meet nondiscrimination requirements for key employees.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes from an employee's gross income the cost of up to $50,000 of employer-provided group-term life insurance coverage.",
+  "irc_reference": "IRC §79(a)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_PIPELINE_REMOVAL_CREDIT",
+  "name": "Pipeline Return Credit",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to United States refinery operators performing specific pipeline removal and return actions.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a tax credit for refinery operators who remove crude oil from a pipeline and subsequently return a portion of it to the same pipeline stream.",
+  "irc_reference": "IRC §4612(c)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ELE_SEPARATE_SE_TAX_CALCULATION",
+  "name": "Separate Self-Employment Tax Calculation",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Married couples filing jointly where both spouses have self-employment income.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Ensures that self-employment tax on a joint return is calculated individually for each spouse rather than on aggregate income, preventing higher-income brackets or phase-outs from being triggered by the other spouse's earnings.",
+  "irc_reference": "IRC §6017",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

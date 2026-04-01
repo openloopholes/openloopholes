@@ -1,0 +1,29 @@
+{
+  "id": "ELE_DISTRIBUTE_E&P_FIRST",
+  "name": "Election to Distribute Earnings and Profits First",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires consent of all affected shareholders to whom a distribution is made during the year.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows an S-corp to treat distributions as coming from accumulated E&P before the AAA, which can be used to clear out C-corp history and avoid passive income penalties.",
+  "irc_reference": "IRC §1368(e)(3)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

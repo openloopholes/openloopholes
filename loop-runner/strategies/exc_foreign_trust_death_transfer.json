@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FOREIGN_TRUST_DEATH_TRANSFER",
+  "name": "Foreign Trust Transfer by Reason of Death",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to testamentary transfers of property to foreign trusts.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Exempts transfers occurring due to the death of the transferor from the grantor trust rules that typically apply to foreign trusts with U.S. beneficiaries.",
+  "irc_reference": "IRC §679(a)(2)(A)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "estate",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

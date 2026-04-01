@@ -1,0 +1,29 @@
+{
+  "id": "ALT_TAX_MUTUAL_SAVINGS_LIFE_INS",
+  "name": "Alternative Tax for Mutual Savings Banks with Life Insurance Business",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be a mutual savings bank without capital stock, authorized by State law to conduct life insurance, and maintain separate accounts for the insurance department.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a mutual savings bank to calculate tax separately for its life insurance department using life insurance company tax rates (Subchapter L) rather than standard corporate rates on the combined entity.",
+  "irc_reference": "IRC §594",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

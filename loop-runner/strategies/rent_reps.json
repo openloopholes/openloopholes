@@ -1,0 +1,25 @@
+{
+  "id": "RENT_REPS",
+  "name": "Real Estate Professional Status",
+  "category": "rental",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": ">750 hrs, >50% services, material participation; no full-time W-2",
+    "requires_entity_type": "rental",
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "depends",
+    "retroactive_note": "Classification determined by 2025 activity",
+    "forward_status": "available"
+  },
+  "description": "750+ hours in RE makes rental losses non-passive, fully deductible.",
+  "irc_reference": "IRC §469(c)(7)",
+  "deadline": "Tax year activity"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FOREIGN_GOV_EMPLOYEE_COMP",
+  "name": "Foreign Government Employee Compensation Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Employee must not be a U.S. citizen (except for Philippines citizens), services must be similar to U.S. government employees abroad, and the foreign government must grant an equivalent exemption.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes wages, fees, or salary of non-U.S. citizen employees of foreign governments or international organizations from gross income.",
+  "irc_reference": "IRC §893",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

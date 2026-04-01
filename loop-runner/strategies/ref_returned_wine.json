@@ -1,0 +1,29 @@
+{
+  "id": "REF_RETURNED_WINE",
+  "name": "Refund of Tax on Returned Wine",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Proprietors of bonded wine cellars who return previously removed wine to bond within 6 months.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a refund or credit of excise taxes paid on wine that is removed from a bonded wine cellar and subsequently returned to bond.",
+  "irc_reference": "IRC §5044",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

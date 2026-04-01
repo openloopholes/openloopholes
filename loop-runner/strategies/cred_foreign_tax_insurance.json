@@ -1,0 +1,29 @@
+{
+  "id": "CRED_FOREIGN_TAX_INSURANCE",
+  "name": "Insurance Company Foreign Tax Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Domestic insurance companies subject to tax under IRC Section 801 (life) or 831 (non-life) that have paid or accrued foreign income taxes.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Domestic insurance companies are allowed a credit for taxes paid to foreign countries or U.S. possessions, applying the principles of the Section 901 foreign tax credit to their specific taxable income definitions.",
+  "irc_reference": "IRC §841",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

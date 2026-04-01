@@ -1,0 +1,29 @@
+{
+  "id": "CRED_UNIFIED_GIFT_TAX",
+  "name": "Unified Credit Against Gift Tax",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to U.S. citizens and residents making taxable gifts that exceed the annual exclusion.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows a credit against gift tax equal to the applicable credit amount in effect under section 2010(c). This effectively allows individuals to transfer a significant lifetime amount (the basic exclusion amount) tax-free.",
+  "irc_reference": "IRC §2505",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

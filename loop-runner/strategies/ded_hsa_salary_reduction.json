@@ -1,0 +1,29 @@
+{
+  "id": "DED_HSA_SALARY_REDUCTION",
+  "name": "HSA Contributions via Salary Reduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to employees covered under a high-deductible health plan (HDHP) through an employer-sponsored cafeteria plan.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Employees can elect to have the employer make contributions to a Health Savings Account (HSA) on a pre-tax basis through a cafeteria plan, avoiding both income and FICA taxes.",
+  "irc_reference": "IRC §125(d)(2)(D)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

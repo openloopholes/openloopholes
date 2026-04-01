@@ -1,0 +1,29 @@
+{
+  "id": "REIMB_BLACK_LUNG_OPERATOR",
+  "name": "Black Lung Operator Reimbursement",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Coal mine operators or insurers who have paid benefits for miners whose last employment ended before 1970, or for certain claims denied before March 1, 1978, that were subsequently approved.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Coal mine operators can receive reimbursements from the Black Lung Disability Trust Fund for certain benefit payments, specifically for claims where the miner's last employment was before January 1, 1970, or for certain previously denied claims.",
+  "irc_reference": "IRC §9501",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,25 @@
+{
+  "id": "RET_ROTH_CONVERSION",
+  "name": "Roth Conversion",
+  "category": "retirement",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Has pre-tax retirement balances; increases AGI",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Conversions by Dec 31, 2025",
+    "forward_status": "available"
+  },
+  "description": "Convert pre-tax retirement balances to Roth. Taxable in year of conversion but enables tax-free growth. Strategic in low-income years.",
+  "irc_reference": "IRC §408A(d)(3); Form 8606",
+  "deadline": "Dec 31 of tax year"
+}

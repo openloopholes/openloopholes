@@ -1,0 +1,29 @@
+{
+  "id": "DED_EMPLOYER_LIABILITY_TRUSTS",
+  "name": "Deduction for Contributions to Employer Liability Trusts",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be an employer contributing to a multiemployer plan withdrawal liability trust that meets ERISA section 4223(h) requirements.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a deduction for contributions made by an employer to a trust described in section 501(c)(22) relating to withdrawal liability payment funds.",
+  "irc_reference": "IRC §194A",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

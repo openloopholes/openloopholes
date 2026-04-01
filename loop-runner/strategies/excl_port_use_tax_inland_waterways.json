@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_PORT_USE_TAX_INLAND_WATERWAYS",
+  "name": "Inland Waterway Fuel Tax Coordination Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available for vessels operating on designated inland waterways where fuel tax is already paid.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Exempts cargo from the port use tax if the vessel's fuel is already subject to the Section 4042 inland waterways fuel tax.",
+  "irc_reference": "IRC §4462(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

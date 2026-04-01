@@ -1,0 +1,29 @@
+{
+  "id": "EXC_REASONABLE_CAUSE_FUEL_REPORTING",
+  "name": "Reasonable Cause Penalty Abatement for Fuel Reporting",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to persons required to report on fuel vessels or facilities who miss deadlines or provide incorrect information but have a justifiable excuse.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can avoid a $10,000 penalty for failing to report information regarding vessels or facilities under section 4101 by demonstrating the failure was due to reasonable cause.",
+  "irc_reference": "IRC §6725",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_CHARITABLE_GIFT",
+  "name": "Charitable Gift Tax Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Gifts must be made to organizations meeting 501(c)(3) or similar criteria; specific rules apply to partial interests like CRTs or CLTs.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides an unlimited deduction for the value of gifts made to qualified religious, charitable, scientific, or educational organizations, effectively removing these assets from the taxable gift base.",
+  "irc_reference": "IRC §2522",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

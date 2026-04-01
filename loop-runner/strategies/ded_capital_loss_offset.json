@@ -1,0 +1,29 @@
+{
+  "id": "DED_CAPITAL_LOSS_OFFSET",
+  "name": "Capital Loss Deduction Against Ordinary Income",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to non-corporate taxpayers with capital losses exceeding capital gains.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows individuals to use net capital losses to offset up to $3,000 of ordinary income per year.",
+  "irc_reference": "IRC §1211",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

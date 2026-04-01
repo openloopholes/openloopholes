@@ -1,0 +1,29 @@
+{
+  "id": "ELE_501C3_POOLED_FINANCING",
+  "name": "Pooled Financing Election for 501(c)(3) Organizations",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "95% of proceeds must be used for loans to two or more 501(c)(3) organizations or governmental units, with specific demand survey and disbursement timelines.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows an issuer to elect a special maturity rule for pooled financing of 501(c)(3) organizations, facilitating access to lower-cost tax-exempt debt.",
+  "irc_reference": "IRC §147(b)(4)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

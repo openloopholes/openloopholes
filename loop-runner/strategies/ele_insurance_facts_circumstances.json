@@ -1,0 +1,29 @@
+{
+  "id": "ELE_INSURANCE_FACTS_CIRCUMSTANCES",
+  "name": "Alternative Insurance Test Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applicable when the corporation's insurance liabilities are between 10% and 25% of assets due to specific runoff or rating circumstances.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows shareholders to elect to treat a foreign corporation as a qualifying insurance corporation even if it fails the 25% liability test, provided it meets a 10% threshold and is predominantly engaged in insurance.",
+  "irc_reference": "IRC §1297(f)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

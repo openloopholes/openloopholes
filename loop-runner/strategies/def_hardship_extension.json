@@ -1,0 +1,29 @@
+{
+  "id": "DEF_HARDSHIP_EXTENSION",
+  "name": "Undue Hardship Deficiency Extension",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers facing a deficiency in income, gift, or certain excise taxes where immediate payment causes significant financial hardship; not available for deficiencies due to negligence or fraud.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers may extend the payment of a tax deficiency for up to 18 months (and potentially an additional 12 months) if they can demonstrate that payment would result in undue hardship.",
+  "irc_reference": "IRC §6161(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ENT_C_CORP",
+  "name": "C-Corp Election/Retention",
+  "category": "entity",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "21% flat rate on retained earnings; double taxation on distributions",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Election timing varies",
+    "forward_status": "available"
+  },
+  "description": "21% flat rate on retained earnings. Rate arbitrage at high income.",
+  "irc_reference": "IRC §11",
+  "deadline": "Election timing varies"
+}

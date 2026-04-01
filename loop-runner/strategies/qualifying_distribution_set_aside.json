@@ -1,0 +1,29 @@
+{
+  "id": "QUALIFYING_DISTRIBUTION_SET_ASIDE",
+  "name": "Specific Project Set-Asides",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires establishing to the IRS that the project can be better accomplished by a set-aside and will be paid within 5 years.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a foundation to treat amounts set aside for a specific project as a qualifying distribution for the current year, even if the money is not paid out immediately.",
+  "irc_reference": "IRC §4942(g)(2)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

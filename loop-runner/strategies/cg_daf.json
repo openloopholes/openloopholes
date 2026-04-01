@@ -1,0 +1,34 @@
+{
+  "id": "CG_DAF",
+  "name": "Donor Advised Fund",
+  "category": "capital_gain",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Appreciated stock/assets; 30% AGI limit for stock, 60% for cash",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "cash": {
+      "type": "int",
+      "description": "cash contribution"
+    },
+    "appreciated_stock": {
+      "type": "int",
+      "description": "FMV of appreciated stock"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Donations had to be made by Dec 31, 2025",
+    "forward_status": "available"
+  },
+  "description": "Contribute appreciated assets to a DAF to receive an immediate charitable deduction at FMV while avoiding capital gains tax.",
+  "irc_reference": "IRC §170; §4966",
+  "deadline": "Dec 31 of tax year"
+}

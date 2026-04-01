@@ -1,0 +1,29 @@
+{
+  "id": "EXC_NON_ACCRUAL_EXPERIENCE_METHOD",
+  "name": "Non-Accrual Experience Method",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to taxpayers in specific service fields (health, law, etc.) or those meeting the gross receipts test, provided no interest or penalties are charged on the debt.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Accrual-basis taxpayers are not required to accrue income that, based on historical experience, they do not expect to collect.",
+  "irc_reference": "IRC §448",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

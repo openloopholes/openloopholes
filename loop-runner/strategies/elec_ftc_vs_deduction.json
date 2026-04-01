@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_FTC_VS_DEDUCTION",
+  "name": "Election to Credit Foreign Taxes",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Any taxpayer with qualified foreign tax expenses who files a timely claim or return electing the credit.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect annually to treat foreign taxes as a credit rather than a deduction; credits are generally more valuable as they reduce tax liability directly rather than reducing taxable income.",
+  "irc_reference": "IRC §901(a)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

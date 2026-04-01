@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_REGULATORY_RECORDKEEPING_WAIVER",
+  "name": "Recordkeeping Requirement Waiver",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Any person liable for taxes under the distilled spirits, wines, and beer chapter of the IRC.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can request a waiver of specific recordkeeping, statement, or return requirements if the Secretary deems the requirement no longer serves a necessary purpose.",
+  "irc_reference": "IRC §5555(b)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

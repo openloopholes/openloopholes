@@ -1,0 +1,37 @@
+{
+  "id": "BIZ_AUGUSTA",
+  "name": "Augusta Rule (Home Rental)",
+  "category": "business",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Business owner with home; rent to business ≤14 days/year at FMV",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "days": {
+      "type": "int",
+      "description": "rental days (max 14)"
+    },
+    "daily_rate": {
+      "type": "int",
+      "description": "fair market daily rental rate"
+    }
+  },
+  "entity_specific": true,
+  "entity_types": [
+    "schedule_c",
+    "s_corp"
+  ],
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Rental days had to occur during 2025",
+    "forward_status": "available"
+  },
+  "description": "Rent your personal home to your business for up to 14 days per year at fair market value. Rental income is tax-free to you; rental expense is deductible by the business.",
+  "irc_reference": "IRC §280A(g)",
+  "deadline": "Rental days during tax year"
+}

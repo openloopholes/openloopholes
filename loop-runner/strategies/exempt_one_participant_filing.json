@@ -1,0 +1,29 @@
+{
+  "id": "EXEMPT_ONE_PARTICIPANT_FILING",
+  "name": "Simplified Filing for One-Participant Plans",
+  "category": "retirement",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Plan must cover only the owner (and spouse) or partners (and spouses), meet minimum coverage without being combined with other plans, and have assets ≤ $250,000.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Relieves one-participant retirement plans (and those covering only a couple or partners) from filing an annual return if total plan assets are $250,000 or less at the end of the plan year.",
+  "irc_reference": "IRC §6058",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

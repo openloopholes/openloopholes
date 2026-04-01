@@ -1,0 +1,29 @@
+{
+  "id": "EXC_FATCA_WITHHOLDING_WAIVER",
+  "name": "FATCA Withholding Waiver for Non-Financial Foreign Entities",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to non-financial foreign entities (NFFEs) that provide a certification of no substantial U.S. owners or disclose the identity of U.S. owners to the withholding agent.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Avoids a 30% withholding tax on U.S. source payments to foreign entities by providing certifications regarding substantial U.S. ownership.",
+  "irc_reference": "IRC §1472",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DRAWBACK_NONBEVERAGE_SPIRITS",
+  "name": "Nonbeverage Distilled Spirits Drawback",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Manufacturers using tax-paid distilled spirits to produce medicines, food products, flavors, flavoring extracts, or perfumes that are unfit for beverage purposes.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a refund (drawback) of paid distilled spirits taxes at a rate of $1 less than the tax paid per proof gallon if the spirits are used for nonbeverage purposes.",
+  "irc_reference": "IRC §5114",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DEFER_HOLDING_PERIOD_TACKING",
+  "name": "Holding Period Tacking for Tax-Free Exchanges",
+  "category": "capital_gain",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to property received in exchanges where the basis is determined by reference to the prior property (e.g., Sec 1033, 1091, 1042, 1045).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows taxpayers to 'tack' the holding period of a previously held asset onto a new asset received in a tax-free exchange (like an involuntary conversion or wash sale), helping meet the 1-year threshold for long-term capital gains.",
+  "irc_reference": "IRC §1223",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

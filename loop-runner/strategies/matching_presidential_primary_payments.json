@@ -1,0 +1,29 @@
+{
+  "id": "MATCHING_PRESIDENTIAL_PRIMARY_PAYMENTS",
+  "name": "Presidential Primary Matching Payments",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Candidate must raise over $5,000 in matchable contributions (max $250 per person) from residents of at least 20 states and agree to overall spending limits and audits.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Eligible presidential candidates can receive federal matching funds for individual contributions of up to $250. This effectively doubles the candidate's fundraising power for small-dollar donations.",
+  "irc_reference": "IRC §9034",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

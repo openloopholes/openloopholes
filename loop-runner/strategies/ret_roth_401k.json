@@ -1,0 +1,27 @@
+{
+  "id": "RET_ROTH_401K",
+  "name": "Roth 401(k) Contributions",
+  "category": "retirement",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Has employer plan with Roth option",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [
+    "RET_SIMPLE_IRA"
+  ],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Deferrals had to be made by Dec 31, 2025",
+    "forward_status": "available"
+  },
+  "description": "After-tax 401(k) deferrals. No current deduction, but qualified distributions are tax-free. Same contribution limits as traditional 401(k).",
+  "irc_reference": "IRC §402A",
+  "deadline": "Dec 31 of tax year"
+}

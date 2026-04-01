@@ -1,0 +1,29 @@
+{
+  "id": "CRED_ALTERNATIVE_FUEL",
+  "name": "Alternative Fuel Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must be registered under section 4101 and use qualifying fuels like liquefied petroleum gas or compressed natural gas. Expires December 31, 2024.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A credit of 50 cents per gallon for alternative fuels (like LPG, CNG, or LNG) sold for use or used as a fuel in motor vehicles, motorboats, or aviation.",
+  "irc_reference": "IRC §6426(d)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

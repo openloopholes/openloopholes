@@ -1,0 +1,29 @@
+{
+  "id": "PROC_TRANSFEREE_EVIDENCE_DISCOVERY",
+  "name": "Transferee Preliminary Examination of Books",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Transferees who are petitioners before the Tax Court for the redetermination of liability in respect of the tax imposed upon the original taxpayer.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A transferee can apply for a preliminary examination of the transferor's books and records. This allows the transferee to find evidence to dispute the underlying tax liability of the transferor, potentially eliminating the debt entirely.",
+  "irc_reference": "IRC §6902(b)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

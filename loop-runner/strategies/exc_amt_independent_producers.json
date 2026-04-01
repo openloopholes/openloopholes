@@ -1,0 +1,29 @@
+{
+  "id": "EXC_AMT_INDEPENDENT_PRODUCERS",
+  "name": "AMT Preference Exception for Independent Oil and Gas Producers",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to taxpayers other than integrated oil companies; the reduction in AMTI is limited to 40% of the AMTI calculated without this exception.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes excess intangible drilling costs (IDCs) from being treated as a tax preference item for Alternative Minimum Tax (AMT) purposes for taxpayers who are not integrated oil companies.",
+  "irc_reference": "IRC §57(a)(2)(E)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

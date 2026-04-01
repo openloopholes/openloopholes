@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_RIC_INTEREST_SHORT_TERM_GAINS",
+  "name": "RIC Interest-Related and Short-Term Capital Gain Dividend Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to dividends designated by the RIC as interest-related or short-term capital gain dividends, subject to certain CFC and related-party exceptions.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Exempts foreign corporations from the 30% tax on interest-related dividends and short-term capital gain dividends received from a Regulated Investment Company (RIC).",
+  "irc_reference": "IRC §881(e)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

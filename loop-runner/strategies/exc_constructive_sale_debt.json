@@ -1,0 +1,29 @@
+{
+  "id": "EXC_CONSTRUCTIVE_SALE_DEBT",
+  "name": "Debt Instrument Exception to Constructive Sales",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to debt positions that unconditionally entitle the holder to a specified principal amount and are not convertible into stock.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Certain non-convertible debt positions are excluded from the definition of 'appreciated financial positions,' allowing taxpayers to hedge these positions without triggering immediate gain recognition.",
+  "irc_reference": "IRC §1259(b)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

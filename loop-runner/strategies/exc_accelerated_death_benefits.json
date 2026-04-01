@@ -1,0 +1,29 @@
+{
+  "id": "EXC_ACCELERATED_DEATH_BENEFITS",
+  "name": "Accelerated Death Benefits for Terminally or Chronically Ill",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must be certified as terminally ill (death expected within 24 months) or chronically ill by a licensed health care practitioner.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Amounts received under a life insurance contract or via a viatical settlement by a terminally or chronically ill individual are treated as paid by reason of death and excluded from gross income.",
+  "irc_reference": "IRC §101(g)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

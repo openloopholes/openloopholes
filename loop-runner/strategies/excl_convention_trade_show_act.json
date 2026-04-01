@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_CONVENTION_TRADE_SHOW_ACT",
+  "name": "Convention and Trade Show Activity Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The activity must promote interest in an industry in general or educate attendees on new developments.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes income from qualified convention and trade show activities from UBIT for 501(c)(3)-(6) organizations.",
+  "irc_reference": "IRC §513(d)(3)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

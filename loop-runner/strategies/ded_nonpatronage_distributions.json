@@ -1,0 +1,29 @@
+{
+  "id": "DED_NONPATRONAGE_DISTRIBUTIONS",
+  "name": "Deduction for Nonpatronage Distributions",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Only available to farmers' cooperatives that meet the strict exemption requirements of IRC Section 521.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempt farmers' cooperatives (under Section 521) can deduct dividends paid on capital stock and distributions of nonpatronage income (like interest or rental income) to patrons.",
+  "irc_reference": "IRC §1382(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

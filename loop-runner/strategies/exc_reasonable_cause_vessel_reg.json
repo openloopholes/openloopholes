@@ -1,0 +1,29 @@
+{
+  "id": "EXC_REASONABLE_CAUSE_VESSEL_REG",
+  "name": "Reasonable Cause Penalty Abatement for Vessel Registration",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to vessel operators who failed to display proof of registration under section 4101(a)(3) but can provide a valid justification for the oversight.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can avoid the $500 monthly penalty for failing to display vessel tax registration by demonstrating the failure was due to reasonable cause.",
+  "irc_reference": "IRC §6718(c)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

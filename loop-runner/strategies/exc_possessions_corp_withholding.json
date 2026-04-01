@@ -1,0 +1,29 @@
+{
+  "id": "EXC_POSSESSIONS_CORP_WITHHOLDING",
+  "name": "Possessions Corporation Withholding Exemption",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires the corporation to be organized in a specified U.S. possession and meet the requirements of section 881(b)(1) regarding local ownership and source of income.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Corporations organized in Guam, American Samoa, the Northern Mariana Islands, or the U.S. Virgin Islands are not treated as foreign corporations for withholding purposes if they meet specific local ownership and income requirements.",
+  "irc_reference": "IRC §1442(c)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

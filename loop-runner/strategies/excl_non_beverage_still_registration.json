@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_NON_BEVERAGE_STILL_REGISTRATION",
+  "name": "Registration Exclusion for Non-Spirits Stills",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to persons possessing stills used for purposes other than alcohol production (e.g., water essential oils, or chemical processing).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Stills or distilling apparatus not used or intended for the distillation, redistillation, or recovery of distilled spirits are exempt from the mandatory registration requirements.",
+  "irc_reference": "IRC §5179(a)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

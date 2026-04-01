@@ -1,0 +1,29 @@
+{
+  "id": "JEOPARDY_ASSESSMENT_REVIEW",
+  "name": "Expedited Review of Jeopardy Assessments",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers subject to emergency 'jeopardy' or 'termination' assessments who act within 30 days of the assessment notice.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a mechanism to force the IRS to abate unreasonable assessments or release levies made without the standard 30-day notice through administrative and judicial review.",
+  "irc_reference": "IRC §7429",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

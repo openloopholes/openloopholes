@@ -1,0 +1,29 @@
+{
+  "id": "EXC_LESSEE_IMPROVEMENTS",
+  "name": "Exclusion of Lessee Improvements from Lessor Income",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Real estate lessors where a tenant has made permanent improvements to the leased premises.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Lessors do not recognize income when a lease terminates and they regain property with improvements made by the lessee, and no basis adjustment is required.",
+  "irc_reference": "IRC §1019",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

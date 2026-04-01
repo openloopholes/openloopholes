@@ -1,0 +1,29 @@
+{
+  "id": "CRED_SICK_FAMILY_LEAVE_TAX_INCREASE",
+  "name": "Sick and Family Leave Credit Tax Offset",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Employers claiming credits for qualified sick or family leave wages under the American Rescue Plan Act framework.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Increases the credits allowed under sections 3131 and 3132 by the amount of employer-side social security and Medicare taxes imposed on qualified sick or family leave wages.",
+  "irc_reference": "IRC §3133",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

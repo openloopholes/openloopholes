@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_SE_INVESTMENT_INCOME",
+  "name": "Dividends and Interest SE Tax Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Individuals receiving investment income not earned in the course of a trade or business as a dealer in stocks or securities.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes dividends on stock and interest on bonds or other evidences of indebtedness from self-employment tax.",
+  "irc_reference": "IRC §1402(a)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

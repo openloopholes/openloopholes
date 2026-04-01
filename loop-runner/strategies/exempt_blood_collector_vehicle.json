@@ -1,0 +1,29 @@
+{
+  "id": "EXEMPT_BLOOD_COLLECTOR_VEHICLE",
+  "name": "Blood Collector Vehicle Exemption",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be a qualified blood collector organization and certify the 80% usage requirement to the Secretary.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Qualified blood collector organizations are exempt from the heavy vehicle use tax for vehicles used at least 80% for blood collection, storage, or transportation.",
+  "irc_reference": "IRC §4483",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

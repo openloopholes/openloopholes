@@ -1,0 +1,29 @@
+{
+  "id": "EXC_DIVORCE_PROPERTY_SETTLEMENT",
+  "name": "Marital Settlement Gift Tax Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Spouses entering a written agreement where divorce occurs within the period beginning 1 year before and ending 2 years after the agreement.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Transfers of property made pursuant to a written separation agreement are deemed to be for full consideration and exempt from gift tax if divorce occurs within a specific 3-year window.",
+  "irc_reference": "IRC §2516",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

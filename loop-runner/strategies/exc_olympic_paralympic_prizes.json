@@ -1,0 +1,29 @@
+{
+  "id": "EXC_OLYMPIC_PARALYMPIC_PRIZES",
+  "name": "Olympic and Paralympic Medal and Prize Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Taxpayer's adjusted gross income must not exceed $1,000,000 ($500,000 if married filing separately).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes the value of Olympic/Paralympic medals and USOC prize money from gross income for high-performing athletes.",
+  "irc_reference": "IRC §74",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

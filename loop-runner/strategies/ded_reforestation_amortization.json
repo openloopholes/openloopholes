@@ -1,0 +1,29 @@
+{
+  "id": "DED_REFORESTATION_AMORTIZATION",
+  "name": "84-Month Reforestation Amortization",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to the 'amortizable basis' of qualified timber property which was not already deducted under the Section 194(b) expensing election.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Reforestation expenditures exceeding the $10,000 expensing limit can be amortized and deducted over a period of 84 months.",
+  "irc_reference": "IRC §194(a)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

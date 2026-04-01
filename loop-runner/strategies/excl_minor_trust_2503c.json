@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_MINOR_TRUST_2503C",
+  "name": "Section 2503(c) Minor's Trust",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The trust must allow expenditure for the minor before age 21 and pass to the minor at 21 or to their estate if they die earlier.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows gifts to a trust for a minor to qualify for the annual gift tax exclusion even though it is technically a future interest, provided the assets are available for the minor's benefit and distribute at age 21.",
+  "irc_reference": "IRC §2503(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

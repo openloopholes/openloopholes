@@ -1,0 +1,30 @@
+{
+  "id": "UT_529",
+  "name": "Utah my529 Education Savings Credit",
+  "category": "credit",
+  "jurisdiction": "state:UT",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Utah filer; 4.55% state tax credit",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "contribution": {
+      "type": "int",
+      "description": "Utah 529 contribution"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "depends",
+    "retroactive_note": "Contributions for prior year credit may be allowed",
+    "forward_status": "available"
+  },
+  "description": "Contribute to Utah's my529 plan for a 4.55% state tax credit on contributions, up to $4,580 for MFJ filers.",
+  "irc_reference": "Utah Code §59-10-1017",
+  "deadline": "Dec 31 of tax year"
+}

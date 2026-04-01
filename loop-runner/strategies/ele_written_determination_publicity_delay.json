@@ -1,0 +1,29 @@
+{
+  "id": "ELE_WRITTEN_DETERMINATION_PUBLICITY_DELAY",
+  "name": "Postponement of Public Disclosure for Private Rulings",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to taxpayers who have requested a written determination (like a Private Letter Ruling). Requires a written request establishing that the transaction is not yet complete or that good cause exists for delay.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers who receive private letter rulings can elect to delay the public inspection of their written determination until after a transaction is completed to protect proprietary deal structures.",
+  "irc_reference": "IRC §6110(g)",
+  "deadline": "",
+  "savings_potential": "niche",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

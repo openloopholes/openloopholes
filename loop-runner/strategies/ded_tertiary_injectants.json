@@ -1,0 +1,29 @@
+{
+  "id": "DED_TERTIARY_INJECTANTS",
+  "name": "Tertiary Injectant Expense Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to taxpayers in the oil and gas industry using enhanced recovery methods, provided the injectant is not a recoverable hydrocarbon.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows an immediate deduction for the cost of qualified tertiary injectants used as part of a tertiary recovery method in oil and gas production.",
+  "irc_reference": "IRC §193",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

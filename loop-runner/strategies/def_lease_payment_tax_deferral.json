@@ -1,0 +1,29 @@
+{
+  "id": "DEF_LEASE_PAYMENT_TAX_DEFERRAL",
+  "name": "Lease Payment Excise Tax Deferral",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Applies to manufacturers also engaged in the business of selling the same type and model of article in arm's length transactions.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows manufacturers to pay excise tax proportionately on each lease payment rather than in a lump sum at the start of the lease.",
+  "irc_reference": "IRC §4217(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

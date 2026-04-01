@@ -1,0 +1,29 @@
+{
+  "id": "DEF_EXPATRIATION_TAX_ELECTION",
+  "name": "Election to Defer Expatriation Tax",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires making an irrevocable election, providing adequate security (like a bond), and waiving treaty rights that would preclude tax collection.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a taxpayer to defer payment of the mark-to-market tax on specific property until the property is actually disposed of.",
+  "irc_reference": "IRC §877A(b)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

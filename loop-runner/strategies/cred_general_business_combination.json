@@ -1,0 +1,29 @@
+{
+  "id": "CRED_GENERAL_BUSINESS_COMBINATION",
+  "name": "General Business Credit Aggregation",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to businesses engaged in qualifying activities defined in the 40+ sub-credits listed in Section 38(b).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows taxpayers to combine multiple business-specific credits (e.g., R&D, Work Opportunity, Low-Income Housing) into a single credit to offset up to 75% of net income tax liability.",
+  "irc_reference": "IRC §38",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

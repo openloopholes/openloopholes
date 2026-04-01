@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_EXCISE_TAX_TIER_PAYMENT",
+  "name": "Excise Tax Refund Suit Tiered Payment Rule",
+  "category": "excise",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayers facing multi-tier excise taxes under sections like 4941-4945, 4951, 4955, 4958, 4971, or 4975.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Permits a taxpayer to maintain a refund action for certain second-tier excise taxes (Chapters 42/43) by only paying the full amount of the first-tier tax.",
+  "irc_reference": "IRC §7422(g)",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

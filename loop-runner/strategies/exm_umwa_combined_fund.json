@@ -1,0 +1,29 @@
+{
+  "id": "EXM_UMWA_COMBINED_FUND",
+  "name": "Tax-Exempt Status for UMWA Combined Benefit Fund",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies specifically to the Combined Fund established to provide health and death benefits to coal industry retirees and their beneficiaries.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "The United Mine Workers of America Combined Benefit Fund and any related trusts are treated as organizations exempt from tax under section 501(a).",
+  "irc_reference": "IRC §9702",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

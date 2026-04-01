@@ -1,0 +1,29 @@
+{
+  "id": "ELEC_HOBBY_LOSS_PRESUMPTION",
+  "name": "Profit Motive Presumption Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to individuals and S corporations starting a new activity that may initially generate losses but is intended to be profitable.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Taxpayers can elect to delay a determination of whether an activity is 'for profit' to allow more time to meet the 3-out-of-5 year profit rule (or 2-out-of-7 for horses).",
+  "irc_reference": "IRC §183",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

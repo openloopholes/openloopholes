@@ -1,0 +1,29 @@
+{
+  "id": "EXC_SUPERPRIORITY_PURCHASER_PROTECTION",
+  "name": "Superpriority Lien Protections",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to purchasers of securities, motor vehicles, retail inventory, and casual sales of household goods without actual knowledge of the lien.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Certain purchasers and holders of security interests (e.g., retail buyers, casual sellers of goods under $1,000, and certain mechanics) are protected from federal tax liens even if a notice of lien has already been filed.",
+  "irc_reference": "IRC §6323(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

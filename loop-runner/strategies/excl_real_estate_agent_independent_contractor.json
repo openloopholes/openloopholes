@@ -1,0 +1,29 @@
+{
+  "id": "EXCL_REAL_ESTATE_AGENT_INDEPENDENT_CONTRACTOR",
+  "name": "Statutory Non-Employee Status for Real Estate Agents",
+  "category": "estate",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires a written contract stating the individual will not be treated as an employee and remuneration must be based on sales/output rather than hours worked.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Treats licensed real estate agents as independent contractors rather than employees for all federal tax purposes, eliminating employer payroll tax obligations.",
+  "irc_reference": "IRC §3508",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

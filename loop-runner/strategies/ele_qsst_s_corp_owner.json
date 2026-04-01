@@ -1,0 +1,29 @@
+{
+  "id": "ELE_QSST_S_CORP_OWNER",
+  "name": "Qualified Subchapter S Trust (QSST) Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "The trust must have only one current income beneficiary who is a U.S. citizen or resident and must make a specific election under section 1361(d).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows a trust beneficiary to be treated as the owner of the S corporation stock portion of a trust, enabling the trust to hold S corp shares without losing S corp status.",
+  "irc_reference": "IRC §678(e)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CRED_FOREIGN_TAX_WITHHELD",
+  "name": "Credit for Tax Withheld on Nonresident Aliens and Foreign Corporations",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to taxpayers who have had tax withheld at source under subchapter A of chapter 3.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows a credit against US tax for amounts withheld at the source on certain payments to foreign entities or individuals.",
+  "irc_reference": "IRC §33",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

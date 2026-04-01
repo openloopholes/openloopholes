@@ -1,0 +1,29 @@
+{
+  "id": "DED_GASOLINE_FARM_USE",
+  "name": "Gasoline Used on Farms for Farming Purposes",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must be the ultimate purchaser of gasoline used on a U.S. farm for cultivating soil, raising/harvesting commodities, or farm maintenance. Claimed via Form 4136 on the annual tax return.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Provides a payment or income tax credit for the federal excise tax paid on gasoline used on a farm for farming purposes.",
+  "irc_reference": "IRC §6420",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

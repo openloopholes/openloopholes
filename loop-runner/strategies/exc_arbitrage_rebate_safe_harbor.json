@@ -1,0 +1,29 @@
+{
+  "id": "EXC_ARBITRAGE_REBATE_SAFE_HARBOR",
+  "name": "Arbitrage Rebate Spending Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Issuers who expend all gross proceeds for the governmental purpose of the issue within 6 months of issuance.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Exempts bond issuers from the requirement to rebate arbitrage profits to the U.S. Treasury if proceeds are spent within 6 months.",
+  "irc_reference": "IRC §148(f)(4)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

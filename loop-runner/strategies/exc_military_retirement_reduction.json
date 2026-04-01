@@ -1,0 +1,29 @@
+{
+  "id": "EXC_MILITARY_RETIREMENT_REDUCTION",
+  "name": "Uniformed Services Retired Pay Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Members of the uniformed services who elect into survivor benefit plans under Chapter 73 of Title 10.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Excludes from gross income the amount of any reduction in retired or retainer pay used to provide survivor annuities.",
+  "irc_reference": "IRC §122",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

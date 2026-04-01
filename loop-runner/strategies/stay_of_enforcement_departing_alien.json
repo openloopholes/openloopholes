@@ -1,0 +1,29 @@
+{
+  "id": "STAY_OF_ENFORCEMENT_DEPARTING_ALIEN",
+  "name": "Stay of Enforcement for Departing Aliens",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Non-U.S. citizens departing the United States who obtain a determination that collection is not jeopardized by their departure.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Enforcement of immediate tax payment can be stayed until the normal due date if the Secretary determines the alien's departure does not jeopardize collection.",
+  "irc_reference": "IRC §6851(d)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_PREPAID_FARM_SUPPLIES",
+  "name": "Prepayment of Farming Supplies",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to cash-basis taxpayers in the trade or business of farming who are 'qualified farm-related taxpayers' or whose prepaid supplies are less than 50% of other deductible farming expenses.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows cash-basis farmers to deduct the cost of feed, seed, fertilizer, and other supplies in the year purchased rather than the year consumed, provided the prepayment does not exceed 50% of total deductible farming expenses.",
+  "irc_reference": "IRC §464",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

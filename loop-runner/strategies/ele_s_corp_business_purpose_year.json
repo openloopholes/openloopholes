@@ -1,0 +1,29 @@
+{
+  "id": "ELE_S_CORP_BUSINESS_PURPOSE_YEAR",
+  "name": "S Corporation Fiscal Year Election",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Must demonstrate a business purpose (such as a natural business cycle) other than the deferral of income to shareholders.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows an S corporation to use a taxable year other than a calendar year if it can establish a valid business purpose to the satisfaction of the IRS.",
+  "irc_reference": "IRC §1378",
+  "deadline": "",
+  "savings_potential": "low",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

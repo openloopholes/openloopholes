@@ -1,0 +1,29 @@
+{
+  "id": "DEF_COMBAT_ZONE_POSTPONEMENT",
+  "name": "Combat Zone and Contingency Operation Tax Deferral",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Available to U.S. Armed Forces members or support personnel serving in a designated combat zone or contingency operation, and their spouses.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Postpones tax deadlines (filing, payment, and claims) for individuals serving in the Armed Forces in a combat zone or contingency operation for the duration of service plus 180 days.",
+  "irc_reference": "IRC §7508",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

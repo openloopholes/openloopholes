@@ -1,0 +1,29 @@
+{
+  "id": "EXC_GOV_FOREIGN_ALLOWANCES",
+  "name": "Exemption for Foreign Area and Cost-of-Living Allowances",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to civilian U.S. government employees stationed abroad or in certain non-continental U.S. locations, and Peace Corps volunteers.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Excludes specific foreign area allowances and cost-of-living allowances from gross income for civilian federal employees and Peace Corps volunteers stationed outside the continental U.S.",
+  "irc_reference": "IRC §912",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

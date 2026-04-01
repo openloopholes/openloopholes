@@ -1,0 +1,29 @@
+{
+  "id": "DED_DOMESTIC_RD_EXPENSING",
+  "name": "Immediate Expensing of Domestic R&D",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to domestic research or experimental expenditures paid or incurred in connection with a trade or business for tax years beginning after Dec 31, 2024. Includes software development.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows taxpayers to fully deduct domestic research and experimental expenditures in the year they are paid or incurred, rather than capitalizing them.",
+  "irc_reference": "IRC §174A",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

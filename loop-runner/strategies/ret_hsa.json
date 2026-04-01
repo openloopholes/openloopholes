@@ -1,0 +1,30 @@
+{
+  "id": "RET_HSA",
+  "name": "HSA Contribution",
+  "category": "retirement",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "HDHP enrolled, not on Medicare",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {
+    "contribution": {
+      "type": "int",
+      "description": "HSA contribution amount"
+    }
+  },
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Contribution deadline April 15, 2026 (only if HDHP was active during 2025)",
+    "forward_status": "available"
+  },
+  "description": "Contribute to a Health Savings Account for an above-the-line deduction. Requires enrollment in a High Deductible Health Plan.",
+  "irc_reference": "IRC §223; Form 8889",
+  "deadline": "April 15 following tax year"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_LIFE_INS_RESERVE_INCREASE",
+  "name": "Net Increase in Reserves Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to life insurance companies maintaining reserves for insurance and annuity contracts.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Allows a deduction for the net increase in reserves as required by section 807(b).",
+  "irc_reference": "IRC §805(a)(2)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

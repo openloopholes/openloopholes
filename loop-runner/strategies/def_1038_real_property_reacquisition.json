@@ -1,0 +1,29 @@
+{
+  "id": "DEF_1038_REAL_PROPERTY_REACQUISITION",
+  "name": "Nonrecognition on Reacquisition of Real Property",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "The seller must have taken back a note secured by the property and reacquired the property in satisfaction of that debt.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Limits the amount of gain recognized when a seller reacquires real property in satisfaction of a purchase-money debt secured by that property.",
+  "irc_reference": "IRC §1038",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

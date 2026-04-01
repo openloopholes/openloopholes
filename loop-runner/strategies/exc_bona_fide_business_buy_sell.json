@@ -1,0 +1,29 @@
+{
+  "id": "EXC_BONA_FIDE_BUSINESS_BUY_SELL",
+  "name": "Bona Fide Business Arrangement Exception",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires a written agreement that meets specific statutory tests for business purpose and arm's length comparability.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Buy-sell agreements or options to acquire property at less than fair market value are respected for valuation purposes if they are bona fide business arrangements, not a gift device, and comparable to arms-length terms.",
+  "irc_reference": "IRC §2703",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_TRIBAL_GOV_CONTRIBUTIONS",
+  "name": "Indian Tribal Government Charitable Deduction",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Contributions must be made to a recognized Indian tribal government or a qualified subdivision for public purposes.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Treats Indian tribal governments as states, allowing taxpayers to claim charitable contribution deductions for transfers made to them.",
+  "irc_reference": "IRC §7871(a)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business|investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

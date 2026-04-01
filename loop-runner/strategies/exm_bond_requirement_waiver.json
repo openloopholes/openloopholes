@@ -1,0 +1,29 @@
+{
+  "id": "EXM_BOND_REQUIREMENT_WAIVER",
+  "name": "Small Producer Bond Exemption",
+  "category": "other",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to distilled spirits plant proprietors who meet the specific small-producer or low-tax-liability criteria defined in IRC section 5551(d).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Certain taxpayers are exempt from the requirement to furnish a bond for operations or withdrawals under the exception provided in section 5551(d).",
+  "irc_reference": "IRC §5173(a)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

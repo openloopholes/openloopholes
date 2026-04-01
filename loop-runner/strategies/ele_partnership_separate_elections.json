@@ -1,0 +1,29 @@
+{
+  "id": "ELE_PARTNERSHIP_SEPARATE_ELECTIONS",
+  "name": "Partner-Level Tax Elections",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Available to partners in a partnership for specific items including foreign taxes and debt discharge.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows individual partners to make separate elections for foreign tax credits (IRC 901), mining exploration expenditures (IRC 617), and discharge of indebtedness income (IRC 108) rather than being bound by a partnership-level choice.",
+  "irc_reference": "IRC §703(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DED_EMPLOYER_PROPERTY_TRANSFER",
+  "name": "Employer Deduction for Property Transfers",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Automatic deduction allowed for the employer's taxable year in which the employee includes the compensation in income.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Provides a deduction to the employer equal to the amount included in the service provider's gross income regarding transferred property.",
+  "irc_reference": "IRC §83(h)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "employer",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

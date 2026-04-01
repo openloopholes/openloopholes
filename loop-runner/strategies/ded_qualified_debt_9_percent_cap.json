@@ -1,0 +1,29 @@
+{
+  "id": "DED_QUALIFIED_DEBT_9_PERCENT_CAP",
+  "name": "9% Interest Rate Cap for Qualified Debt Instruments",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Applies to debt instruments given for property where the stated principal amount does not exceed $2,800,000 (adjusted for inflation; approximately $7.1M in 2024/2025).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "Limits the discount rate used to determine imputed interest to a maximum of 9% for qualified debt instruments, even if the AFR is higher.",
+  "irc_reference": "IRC §1274A(a)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business|investor|individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

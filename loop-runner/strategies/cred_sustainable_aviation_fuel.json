@@ -1,0 +1,29 @@
+{
+  "id": "CRED_SUSTAINABLE_AVIATION_FUEL",
+  "name": "Sustainable Aviation Fuel (SAF) Credit",
+  "category": "credit",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Fuel must achieve at least a 50% lifecycle greenhouse gas emissions reduction and be certified by a third party.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "A credit ranging from $1.25 to $1.75 per gallon for sustainable aviation fuel used or sold in a qualified mixture for aircraft.",
+  "irc_reference": "IRC §40B",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

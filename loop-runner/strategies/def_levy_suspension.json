@@ -1,0 +1,29 @@
+{
+  "id": "DEF_LEVY_SUSPENSION",
+  "name": "Statutory Suspension of Levy",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Triggered by a timely and non-frivolous written request for a hearing under Section 6330.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Requesting a CDP hearing automatically suspends levy actions and the statute of limitations on collection while the hearing and any subsequent appeals are pending.",
+  "irc_reference": "IRC §6330(e)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

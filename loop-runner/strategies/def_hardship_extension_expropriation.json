@@ -1,0 +1,29 @@
+{
+  "id": "DEF_HARDSHIP_EXTENSION_EXPROPRIATION",
+  "name": "Undue Hardship Extension for Expropriation Tax",
+  "category": "timing",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Requires a finding by the Secretary that payment of tax on a foreign expropriation loss recovery would cause undue hardship.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "If a corporation does not qualify for the 10-year installment election, the Secretary may grant an extension of up to 9 years to pay the tax if immediate payment would result in undue hardship.",
+  "irc_reference": "IRC §6167(b)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

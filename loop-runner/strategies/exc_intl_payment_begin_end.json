@@ -1,0 +1,29 @@
+{
+  "id": "EXC_INTL_PAYMENT_BEGIN_END",
+  "name": "Outside-US Payment Exclusion",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Taxpayer must make the payment for air travel outside of the United States for a route that does not both start and finish within the U.S.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Amounts paid outside the U.S. for air transportation are only taxable if the transportation both begins and ends in the United States.",
+  "irc_reference": "IRC §4261(e)(2)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual|business",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

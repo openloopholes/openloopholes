@@ -1,0 +1,29 @@
+{
+  "id": "EXM_CHARITABLE_REMAINDER_TRUST_RECOVERY",
+  "name": "Charitable Remainder Trust Recovery Exemption",
+  "category": "estate",
+  "jurisdiction": "federal",
+  "eligibility_type": "profile",
+  "eligibility": {
+    "description": "Automatically applies to any trust qualifying under section 664, protecting charitable assets from being depleted by estate tax recovery claims.",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "available",
+    "retroactive_note": "Automatic — computed on return",
+    "forward_status": "available"
+  },
+  "description": "The law prohibits the estate from recovering estate taxes from a Charitable Remainder Trust (CRT) even if the property was included in the estate due to a retained interest.",
+  "irc_reference": "IRC §2207B(d)",
+  "deadline": "",
+  "savings_potential": "high",
+  "benefits": "investor",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}

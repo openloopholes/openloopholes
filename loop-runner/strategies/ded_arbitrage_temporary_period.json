@@ -1,0 +1,29 @@
+{
+  "id": "DED_ARBITRAGE_TEMPORARY_PERIOD",
+  "name": "Arbitrage Bond Temporary Period Investment",
+  "category": "deduction",
+  "jurisdiction": "federal",
+  "eligibility_type": "opportunity",
+  "eligibility": {
+    "description": "Issuers of state or local bonds who use proceeds for the project within specified timeframes (generally 6 months to 2 years depending on the project type).",
+    "requires_entity_type": null,
+    "min_age": null,
+    "max_age": null
+  },
+  "parameters": {},
+  "entity_specific": false,
+  "entity_types": null,
+  "conflicts": [],
+  "actionability": {
+    "retroactive_status": "deadline_passed",
+    "retroactive_note": "Action required during tax year — verify if still applicable",
+    "forward_status": "available"
+  },
+  "description": "Allows issuers of tax-exempt bonds to invest proceeds in higher-yielding investments for a temporary period without losing tax-exempt status.",
+  "irc_reference": "IRC §148(c)",
+  "deadline": "",
+  "savings_potential": "medium",
+  "benefits": "individual",
+  "discovered_by": "discovery_engine_v1",
+  "calculator_implemented": false
+}
