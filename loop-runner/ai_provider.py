@@ -5,23 +5,64 @@ Supports multiple AI providers via environment variables:
 
   AI_PROVIDER=openrouter   (default) — OpenRouter API, any model
   AI_PROVIDER=anthropic    — Anthropic API (Claude models)
-  AI_PROVIDER=openclaw     — OpenClaw local gateway
+  AI_PROVIDER=openclaw     — OpenClaw local gateway (uses your configured model)
 
 Models are configurable:
   LOOP_MODEL       — model for iteration loop (default: google/gemini-3.1-flash-lite-preview)
   VALIDATION_MODEL — model for final validation (default: google/gemini-3-flash-preview)
   DISCOVERY_MODEL  — model for strategy discovery (default: same as VALIDATION_MODEL)
 
+For OpenClaw: models default to "openclaw/default" (routes to whatever you configured).
+Override with LOOP_MODEL/VALIDATION_MODEL if you want a specific model.
+
 Auto-detection: if AI_PROVIDER is not set, checks for available API keys/services.
+
+Logs are written to logs/ directory (one file per session).
 """
 
 from __future__ import annotations
 
+import datetime
+import logging
 import os
 import sys
 import time
+from pathlib import Path
 
 import openai
+
+
+# ---------------------------------------------------------------------------
+# Logging
+# ---------------------------------------------------------------------------
+LOG_DIR = Path(__file__).resolve().parent.parent / "logs"
+
+
+def setup_logging() -> logging.Logger:
+    """Set up file + console logging. Logs go to logs/ directory."""
+    LOG_DIR.mkdir(parents=True, exist_ok=True)
+    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    log_file = LOG_DIR / f"openloopholes_{timestamp}.log"
+
+    logger = logging.getLogger("openloopholes")
+    if logger.handlers:
+        return logger  # already set up
+
+    logger.setLevel(logging.DEBUG)
+
+    # File handler — detailed
+    fh = logging.FileHandler(log_file)
+    fh.setLevel(logging.DEBUG)
+    fh.setFormatter(logging.Formatter(
+        "%(asctime)s [%(levelname)s] %(message)s", datefmt="%Y-%m-%d %H:%M:%S"
+    ))
+    logger.addHandler(fh)
+
+    logger.info(f"Log file: {log_file}")
+    return logger
+
+
+log = setup_logging()
 
 
 # ---------------------------------------------------------------------------
@@ -29,6 +70,7 @@ import openai
 # ---------------------------------------------------------------------------
 DEFAULT_LOOP_MODEL = "google/gemini-3.1-flash-lite-preview"
 DEFAULT_VALIDATION_MODEL = "google/gemini-3-flash-preview"
+OPENCLAW_DEFAULT_MODEL = "openclaw/default"
 
 PROVIDER_CONFIGS = {
     "openrouter": {
@@ -41,7 +83,7 @@ PROVIDER_CONFIGS = {
     },
     "openclaw": {
         "base_url": "http://127.0.0.1:18789/v1",
-        "key_env": None,  # OpenClaw uses its own auth
+        "key_env": "OPENCLAW_API_KEY",
     },
 }
 
@@ -56,18 +98,22 @@ def detect_provider() -> str:
     """Auto-detect which AI provider is available."""
     explicit = os.environ.get("AI_PROVIDER", "").lower()
     if explicit and explicit in PROVIDER_CONFIGS:
+        log.debug(f"Provider explicitly set: {explicit}")
         return explicit
 
     # Check for API keys in order of preference
     if os.environ.get("OPENROUTER_API_KEY"):
+        log.debug("Auto-detected provider: openrouter")
         return "openrouter"
     if os.environ.get("ANTHROPIC_API_KEY"):
+        log.debug("Auto-detected provider: anthropic")
         return "anthropic"
 
     # Check if OpenClaw gateway is running
     try:
         import urllib.request
-        urllib.request.urlopen("http://127.0.0.1:18789/health", timeout=2)
+        urllib.request.urlopen("http://127.0.0.1:18789/v1/models", timeout=2)
+        log.debug("Auto-detected provider: openclaw (gateway responding)")
         return "openclaw"
     except Exception:
         pass
@@ -93,13 +139,13 @@ def get_provider_info() -> tuple[str, str, str]:
     config = PROVIDER_CONFIGS[provider]
     base_url = config["base_url"]
 
-    if config["key_env"]:
+    if provider == "openclaw":
+        api_key = os.environ.get("OPENCLAW_API_KEY", "openclaw")
+    else:
         api_key = os.environ.get(config["key_env"], "")
         if not api_key:
             print(f"ERROR: {config['key_env']} environment variable not set")
             sys.exit(1)
-    else:
-        api_key = "openclaw"  # OpenClaw doesn't need a real key
 
     return provider, base_url, api_key
 
@@ -108,11 +154,21 @@ def get_provider_info() -> tuple[str, str, str]:
 # Model resolution
 # ---------------------------------------------------------------------------
 def get_loop_model() -> str:
-    return os.environ.get("LOOP_MODEL", DEFAULT_LOOP_MODEL)
+    explicit = os.environ.get("LOOP_MODEL")
+    if explicit:
+        return explicit
+    if detect_provider() == "openclaw":
+        return OPENCLAW_DEFAULT_MODEL
+    return DEFAULT_LOOP_MODEL
 
 
 def get_validation_model() -> str:
-    return os.environ.get("VALIDATION_MODEL", DEFAULT_VALIDATION_MODEL)
+    explicit = os.environ.get("VALIDATION_MODEL")
+    if explicit:
+        return explicit
+    if detect_provider() == "openclaw":
+        return OPENCLAW_DEFAULT_MODEL
+    return DEFAULT_VALIDATION_MODEL
 
 
 def get_discovery_model() -> str:
@@ -135,6 +191,7 @@ def get_client() -> openai.OpenAI:
     provider, base_url, api_key = get_provider_info()
     _provider_name = provider
     _client = openai.OpenAI(base_url=base_url, api_key=api_key)
+    log.debug(f"Client initialized: provider={provider}, base_url={base_url}")
     return _client
 
 
@@ -166,19 +223,29 @@ def call_llm(model_id: str, system_prompt: str, user_prompt: str,
         "temperature": temperature,
     }
 
-    if json_mode:
+    # response_format not supported by OpenClaw
+    if json_mode and _provider_name != "openclaw":
         kwargs["response_format"] = {"type": "json_object"}
+
+    log.debug(f"LLM call: model={model_id}, provider={_provider_name}, "
+              f"system_len={len(system_prompt)}, user_len={len(user_prompt)}")
 
     for attempt in range(MAX_RETRIES):
         try:
+            start = time.time()
             response = client.chat.completions.create(**kwargs)
-            return response.choices[0].message.content
+            elapsed = time.time() - start
+            content = response.choices[0].message.content
+            log.debug(f"LLM response: {elapsed:.1f}s, {len(content)} chars")
+            return content
         except Exception as e:
+            log.warning(f"LLM error (attempt {attempt + 1}/{MAX_RETRIES}): {e}")
             if attempt < MAX_RETRIES - 1:
                 wait = RETRY_BACKOFF[attempt]
                 print(f"  API error (attempt {attempt + 1}): {e}. Retrying in {wait}s...")
                 time.sleep(wait)
             else:
+                log.error(f"LLM call failed after {MAX_RETRIES} attempts: {e}")
                 raise
 
     raise RuntimeError("Exhausted retries")

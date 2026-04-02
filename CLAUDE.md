@@ -37,10 +37,11 @@ export OPENROUTER_API_KEY=your_key
 # Option 2: Anthropic
 export ANTHROPIC_API_KEY=your_key
 
-# Option 3: OpenClaw (uses local gateway, no key needed)
-# Just start OpenClaw — auto-detected
+# Option 3: OpenClaw (uses your configured model automatically)
+# Just start OpenClaw — auto-detected. Set bearer token if required:
+# export OPENCLAW_API_KEY=your_bearer_token
 
-# Optional: override models
+# Optional: override models (OpenClaw defaults to "openclaw/default")
 export LOOP_MODEL=google/gemini-3.1-flash-lite-preview
 export VALIDATION_MODEL=google/gemini-3-flash-preview
 ```

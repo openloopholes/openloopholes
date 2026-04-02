@@ -9,6 +9,10 @@ loop-runner/profiles/*.json
 results/
 !results/.gitkeep
 
+# Logs (generated per run)
+logs/
+!logs/.gitkeep
+
 # Python
 __pycache__/
 *.pyc

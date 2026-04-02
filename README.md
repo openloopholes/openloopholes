@@ -82,6 +82,7 @@ prompts/
 
 tax-documents/           # Your tax return PDFs (gitignored — never committed)
 results/                 # Generated output (gitignored)
+logs/                    # Run logs (gitignored, one file per session)
 
 CLAUDE.md                # Claude Code setup guide
 openclaw.config.json     # OpenClaw skills configuration
@@ -99,8 +100,9 @@ export OPENROUTER_API_KEY=your_key
 # Option 2: Anthropic (Claude models)
 export ANTHROPIC_API_KEY=your_key
 
-# Option 3: OpenClaw (uses your local gateway — no key needed)
-# Just start OpenClaw, it's auto-detected
+# Option 3: OpenClaw (uses your local gateway + configured model)
+# Just start OpenClaw — auto-detected. Set OPENCLAW_API_KEY if your gateway requires auth.
+# export OPENCLAW_API_KEY=your_bearer_token
 
 # Optional: override models
 export LOOP_MODEL=google/gemini-3.1-flash-lite-preview      # iteration loop
