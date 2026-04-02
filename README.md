@@ -85,7 +85,7 @@ prompts/
 
 tax-documents/           # Your tax return PDFs (gitignored — never committed)
 results/                 # Generated output (gitignored)
-logs/                    # Run logs (gitignored, one file per session)
+logs/                    # Run logs with timestamps (gitignored, one file per session)
 
 CLAUDE.md                # Claude Code setup guide
 openclaw.config.json     # OpenClaw skills configuration
@@ -158,7 +158,9 @@ If using Claude Code or OpenClaw, ask it to build your profile conversationally:
 ```bash
 python3 run.py --profile profiles/sample.json --iterations 200
 ```
-The LLM proposes one strategy change per iteration. The calculator scores it. Keep improvements, discard regressions. Converges automatically after 20 consecutive discards.
+The LLM proposes one strategy change per iteration. The deterministic calculator scores it. Keep improvements, discard regressions. Converges automatically after 20 consecutive discards.
+
+After the loop converges, a **final validation call** sends the winning strategy set to a stronger LLM model for rigorous review: eligibility verification, conflict detection, legal risk assessment, and action steps for each strategy. The validation flags issues (e.g., "HSA requires HDHP enrollment") and produces the data for the CPA-ready report.
 
 ### 2. Strategy Registry
 Each strategy is a JSON file in `strategies/`. At runtime, strategies are filtered to those relevant to the user's profile and state, then assembled into the LLM prompt.
@@ -259,6 +261,8 @@ The validation LLM estimated per-strategy savings that didn't add up. Fix: margi
 | `find_loopholes.py` | No — pure calculator math |
 | `parse_tax_code.py` | No — downloads/parses XML |
 | `tax_calculator.py` | No — deterministic computation |
+
+**Logs:** Every run creates a timestamped log file in `logs/` (e.g., `logs/openloopholes_20260401_152345.log`). Contains all console output plus debug details (LLM calls, response times, errors). Useful for troubleshooting.
 
 ## Current Limitations
 

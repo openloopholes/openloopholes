@@ -76,3 +76,4 @@ Create strategy files with `"jurisdiction": "state:XX"` for state-specific strat
 - **Discover strategies**: `python3 discover_strategies.py --subtitle A`
 - **Parse tax return**: `python3 parse_return.py ../tax-documents/return.pdf --output profiles/name.json`
 - **Parse tax code**: `python3 parse_tax_code.py --download`
+- **View logs**: Check `logs/` directory for timestamped run logs with debug details
