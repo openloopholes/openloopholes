@@ -119,6 +119,8 @@ Auto-detection: if `AI_PROVIDER` is not set, the system checks for available API
 
 > **Windows users:** Replace `export` with `set` (cmd) or `$env:VAR="value"` (PowerShell) for all environment variable commands.
 
+**Run time:** A typical 200-iteration optimization takes 2-10 minutes depending on your model. The loop makes many small LLM calls, so faster models (Gemini Flash-Lite, Haiku) complete significantly quicker than larger models (Sonnet, Opus, GPT-4). The deterministic calculator and loophole finder run instantly — no LLM needed.
+
 ## Creating Your Profile
 
 ### Option 1: From a tax return PDF (recommended)
