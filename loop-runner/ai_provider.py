@@ -109,14 +109,29 @@ def detect_provider() -> str:
         log.debug("Auto-detected provider: anthropic")
         return "anthropic"
 
-    # Check if OpenClaw gateway is running
-    try:
-        import urllib.request
-        urllib.request.urlopen("http://127.0.0.1:18789/v1/models", timeout=2)
-        log.debug("Auto-detected provider: openclaw (gateway responding)")
-        return "openclaw"
-    except Exception:
-        pass
+    # Check if OpenClaw gateway is running (requires bearer token for all endpoints)
+    openclaw_key = os.environ.get("OPENCLAW_API_KEY", "")
+    if openclaw_key:
+        try:
+            import urllib.request
+            req = urllib.request.Request(
+                "http://127.0.0.1:18789/v1/models",
+                headers={"Authorization": f"Bearer {openclaw_key}"},
+            )
+            urllib.request.urlopen(req, timeout=2)
+            log.debug("Auto-detected provider: openclaw (gateway responding with auth)")
+            return "openclaw"
+        except Exception:
+            pass
+    else:
+        # No key set — try without auth in case gateway has auth disabled
+        try:
+            import urllib.request
+            urllib.request.urlopen("http://127.0.0.1:18789/v1/models", timeout=2)
+            log.debug("Auto-detected provider: openclaw (gateway responding, no auth)")
+            return "openclaw"
+        except Exception:
+            pass
 
     return ""
 
