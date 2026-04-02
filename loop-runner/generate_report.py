@@ -28,7 +28,7 @@ def compute_marginal_savings(profile: dict, strategy_set: list[dict]) -> dict[st
     for i, strat in enumerate(strategy_set):
         without = strategy_set[:i] + strategy_set[i+1:]
         without_result = compute_tax(profile, without)
-        marginal[strat["id"]] = without_result["total_tax"] - full_tax
+        marginal[f"{strat['id']}:{strat.get('entity') or ''}"] = without_result["total_tax"] - full_tax
 
     return marginal
 
@@ -504,7 +504,7 @@ def generate_report(results_dir: Path | None = None):
         action_steps = v.get("action_steps", [])
         deadline = v.get("deadline") or fallback.get("deadline", "")
         irc_ref = v.get("irc_reference") or fallback.get("irc", "")
-        savings = marginal_savings.get(sid, 0)
+        savings = marginal_savings.get(f"{sid}:{entity or ''}", 0)
         confidence = v.get("confidence", "moderate")
         pro_needed = v.get("professional_help_needed", False)
         pro_type = v.get("professional_type", "CPA")
