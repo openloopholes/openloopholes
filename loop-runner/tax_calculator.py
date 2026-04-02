@@ -1115,9 +1115,44 @@ def compute_tax(profile: dict, strategies: list[dict]) -> dict:
     total_investment = cap_gains_long + cap_gains_short + interest + div_qualified + div_ordinary
 
     # -------------------------------------------------------------------------
-    # GROSS INCOME & AGI
+    # PASSIVE ACTIVITY LOSS RULES (IRC §469)
     # -------------------------------------------------------------------------
     other = profile.get("other_income", {})
+    if total_rental_net < 0:
+        if adj["rental_reps_override"] or adj["rental_str_override"]:
+            pass  # Non-passive (REPS or STR) — full loss allowed
+        else:
+            # Compute modified AGI without rental loss for PAL phase-out
+            modified_agi = (
+                total_w2 + total_se_income + total_scorp_passthrough +
+                total_partnership_income +
+                cap_gains_short + cap_gains_long +
+                interest + div_qualified + div_ordinary +
+                (other.get("social_security", 0) or 0) +
+                (other.get("pension", 0) or 0) +
+                (other.get("other", 0) or 0) -
+                adj["income_deferred"] - adj["qcd_exclusion"]
+            )
+
+            has_active = any(
+                e.get("active_participation", False)
+                for e in profile.get("entities", []) if e["type"] == "rental"
+            )
+
+            if has_active and modified_agi < PAL_PHASEOUT_END:
+                # §469(i): up to $25K for active participants, phased out $100K-$150K
+                if modified_agi <= PAL_PHASEOUT_START:
+                    allowable = PAL_ALLOWANCE
+                else:
+                    allowable = max(0, PAL_ALLOWANCE * (PAL_PHASEOUT_END - modified_agi) / (PAL_PHASEOUT_END - PAL_PHASEOUT_START))
+                total_rental_net = max(total_rental_net, -allowable)
+            else:
+                # No active participation or AGI too high — loss fully suspended
+                total_rental_net = 0
+
+    # -------------------------------------------------------------------------
+    # GROSS INCOME & AGI
+    # -------------------------------------------------------------------------
     gross_income = (
         total_w2 +
         total_se_income +
