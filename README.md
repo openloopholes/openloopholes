@@ -12,6 +12,8 @@ Every strategy in this project is grounded in the Internal Revenue Code as writt
 
 This project will **never** support tax evasion, unreported income, fraudulent deductions, or any strategy that relies on hiding information from the IRS. If a strategy isn't defensible in Tax Court with a straight face, it doesn't belong here.
 
+**Read the [Manifesto](MANIFESTO.md)** — why this project exists and what we're fighting for.
+
 ## What This Is
 
 An open source tax optimization engine that finds legal tax savings for anyone — W-2 employees, small business owners, investors, retirees. We parsed all 4 million words of the Internal Revenue Code (2,160 IRC sections) and built an AI discovery engine that identified **1,454 legal tax strategies**. An LLM proposes strategy changes; a deterministic calculator scores them. The system keeps improvements and discards regressions — the same hill-climbing approach as [Karpathy's autoresearch](https://github.com/karpathy/autoresearch), but applied to tax law.

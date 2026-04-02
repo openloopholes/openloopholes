@@ -23,5 +23,8 @@ __pycache__/
 # macOS
 .DS_Store
 
+# Homepage
+homepage/
+
 # Claude Code local settings
 .claude/
