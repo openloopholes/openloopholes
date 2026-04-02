@@ -3,7 +3,7 @@
 OpenLoopholes.com — Autoresearch Loop Runner
 
 Runs the iterative tax optimization loop against a taxpayer profile.
-The LLM proposes strategy changes; a deterministic tax calculator scores them.
+The LLM proposes loophole changes; a deterministic tax calculator scores them.
 Following Karpathy's autoresearch pattern: the proposer never grades its own work.
 
 Usage:
@@ -23,7 +23,7 @@ from pathlib import Path
 from typing import Optional
 
 from tax_calculator import compute_tax
-from strategy_registry import load_all_strategies, filter_strategies, build_prompt_sections
+from loophole_registry import load_all_loopholes, filter_loopholes, build_prompt_sections
 from ai_provider import call_llm, get_loop_model, get_validation_model, get_provider_name, log, RUN_TIMESTAMP
 
 # ---------------------------------------------------------------------------
@@ -61,19 +61,19 @@ def build_system_prompt(profile: dict) -> str:
     template = load_file(ITERATION_PROMPT_PATH)
     opt_mode = profile.get("optimization_mode", "both")
 
-    # Filter strategies to this profile (jurisdiction + eligibility)
-    all_strategies = load_all_strategies()
-    relevant = filter_strategies(profile, all_strategies)
+    # Filter loopholes to this profile (jurisdiction + eligibility)
+    all_loopholes = load_all_loopholes()
+    relevant = filter_loopholes(profile, all_loopholes)
 
-    # Build dynamic strategy sections
-    strategy_sections = build_prompt_sections(relevant, opt_mode)
+    # Build dynamic loophole sections
+    loophole_sections = build_prompt_sections(relevant, opt_mode)
 
     # Insert into template (or append if no placeholder)
     if "{STRATEGY_SECTIONS}" in template:
-        return template.replace("{STRATEGY_SECTIONS}", strategy_sections)
+        return template.replace("{STRATEGY_SECTIONS}", loophole_sections)
     else:
         # Fallback: append after template
-        return template + "\n\n---\n\n" + strategy_sections
+        return template + "\n\n---\n\n" + loophole_sections
 
 
 def build_validation_system_prompt() -> str:
@@ -89,7 +89,7 @@ def build_validation_system_prompt() -> str:
 def run_iteration(
     system_prompt: str,
     profile: dict,
-    best_strategy_set: list[dict],
+    best_loophole_set: list[dict],
     best_liability: int,
     baseline_liability: int,
     iteration: int,
@@ -120,7 +120,7 @@ TAX YEAR: {tax_year}
 CURRENT DATE: {current_date}
 
 CURRENT BEST STRATEGY SET:
-{json.dumps(best_strategy_set, indent=2)}
+{json.dumps(best_loophole_set, indent=2)}
 
 CURRENT TAX LIABILITY (computed by calculator): ${best_liability:,}
 BASELINE LIABILITY (no strategies): ${baseline_liability:,}
@@ -140,7 +140,7 @@ Propose ONE modification to the current strategy set."""
 
 
 def run_validation(
-    profile: dict, best_strategy_set: list[dict],
+    profile: dict, best_loophole_set: list[dict],
     baseline_liability: int, best_liability: int,
     iterations_completed: int,
 ) -> dict | None:
@@ -151,7 +151,7 @@ def run_validation(
 {json.dumps(profile, indent=2)}
 
 PROPOSED STRATEGY SET (from optimization loop):
-{json.dumps(best_strategy_set, indent=2)}
+{json.dumps(best_loophole_set, indent=2)}
 
 BASELINE LIABILITY (calculator): ${baseline_liability:,}
 OPTIMIZED LIABILITY (calculator): ${best_liability:,}
@@ -219,7 +219,7 @@ def main():
              f"credits=${baseline_result['breakdown']['total_credits']:,}")
 
     best_liability = baseline_liability
-    best_strategy_set: list[dict] = []
+    best_loophole_set: list[dict] = []
     experiments = []
     consecutive_api_failures = 0
     keeps = 0
@@ -233,7 +233,7 @@ def main():
         # LLM proposes a change
         try:
             response = run_iteration(
-                system_prompt, profile, best_strategy_set,
+                system_prompt, profile, best_loophole_set,
                 best_liability, baseline_liability,
                 i, max_iterations, experiments,
             )
@@ -280,11 +280,11 @@ def main():
         entity_name = exp.get("entity", None)
         description = exp.get("description", "")
         confidence = response.get("confidence", "unknown")
-        new_strategy_set = response.get("updated_strategy_set", best_strategy_set)
+        new_loophole_set = response.get("updated_loophole_set", best_loophole_set)
 
         # DETERMINISTIC SCORING — the calculator grades the proposal
         try:
-            calc_result = compute_tax(profile, new_strategy_set)
+            calc_result = compute_tax(profile, new_loophole_set)
             new_liability = calc_result["total_tax"]
         except Exception as e:
             experiments.append({
@@ -305,7 +305,7 @@ def main():
             result = "keep"
             improvement = best_liability - new_liability
             best_liability = new_liability
-            best_strategy_set = new_strategy_set
+            best_loophole_set = new_loophole_set
             keeps += 1
         else:
             result = "discard"
@@ -352,7 +352,7 @@ def main():
     log.info(f"Time: {loop_time:.1f}s")
 
     # Print final breakdown
-    final_result = compute_tax(profile, best_strategy_set)
+    final_result = compute_tax(profile, best_loophole_set)
     log.info(f"\nFinal breakdown:")
     log.info(f"  Federal: ${final_result['federal_tax']:,} | State: ${final_result['state_tax']:,}")
     bd = final_result["breakdown"]
@@ -364,16 +364,16 @@ def main():
     # --- Step 3: Final Validation ---
     log.info("\n[STEP 3] Running final validation...")
     validation_result = run_validation(
-        profile, best_strategy_set,
+        profile, best_loophole_set,
         baseline_liability, best_liability,
         iterations_completed,
     )
 
     if validation_result:
         summary_data = validation_result.get("summary", {})
-        final_strategies = validation_result.get("final_strategies", [])
+        final_loopholes = validation_result.get("final_loopholes", [])
         log.info(f"  Validation: {validation_result.get('validation_result', 'unknown')}")
-        log.info(f"  Final strategies: {len(final_strategies)}")
+        log.info(f"  Final loopholes: {len(final_loopholes)}")
         log.info(f"  Validated savings: ${summary_data.get('total_estimated_savings', total_savings):,}")
 
         issues = validation_result.get("issues_found", [])
@@ -383,7 +383,7 @@ def main():
                 log.info(f"    - [{issue.get('severity', '?')}] {issue.get('strategy_id', '?')}: {issue.get('description', '')}")
     else:
         log.info("  Validation failed — using loop results as-is")
-        final_strategies = best_strategy_set
+        final_loopholes = best_loophole_set
 
     total_time = time.time() - start_time
 
@@ -395,8 +395,8 @@ def main():
     with open(run_dir / "experiments.json", "w") as f:
         json.dump(experiments, f, indent=2)
 
-    with open(run_dir / "strategies.json", "w") as f:
-        json.dump(validation_result if validation_result else {"strategies": best_strategy_set}, f, indent=2)
+    with open(run_dir / "loopholes.json", "w") as f:
+        json.dump(validation_result if validation_result else {"loopholes": best_loophole_set}, f, indent=2)
 
     summary = {
         "profile": profile_path.name,
@@ -408,8 +408,8 @@ def main():
         "iterations_completed": iterations_completed,
         "iterations_target": max_iterations,
         "improvements_found": keeps,
-        "strategy_count": len(best_strategy_set),
-        "strategy_set": best_strategy_set,
+        "loophole_count": len(best_loophole_set),
+        "loophole_set": best_loophole_set,
         "convergence": iterations_completed < max_iterations,
         "loop_model": get_loop_model(),
         "validation_model": get_validation_model(),
@@ -427,7 +427,7 @@ def main():
     log.info(f"  Baseline liability:  ${baseline_liability:,}")
     log.info(f"  Optimized liability: ${best_liability:,}")
     log.info(f"  Total savings:       ${total_savings:,}")
-    log.info(f"  Strategies:          {len(best_strategy_set)}")
+    log.info(f"  Loopholes:           {len(best_loophole_set)}")
     log.info(f"  Experiments:         {iterations_completed}")
     log.info(f"  Time:                {total_time:.1f}s")
     log.info(f"  Scorer:              deterministic calculator")
@@ -444,14 +444,14 @@ def main():
 
         generate_png(
             staircase, sum_data["iterations_completed"],
-            sum_data["strategy_count"], sum_data["total_savings"],
+            sum_data["loophole_count"], sum_data["total_savings"],
             run_dir / "staircase.png",
         )
         log.info(f"  Staircase chart: {run_dir / 'staircase.png'}")
 
         generate_html(
             staircase, sum_data["iterations_completed"],
-            sum_data["strategy_count"], sum_data["total_savings"],
+            sum_data["loophole_count"], sum_data["total_savings"],
             sum_data["baseline_liability"],
             run_dir / "staircase.html",
         )
@@ -462,7 +462,7 @@ def main():
     try:
         from generate_report import generate_report
         generate_report(results_dir=run_dir)
-        log.info(f"  CPA report: {run_dir / 'tax_strategy_report.html'}")
+        log.info(f"  CPA report: {run_dir / 'tax_loophole_report.html'}")
     except Exception as e:
         log.warning(f"  Report generation failed: {e}")
 

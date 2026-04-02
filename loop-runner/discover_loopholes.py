@@ -1,21 +1,21 @@
 #!/usr/bin/env python3
 """
-OpenLoopholes.com — Strategy Discovery Engine
+OpenLoopholes.com — Loophole Discovery Engine
 
 Scans IRC sections and asks an LLM to identify deductions, credits,
 exclusions, and exemptions that could reduce a taxpayer's liability.
-Compares discoveries against the existing strategy registry to find
-new strategies not yet in the system.
+Compares discoveries against the existing loophole registry to find
+new loopholes not yet in the system.
 
 Usage:
-    python discover_strategies.py                          # Scan priority subtitles (A, B, C)
-    python discover_strategies.py --subtitle A             # Scan specific subtitle
-    python discover_strategies.py --sections 121,199A,401  # Scan specific sections
-    python discover_strategies.py --all                    # Scan everything (slow, expensive)
-    python discover_strategies.py --dry-run                # Show what would be scanned
+    python discover_loopholes.py                          # Scan priority subtitles (A, B, C)
+    python discover_loopholes.py --subtitle A             # Scan specific subtitle
+    python discover_loopholes.py --sections 121,199A,401  # Scan specific sections
+    python discover_loopholes.py --all                    # Scan everything (slow, expensive)
+    python discover_loopholes.py --dry-run                # Show what would be scanned
 
 Output:
-    results/discoveries.json — list of candidate strategies found
+    results/discoveries.json — list of candidate loopholes found
 """
 
 from __future__ import annotations
@@ -27,7 +27,7 @@ import sys
 import time
 from pathlib import Path
 
-from strategy_registry import load_all_strategies
+from loophole_registry import load_all_loopholes
 from ai_provider import call_llm, get_discovery_model, get_client
 
 # ---------------------------------------------------------------------------
@@ -58,9 +58,9 @@ SUBTITLES = {
     "F": {"name": "Procedure & Administration", "range": (6001, 7900), "priority": 3,
           "description": "Filing requirements, penalties, interest, collections, refunds, judicial proceedings"},
     "G": {"name": "Joint Committee on Taxation", "range": (8001, 8100), "priority": 5,
-          "description": "Administrative — no tax savings strategies"},
+          "description": "Administrative — no tax savings loopholes"},
     "H": {"name": "Presidential Campaign Financing", "range": (9001, 9100), "priority": 5,
-          "description": "Campaign fund checkoff — no tax savings strategies"},
+          "description": "Campaign fund checkoff — no tax savings loopholes"},
     "I": {"name": "Trust Fund Code", "range": (9500, 9650), "priority": 4,
           "description": "Highway, airport, hazardous substance trust funds"},
     "J": {"name": "Coal Industry Health Benefits", "range": (9701, 9750), "priority": 5,
@@ -76,7 +76,7 @@ MAX_SECTION_CHARS = 15000  # Truncate very long sections to fit context
 BATCH_SIZE = 5             # Sections per LLM call
 MAX_RETRIES = 3
 
-DISCOVERY_PROMPT = """You are a tax strategy researcher for OpenLoopholes.com. You are reading actual IRC (Internal Revenue Code) section text to identify tax savings opportunities.
+DISCOVERY_PROMPT = """You are a tax loophole researcher for OpenLoopholes.com. You are reading actual IRC (Internal Revenue Code) section text to identify tax savings opportunities.
 
 For each IRC section provided, identify any:
 - **Deductions** (above-the-line or itemized)
@@ -87,8 +87,8 @@ For each IRC section provided, identify any:
 - **Preferential rates** (reduced tax rates for certain income)
 - **Elections** (taxpayer choices that reduce liability)
 
-For each strategy found, output:
-- A suggested strategy ID (uppercase, underscore-separated, e.g., "DED_MOVING_EXPENSES")
+For each loophole found, output:
+- A suggested loophole ID (uppercase, underscore-separated, e.g., "DED_MOVING_EXPENSES")
 - The IRC section number
 - Who it benefits (individual, business, investor, etc.)
 - What it does (1-2 sentences)
@@ -96,9 +96,9 @@ For each strategy found, output:
 - Whether it requires specific actions or is automatic
 
 IMPORTANT:
-- Only identify strategies that can REDUCE tax liability for the taxpayer
+- Only identify loopholes that can REDUCE tax liability for the taxpayer
 - Skip procedural rules, definitions, penalties, and administrative provisions
-- Skip strategies that are expired, repealed, or only apply to tax years before 2025
+- Skip loopholes that are expired, repealed, or only apply to tax years before 2025
 - Be specific — "there might be a deduction here" is not useful
 
 Output valid JSON:
@@ -106,7 +106,7 @@ Output valid JSON:
 {
   "discoveries": [
     {
-      "strategy_id": "string",
+      "loophole_id": "string",
       "irc_section": "string",
       "name": "string",
       "description": "string",
@@ -119,7 +119,7 @@ Output valid JSON:
 }
 ```
 
-If a section contains NO actionable tax savings strategies, return: {"discoveries": []}
+If a section contains NO actionable tax savings loopholes, return: {"discoveries": []}
 """
 
 
@@ -156,7 +156,7 @@ def load_section_text(sec_num: str) -> str:
 
 
 def call_discovery(sections_text: str) -> list[dict]:
-    """Send sections to LLM for strategy discovery."""
+    """Send sections to LLM for loophole discovery."""
     try:
         raw = call_llm(get_discovery_model(), DISCOVERY_PROMPT, sections_text, temperature=0.3)
         data = json.loads(raw)
@@ -252,7 +252,7 @@ def run_discovery(
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Discover tax strategies from IRC sections")
+    parser = argparse.ArgumentParser(description="Discover tax loopholes from IRC sections")
     parser.add_argument("--subtitle", type=str, help="Scan specific subtitle (A, B, C, ...)")
     parser.add_argument("--sections", type=str, help="Scan specific sections (comma-separated)")
     parser.add_argument("--all", action="store_true", help="Scan all subtitles")
@@ -267,10 +267,10 @@ def main():
 
     index = load_index()
 
-    # Load existing strategy IDs
-    existing_strategies = load_all_strategies()
-    existing_ids = {s["id"] for s in existing_strategies}
-    print(f"Existing strategies in registry: {len(existing_ids)}")
+    # Load existing loophole IDs
+    existing_loopholes = load_all_loopholes()
+    existing_ids = {s["id"] for s in existing_loopholes}
+    print(f"Existing loopholes in registry: {len(existing_ids)}")
 
     # Determine which sections to scan
     sections_to_scan = []
@@ -326,7 +326,7 @@ def main():
 
         if results["new"]:
             print(f"\n{'='*60}")
-            print("NEW STRATEGIES FOUND (not in registry):")
+            print("NEW LOOPHOLES FOUND (not in registry):")
             print(f"{'='*60}")
             for d in results["new"]:
                 print(f"  {d['strategy_id']}: {d['name']}")

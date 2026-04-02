@@ -1,11 +1,11 @@
 """
-OpenLoopholes.com — Strategy Registry
+OpenLoopholes.com — Loophole Registry
 
-Single source of truth for all tax strategies. Each strategy is a JSON file
-in the strategies/ directory. This module loads, filters, and builds prompt
+Single source of truth for all tax loopholes. Each loophole is a JSON file
+in the loopholes/ directory. This module loads, filters, and builds prompt
 sections from them.
 
-Adding a new strategy = adding one JSON file. No code changes needed
+Adding a new loophole = adding one JSON file. No code changes needed
 (unless it needs a new calculator handler).
 """
 
@@ -14,50 +14,50 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-STRATEGIES_DIR = Path(__file__).resolve().parent / "strategies"
+LOOPHOLES_DIR = Path(__file__).resolve().parent / "loopholes"
 
 _cache: list[dict] | None = None
 _by_id: dict[str, dict] | None = None
 
 
-def load_all_strategies() -> list[dict]:
-    """Load all strategy JSON files from the strategies/ directory."""
+def load_all_loopholes() -> list[dict]:
+    """Load all loophole JSON files from the loopholes/ directory."""
     global _cache, _by_id
     if _cache is not None:
         return _cache
-    strategies = []
+    loopholes = []
     seen_ids = {}
-    for filepath in sorted(STRATEGIES_DIR.glob("*.json")):
+    for filepath in sorted(LOOPHOLES_DIR.glob("*.json")):
         with open(filepath) as f:
             s = json.load(f)
         sid = s.get("id", filepath.stem)
         if sid in seen_ids:
             raise ValueError(
-                f"Duplicate strategy ID '{sid}' found in {filepath.name} "
+                f"Duplicate loophole ID '{sid}' found in {filepath.name} "
                 f"(already defined in {seen_ids[sid]})"
             )
         seen_ids[sid] = filepath.name
-        strategies.append(s)
-    _cache = strategies
-    _by_id = {s["id"]: s for s in strategies}
-    return strategies
+        loopholes.append(s)
+    _cache = loopholes
+    _by_id = {s["id"]: s for s in loopholes}
+    return loopholes
 
 
-def get_strategy(sid: str) -> dict | None:
-    """Look up a strategy by ID."""
+def get_loophole(sid: str) -> dict | None:
+    """Look up a loophole by ID."""
     if _by_id is None:
-        load_all_strategies()
+        load_all_loopholes()
     return _by_id.get(sid)
 
 
-def filter_strategies(profile: dict, strategies: list[dict] | None = None) -> list[dict]:
+def filter_loopholes(profile: dict, loopholes: list[dict] | None = None) -> list[dict]:
     """
-    Filter strategies to those relevant to a profile.
+    Filter loopholes to those relevant to a profile.
     Checks jurisdiction (federal + user's state), basic eligibility,
-    and actionability (excludes deadline-passed strategies in retroactive mode).
+    and actionability (excludes deadline-passed loopholes in retroactive mode).
     """
-    if strategies is None:
-        strategies = load_all_strategies()
+    if loopholes is None:
+        loopholes = load_all_loopholes()
 
     state = profile.get("state", "").upper()
     entity_types = {e["type"] for e in profile.get("entities", [])}
@@ -65,7 +65,7 @@ def filter_strategies(profile: dict, strategies: list[dict] | None = None) -> li
     opt_mode = profile.get("optimization_mode", "both")
 
     filtered = []
-    for s in strategies:
+    for s in loopholes:
         # Jurisdiction filter
         jur = s.get("jurisdiction", "federal")
         if jur == "federal":
@@ -93,7 +93,7 @@ def filter_strategies(profile: dict, strategies: list[dict] | None = None) -> li
         if req_type and req_type not in entity_types:
             continue
 
-        # Actionability filter — in retroactive mode, exclude deadline-passed strategies
+        # Actionability filter — in retroactive mode, exclude deadline-passed loopholes
         # Don't even put them in the prompt so the LLM can't waste iterations on them
         if opt_mode == "retroactive":
             act = s.get("actionability", {})
@@ -105,15 +105,15 @@ def filter_strategies(profile: dict, strategies: list[dict] | None = None) -> li
     return filtered
 
 
-def build_prompt_sections(strategies: list[dict], optimization_mode: str = "forward") -> str:
+def build_prompt_sections(loopholes: list[dict], optimization_mode: str = "forward") -> str:
     """
-    Build the dynamic strategy sections for the iteration prompt.
-    Returns markdown string with: strategy table, parameter reference,
+    Build the dynamic loophole sections for the iteration prompt.
+    Returns markdown string with: loophole table, parameter reference,
     conflict rules, and actionability rules.
     """
     # Group by category
     categories = {}
-    for s in strategies:
+    for s in loopholes:
         cat = s.get("category", "other")
         categories.setdefault(cat, []).append(s)
 
@@ -132,8 +132,8 @@ def build_prompt_sections(strategies: list[dict], optimization_mode: str = "forw
 
     lines = []
 
-    # === STRATEGY IDS AND ELIGIBILITY ===
-    lines.append("## STRATEGY IDS AND ELIGIBILITY QUICK-REFERENCE\n")
+    # === LOOPHOLE IDS AND ELIGIBILITY ===
+    lines.append("## LOOPHOLE IDS AND ELIGIBILITY QUICK-REFERENCE\n")
     for cat, label in category_labels.items():
         strats = categories.get(cat, [])
         if not strats:
@@ -150,14 +150,14 @@ def build_prompt_sections(strategies: list[dict], optimization_mode: str = "forw
     lines.append("## CONFLICT RULES (MUST CHECK)\n")
     conflict_num = 1
     seen_conflicts = set()
-    for s in strategies:
+    for s in loopholes:
         for conflict_id in s.get("conflicts", []):
             pair = tuple(sorted([s["id"], conflict_id]))
             if pair not in seen_conflicts:
                 seen_conflicts.add(pair)
                 lines.append(f"{conflict_num}. {s['id']} \u2194 {conflict_id}: Check for incompatibility")
                 conflict_num += 1
-    # Add the standard hardcoded conflicts that aren't per-strategy
+    # Add the standard hardcoded conflicts that aren't per-loophole
     lines.append(f"{conflict_num}. Multiple 401(k) deferrals: $23,500 limit is per person across all plans")
     conflict_num += 1
     lines.append(f"{conflict_num}. DED_SEC179: Cannot create net loss; DED_BONUS_DEPR can")
@@ -191,7 +191,7 @@ def build_prompt_sections(strategies: list[dict], optimization_mode: str = "forw
         available = []
         deadline_passed = []
         depends = []
-        for s in strategies:
+        for s in loopholes:
             act = s.get("actionability", {})
             status = act.get("retroactive_status", "available")
             note = act.get("retroactive_note", "")
@@ -207,7 +207,7 @@ def build_prompt_sections(strategies: list[dict], optimization_mode: str = "forw
             lines.extend(available)
             lines.append("")
         if deadline_passed:
-            lines.append("### DEADLINE PASSED \u2014 DO NOT PROPOSE in retroactive mode")
+            lines.append("### DEADLINE PASSED — DO NOT PROPOSE in retroactive mode")
             lines.extend(deadline_passed)
             lines.append("")
         if depends:
@@ -216,14 +216,14 @@ def build_prompt_sections(strategies: list[dict], optimization_mode: str = "forw
             lines.append("")
 
     # === PARAMETER REFERENCE ===
-    lines.append("## STRATEGY PARAMETER REFERENCE\n")
-    lines.append("Entity-specific strategies MUST include an `\"entity\"` field matching the entity name.\n")
+    lines.append("## LOOPHOLE PARAMETER REFERENCE\n")
+    lines.append("Entity-specific loopholes MUST include an `\"entity\"` field matching the entity name.\n")
 
     # Personal-level
-    personal = [s for s in strategies if not s.get("entity_specific", False)]
-    entity_strats = [s for s in strategies if s.get("entity_specific", False)]
+    personal = [s for s in loopholes if not s.get("entity_specific", False)]
+    entity_strats = [s for s in loopholes if s.get("entity_specific", False)]
 
-    lines.append("### Personal-Level Strategies (no entity field needed)\n")
+    lines.append("### Personal-Level Loopholes (no entity field needed)\n")
     lines.append("| Strategy ID | Required Parameters |")
     lines.append("|-------------|-------------------|")
     for s in personal:
@@ -236,7 +236,7 @@ def build_prompt_sections(strategies: list[dict], optimization_mode: str = "forw
             lines.append(f"| {s['id']} | `{{{param_str}}}` \u2014 {desc} |")
 
     lines.append("")
-    lines.append("### Entity-Specific Strategies (MUST include `\"entity\": \"Entity Name\"`)\n")
+    lines.append("### Entity-Specific Loopholes (MUST include `\"entity\": \"Entity Name\"`)\n")
     lines.append("| Strategy ID | Entity Types | Required Parameters |")
     lines.append("|-------------|-------------|-------------------|")
     for s in entity_strats:

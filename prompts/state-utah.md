@@ -27,10 +27,10 @@ Utah does NOT have its own standard deduction. The taxpayer credit references th
 ## SALT Interaction
 - Utah income tax paid is deductible on the federal Schedule A as part of SALT (subject to the $40K/$10K cap)
 - This creates a circular calculation: higher Utah tax → higher federal SALT deduction → lower federal tax, but SALT cap limits the benefit for most filers in this product's target market
-- For the loop: when estimating total tax (federal + state), note that strategies reducing AGI reduce both federal AND Utah tax (4.55% state savings on top of federal marginal rate savings)
+- For the loop: when estimating total tax (federal + state), note that loopholes reducing AGI reduce both federal AND Utah tax (4.55% state savings on top of federal marginal rate savings)
 
-## Utah-Specific Strategies
-| ID | Strategy | Detail |
+## Utah-Specific Loopholes
+| ID | Loophole | Detail |
 |----|----------|--------|
 | UT_529 | Utah 529 Credit | 4.55% credit on contributions to Utah 529 (my529), max $2,290 single / $4,580 MFJ credit (contributions up to ~$50K single / ~$100K MFJ). Nonrefundable. |
 | UT_HOME_ENERGY | Utah Home Energy Credit | Limited credits for residential energy; check current availability |
@@ -44,6 +44,6 @@ Utah does NOT have its own standard deduction. The taxpayer credit references th
 
 ## Estimation
 - For most filers in target market (AGI >$100K): Utah tax ≈ AGI × 4.55% (taxpayer credit is fully or nearly phased out)
-- Any strategy that reduces AGI saves an additional 4.55% at the state level
+- Any loophole that reduces AGI saves an additional 4.55% at the state level
 - UT_PTET can unlock significant savings for pass-through owners hitting the federal SALT cap
 - UT_529 is a straightforward credit worth up to $4,580/year for MFJ — low-hanging fruit if not already utilized

@@ -25,7 +25,7 @@ from itertools import combinations
 from pathlib import Path
 
 from tax_calculator import compute_tax
-from strategy_registry import load_all_strategies, filter_strategies
+from loophole_registry import load_all_loopholes, filter_loopholes
 
 ROOT = Path(__file__).resolve().parent.parent
 RESULTS_DIR = ROOT / "results"
@@ -106,10 +106,10 @@ def run_scanner(profile: dict, top_n: int = 30, min_synergy: int = 100):
     baseline_tax = baseline["total_tax"]
     print(f"Baseline liability: ${baseline_tax:,}")
 
-    # Get filtered strategies
-    all_strategies = load_all_strategies()
-    filtered = filter_strategies(profile, all_strategies)
-    print(f"Strategies after filter: {len(filtered)}")
+    # Get filtered loopholes
+    all_loopholes = load_all_loopholes()
+    filtered = filter_loopholes(profile, all_loopholes)
+    print(f"Loopholes after filter: {len(filtered)}")
 
     # Build testable strategy instances
     test_strategies = build_test_strategies(filtered)

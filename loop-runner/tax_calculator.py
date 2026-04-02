@@ -447,12 +447,12 @@ def apply_strategies(profile: dict, strategies: list[dict]) -> dict:
         "strategies_applied": [],
     }
 
-    # Load strategy registry for actionability enforcement and generic handlers
+    # Load loophole registry for actionability enforcement and generic handlers
     opt_mode = profile.get("optimization_mode", "both")
     try:
-        from strategy_registry import get_strategy as _get_strat
+        from loophole_registry import get_loophole as _get_loophole
     except ImportError:
-        _get_strat = None
+        _get_loophole = None
 
     for strategy in strategies:
         sid = strategy.get("id", "")
@@ -460,8 +460,8 @@ def apply_strategies(profile: dict, strategies: list[dict]) -> dict:
         entity_name = strategy.get("entity", None)
 
         # In retroactive mode, block strategies whose deadline has passed
-        if opt_mode == "retroactive" and _get_strat:
-            reg = _get_strat(sid)
+        if opt_mode == "retroactive" and _get_loophole:
+            reg = _get_loophole(sid)
             if reg:
                 act = reg.get("actionability", {})
                 if act.get("retroactive_status") == "deadline_passed":
@@ -921,8 +921,8 @@ def apply_strategies(profile: dict, strategies: list[dict]) -> dict:
         # Only fires if the strategy has an amount parameter and is in the registry.
         else:
             amount = params.get("amount", 0) or params.get("contribution", 0) or params.get("excluded_gain", 0)
-            if amount and _get_strat:
-                reg = _get_strat(sid)
+            if amount and _get_loophole:
+                reg = _get_loophole(sid)
                 if reg and not reg.get("calculator_implemented", True):
                     cat = reg.get("category", "")
                     if sid.startswith("EXC_") or "exclusion" in (reg.get("description", "")[:100]).lower():

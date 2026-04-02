@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate a CPA-ready tax strategy report from optimizer results.
+Generate a CPA-ready tax loophole report from optimizer results.
 Outputs an HTML file styled with the Architectural Ledger design system.
 """
 
@@ -9,24 +9,24 @@ from __future__ import annotations
 import json
 from pathlib import Path
 from tax_calculator import compute_tax
-from strategy_registry import get_strategy
+from loophole_registry import get_loophole
 
 ROOT = Path(__file__).resolve().parent.parent
 RESULTS_DIR = ROOT / "results"
 
 
-def compute_marginal_savings(profile: dict, strategy_set: list[dict]) -> dict[str, int]:
+def compute_marginal_savings(profile: dict, loophole_set: list[dict]) -> dict[str, int]:
     """
     For each strategy, compute its marginal contribution by running the calculator
     with all strategies EXCEPT that one, then comparing to the full set.
     Deterministic — no LLM estimation.
     """
-    full_result = compute_tax(profile, strategy_set)
+    full_result = compute_tax(profile, loophole_set)
     full_tax = full_result["total_tax"]
 
     marginal = {}
-    for i, strat in enumerate(strategy_set):
-        without = strategy_set[:i] + strategy_set[i+1:]
+    for i, strat in enumerate(loophole_set):
+        without = loophole_set[:i] + loophole_set[i+1:]
         without_result = compute_tax(profile, without)
         marginal[f"{strat['id']}:{strat.get('entity') or ''}"] = without_result["total_tax"] - full_tax
 
@@ -36,12 +36,12 @@ def compute_marginal_savings(profile: dict, strategy_set: list[dict]) -> dict[st
 def generate_report(results_dir: Path | None = None):
     if results_dir is None:
         results_dir = RESULTS_DIR
-    with open(results_dir / "strategies.json") as f:
+    with open(results_dir / "loopholes.json") as f:
         data = json.load(f)
     with open(results_dir / "summary.json") as f:
         summary = json.load(f)
 
-    validated_strategies = data.get("final_strategies", [])
+    validated_loopholes = data.get("final_strategies", [])
     issues = data.get("issues_found", [])
     tax_calendar = data.get("tax_calendar", [])
     next_steps = data.get("next_steps", "")
@@ -49,14 +49,14 @@ def generate_report(results_dir: Path | None = None):
     s = data.get("summary", {})
 
     # Source of truth: the loop's strategy set (scored by deterministic calculator)
-    loop_strategy_set = summary.get("strategy_set", [])
+    loop_loophole_set = summary.get("loophole_set", [])
 
     # Load profile and compute marginal savings deterministically
     profile_name = summary.get("profile", "sample.json")
     profile_path = ROOT / "loop-runner" / "profiles" / profile_name
     with open(profile_path) as f:
         profile = json.load(f)
-    marginal_savings = compute_marginal_savings(profile, loop_strategy_set)
+    marginal_savings = compute_marginal_savings(profile, loop_loophole_set)
 
     # Build lookups from validation for annotations
     issues_by_id = {}
@@ -64,20 +64,20 @@ def generate_report(results_dir: Path | None = None):
         issues_by_id[issue.get("strategy_id", "")] = issue
 
     validated_by_id = {}
-    for strat in validated_strategies:
+    for strat in validated_loopholes:
         validated_by_id[strat.get("id", "")] = strat
 
     # Classify each loop strategy as confirmed or conditional
     confirmed = []
     conditional = []
-    for loop_strat in loop_strategy_set:
+    for loop_strat in loop_loophole_set:
         sid = loop_strat.get("id", "")
         if sid in issues_by_id and issues_by_id[sid].get("severity") in ("critical", "warning"):
             conditional.append(loop_strat)
         else:
             confirmed.append(loop_strat)
 
-    all_strategy_count = len(loop_strategy_set)
+    all_loophole_count = len(loop_loophole_set)
 
     baseline = summary.get("baseline_liability", 0)
     optimized = summary.get("optimized_liability", 0)
@@ -95,7 +95,7 @@ def generate_report(results_dir: Path | None = None):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OpenLoopholes.com — Tax Strategy Report</title>
+<title>OpenLoopholes.com — Tax Loophole Report</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -202,7 +202,7 @@ def generate_report(results_dir: Path | None = None):
     color: var(--secondary-container);
   }}
 
-  /* Strategies — continuous flow, separated by subtle rules */
+  /* Loopholes — continuous flow, separated by subtle rules */
   .strategy-item {{
     padding: 1.25rem 0;
     border-bottom: 1px solid var(--surface-high);
@@ -376,7 +376,7 @@ def generate_report(results_dir: Path | None = None):
 </head>
 <body>
 
-<h1>Tax Strategy Report</h1>
+<h1>Tax Loophole Report</h1>
 <p class="subtitle">{filing} &middot; Tax Year {tax_year} &middot; {mode.title()} Analysis &middot; Generated by OpenLoopholes.com</p>
 
 <div class="summary-hero">
@@ -395,16 +395,16 @@ def generate_report(results_dir: Path | None = None):
     </div>
   </div>
   <p class="summary-meta">
-    {iterations} experiments &middot; {all_strategy_count} strategies ({len(confirmed)} confirmed, {len(conditional)} conditional)
+    {iterations} experiments &middot; {all_loophole_count} loopholes ({len(confirmed)} confirmed, {len(conditional)} conditional)
   </p>
 </div>
 """
 
-    # Helper to render a strategy card
-    # Strategy metadata loaded from registry (JSON files in strategies/)
+    # Helper to render a loophole card
+    # Loophole metadata loaded from registry (JSON files in loopholes/)
     def get_fallback(sid):
-        """Get strategy metadata from the registry as fallback for validation data."""
-        s = get_strategy(sid)
+        """Get loophole metadata from the registry as fallback for validation data."""
+        s = get_loophole(sid)
         if not s:
             return {}
         return {
@@ -487,7 +487,7 @@ def generate_report(results_dir: Path | None = None):
         "SE_SCORP_ELECTION": {"name": "S-Corp Election", "description": "Elect S-Corp status to split income between salary (FICA) and distributions (no SE tax).", "irc": "IRC \u00a71362; Form 2553", "deadline": "March 15 of election year"},
     }
 
-    def render_strategy(loop_strat, counter, is_conditional=False):
+    def render_loophole(loop_strat, counter, is_conditional=False):
         sid = loop_strat.get("id", "")
         entity = loop_strat.get("entity", "")
         params = loop_strat.get("parameters", {})
@@ -561,28 +561,28 @@ def generate_report(results_dir: Path | None = None):
         card_html += '</div>\n'
         return card_html
 
-    # Confirmed Strategies
+    # Confirmed Loopholes
     if confirmed:
-        html += '<h2>Confirmed Strategies</h2>\n'
+        html += '<h2>Confirmed Loopholes</h2>\n'
         counter = 1
         for loop_strat in confirmed:
-            html += render_strategy(loop_strat, counter, is_conditional=False)
+            html += render_loophole(loop_strat, counter, is_conditional=False)
             counter += 1
     else:
         counter = 1
 
-    # Conditional Strategies
+    # Conditional Loopholes
     if conditional:
-        html += '<h2>Conditional Strategies</h2>\n'
-        html += '<p class="section-desc">These strategies were confirmed by the calculator to reduce your liability, but require eligibility changes or additional action to implement.</p>\n'
+        html += '<h2>Conditional Loopholes</h2>\n'
+        html += '<p class="section-desc">These loopholes were confirmed by the calculator to reduce your liability, but require eligibility changes or additional action to implement.</p>\n'
         for loop_strat in conditional:
-            html += render_strategy(loop_strat, counter, is_conditional=True)
+            html += render_loophole(loop_strat, counter, is_conditional=True)
             counter += 1
 
     # Tax Calendar
     if tax_calendar:
         html += '<h2>Tax Calendar</h2>\n'
-        html += '<table class="data-table">\n  <tr><th>Date</th><th>Action</th><th>Strategy</th></tr>\n'
+        html += '<table class="data-table">\n  <tr><th>Date</th><th>Action</th><th>Loophole</th></tr>\n'
         for item in sorted(tax_calendar, key=lambda x: x.get("date", "")):
             html += f'  <tr><td>{item.get("date", "")}</td><td>{item.get("action", "")}</td><td>{item.get("strategy_id", "")}</td></tr>\n'
         html += '</table>\n'
@@ -612,7 +612,7 @@ def generate_report(results_dir: Path | None = None):
     html += f'<div class="disclaimer">{disclaimer}</div>\n'
     html += '</body>\n</html>'
 
-    output_path = results_dir / "tax_strategy_report.html"
+    output_path = results_dir / "tax_loophole_report.html"
     with open(output_path, "w") as f:
         f.write(html)
     print(f"Report saved: {output_path}")

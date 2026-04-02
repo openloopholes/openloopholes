@@ -4,7 +4,7 @@
   "skills": [
     {
       "name": "optimize_taxes",
-      "description": "Run the tax optimization loop on a profile. Finds strategies to reduce tax liability.",
+      "description": "Run the tax optimization loop on a profile. Finds loopholes to reduce tax liability.",
       "command": "cd loop-runner && python3 run.py --profile profiles/{profile_name} --iterations {iterations}",
       "parameters": {
         "profile_name": "Name of profile JSON file (e.g., sample.json)",
@@ -23,16 +23,16 @@
     },
     {
       "name": "find_loopholes",
-      "description": "Find strategy combinations that produce synergistic savings.",
+      "description": "Find loophole combinations that produce synergistic savings.",
       "command": "cd loop-runner && python3 find_loopholes.py --profile profiles/{profile_name}",
       "parameters": {
         "profile_name": "Name of profile JSON file"
       }
     },
     {
-      "name": "discover_strategies",
-      "description": "Scan IRC sections for new tax strategies not yet in the registry.",
-      "command": "cd loop-runner && python3 discover_strategies.py --subtitle {subtitle}",
+      "name": "discover_loopholes",
+      "description": "Scan IRC sections for new tax loopholes not yet in the registry.",
+      "command": "cd loop-runner && python3 discover_loopholes.py --subtitle {subtitle}",
       "parameters": {
         "subtitle": "IRC subtitle to scan (A, B, C, ... or --all)"
       }

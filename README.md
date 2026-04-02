@@ -1,22 +1,22 @@
 # OpenLoopholes.com
 
-We fed the entire US tax code to an AI. It found 1,454 legal tax strategies the IRS hopes you never notice.
+We fed the entire US tax code to an AI. It found 1,454 legal tax loopholes the IRS hopes you never notice.
 
 > **Status: Beta** — This is an early release. Strategies, calculator accuracy, and state coverage are actively improving. Expect rough edges. Contributions welcome.
 
-> **Disclaimer:** This is educational software, not tax advice. Every strategy must be verified by a qualified CPA or tax attorney before implementation. You are solely responsible for your tax filings. See [LICENSE](LICENSE) for full terms.
+> **Disclaimer:** This is educational software, not tax advice. Every loophole must be verified by a qualified CPA or tax attorney before implementation. You are solely responsible for your tax filings. See [LICENSE](LICENSE) for full terms.
 
 ## 100% Legal. Zero Evasion.
 
-Every strategy in this project is grounded in the Internal Revenue Code as written. We find deductions, credits, exclusions, deferrals, and elections that are **explicitly permitted by law** — including provisions that Congress may not have intended to interact the way they do, but that are fully legal as written.
+Every loophole in this project is grounded in the Internal Revenue Code as written. We find deductions, credits, exclusions, deferrals, and elections that are **explicitly permitted by law** — including provisions that Congress may not have intended to interact the way they do, but that are fully legal as written.
 
-This project will **never** support tax evasion, unreported income, fraudulent deductions, or any strategy that relies on hiding information from the IRS. If a strategy isn't defensible in Tax Court with a straight face, it doesn't belong here.
+This project will **never** support tax evasion, unreported income, fraudulent deductions, or any loophole that relies on hiding information from the IRS. If a loophole isn't defensible in Tax Court with a straight face, it doesn't belong here.
 
 **Read the [Manifesto](MANIFESTO.md)** — why this project exists and what we're fighting for.
 
 ## What This Is
 
-An open source tax optimization engine that finds legal tax savings for anyone — W-2 employees, small business owners, investors, retirees. We parsed all 4 million words of the Internal Revenue Code (2,160 IRC sections) and built an AI discovery engine that identified **1,454 legal tax strategies**. An LLM proposes strategy changes; a deterministic calculator scores them. The system keeps improvements and discards regressions — the same hill-climbing approach as [Karpathy's autoresearch](https://github.com/karpathy/autoresearch), but applied to tax law.
+An open source tax optimization engine that finds legal tax savings for anyone — W-2 employees, small business owners, investors, retirees. We parsed all 4 million words of the Internal Revenue Code (2,160 IRC sections) and built an AI discovery engine that identified **1,454 legal tax loopholes**. An LLM proposes loophole changes; a deterministic calculator scores them. The system keeps improvements and discards regressions — the same hill-climbing approach as [Karpathy's autoresearch](https://github.com/karpathy/autoresearch), but applied to tax law.
 
 **Tax Year 2025** — reflects the One Big Beautiful Bill Act (signed July 4, 2025).
 
@@ -46,12 +46,12 @@ python3 generate_report.py
 ## Architecture
 
 ```
-                    Strategy Registry (1,454 JSON files)
+                    Loophole Registry (1,454 JSON files)
                          |  pre-filter by profile + state
                          v
 LLM (configurable)          Python Tax Calculator
         proposes                      scores
-   strategy changes    ──────>    computes liability
+   loophole changes    ──────>    computes liability
                        <──────    keep or discard
 ```
 
@@ -64,15 +64,15 @@ loop-runner/
   run.py                 # Main optimization loop
   tax_calculator.py      # Deterministic tax calculator (the eval harness)
   ai_provider.py         # AI provider abstraction (OpenRouter, Anthropic, OpenClaw)
-  strategy_registry.py   # Strategy loader, filter, and prompt builder
+  loophole_registry.py   # Loophole loader, filter, and prompt builder
   chart.py               # Staircase chart generator (PNG + interactive HTML)
   generate_report.py     # CPA-ready HTML report generator
-  find_loopholes.py      # Combination scanner — finds strategy stacking synergies
-  discover_strategies.py # Strategy discovery engine (scans IRC for new strategies)
+  find_loopholes.py      # Combination scanner — finds loophole stacking synergies
+  discover_loopholes.py # Loophole discovery engine (scans IRC for new loopholes)
   parse_return.py        # PDF tax return parser (prototype)
   parse_tax_code.py      # IRC Title 26 XML parser
-  strategies/            # Strategy registry (one JSON file per strategy)
-    ...                  # 1,454 strategy files (71 hand-built + 1,383 AI-discovered)
+  loopholes/            # Loophole registry (one JSON file per loophole)
+    ...                  # 1,454 loophole files (71 hand-built + 1,383 AI-discovered)
   tax_code/              # Parsed IRC Title 26 (included — public government data)
     raw/                 # Downloaded XML from uscode.house.gov
     sections/            # One text file per IRC section (~2,160 files)
@@ -83,7 +83,7 @@ loop-runner/
   requirements.txt       # Python dependencies
 
 prompts/
-  iteration-loop-system-prompt.md    # Prompt template (static parts, strategies injected at runtime)
+  iteration-loop-system-prompt.md    # Prompt template (static parts, loopholes injected at runtime)
   final-validation-system-prompt.md  # Final validation prompt (appended with state rules)
   state-utah.md                      # Utah state tax rules (appended to validation prompt)
 
@@ -116,7 +116,7 @@ export ANTHROPIC_API_KEY=your_key
 # Optional: override models
 export LOOP_MODEL=google/gemini-3.1-flash-lite-preview      # iteration loop
 export VALIDATION_MODEL=google/gemini-3-flash-preview        # final validation
-export DISCOVERY_MODEL=google/gemini-3-flash-preview          # strategy discovery
+export DISCOVERY_MODEL=google/gemini-3-flash-preview          # loophole discovery
 ```
 
 Auto-detection: if `AI_PROVIDER` is not set, the system checks for available API keys in order: OpenRouter, Anthropic, OpenClaw.
@@ -125,7 +125,7 @@ Auto-detection: if `AI_PROVIDER` is not set, the system checks for available API
 
 **Run time:** A typical 200-iteration optimization takes 2-10 minutes depending on your model. The loop makes many small LLM calls, so faster models (Gemini Flash-Lite, Haiku) complete significantly quicker than larger models (Sonnet, Opus, GPT-4). The deterministic calculator and loophole finder run instantly — no LLM needed.
 
-**Model considerations:** Different models produce different results — this is expected. The deterministic calculator is the scoring safeguard: no model can hallucinate savings, because every strategy is scored by the same math. However, the final validation step (eligibility checks, legal risk flags, action steps) is only as good as the model running it. Stronger models catch more issues; weaker models may miss eligibility problems or produce less detailed action steps. **Regardless of which model you use, always have a qualified CPA or tax attorney review the final report before acting on any strategy.**
+**Model considerations:** Different models produce different results — this is expected. The deterministic calculator is the scoring safeguard: no model can hallucinate savings, because every loophole is scored by the same math. However, the final validation step (eligibility checks, legal risk flags, action steps) is only as good as the model running it. Stronger models catch more issues; weaker models may miss eligibility problems or produce less detailed action steps. **Regardless of which model you use, always have a qualified CPA or tax attorney review the final report before acting on any loophole.**
 
 ## Creating Your Profile
 
@@ -164,14 +164,14 @@ If using Claude Code or OpenClaw, ask it to build your profile conversationally:
 ```bash
 python3 run.py --profile profiles/sample.json --iterations 200
 ```
-The LLM proposes one strategy change per iteration. The deterministic calculator scores it. Keep improvements, discard regressions. Converges automatically after 20 consecutive discards.
+The LLM proposes one loophole change per iteration. The deterministic calculator scores it. Keep improvements, discard regressions. Converges automatically after 20 consecutive discards.
 
-After the loop converges, a **final validation call** sends the winning strategy set to a stronger LLM model for rigorous review: eligibility verification, conflict detection, legal risk assessment, and action steps for each strategy. The validation flags issues (e.g., "HSA requires HDHP enrollment") and produces the data for the CPA-ready report.
+After the loop converges, a **final validation call** sends the winning loophole set to a stronger LLM model for rigorous review: eligibility verification, conflict detection, legal risk assessment, and action steps for each loophole. The validation flags issues (e.g., "HSA requires HDHP enrollment") and produces the data for the CPA-ready report.
 
-### 2. Strategy Registry
-Each strategy is a JSON file in `strategies/`. At runtime, strategies are filtered to those relevant to the user's profile and state, then assembled into the LLM prompt.
+### 2. Loophole Registry
+Each loophole is a JSON file in `loopholes/`. At runtime, loopholes are filtered to those relevant to the user's profile and state, then assembled into the LLM prompt.
 
-Adding a new strategy = adding one JSON file. See `CLAUDE.md` for the schema.
+Adding a new loophole = adding one JSON file. See `CLAUDE.md` for the schema.
 
 ### 3. Tax Code Ingestion
 The full IRC (Title 26) is included in the repo — 2,160 sections, 4,054,967 words. No download needed.
@@ -181,17 +181,17 @@ To refresh with newer legislation:
 python3 parse_tax_code.py --download
 ```
 
-### 4. Strategy Discovery
+### 4. Loophole Discovery
 ```bash
-python3 discover_strategies.py --all
+python3 discover_loopholes.py --all
 ```
-Scans IRC sections with an LLM to find deductions, credits, exclusions, and exemptions not yet in the registry. Deduplicates against existing strategies.
+Scans IRC sections with an LLM to find deductions, credits, exclusions, and exemptions not yet in the registry. Deduplicates against existing loopholes.
 
 ### 5. Loophole Finder
 ```bash
 python3 find_loopholes.py --profile profiles/sample.json
 ```
-Tests pairs of strategies to find synergies — combinations where the combined savings exceed the sum of individual savings. Purely deterministic (no LLM calls).
+Tests pairs of loopholes to find synergies — combinations where the combined savings exceed the sum of individual savings. Purely deterministic (no LLM calls).
 
 ### 6. Report Generation
 ```bash
@@ -201,13 +201,13 @@ python3 generate_report.py    # CPA-ready HTML report
 
 ## Optimization Modes
 
-- **retroactive** — only proposes strategies still actionable before the filing deadline. The calculator enforces deadlines as the gatekeeper.
-- **forward** — all strategies available for the next tax year
+- **retroactive** — only proposes loopholes still actionable before the filing deadline. The calculator enforces deadlines as the gatekeeper.
+- **forward** — all loopholes available for the next tax year
 - **both** — shows retroactive + forward, labeled by actionability
 
-## Strategy Coverage
+## Loophole Coverage
 
-| Category | Strategies | Calculator Handlers |
+| Category | Loopholes | Calculator Handlers |
 |----------|-----------|-------------------|
 | Deductions & Exclusions | 932 | 24 + generic |
 | Timing & Deferrals | 137 | 8 + generic |
@@ -221,7 +221,7 @@ python3 generate_report.py    # CPA-ready HTML report
 | OBBB | 3 | 3 |
 | Other | 218 | generic |
 
-71 strategies have dedicated calculator handlers. The remaining 1,383 use generic pattern-based handlers (exclusion → reduce income, credit → reduce tax, deferral → defer gains, deduction → reduce AGI).
+71 loopholes have dedicated calculator handlers. The remaining 1,383 use generic pattern-based handlers (exclusion → reduce income, credit → reduce tax, deferral → defer gains, deduction → reduce AGI).
 
 ## Using with Claude Code
 
@@ -229,38 +229,38 @@ See `CLAUDE.md` for setup instructions and common commands.
 
 ## Using with OpenClaw
 
-See `openclaw.config.json` for skill definitions. OpenClaw auto-detects the project and provides skills for optimization, chart generation, report generation, and strategy discovery.
+See `openclaw.config.json` for skill definitions. OpenClaw auto-detects the project and provides skills for optimization, chart generation, report generation, and loophole discovery.
 
 ## Contributing
 
-### Add a Strategy
-1. Create a JSON file in `loop-runner/strategies/`
+### Add a Loophole
+1. Create a JSON file in `loop-runner/loopholes/`
 2. (Optional) Add a calculator handler in `tax_calculator.py` for precise scoring
-3. The strategy automatically appears in prompts for matching profiles
+3. The loophole automatically appears in prompts for matching profiles
 
 ### Add a State
-Create strategy files with `"jurisdiction": "state:XX"` for state-specific strategies (PTET elections, state credits, etc.). They automatically appear for users in that state.
+Create loophole files with `"jurisdiction": "state:XX"` for state-specific loopholes (PTET elections, state credits, etc.). They automatically appear for users in that state.
 
 ### Improve the Calculator
-The calculator in `tax_calculator.py` is the eval harness. Add handlers for discovered strategies to improve scoring accuracy. The generic handlers work but dedicated handlers are more precise.
+The calculator in `tax_calculator.py` is the eval harness. Add handlers for discovered loopholes to improve scoring accuracy. The generic handlers work but dedicated handlers are more precise.
 
 ## What We Tried That Didn't Work
 
 ### LLM-as-estimator (v1)
-The first version had the LLM both propose strategies AND estimate the resulting tax liability. The LLM hallucinated negative tax liability (-$169,820) and gamed its own metric. Fix: Karpathy's pattern — immutable external eval harness.
+The first version had the LLM both propose loopholes AND estimate the resulting tax liability. The LLM hallucinated negative tax liability (-$169,820) and gamed its own metric. Fix: Karpathy's pattern — immutable external eval harness.
 
 ### LLM Ignoring Deadlines
-The prompt told the LLM not to propose expired strategies, but it did anyway. Fix: the calculator enforces actionability as the gatekeeper. Expired strategies have no effect regardless of what the LLM proposes.
+The prompt told the LLM not to propose expired loopholes, but it did anyway. Fix: the calculator enforces actionability as the gatekeeper. Expired loopholes have no effect regardless of what the LLM proposes.
 
 ### LLM Estimating Per-Strategy Savings
-The validation LLM estimated per-strategy savings that didn't add up. Fix: marginal savings computed deterministically by running the calculator with and without each strategy.
+The validation LLM estimated per-loophole savings that didn't add up. Fix: marginal savings computed deterministically by running the calculator with and without each loophole.
 
 ## Which Commands Need an API Key?
 
 | Command | API Key Required? |
 |---------|------------------|
-| `run.py` | Yes — LLM proposes strategies |
-| `discover_strategies.py` | Yes — LLM scans IRC sections |
+| `run.py` | Yes — LLM proposes loopholes |
+| `discover_loopholes.py` | Yes — LLM scans IRC sections |
 | `parse_return.py` | Yes — LLM extracts profile from PDF |
 | `chart.py` | No — reads results locally |
 | `generate_report.py` | No — reads results locally |
@@ -272,10 +272,10 @@ The validation LLM estimated per-strategy savings that didn't add up. Fix: margi
 
 ## Current Limitations
 
-- **State coverage**: Only Utah state strategies are implemented. Federal strategies work for all US taxpayers, but state-specific strategies (PTET elections, state credits, state deductions) are only available for Utah. Adding a state = adding strategy JSON files with `"jurisdiction": "state:XX"`.
-- **Tax code corpus**: We have the IRC (Title 26) — the statutory law. We do NOT yet have Treasury Regulations (26 CFR), Revenue Rulings, Private Letter Rulings, or Tax Court opinions. The IRC is ~20% of what matters for discovering novel strategies.
-- **Discovery approach**: The current discovery engine scans IRC sections individually. It finds strategies within a single section but does not systematically search for cross-section interactions — which is where the most novel loopholes live.
-- **Calculator precision**: 71 strategies have dedicated calculator handlers. The remaining 1,383 use generic pattern-based handlers that approximate the tax effect by category (exclusion, deduction, credit, deferral). Dedicated handlers are more accurate.
+- **State coverage**: Only Utah state loopholes are implemented. Federal loopholes work for all US taxpayers, but state-specific loopholes (PTET elections, state credits, state deductions) are only available for Utah. Adding a state = adding loophole JSON files with `"jurisdiction": "state:XX"`.
+- **Tax code corpus**: We have the IRC (Title 26) — the statutory law. We do NOT yet have Treasury Regulations (26 CFR), Revenue Rulings, Private Letter Rulings, or Tax Court opinions. The IRC is ~20% of what matters for discovering novel loopholes.
+- **Discovery approach**: The current discovery engine scans IRC sections individually. It finds loopholes within a single section but does not systematically search for cross-section interactions — which is where the most novel loopholes live.
+- **Calculator precision**: 71 loopholes have dedicated calculator handlers. The remaining 1,383 use generic pattern-based handlers that approximate the tax effect by category (exclusion, deduction, credit, deferral). Dedicated handlers are more accurate.
 - **PDF parsing**: The tax return parser is a prototype. Complex multi-page returns with many K-1s may have extraction errors. Always verify the output profile against your actual return.
 
 ## Roadmap
@@ -292,14 +292,14 @@ The real loopholes emerge from interactions between IRC sections, not from readi
 
 1. **Knowledge graph** — build a graph where nodes are IRC sections and edges are cross-references. The IRC constantly references itself ("as described in section 179(d)(1)..."). These are explicit graph edges.
 2. **Interaction discovery loop** — for each pair of cross-referenced sections, ask: "Does the interaction between Section X and Section Y create any tax benefit that would not exist from either section alone?"
-3. **Validation against authority** — check candidate strategies against Treasury Regs, Revenue Rulings, and Tax Court cases. The absence of authority closing a gap is the signal that a novel strategy exists.
+3. **Validation against authority** — check candidate loopholes against Treasury Regs, Revenue Rulings, and Tax Court cases. The absence of authority closing a gap is the signal that a novel loophole exists.
 4. **Continuous learning** — as new legislation passes, new regulations are issued, or new court opinions drop, the system re-runs discovery across affected sections.
 
 ### All 50 States
-Add state-specific strategy files for all 50 states. Each state has its own PTET rules, credits, deductions, and rate structures. Priority: CA, TX, NY, FL (covers ~40% of filers).
+Add state-specific loophole files for all 50 states. Each state has its own PTET rules, credits, deductions, and rate structures. Priority: CA, TX, NY, FL (covers ~40% of filers).
 
 ### Dedicated Calculator Handlers
-Add precise calculator handlers for the highest-impact discovered strategies, replacing the generic pattern-based approximations.
+Add precise calculator handlers for the highest-impact discovered loopholes, replacing the generic pattern-based approximations.
 
 ## License
 
@@ -307,11 +307,11 @@ MIT — see [LICENSE](LICENSE) for full terms including tax disclaimer.
 
 ## Disclaimer
 
-This software provides **educational information only** about tax strategies based on the Internal Revenue Code. It does **not** constitute tax, legal, or accounting advice.
+This software provides **educational information only** about tax loopholes based on the Internal Revenue Code. It does **not** constitute tax, legal, or accounting advice.
 
-- Every strategy must be verified by a qualified CPA, Enrolled Agent, or tax attorney
+- Every loophole must be verified by a qualified CPA, Enrolled Agent, or tax attorney
 - Tax law is complex, changes frequently, and varies by individual circumstances
-- Strategies identified by this software may not apply to your specific situation
+- Loopholes identified by this software may not apply to your specific situation
 - You are solely responsible for your tax filings and any decisions made based on this software
 
 The authors and contributors of OpenLoopholes accept no liability for any tax penalties, interest, or other consequences arising from the use of this software.

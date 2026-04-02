@@ -49,7 +49,7 @@ def build_staircase_data(experiments: list[dict], baseline: int) -> list[tuple[i
 def generate_png(
     staircase_data: list[tuple[int, int]],
     total_iterations: int,
-    strategy_count: int,
+    loophole_count: int,
     total_savings: int,
     output_path: Path,
 ):
@@ -103,7 +103,7 @@ def generate_png(
 
     # Title
     savings_str = f"${total_savings:,}"
-    title = f"{total_iterations} experiments  ·  {strategy_count} strategies  ·  {savings_str} saved"
+    title = f"{total_iterations} experiments  ·  {loophole_count} loopholes  ·  {savings_str} saved"
     ax.set_title(title, color=text_color, fontsize=16, fontweight="bold", pad=20,
                  fontfamily="sans-serif")
 
@@ -154,7 +154,7 @@ def generate_png(
 def generate_html(
     staircase_data: list[tuple[int, int]],
     total_iterations: int,
-    strategy_count: int,
+    loophole_count: int,
     total_savings: int,
     baseline: int,
     output_path: Path,
@@ -187,7 +187,7 @@ def generate_html(
     y_axis_min = max(0, (y_min // nice_step - 1) * nice_step)
     y_axis_max = ((y_max // nice_step) + 2) * nice_step
     savings_str = f"${total_savings:,}"
-    title = f"{total_iterations} experiments · {strategy_count} strategies · {savings_str} saved"
+    title = f"{total_iterations} experiments · {loophole_count} loopholes · {savings_str} saved"
 
     html = f"""<!DOCTYPE html>
 <html lang="en">
@@ -338,7 +338,7 @@ def main():
 
     baseline = summary["baseline_liability"]
     total_iterations = summary["iterations_completed"]
-    strategy_count = summary["strategy_count"]
+    loophole_count = summary["loophole_count"]
     total_savings = summary["total_savings"]
 
     staircase_data = build_staircase_data(experiments, baseline)
@@ -347,12 +347,12 @@ def main():
     print(f"  Data points: {len(staircase_data)} (baseline + {len(staircase_data) - 1} improvements)")
 
     generate_png(
-        staircase_data, total_iterations, strategy_count, total_savings,
+        staircase_data, total_iterations, loophole_count, total_savings,
         RESULTS_DIR / "staircase.png",
     )
 
     generate_html(
-        staircase_data, total_iterations, strategy_count, total_savings, baseline,
+        staircase_data, total_iterations, loophole_count, total_savings, baseline,
         RESULTS_DIR / "staircase.html",
     )
 
