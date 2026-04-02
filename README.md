@@ -28,6 +28,9 @@ export OPENROUTER_API_KEY=your_key    # OpenRouter (cheapest, ~$0.25/run)
 # export ANTHROPIC_API_KEY=your_key   # Anthropic (Claude)
 # Or start OpenClaw                   # OpenClaw (local)
 
+# Windows (cmd):    set OPENROUTER_API_KEY=your_key
+# Windows (PS):     $env:OPENROUTER_API_KEY="your_key"
+
 # Run optimizer on the sample profile
 python3 run.py --profile profiles/sample.json --iterations 50
 
@@ -113,6 +116,8 @@ export DISCOVERY_MODEL=google/gemini-3-flash-preview          # strategy discove
 ```
 
 Auto-detection: if `AI_PROVIDER` is not set, the system checks for available API keys in order: OpenRouter, Anthropic, OpenClaw.
+
+> **Windows users:** Replace `export` with `set` (cmd) or `$env:VAR="value"` (PowerShell) for all environment variable commands.
 
 ## Creating Your Profile
 
