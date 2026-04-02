@@ -101,7 +101,9 @@ export OPENROUTER_API_KEY=your_key
 export ANTHROPIC_API_KEY=your_key
 
 # Option 3: OpenClaw (uses your local gateway + configured model)
-# Just start OpenClaw — auto-detected. Set OPENCLAW_API_KEY if your gateway requires auth.
+# First, enable chat completions in your OpenClaw config:
+#   "gateway": { "http": { "endpoints": { "chatCompletions": { "enabled": true } } } }
+# Then set your bearer token:
 # export OPENCLAW_API_KEY=your_bearer_token
 
 # Optional: override models
