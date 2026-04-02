@@ -24,7 +24,7 @@ from typing import Optional
 
 from tax_calculator import compute_tax
 from strategy_registry import load_all_strategies, filter_strategies, build_prompt_sections
-from ai_provider import call_llm, get_loop_model, get_validation_model, get_provider_name
+from ai_provider import call_llm, get_loop_model, get_validation_model, get_provider_name, log
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -167,7 +167,7 @@ Validate this strategy set and produce the final consumer-facing output."""
             data = data[0] if data else {}
         return data
     except json.JSONDecodeError:
-        print("ERROR: Failed to parse validation response")
+        log.error("Failed to parse validation response")
         return None
 
 
@@ -188,35 +188,35 @@ def main():
 
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
-    print("=" * 60)
-    print("OpenLoopholes.com — Autoresearch Loop Runner")
-    print("=" * 60)
-    print(f"Profile: {profile_path.name}")
-    print(f"Filing status: {profile['filing_status']}")
-    print(f"Entities: {len(profile.get('entities', []))}")
+    log.info("=" * 60)
+    log.info("OpenLoopholes.com — Autoresearch Loop Runner")
+    log.info("=" * 60)
+    log.info(f"Profile: {profile_path.name}")
+    log.info(f"Filing status: {profile['filing_status']}")
+    log.info(f"Entities: {len(profile.get('entities', []))}")
     for e in profile.get("entities", []):
-        print(f"  - {e['name']} ({e['type']})")
-    print(f"W-2s: {len(profile.get('w2_income', []))}")
-    print(f"Max iterations: {max_iterations}")
-    print(f"AI provider: {provider}")
-    print(f"Loop model: {get_loop_model()}")
-    print(f"Validation model: {get_validation_model()}")
-    print(f"Scorer: deterministic tax calculator")
-    print(f"Mode: {profile.get('optimization_mode', 'both')}")
-    print(f"Current date: {profile.get('current_date', datetime.date.today().isoformat())}")
-    print("=" * 60)
+        log.info(f"  - {e['name']} ({e['type']})")
+    log.info(f"W-2s: {len(profile.get('w2_income', []))}")
+    log.info(f"Max iterations: {max_iterations}")
+    log.info(f"AI provider: {provider}")
+    log.info(f"Loop model: {get_loop_model()}")
+    log.info(f"Validation model: {get_validation_model()}")
+    log.info(f"Scorer: deterministic tax calculator")
+    log.info(f"Mode: {profile.get('optimization_mode', 'both')}")
+    log.info(f"Current date: {profile.get('current_date', datetime.date.today().isoformat())}")
+    log.info("=" * 60)
 
     # --- Step 1: Baseline (deterministic — no LLM call) ---
-    print("\n[STEP 1] Computing baseline tax liability (deterministic)...")
+    log.info("\n[STEP 1] Computing baseline tax liability (deterministic)...")
     start_time = time.time()
     baseline_result = compute_tax(profile, [])
     baseline_liability = baseline_result["total_tax"]
-    print(f"  Baseline liability: ${baseline_liability:,}")
-    print(f"  Federal: ${baseline_result['federal_tax']:,} | State: ${baseline_result['state_tax']:,}")
-    print(f"  Breakdown: income_tax=${baseline_result['breakdown']['income_tax']:,}, "
-          f"se_tax=${baseline_result['breakdown']['se_tax']:,}, "
-          f"niit=${baseline_result['breakdown']['niit']:,}, "
-          f"credits=${baseline_result['breakdown']['total_credits']:,}")
+    log.info(f"  Baseline liability: ${baseline_liability:,}")
+    log.info(f"  Federal: ${baseline_result['federal_tax']:,} | State: ${baseline_result['state_tax']:,}")
+    log.info(f"  Breakdown: income_tax=${baseline_result['breakdown']['income_tax']:,}, "
+             f"se_tax=${baseline_result['breakdown']['se_tax']:,}, "
+             f"niit=${baseline_result['breakdown']['niit']:,}, "
+             f"credits=${baseline_result['breakdown']['total_credits']:,}")
 
     best_liability = baseline_liability
     best_strategy_set: list[dict] = []
@@ -225,9 +225,9 @@ def main():
     keeps = 0
 
     # --- Step 2: Iteration Loop ---
-    print(f"\n[STEP 2] Running optimization loop ({max_iterations} iterations)...\n")
-    print(f"{'Iter':>5} | {'Action':<8} | {'Strategy':<30} | {'Result':<8} | {'Liability':>12} | {'Savings':>12}")
-    print("-" * 95)
+    log.info(f"\n[STEP 2] Running optimization loop ({max_iterations} iterations)...\n")
+    log.info(f"{'Iter':>5} | {'Action':<8} | {'Strategy':<30} | {'Result':<8} | {'Liability':>12} | {'Savings':>12}")
+    log.info("-" * 95)
 
     for i in range(1, max_iterations + 1):
         # LLM proposes a change
@@ -239,7 +239,7 @@ def main():
             )
         except Exception as e:
             consecutive_api_failures += 1
-            print(f"  {i:>5} | {'ERROR':<8} | API failure: {e}")
+            log.info(f"  {i:>5} | {'ERROR':<8} | API failure: {e}")
             experiments.append({
                 "iteration": i,
                 "action": "error",
@@ -251,7 +251,7 @@ def main():
                 "improvement": 0,
             })
             if consecutive_api_failures >= CONSECUTIVE_FAILURE_THRESHOLD:
-                print(f"  {CONSECUTIVE_FAILURE_THRESHOLD}+ consecutive API failures. Waiting {CONSECUTIVE_FAILURE_WAIT}s...")
+                log.info(f"  {CONSECUTIVE_FAILURE_THRESHOLD}+ consecutive API failures. Waiting {CONSECUTIVE_FAILURE_WAIT}s...")
                 time.sleep(CONSECUTIVE_FAILURE_WAIT)
                 consecutive_api_failures = 0
             continue
@@ -270,7 +270,7 @@ def main():
                 "rejection_reason": "invalid_response",
                 "improvement": 0,
             })
-            print(f"  {i:>5} | {'ERROR':<8} | {'JSON parse failure':<30} | {'reject':<8} | {'':>12} | {'':>12}")
+            log.info(f"  {i:>5} | {'ERROR':<8} | {'JSON parse failure':<30} | {'reject':<8} | {'':>12} | {'':>12}")
             continue
 
         # Extract the proposed strategy set
@@ -297,7 +297,7 @@ def main():
                 "rejection_reason": "calculator_error",
                 "improvement": 0,
             })
-            print(f"  {i:>5} | {action:<8} | {strategy_id[:30]:<30} | {'reject':<8} | {'calc err':>12} | {'':>12}")
+            log.info(f"  {i:>5} | {action:<8} | {strategy_id[:30]:<30} | {'reject':<8} | {'calc err':>12} | {'':>12}")
             continue
 
         # Compare — based on calculator output, not LLM estimate
@@ -332,7 +332,7 @@ def main():
         savings_str = f"${baseline_liability - best_liability:,}" if result == "keep" else ""
         entity_tag = f" ({entity_name})" if entity_name else ""
         strategy_display = (strategy_id + entity_tag)[:30]
-        print(f"  {i:>5} | {action:<8} | {strategy_display:<30} | {result:<8} | {liability_str:>12} | {savings_str:>12}")
+        log.info(f"  {i:>5} | {action:<8} | {strategy_display:<30} | {result:<8} | {liability_str:>12} | {savings_str:>12}")
 
         # Convergence check — fixed window of 20 consecutive discards
         lookback = 20
@@ -340,29 +340,29 @@ def main():
             recent = experiments[-lookback:]
             recent_keeps = sum(1 for e in recent if e["result"] == "keep")
             if recent_keeps == 0:
-                print(f"\n  Converged: {lookback} iterations with no improvements. Stopping early.")
+                log.info(f"\n  Converged: {lookback} iterations with no improvements. Stopping early.")
                 break
 
     loop_time = time.time() - start_time
     iterations_completed = len(experiments)
     total_savings = baseline_liability - best_liability
 
-    print("-" * 95)
-    print(f"\nLoop complete: {iterations_completed} iterations, {keeps} improvements, ${total_savings:,} total savings")
-    print(f"Time: {loop_time:.1f}s")
+    log.info("-" * 95)
+    log.info(f"\nLoop complete: {iterations_completed} iterations, {keeps} improvements, ${total_savings:,} total savings")
+    log.info(f"Time: {loop_time:.1f}s")
 
     # Print final breakdown
     final_result = compute_tax(profile, best_strategy_set)
-    print(f"\nFinal breakdown:")
-    print(f"  Federal: ${final_result['federal_tax']:,} | State: ${final_result['state_tax']:,}")
+    log.info(f"\nFinal breakdown:")
+    log.info(f"  Federal: ${final_result['federal_tax']:,} | State: ${final_result['state_tax']:,}")
     bd = final_result["breakdown"]
-    print(f"  AGI: ${bd['agi']:,} | Taxable: ${bd['taxable_income']:,}")
-    print(f"  Income tax: ${bd['income_tax']:,} | SE tax: ${bd['se_tax']:,} | NIIT: ${bd['niit']:,}")
-    print(f"  Credits: ${bd['total_credits']:,} | QBI deduction: ${bd['qbi_deduction']:,}")
-    print(f"  Strategies: {bd['strategies_applied']}")
+    log.info(f"  AGI: ${bd['agi']:,} | Taxable: ${bd['taxable_income']:,}")
+    log.info(f"  Income tax: ${bd['income_tax']:,} | SE tax: ${bd['se_tax']:,} | NIIT: ${bd['niit']:,}")
+    log.info(f"  Credits: ${bd['total_credits']:,} | QBI deduction: ${bd['qbi_deduction']:,}")
+    log.info(f"  Strategies: {bd['strategies_applied']}")
 
     # --- Step 3: Final Validation ---
-    print("\n[STEP 3] Running final validation...")
+    log.info("\n[STEP 3] Running final validation...")
     validation_result = run_validation(
         profile, best_strategy_set,
         baseline_liability, best_liability,
@@ -372,23 +372,23 @@ def main():
     if validation_result:
         summary_data = validation_result.get("summary", {})
         final_strategies = validation_result.get("final_strategies", [])
-        print(f"  Validation: {validation_result.get('validation_result', 'unknown')}")
-        print(f"  Final strategies: {len(final_strategies)}")
-        print(f"  Validated savings: ${summary_data.get('total_estimated_savings', total_savings):,}")
+        log.info(f"  Validation: {validation_result.get('validation_result', 'unknown')}")
+        log.info(f"  Final strategies: {len(final_strategies)}")
+        log.info(f"  Validated savings: ${summary_data.get('total_estimated_savings', total_savings):,}")
 
         issues = validation_result.get("issues_found", [])
         if issues:
-            print(f"  Issues found: {len(issues)}")
+            log.info(f"  Issues found: {len(issues)}")
             for issue in issues:
-                print(f"    - [{issue.get('severity', '?')}] {issue.get('strategy_id', '?')}: {issue.get('description', '')}")
+                log.info(f"    - [{issue.get('severity', '?')}] {issue.get('strategy_id', '?')}: {issue.get('description', '')}")
     else:
-        print("  Validation failed — using loop results as-is")
+        log.info("  Validation failed — using loop results as-is")
         final_strategies = best_strategy_set
 
     total_time = time.time() - start_time
 
     # --- Step 4: Save Results ---
-    print("\n[STEP 4] Saving results...")
+    log.info("\n[STEP 4] Saving results...")
 
     with open(RESULTS_DIR / "experiments.json", "w") as f:
         json.dump(experiments, f, indent=2)
@@ -419,18 +419,18 @@ def main():
     with open(RESULTS_DIR / "summary.json", "w") as f:
         json.dump(summary, f, indent=2)
 
-    print(f"  Saved to {RESULTS_DIR}/")
-    print(f"\n{'=' * 60}")
-    print(f"RESULTS SUMMARY")
-    print(f"{'=' * 60}")
-    print(f"  Baseline liability:  ${baseline_liability:,}")
-    print(f"  Optimized liability: ${best_liability:,}")
-    print(f"  Total savings:       ${total_savings:,}")
-    print(f"  Strategies:          {len(best_strategy_set)}")
-    print(f"  Experiments:         {iterations_completed}")
-    print(f"  Time:                {total_time:.1f}s")
-    print(f"  Scorer:              deterministic calculator")
-    print(f"{'=' * 60}")
+    log.info(f"  Saved to {RESULTS_DIR}/")
+    log.info(f"\n{'=' * 60}")
+    log.info(f"RESULTS SUMMARY")
+    log.info(f"{'=' * 60}")
+    log.info(f"  Baseline liability:  ${baseline_liability:,}")
+    log.info(f"  Optimized liability: ${best_liability:,}")
+    log.info(f"  Total savings:       ${total_savings:,}")
+    log.info(f"  Strategies:          {len(best_strategy_set)}")
+    log.info(f"  Experiments:         {iterations_completed}")
+    log.info(f"  Time:                {total_time:.1f}s")
+    log.info(f"  Scorer:              deterministic calculator")
+    log.info(f"{'=' * 60}")
 
 
 if __name__ == "__main__":
