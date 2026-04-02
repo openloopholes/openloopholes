@@ -121,6 +121,8 @@ Auto-detection: if `AI_PROVIDER` is not set, the system checks for available API
 
 **Run time:** A typical 200-iteration optimization takes 2-10 minutes depending on your model. The loop makes many small LLM calls, so faster models (Gemini Flash-Lite, Haiku) complete significantly quicker than larger models (Sonnet, Opus, GPT-4). The deterministic calculator and loophole finder run instantly — no LLM needed.
 
+**Model considerations:** Different models produce different results — this is expected. The deterministic calculator is the scoring safeguard: no model can hallucinate savings, because every strategy is scored by the same math. However, the final validation step (eligibility checks, legal risk flags, action steps) is only as good as the model running it. Stronger models catch more issues; weaker models may miss eligibility problems or produce less detailed action steps. **Regardless of which model you use, always have a qualified CPA or tax attorney review the final report before acting on any strategy.**
+
 ## Creating Your Profile
 
 ### Option 1: From a tax return PDF (recommended)

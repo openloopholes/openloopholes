@@ -33,10 +33,12 @@ def compute_marginal_savings(profile: dict, strategy_set: list[dict]) -> dict[st
     return marginal
 
 
-def generate_report():
-    with open(RESULTS_DIR / "strategies.json") as f:
+def generate_report(results_dir: Path | None = None):
+    if results_dir is None:
+        results_dir = RESULTS_DIR
+    with open(results_dir / "strategies.json") as f:
         data = json.load(f)
-    with open(RESULTS_DIR / "summary.json") as f:
+    with open(results_dir / "summary.json") as f:
         summary = json.load(f)
 
     validated_strategies = data.get("final_strategies", [])
@@ -610,7 +612,7 @@ def generate_report():
     html += f'<div class="disclaimer">{disclaimer}</div>\n'
     html += '</body>\n</html>'
 
-    output_path = RESULTS_DIR / "tax_strategy_report.html"
+    output_path = results_dir / "tax_strategy_report.html"
     with open(output_path, "w") as f:
         f.write(html)
     print(f"Report saved: {output_path}")

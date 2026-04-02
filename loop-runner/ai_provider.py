@@ -36,12 +36,13 @@ import openai
 # Logging
 # ---------------------------------------------------------------------------
 LOG_DIR = Path(__file__).resolve().parent.parent / "logs"
+RUN_TIMESTAMP = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
 
 
 def setup_logging() -> logging.Logger:
     """Set up file + console logging. Logs go to logs/ directory."""
     LOG_DIR.mkdir(parents=True, exist_ok=True)
-    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    timestamp = RUN_TIMESTAMP
     log_file = LOG_DIR / f"openloopholes_{timestamp}.log"
 
     logger = logging.getLogger("openloopholes")

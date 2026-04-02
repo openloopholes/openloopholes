@@ -24,7 +24,7 @@ from typing import Optional
 
 from tax_calculator import compute_tax
 from strategy_registry import load_all_strategies, filter_strategies, build_prompt_sections
-from ai_provider import call_llm, get_loop_model, get_validation_model, get_provider_name, log
+from ai_provider import call_llm, get_loop_model, get_validation_model, get_provider_name, log, RUN_TIMESTAMP
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -388,12 +388,14 @@ def main():
     total_time = time.time() - start_time
 
     # --- Step 4: Save Results ---
-    log.info("\n[STEP 4] Saving results...")
+    run_dir = RESULTS_DIR / f"run_{RUN_TIMESTAMP}"
+    run_dir.mkdir(parents=True, exist_ok=True)
+    log.info(f"\n[STEP 4] Saving results to {run_dir}/")
 
-    with open(RESULTS_DIR / "experiments.json", "w") as f:
+    with open(run_dir / "experiments.json", "w") as f:
         json.dump(experiments, f, indent=2)
 
-    with open(RESULTS_DIR / "strategies.json", "w") as f:
+    with open(run_dir / "strategies.json", "w") as f:
         json.dump(validation_result if validation_result else {"strategies": best_strategy_set}, f, indent=2)
 
     summary = {
@@ -416,10 +418,9 @@ def main():
         "baseline_breakdown": baseline_result["breakdown"],
         "final_breakdown": final_result["breakdown"],
     }
-    with open(RESULTS_DIR / "summary.json", "w") as f:
+    with open(run_dir / "summary.json", "w") as f:
         json.dump(summary, f, indent=2)
 
-    log.info(f"  Saved to {RESULTS_DIR}/")
     log.info(f"\n{'=' * 60}")
     log.info(f"RESULTS SUMMARY")
     log.info(f"{'=' * 60}")
@@ -431,6 +432,39 @@ def main():
     log.info(f"  Time:                {total_time:.1f}s")
     log.info(f"  Scorer:              deterministic calculator")
     log.info(f"{'=' * 60}")
+
+    # --- Step 5: Generate Chart & Report ---
+    log.info("\n[STEP 5] Generating chart and report...")
+
+    try:
+        from chart import load_experiments, load_summary, build_staircase_data, generate_png, generate_html
+        exp_data = load_experiments(run_dir / "experiments.json")
+        sum_data = load_summary(run_dir / "summary.json")
+        staircase = build_staircase_data(exp_data, sum_data["baseline_liability"])
+
+        generate_png(
+            staircase, sum_data["iterations_completed"],
+            sum_data["strategy_count"], sum_data["total_savings"],
+            run_dir / "staircase.png",
+        )
+        log.info(f"  Staircase chart: {run_dir / 'staircase.png'}")
+
+        generate_html(
+            staircase, sum_data["iterations_completed"],
+            sum_data["strategy_count"], sum_data["total_savings"],
+            sum_data["baseline_liability"],
+            run_dir / "staircase.html",
+        )
+        log.info(f"  Interactive chart: {run_dir / 'staircase.html'}")
+    except Exception as e:
+        log.warning(f"  Chart generation failed: {e}")
+
+    try:
+        from generate_report import generate_report
+        generate_report(results_dir=run_dir)
+        log.info(f"  CPA report: {run_dir / 'tax_strategy_report.html'}")
+    except Exception as e:
+        log.warning(f"  Report generation failed: {e}")
 
 
 if __name__ == "__main__":
