@@ -2,6 +2,8 @@
 
 We fed the entire US tax code to an AI. It found 1,454 legal tax strategies the IRS hopes you never notice.
 
+> **Status: Beta** — This is an early release. Strategies, calculator accuracy, and state coverage are actively improving. Expect rough edges. Contributions welcome.
+
 > **Disclaimer:** This is educational software, not tax advice. Every strategy must be verified by a qualified CPA or tax attorney before implementation. You are solely responsible for your tax filings. See [LICENSE](LICENSE) for full terms.
 
 ## 100% Legal. Zero Evasion.
