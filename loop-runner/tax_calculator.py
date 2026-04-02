@@ -442,6 +442,8 @@ def apply_strategies(profile: dict, strategies: list[dict]) -> dict:
         "home_sale_exclusion": 0,
         # QCD exclusion
         "qcd_exclusion": 0,
+        # Track employee 401(k) deferrals across all plans (§402(g) shared limit)
+        "total_employee_deferrals": 0,
         "strategies_applied": [],
     }
 
@@ -473,10 +475,13 @@ def apply_strategies(profile: dict, strategies: list[dict]) -> dict:
                 w.get("traditional_401k", 0) + w.get("roth_401k", 0)
                 for w in profile.get("w2_income", [])
             )
-            target = min(params.get("contribution", get_401k_limit(age)), get_401k_limit(age))
-            additional = max(0, target - current_total)
+            # §402(g): employee deferrals shared across all plans
+            remaining_deferral = max(0, get_401k_limit(age) - current_total - adj["total_employee_deferrals"])
+            target = min(params.get("contribution", get_401k_limit(age)), remaining_deferral)
+            additional = max(0, target)
             adj["additional_retirement_pretax"] += additional
             adj["additional_above_the_line"] += additional
+            adj["total_employee_deferrals"] += additional
 
         elif sid == "RET_HSA":
             current = profile.get("retirement", {}).get("hsa_contributions", 0)
@@ -502,7 +507,9 @@ def apply_strategies(profile: dict, strategies: list[dict]) -> dict:
                 w.get("traditional_401k", 0) + w.get("roth_401k", 0)
                 for w in profile.get("w2_income", [])
             )
-            employee = min(params.get("employee_deferral", 0), max(0, get_401k_limit(age) - current_401k))
+            # §402(g): employee deferrals shared across all plans
+            remaining_deferral = max(0, get_401k_limit(age) - current_401k - adj["total_employee_deferrals"])
+            employee = min(params.get("employee_deferral", 0), remaining_deferral)
             se_net = (entity.get("net_income", 0) or 0) if entity else 0
             max_employer = min(params.get("employer_contribution", 0), int(se_net * LIMIT_SEP_IRA_RATE))
             total = employee + max_employer
@@ -510,6 +517,7 @@ def apply_strategies(profile: dict, strategies: list[dict]) -> dict:
                 max_employer = max(0, LIMIT_SOLO_401K_TOTAL - employee)
             adj["additional_retirement_pretax"] += employee + max_employer
             adj["additional_above_the_line"] += employee + max_employer
+            adj["total_employee_deferrals"] += employee
 
         elif sid == "RET_SEP_IRA":
             resolved = resolve_entity(profile, entity_name, "schedule_c")
@@ -744,10 +752,12 @@ def apply_strategies(profile: dict, strategies: list[dict]) -> dict:
                 limit = LIMIT_SIMPLE_IRA + LIMIT_SIMPLE_IRA_CATCHUP_50
             else:
                 limit = LIMIT_SIMPLE_IRA
-            # SIMPLE IRA shares the deferral limit with 401(k)
-            target = min(params.get("contribution", limit), limit)
-            additional = max(0, target - current_401k)
+            # §402(g): employee deferrals shared across all plans
+            remaining_deferral = max(0, limit - current_401k - adj["total_employee_deferrals"])
+            target = min(params.get("contribution", limit), remaining_deferral)
+            additional = max(0, target)
             adj["additional_retirement_pretax"] += additional
+            adj["total_employee_deferrals"] += additional
             adj["additional_above_the_line"] += additional
 
         elif sid == "RET_MEGA_BACKDOOR":
