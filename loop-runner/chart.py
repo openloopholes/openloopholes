@@ -133,11 +133,16 @@ def generate_png(
         arrowprops=dict(arrowstyle="-", color=line_color, lw=0.5),
     )
 
-    # Y axis padding
+    # Y axis padding — one clean tick step below min, one above max
     y_min = min(liabilities)
     y_max = max(liabilities)
-    y_range = y_max - y_min
-    ax.set_ylim(y_min - y_range * 0.1, y_max + y_range * 0.15)
+    y_range = y_max - y_min if y_max > y_min else y_max * 0.2
+    raw_step = y_range / 5
+    magnitude = 10 ** int(len(str(int(raw_step))) - 1) if raw_step >= 1 else 1
+    nice_step = max(magnitude, int(raw_step / magnitude) * magnitude)
+    y_bottom = max(0, (y_min // nice_step - 1) * nice_step)
+    y_top = ((y_max // nice_step) + 2) * nice_step
+    ax.set_ylim(y_bottom, y_top)
     ax.set_xlim(-total_iterations * 0.02, total_iterations * 1.05)
 
     plt.tight_layout(rect=[0, 0, 1, 0.90])
@@ -155,8 +160,32 @@ def generate_html(
     output_path: Path,
 ):
     """Generate an interactive Chart.js HTML page."""
-    labels = json.dumps([p[0] for p in staircase_data])
-    data = json.dumps([p[1] for p in staircase_data])
+    # Expand staircase data to show all iterations (flat lines during discards)
+    # Same as how the PNG extends with ax.step() + total_iterations
+    expanded = []
+    staircase_idx = 0
+    current_val = staircase_data[0][1]
+    expanded.append((0, current_val))
+    for i in range(1, total_iterations + 1):
+        if staircase_idx + 1 < len(staircase_data) and staircase_data[staircase_idx + 1][0] == i:
+            staircase_idx += 1
+            current_val = staircase_data[staircase_idx][1]
+        expanded.append((i, current_val))
+
+    labels = json.dumps([p[0] for p in expanded])
+    data = json.dumps([p[1] for p in expanded])
+
+    # Y axis bounds — one clean tick step below min, one above max
+    y_min = min(p[1] for p in expanded)
+    y_max = max(p[1] for p in expanded)
+    y_range = y_max - y_min if y_max > y_min else y_max * 0.2
+    # Pick a nice round step size based on the range
+    raw_step = y_range / 5
+    magnitude = 10 ** int(len(str(int(raw_step))) - 1) if raw_step >= 1 else 1
+    nice_step = max(magnitude, int(raw_step / magnitude) * magnitude)
+    # Round min down and max up to the nearest step
+    y_axis_min = max(0, (y_min // nice_step - 1) * nice_step)
+    y_axis_max = ((y_max // nice_step) + 2) * nice_step
     savings_str = f"${total_savings:,}"
     title = f"{total_iterations} experiments · {strategy_count} strategies · {savings_str} saved"
 
@@ -277,6 +306,8 @@ def generate_html(
             ticks: {{ color: '#a0a0a0' }}
           }},
           y: {{
+            min: {y_axis_min:.0f},
+            max: {y_axis_max:.0f},
             title: {{ display: true, text: 'Estimated Tax Liability', color: '#a0a0a0' }},
             grid: {{ color: 'rgba(255,255,255,0.05)' }},
             ticks: {{
