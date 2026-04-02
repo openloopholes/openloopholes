@@ -39,7 +39,7 @@ LOG_DIR = Path(__file__).resolve().parent.parent / "logs"
 
 
 def setup_logging() -> logging.Logger:
-    """Set up file + console logging. Logs go to logs/ directory."""
+    """Set up file + console logging. Logs go to logs/ directory. Captures stderr."""
     LOG_DIR.mkdir(parents=True, exist_ok=True)
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     log_file = LOG_DIR / f"openloopholes_{timestamp}.log"
@@ -57,6 +57,9 @@ def setup_logging() -> logging.Logger:
         "%(asctime)s [%(levelname)s] %(message)s", datefmt="%Y-%m-%d %H:%M:%S"
     ))
     logger.addHandler(fh)
+
+    # Redirect stderr to the log file so tracebacks and library errors are captured
+    sys.stderr = open(log_file, "a")
 
     logger.info(f"Log file: {log_file}")
     return logger
